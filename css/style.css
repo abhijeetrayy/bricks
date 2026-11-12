@@ -367,3 +367,6 @@ details.more[open] summary { margin-bottom: 8px; }
   .q-prompt { font-size: 21px; }
   .floor { grid-template-columns: 58px 1fr; }
 }
+
+/* main takes focus after each page change (for screen readers); no ring needed */
+main:focus, main:focus-visible { outline: none; }
