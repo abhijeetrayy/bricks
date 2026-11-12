@@ -8,7 +8,9 @@ const PER = 24;               // bricks per course
 const BW = 40, BH = 17, M = 4; // brick width, height, mortar
 const STEP = BW + M;
 const W = PER * STEP - M;
-const REDS = ['#B2512E', '#A9492A', '#BA5A35', '#9F4527', '#B85030', '#A64E2F'];
+const REDS = ['#B2512E', '#A9492A', '#BA5A35', '#9F4527', '#B85030', '#A64E2F'];   // pakka: fired
+const CLAYS = ['#E2CBA2', '#DCC499', '#E6D0A8', '#D8BF93', '#E0C89E'];             // kachcha: raw clay
+const KILN = ['#EBA25A', '#E89A4F', '#EEAA64'];                                   // in the kiln
 const hash = (s) => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h; };
 
 function floorSVG(words, just) {
@@ -41,7 +43,7 @@ function floorSVG(words, just) {
     for (const b of row) {
       if (!b.word) {
         // filler brick: plain wall, not a word
-        out += `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${BH}" rx="1.5" fill="#E6E8E2"/>`;
+        out += `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${BH}" rx="1.5" fill="#E4DFD2"/>`;
         continue;
       }
       const w = b.word, st = statusOf(w.id);
@@ -50,11 +52,13 @@ function floorSVG(words, just) {
         const c = REDS[hash(w.id) % REDS.length];
         rect = `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${BH}" rx="1.5" fill="${c}"/><rect x="${b.x}" y="${b.y + BH - 3}" width="${b.w}" height="3" fill="#000" opacity=".16"/>`;
       } else if (st === 'learning') {
-        rect = `<rect x="${b.x + .75}" y="${b.y + .75}" width="${b.w - 1.5}" height="${BH - 1.5}" rx="1.5" fill="#FBF1D8" stroke="#C98A12" stroke-width="1.5"/>`;
+        const c = KILN[hash(w.id) % KILN.length];
+        rect = `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${BH}" rx="1.5" fill="${c}"/><rect x="${b.x}" y="${b.y + BH - 3}" width="${b.w}" height="3" fill="#7A3E08" opacity=".22"/>`;
       } else {
-        rect = `<rect x="${b.x + .5}" y="${b.y + .5}" width="${b.w - 1}" height="${BH - 1}" rx="1.5" fill="#FAFBF8" stroke="#C3C8BD" stroke-width="1"/>`;
+        const c = CLAYS[hash(w.id) % CLAYS.length];
+        rect = `<rect x="${b.x}" y="${b.y}" width="${b.w}" height="${BH}" rx="1.5" fill="${c}"/><rect x="${b.x}" y="${b.y + BH - 3}" width="${b.w}" height="3" fill="#6B5534" opacity=".16"/>`;
       }
-      out += `<a href="#/word/${w.id}" class="b${just.has(w.id) ? ' just' : ''}" aria-label="${esc(w.w)}: ${st === 'new' ? 'not yet learned' : st}"><title>${esc(w.w)}</title>${rect}</a>`;
+      out += `<a href="#/word/${w.id}" class="b${just.has(w.id) ? ' just' : ''}" aria-label="${esc(w.w)}: ${st === 'new' ? 'kachcha, not learned yet' : st === 'learning' ? 'in the kiln, being learned' : 'pakka, you know it'}"><title>${esc(w.w)}</title>${rect}</a>`;
     }
   }
   return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax meet" role="img" aria-label="${words.length} bricks">${out}</svg>`;
@@ -77,6 +81,6 @@ export function houseHTML(just = new Set()) {
     <div class="house-floor"><span></span><div class="slab${i === floors.length - 1 ? ' plinth' : ''}" aria-hidden="true"></div></div>`;
   });
   html += `</div>
-  <div class="house-key"><span><i style="background:#B2512E"></i>laid — you know it</span><span><i style="background:#FBF1D8;box-shadow:inset 0 0 0 1.5px #C98A12"></i>being learned</span><span><i style="background:#FAFBF8;box-shadow:inset 0 0 0 1px #C3C8BD"></i>not yet</span><span>Tap any brick to open its word.</span></div>`;
+  <div class="house-key"><span class="st">kachcha — not learned yet</span><span class="st kiln">in the kiln — learning</span><span class="st pakka">pakka — you know it</span><span>Tap any brick to open its word.</span></div>`;
   return html;
 }

@@ -436,3 +436,118 @@ details.more div { margin-top: 8px; color: var(--ink-2); max-width: 68ch; }
 .enter { animation: enter .3s ease-out both; }
 @keyframes enter { from { transform: translateY(6px); } to { transform: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* =====================================================================
+   v3 — kachcha → pakka. Every word is a brick: raw clay (kachcha) until you learn it,
+   glowing in the kiln (bhatta) while you learn, fired red (pakka) once you know it.
+   ===================================================================== */
+:root {
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .2 0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+  --clay: #E2CBA2; --clay-edge: #C4A673; --clay-ink: #5A4224;
+  --kiln: #EBA25A; --kiln-edge: #C9792F; --kiln-ink: #57320D;
+  --pakka: #B2512E; --pakka-edge: #8C3D20; --pakka-ink: #F7E5DA;
+}
+
+/* the brick */
+.brick {
+  --face: var(--clay); --edge: var(--clay-edge); --bink: var(--clay-ink);
+  position: relative; display: inline-flex; align-items: center; justify-content: center;
+  padding: 12px 16px 16px; border-radius: 4px; color: var(--bink); text-decoration: none;
+  background: var(--grain), var(--face);
+  box-shadow: inset 0 -6px 0 var(--edge), inset 0 1px 0 rgba(255,255,255,.28), 0 1px 0 rgba(0,0,0,.06);
+}
+.brick.kiln { --face: var(--kiln); --edge: var(--kiln-edge); --bink: var(--kiln-ink); box-shadow: inset 0 -6px 0 var(--edge), inset 0 1px 0 rgba(255,255,255,.3), 0 0 0 3px rgba(235,162,90,.22); }
+.brick.pakka { --face: var(--pakka); --edge: var(--pakka-edge); --bink: var(--pakka-ink); }
+.frog { /* the recessed panel pressed into a brick, where the word sits */
+  padding: 8px 16px; border-radius: 3px; min-width: 70%; text-align: center;
+  box-shadow: inset 2px 2px 0 rgba(0,0,0,.16), inset -1px -1px 0 rgba(255,255,255,.28);
+  font: 700 22px/1.15 var(--f-word); letter-spacing: -.005em;
+  text-shadow: 0 1px 0 rgba(255,255,255,.22);
+}
+.brick.pakka .frog { text-shadow: 0 -1px 0 rgba(0,0,0,.25); }
+a.brick { transition: transform .12s, filter .12s; }
+a.brick:hover { transform: translateY(-2px); filter: brightness(1.04); }
+.brick.big { padding: 18px 26px 24px; min-width: min(100%, 360px); }
+.brick.big .frog { font-size: clamp(38px, 8vw, 64px); padding: 14px 26px; line-height: 1.05; }
+
+/* status words */
+.st { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 15px; color: var(--ink-2); }
+.st::before { content: ""; width: 18px; height: 9px; border-radius: 1.5px; background: var(--clay); box-shadow: inset 0 -2px 0 var(--clay-edge); }
+.st.kiln::before { background: var(--kiln); box-shadow: inset 0 -2px 0 var(--kiln-edge); }
+.st.pakka::before { background: var(--pakka); box-shadow: inset 0 -2px 0 var(--pakka-edge); }
+
+/* flip: word on the front, meaning on the back */
+.flip { perspective: 900px; background: none; border: 0; padding: 0; cursor: pointer; display: inline-block; text-align: inherit; }
+.flip-in { display: grid; transition: transform .55s cubic-bezier(.3,.7,.2,1); transform-style: preserve-3d; }
+.flip-in > * { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.flip-back { transform: rotateX(180deg); }
+.flip.on .flip-in { transform: rotateX(180deg); }
+.flip .brick { width: 100%; height: 100%; }
+.flip-back .frog { font: 500 15px/1.35 var(--f-body); letter-spacing: 0; text-shadow: none; }
+
+/* home hero: today's stack of five bricks */
+.hero3 { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 40px; align-items: center; padding: 8px 0 12px; }
+@media (max-width: 900px) { .hero3 { grid-template-columns: 1fr; gap: 26px; } }
+.hero3 h1 { font-size: clamp(38px, 6vw, 62px); line-height: 1.04; }
+.hero3 .lead { margin-top: 16px; }
+.kp { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; font-size: 15px; color: var(--ink-2); }
+.kp span { display: inline-flex; align-items: center; gap: 8px; }
+.stack { display: grid; gap: 8px; justify-items: center; }
+.stack .course3 { display: flex; gap: 8px; justify-content: center; width: 100%; }
+.stack .flip { flex: 0 0 calc((100% - 16px) / 3); min-width: 0; }
+.stack .brick { aspect-ratio: 2.1 / 1; padding: 8px 8px 13px; }
+.stack .frog { font-size: clamp(16px, 2vw, 21px); padding: 6px 6px; min-width: 90%; }
+.stack .flip-back .frog { font-size: clamp(11.5px, 1.15vw, 13.5px); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; box-shadow: none; padding: 2px 4px; }
+.stack-note { text-align: center; font-size: 14px; color: var(--ink-3); margin-top: 6px; }
+.stack-cta { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+.ground-line { height: 6px; width: 100%; border-radius: 2px; background: var(--slab); opacity: .85; }
+
+/* section heads on home */
+.sec { margin-top: 64px; }
+.sec-h { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.sec-h h2 { margin: 0; }
+.sec-h a { font-weight: 700; text-decoration: none; }
+.sec-h a:hover { text-decoration: underline; }
+.sec .sub { margin-top: 6px; }
+
+/* wall of rooms: one wide brick per room, laid in running bond; red fills in as you learn */
+.rwall { display: grid; gap: 8px; margin-top: 18px; }
+.rcourse { display: flex; gap: 8px; }
+.rcourse.off { padding-left: calc((100% - 8px * (var(--n) - 1)) / var(--n) / 2); }
+.rcourse.off-end { padding-right: calc((100% - 8px * (var(--n) - 1)) / var(--n) / 2); }
+.rbrick {
+  position: relative; flex: 1 1 0; min-width: 0; overflow: hidden;
+  display: grid; align-content: space-between; gap: 10px; min-height: 104px; padding: 14px 16px 18px;
+  border-radius: 4px; color: var(--clay-ink); text-decoration: none;
+  background: var(--grain), var(--clay);
+  box-shadow: inset 0 -6px 0 var(--clay-edge), inset 0 1px 0 rgba(255,255,255,.3);
+  transition: transform .12s;
+}
+.rbrick:hover { transform: translateY(-2px); }
+.rbrick .fire { position: absolute; inset: 0 auto 0 0; background: var(--grain), var(--pakka); box-shadow: inset 0 -6px 0 var(--pakka-edge); }
+.rbrick .kfill { position: absolute; top: 0; bottom: 0; background: var(--grain), var(--kiln); box-shadow: inset 0 -6px 0 var(--kiln-edge); }
+.rbrick b, .rbrick small { position: relative; }
+.rbrick b { font: 700 19px/1.2 var(--f-word); }
+.rbrick small { font: 600 15px/1 var(--f-num); letter-spacing: .03em; opacity: .85; }
+.rbrick.lit { color: var(--pakka-ink); }
+@media (max-width: 640px) { .rbrick { min-height: 92px; padding: 12px 12px 16px; } .rbrick b { font-size: 17px; } }
+
+/* word page v3: the word is a brick */
+.wtop { display: grid; justify-items: start; gap: 14px; padding: 26px 28px 22px; border-bottom: 1px solid var(--rule); }
+.wtop .meta { margin-bottom: 2px; }
+.wtop .sayrow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 17px; color: var(--ink-2); }
+.wtop .sayrow b { color: var(--ink); letter-spacing: .02em; }
+@media (max-width: 560px) { .wtop { padding: 20px 18px 18px; } .brick.big { min-width: 100%; } }
+
+/* learn v3 */
+.learn-card { display: grid; justify-items: center; gap: 18px; text-align: center; }
+.learn-card .flip { width: min(100%, 520px); }
+.learn-card .brick { min-height: 170px; width: 100%; }
+.learn-card .flip-back .frog { font: 500 19px/1.45 var(--f-body); padding: 14px 18px; }
+.learn-card .flip-back .frog .hi { display: block; margin-top: 6px; font-size: 19px; }
+.learn-more { width: 100%; text-align: left; }
+.kp-btns { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; }
+.kp-btns .btn { min-height: 64px; flex-direction: column; gap: 2px; line-height: 1.15; }
+.kp-btns .btn small { font-weight: 400; font-size: 13px; opacity: .85; }
+.btn.clay { background: var(--grain), var(--clay); border-color: var(--clay-edge); color: var(--clay-ink); }
+.btn.clay:hover { filter: brightness(.97); }

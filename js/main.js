@@ -10,7 +10,15 @@ let justLaid = new Set();
 
 // ---------------------------------------------------------------- helpers
 const floorName = (n) => floorOf(n)?.name || '';
-const stamp = (w, cls = '') => `<span class="stamp ${cls}"><span>${esc(w)}</span></span>`;
+const stamp = (w, cls = '') => `<span class="brick ${cls}"><span class="frog">${esc(w)}</span></span>`;
+const KP = { new: '', learning: 'kiln', laid: 'pakka' };
+const bcls = (id) => KP[S.statusOf(id)];
+const brickA = (w, extra = '') => `<a class="brick ${bcls(w.id)} ${extra}" href="#/word/${w.id}"><span class="frog">${esc(w.w)}</span></a>`;
+const flipBrick = (w, back) => `<button class="flip" type="button" data-flip aria-label="${esc(w.w)} — tap to see the meaning"><span class="flip-in">
+  <span class="brick ${bcls(w.id)}"><span class="frog">${esc(w.w)}</span></span>
+  <span class="brick ${bcls(w.id)} flip-back"><span class="frog">${back ?? esc(w.mean)}</span></span></span></button>`;
+const STATUS = { new: ['', 'kachcha — not learned yet'], learning: ['kiln', 'in the kiln — learning'], laid: ['pakka', 'pakka — you know it'] };
+const statusTag = (id) => { const [c, t] = STATUS[S.statusOf(id)]; return `<span class="st ${c}">${t}</span>`; };
 const hindiOn = () => S.setting('hindi') !== false;
 const SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>';
 
@@ -47,6 +55,7 @@ function render(html) {
 }
 function wire(root) {
   root.querySelectorAll('[data-speak]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); speak(b.dataset.speak); }));
+  root.querySelectorAll('[data-flip]').forEach((b) => b.addEventListener('click', () => b.classList.toggle('on')));
 }
 
 function updateChrome(top) {
@@ -57,7 +66,7 @@ function updateChrome(top) {
   const due = S.dueIds().length;
   document.querySelectorAll('.due').forEach((b) => { b.hidden = !due; b.textContent = due > 99 ? '99+' : due; });
   const c = S.counts(D.words.map((w) => w.id));
-  document.getElementById('tally').innerHTML = `<b>${c.laid}</b> / ${c.total} laid`;
+  document.getElementById('tally').innerHTML = `<b>${c.laid}</b> / ${c.total} pakka`;
 }
 
 // ---------------------------------------------------------------- "say it better" search
@@ -111,50 +120,60 @@ V.home = () => {
   const st = S.state();
   const tw = todaysWords();
   const due = S.dueIds().length;
+  const all = S.counts(D.words.map((w) => w.id));
+  const nPhrases = D.phrases.reduce((n, s) => n + s.phrases.length, 0);
   render(`
-  <section class="home-head">
+  <section class="hero3">
     <div>
       <h1>Every word is a brick.</h1>
-      <p class="lead">The more words you own, the more exactly you can think, explain and argue. ${D.words.length} words and ${D.phrases.reduce((n, s) => n + s.phrases.length, 0)} phrases, chosen to improve how you speak and write — not a dictionary.</p>
+      <p class="lead">More words, clearer thinking — at work, in an argument, in life. ${D.words.length} words and ${nPhrases} phrases, chosen to make you speak and write more exactly. Not a dictionary.</p>
+      <div class="kp"><span class="st">kachcha</span><span aria-hidden="true">→</span><span class="st kiln">in the kiln</span><span aria-hidden="true">→</span><span class="st pakka">pakka</span></div>
+      <p class="small muted" style="margin-top:8px;max-width:52ch">Every word starts as raw clay. Learn it and it goes into the kiln. Get it right over a few days and it comes out pakka — yours for good.</p>
       <p class="source">From Javed Akhtar's talk <a href="https://www.ted.com/talks/javed_akhtar_the_gift_of_words" target="_blank" rel="noopener">“The gift of words”</a> (paraphrased): with fewer bricks you can only build a small house.</p>
     </div>
+    <div>
+      <p class="label" style="text-align:center">Today's five bricks · tap one to see what it means</p>
+      <div class="stack">
+        <div class="course3">${tw.slice(0, 2).map((w) => flipBrick(w)).join('')}</div>
+        <div class="course3">${tw.slice(2).map((w) => flipBrick(w)).join('')}</div>
+        <div class="ground-line" aria-hidden="true"></div>
+      </div>
+      <div class="stack-cta">
+        <a class="btn main" href="#/learn">Fire today's bricks</a>
+        ${due ? `<a class="btn dark" href="#/revise">${due} in the kiln — revise</a>` : !st.tested ? '<a class="btn quiet" href="#/test">Find my level first</a>' : ''}
+        <button class="btn quiet" id="shareToday">Share</button>
+      </div>
+    </div>
   </section>
-  ${houseHTML(justLaid)}
 
-  <section class="better">
-    <h2>Say it better</h2>
+  <section class="sec">
+    <div class="sec-h"><h2>Your house</h2><span class="muted">${all.laid} of ${all.total} bricks pakka</span></div>
+    <p class="sub">One brick for every word, five floors from everyday to rare. Watch it turn red.</p>
+    ${houseHTML(justLaid)}
+  </section>
+
+  <section class="sec better">
+    <div class="sec-h"><h2>Say it better</h2></div>
     <p class="sub">Type the word you always end up using. Get the exact one.</p>
     ${searchBlock()}
   </section>
 
-  <section class="blocks">
-    <div class="panel">
-      <h2>Today's five bricks</h2>
-      <p class="muted">${floorName(workingFloor())} · about five minutes</p>
-      <div class="today">${tw.map((w) => `<a class="stamp ${S.statusOf(w.id) === 'laid' ? '' : S.statusOf(w.id)}" href="#/word/${w.id}"><span>${esc(w.w)}</span></a>`).join('')}</div>
-      <div class="row"><a class="btn main" href="#/learn">Lay today's bricks</a><button class="btn quiet" id="shareToday">Share today's words</button></div>
-    </div>
-    ${due ? `<div class="panel ink"><h2>${due} word${due > 1 ? 's' : ''} to revise</h2>
-        <p>A word stays only if you meet it again just before you forget it.</p>
-        <div class="row" style="margin-top:16px"><a class="btn main" href="#/revise">Revise now</a></div></div>`
-      : st.tested ? `<div class="panel"><h2>You're on the ${floorName(st.floor).toLowerCase()}</h2><p class="muted">${esc(floorOf(st.floor).line)}</p>
-        <div class="row" style="margin-top:16px"><a class="btn" href="#/speak">Speak for a minute</a><a class="btn quiet" href="#/test">Test again</a></div></div>`
-      : `<div class="panel"><h2>Find your floor</h2><p class="muted">Two minutes. Say which words you know, and start at the right level.</p>
-        <div class="row" style="margin-top:16px"><a class="btn dark" href="#/test">Find my floor</a></div></div>`}
+  <section class="sec">
+    <div class="sec-h"><h2>Rooms</h2><a href="#/words">All words →</a></div>
+    <p class="sub">Words grouped by what you want to say, never A to Z. Each room fills with red as you learn it.</p>
+    ${roomsList()}
   </section>
 
-  <h2>Words, by what you want to say</h2>
-  <p class="sub">Not A to Z. Each room holds the words for one job, from everyday to rare.</p>
-  ${roomsList()}
+  <section class="sec">
+    <div class="sec-h"><h2>Phrases for real moments</h2><a href="#/phrases">All ${D.phrases.length} →</a></div>
+    <p class="sub">What to actually say when you disagree, need time to think, or have to say no.</p>
+    ${sitsList(D.phrases.slice(0, 6))}
+  </section>
 
-  <h2>Phrases for real moments</h2>
-  <p class="sub">What to actually say when you disagree, need time to think, or have to say no.</p>
-  ${sitsList(D.phrases.slice(0, 6))}
-  <p style="margin-top:12px"><a href="#/phrases">All ${D.phrases.length} situations</a></p>
-
-  <h2>Practise</h2>
-  ${practiceList(['revise', 'speak', 'upgrade', 'best', 'gap', 'partners'])}
-  <p style="margin-top:12px"><a href="#/play">All ways to practise</a></p>
+  <section class="sec">
+    <div class="sec-h"><h2>Practise</h2><a href="#/play">All ${PRACTICE.length} →</a></div>
+    ${practiceList(['speak', 'upgrade', 'best', 'partners'])}
+  </section>
   `);
   wireSearch(main);
   justLaid = new Set();
@@ -162,11 +181,15 @@ V.home = () => {
 };
 
 function roomsList() {
-  return `<ul class="contents">${ROOMS.map((r) => {
+  const n = innerWidth < 640 ? 2 : innerWidth < 980 ? 3 : 4;
+  const rows = [];
+  for (let i = 0; i < ROOMS.length; i += n) rows.push(ROOMS.slice(i, i + n));
+  return `<div class="rwall">${rows.map((row, k) => `<div class="rcourse ${k % 2 ? 'off' : ''} ${row.length < n ? 'short' : ''}" style="--n:${n}">${row.map((r) => {
     const ws = D.byRoom.get(r.id) || [];
     const c = S.counts(ws.map((w) => w.id));
-    return `<li><a href="#/room/${r.id}"><b>${esc(r.name)}</b><span>${esc(r.line)}</span><em class="${c.laid && c.laid === c.total ? 'done' : ''}">${c.laid}/${c.total}</em></a></li>`;
-  }).join('')}</ul>`;
+    const pct = Math.round((c.laid / Math.max(1, c.total)) * 100);
+    return `<a class="rbrick ${pct > 55 ? 'lit' : ''}" href="#/room/${r.id}" title="${esc(r.line)}" style="${row.length < n ? `flex:0 1 calc((100% - 8px * ${n - 1}) / ${n})` : ''}"><span class="fire" style="width:${pct}%"></span><span class="kfill" style="left:${pct}%;width:${Math.round((c.learning / Math.max(1, c.total)) * 100)}%"></span><b>${esc(r.name)}</b><small>${c.laid}/${c.total} pakka</small></a>`;
+  }).join('')}</div>`).join('')}</div>`;
 }
 function sitsList(list) {
   return `<ul class="contents">${list.map((s) => `<li><a href="#/phrases/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.phrases[0].p)}”</span><em>${s.phrases.length}</em></a></li>`).join('')}</ul>`;
@@ -210,10 +233,10 @@ V.floor = (n) => {
 function sheetHTML(w, { compact = false } = {}) {
   const r = roomOf(w.room), st = S.statusOf(w.id);
   return `<article class="sheet">
-    <div class="sheet-head">
+    <div class="wtop">
       <div class="meta"><a href="#/room/${w.room}">${esc(r.name)}</a> · <a href="#/floor/${w.floor}">${floorName(w.floor)}</a> · ${esc(w.pos)}</div>
-      <div class="headword"><h1>${esc(w.w)}</h1>${speakBtn(w.w)}</div>
-      <div class="say">Say it: <b>${esc(w.say)}</b></div>
+      <h1 class="brick big ${bcls(w.id)}"><span class="frog">${esc(w.w)}</span></h1>
+      <div class="sayrow">${speakBtn(w.w)}<span>Say it: <b>${esc(w.say)}</b></span>${compact ? '' : statusTag(w.id)}</div>
     </div>
     <div class="sheet-body">
       <div><p class="meaning">${esc(w.mean)}</p>${hindiOn() && w.hi ? `<p class="hindi hi" lang="hi">${esc(w.hi)}</p>` : ''}</div>
@@ -223,8 +246,8 @@ function sheetHTML(w, { compact = false } = {}) {
       ${w.note ? `<div class="note"><b>Good to know:</b> ${esc(w.note)}</div>` : ''}
     </div>
     ${compact ? '' : `<div class="sheet-foot">
-      <p class="status">${st === 'laid' ? 'This brick is laid. It will come back for revision.' : st === 'learning' ? 'You are learning this word. It will come back for revision.' : 'Could you use this word in a sentence today?'}</p>
-      <div class="row"><button class="btn main" id="know">${st === 'laid' ? 'Laid' : 'I know it — lay the brick'}</button><button class="btn" id="learning">Still learning</button><button class="btn quiet" id="share">Share</button></div>
+      <p class="status">${st === 'laid' ? 'This brick is pakka. It still comes back now and then, so it stays that way.' : st === 'learning' ? 'In the kiln. It comes back for revision until it is pakka.' : 'Could you use this word in a sentence today?'}</p>
+      <div class="row"><button class="btn main" id="know">${st === 'laid' ? 'Pakka ✓' : 'Pakka — I know it'}</button><button class="btn clay" id="learning">Kachcha — still learning</button><button class="btn quiet" id="share">Share</button></div>
       <div class="mine"><p class="label"><label for="mine">Use it in your own sentence — the surest way to keep a word</label></p>
         <textarea id="mine" placeholder="Write a sentence about your own life with “${esc(w.w)}”…">${esc(S.state().sentences[w.id] || '')}</textarea>
         <p class="small muted">Saved on this device only.</p></div>
@@ -245,8 +268,8 @@ V.word = (id) => {
     <div class="word-layout"><div>${sheetHTML(w)}
       <div class="pager">${prev ? `<a class="btn quiet" href="#/word/${prev.id}">← ${esc(prev.w)}</a>` : '<span></span>'}${next ? `<a class="btn quiet" href="#/word/${next.id}">${esc(next.w)} →</a>` : ''}</div></div>
       <aside class="aside"><h3>In ${esc(roomOf(w.room).name)}</h3>${aside}</aside></div>`);
-  main.querySelector('#know').onclick = () => { const r = S.markKnown(w.id); if (r.was !== 'laid') justLaid.add(w.id); toast(`Brick laid: ${w.w}`); V.word(id); updateChrome('word'); };
-  main.querySelector('#learning').onclick = () => { S.markLearning(w.id); toast(`${w.w} comes back tomorrow`); V.word(id); updateChrome('word'); };
+  main.querySelector('#know').onclick = () => { const r = S.markKnown(w.id); if (r.was !== 'laid') justLaid.add(w.id); toast(`Pakka: ${w.w}`); V.word(id); updateChrome('word'); };
+  main.querySelector('#learning').onclick = () => { S.markLearning(w.id); toast(`${w.w} is in the kiln — back tomorrow`); V.word(id); updateChrome('word'); };
   main.querySelector('#share').onclick = () => share(`${w.w} (${w.say}) — ${w.mean}\n“${w.ex}”`);
   const ta = main.querySelector('#mine'); let t;
   ta.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => S.setSentence(w.id, ta.value), 400); });
@@ -261,11 +284,15 @@ V.learn = (roomId) => {
   const step = () => {
     if (i >= words.length) return check();
     const w = words[i];
-    render(`<div class="session">
-      <div class="progress">${words.map((_, k) => `<i class="${k < i ? 'done' : k === i ? 'now' : ''}"></i>`).join('')}</div>
-      <p class="label">Word ${i + 1} of ${words.length}</p>
-      ${sheetHTML(w, { compact: true })}
-      <div class="q-actions"><button class="btn" id="l">New to me</button><button class="btn main" id="k">I know it</button></div></div>`);
+    const back = `${esc(w.mean)}${hindiOn() && w.hi ? `<span class="hi" lang="hi">${esc(w.hi)}</span>` : ''}`;
+    render(`<div class="session learn-card">
+      <div class="progress" style="width:100%">${words.map((_, k) => `<i class="${k < i ? 'done' : k === i ? 'now' : ''}"></i>`).join('')}</div>
+      <p class="label">Brick ${i + 1} of ${words.length} · tap it to see the meaning</p>
+      ${flipBrick(w, back)}
+      <div class="sayrow row" style="justify-content:center">${speakBtn(w.w)}<span class="muted">Say it: <b style="color:var(--ink)">${esc(w.say)}</b></span></div>
+      <div class="learn-more"><p class="label">In a sentence</p><p class="example">${markWord(w.ex, w.w)}</p>
+        ${w.instead ? `<p class="small muted" style="margin-top:10px">Use it instead of <s>${esc(w.instead)}</s></p>` : ''}</div>
+      <div class="kp-btns"><button class="btn clay" id="l">Kachcha<small>new to me</small></button><button class="btn main" id="k">Pakka<small>I know it</small></button></div></div>`);
     main.querySelector('#k').onclick = () => { known.push(w); i++; step(); };
     main.querySelector('#l').onclick = () => { i++; step(); };
     window.scrollTo({ top: 0 });
@@ -283,9 +310,10 @@ V.learn = (roomId) => {
           else S.markLearning(w.id);
         });
         updateChrome('learn');
+        const kiln = words.filter((w) => !laid.includes(w));
         render(`<div class="session q result"><div class="big">${laid.length}</div>
-          <p>brick${laid.length === 1 ? '' : 's'} laid${laid.length < words.length ? ` · ${words.length - laid.length} to learn — they come back tomorrow` : ''}</p>
-          <div class="stamps">${laid.map((w) => stamp(w.w)).join('')}</div>
+          <p>brick${laid.length === 1 ? '' : 's'} came out pakka${kiln.length ? ` · ${kiln.length} went into the kiln — they come back tomorrow` : ''}</p>
+          <div class="stamps">${laid.map((w) => stamp(w.w, 'pakka')).join('')}${kiln.map((w) => stamp(w.w, 'kiln')).join('')}</div>
           <div class="row" style="justify-content:center"><a class="btn main" href="#/">See your house</a><a class="btn" href="#/speak">Now say them aloud</a></div></div>`);
       },
     });
@@ -317,7 +345,7 @@ V.revise = () => {
 
 // ---------------------------------------------------------------- practice
 const PRACTICE = [
-  { id: 'revise', name: 'Revise', line: 'Words due today, just before you forget them.', href: '#/revise' },
+  { id: 'revise', name: 'Revise', line: 'Bricks in the kiln that are due today, just before you would forget them.', href: '#/revise' },
   { id: 'speak', name: 'Speak for a minute', line: 'A topic, three words to use, sixty seconds. Out loud.', href: '#/speak' },
   { id: 'upgrade', name: 'Upgrade the sentence', line: 'Turn a flat sentence into a precise one, word by word.' },
   { id: 'best', name: 'Which sounds best?', line: 'Pick the phrase that works in a real moment.' },
@@ -336,7 +364,7 @@ function practiceList(ids) {
   const due = S.dueIds().length;
   return `<ul class="contents">${list.map((p) => {
     const best = S.state().best[p.id];
-    const em = p.id === 'revise' ? (due ? `${due} due` : '') : best ? `best ${best}` : '';
+    const em = p.id === 'revise' ? (due ? `${due} in the kiln` : '') : best ? `best ${best}` : '';
     return `<li><a href="${p.href || '#/play/' + p.id}"><b>${esc(p.name)}</b><span>${esc(p.line)}</span><em>${em}</em></a></li>`;
   }).join('')}</ul>`;
 }
@@ -399,7 +427,7 @@ V.speak = () => {
       <p class="speak-topic">${esc(topic.t)}</p>
       <ul class="speak-asks">${topic.ask.map((a) => `<li>${esc(a)}</li>`).join('')}</ul>
       <p class="label">Use these three words</p>
-      <div class="today">${words.map((w) => `<a class="stamp ${S.statusOf(w.id) === 'laid' ? '' : S.statusOf(w.id)}" href="#/word/${w.id}" target="_blank" rel="noopener" title="${esc(w.mean)}"><span>${esc(w.w)}</span></a>`).join('')}</div>
+      <div class="today">${words.map((w) => brickA(w)).join('')}</div>
       <ul class="small muted" style="margin:0 0 6px;padding-left:20px">${words.map((w) => `<li><b>${esc(w.w)}</b> — ${esc(w.mean)}</li>`).join('')}</ul>
       <div class="clock" id="clock">60</div>
       <div class="row" style="justify-content:center"><button class="btn main" id="start">Start speaking</button><a class="btn quiet" href="#/speak" id="other">Another topic</a></div>

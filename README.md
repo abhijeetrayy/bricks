@@ -25,9 +25,14 @@ node bricks/scripts/check.mjs
 
 ## What is in it
 
-**The house (home page).** An elevation drawing of a building, one brick per word. A brick is laid only when you
-answer a question about it correctly. Floors are levels, from Ground (seen but not used) to Terrace (rare but
-powerful). "Find your floor" is a 26-word yes/no test with 6 made-up words, so over-claiming lowers the score.
+**Kachcha → pakka.** Every word is a brick. It starts as a *kachchi eent*, raw clay. When you start learning it,
+it goes into the *bhatta* (kiln) and glows orange. Answer it right over a few days and it comes out *pakka*: fired red.
+"Pakka" already means "solid, sure" in everyday Indian speech.
+
+**The house (home page).** An elevation drawing of a building, one brick per word. A new visitor sees a whole
+clay house. It turns red as words become pakka. Floors are levels, from Ground (seen but not used) to Terrace
+(rare but powerful). "Find your floor" is a 26-word yes/no test with 6 made-up words, so over-claiming lowers the
+score.
 
 **Words: 16 rooms, grouped by purpose, never A to Z.**
 Think clearly · Agree and disagree · Sure or not sure · Feelings, precisely · People and character ·
@@ -88,18 +93,28 @@ example. Each situation also lists what to avoid and why. The situations include
 
 ## Design
 
-The site uses a lime-washed wall background and ink text. Indian neel blue marks links. Brick red is used only
-for laid bricks and the one main action on a page. Surfaces are flat, with 1px rules: no shadows, no pill
-buttons, no tracked-capital labels.
+**One idea runs through the whole site:** words are bricks.
+- **Today's five words** are a small stack of clay bricks. Tap one and it flips to show the meaning.
+- **Rooms** are a wall of wide bricks laid in running bond. Each one fills with orange and red as you learn its words.
+- **On a word page,** the word itself is a big brick, pressed into the face like a kiln stamp. Its colour shows where you are with it.
+
+**Colour:**
+- Clay #E2CBA2 for words you haven't learned.
+- Kiln orange #EBA25A for words you're learning.
+- Fired red #B2512E for words you know.
+- A cool lime-wash page, ink text and neel-blue links.
+- A faint grain gives the bricks the feel of real clay.
+
+Pages are otherwise flat, with no pills and no tracked-capital labels.
 
 | Role | Typeface |
 |---|---|
 | Words and headings | Spectral |
-| Reading text (designed for legibility) | Atkinson Hyperlegible |
-| Brick stamps and counts | Big Shoulders Display |
+| Reading text | Atkinson Hyperlegible |
+| Counts | Big Shoulders Display |
 | Hindi | Tiro Devanagari Hindi |
 
-Every link is visible, with no dropdowns. Phones get a bottom tab bar. Light theme only.
+Every link is visible, and phones get a bottom tab bar.
 
 ## Files
 
