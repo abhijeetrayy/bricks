@@ -20,11 +20,11 @@ export const ROOMS = [
 ];
 
 export const FLOORS = [
-  { n: 1, name: 'Zone 1', tag: 'Everyday',   line: 'You have seen these words. Now start using them.' },
-  { n: 2, name: 'Zone 2', tag: 'Clear',      line: 'The words of good news, office and college talk.' },
-  { n: 3, name: 'Zone 3', tag: 'Precise',    line: 'Words that sharpen exactly what you mean.' },
-  { n: 4, name: 'Zone 4', tag: 'Persuasive', line: 'Words of strong writers, lawyers and leaders.' },
-  { n: 5, name: 'Zone 5', tag: 'Rare',       line: 'Rare but powerful. Know them; use them sparingly.' },
+  { n: 1, name: 'Level 1', tag: 'Everyday',   line: 'You have seen these words. Now start using them.' },
+  { n: 2, name: 'Level 2', tag: 'Clear',      line: 'The words of good news, office and college talk.' },
+  { n: 3, name: 'Level 3', tag: 'Precise',    line: 'Words that sharpen exactly what you mean.' },
+  { n: 4, name: 'Level 4', tag: 'Persuasive', line: 'Words of strong writers, lawyers and leaders.' },
+  { n: 5, name: 'Level 5', tag: 'Rare',       line: 'Rare but powerful. Know them; use them sparingly.' },
 ];
 
 export const D = {
