@@ -1,0 +1,114 @@
+[
+  { "id": "good", "tired": "good", "title": "Better than 'good'", "steps": [
+    { "w": "passable", "m": "just good enough, nothing more" },
+    { "w": "decent", "m": "good enough; quite satisfactory" },
+    { "w": "good", "m": "of a pleasing, acceptable standard" },
+    { "w": "excellent", "m": "very good indeed" },
+    { "w": "outstanding", "m": "so good it stands out from all others" }
+  ]},
+  { "id": "bad", "tired": "bad", "title": "Worse than 'bad'", "steps": [
+    { "w": "mediocre", "m": "ordinary; not very good" },
+    { "w": "poor", "m": "below the standard you expected" },
+    { "w": "bad", "m": "not good or acceptable" },
+    { "w": "terrible", "m": "very bad" },
+    { "w": "atrocious", "m": "shockingly bad, almost unbelievably so" }
+  ]},
+  { "id": "big", "tired": "big", "title": "Bigger than 'big'", "steps": [
+    { "w": "sizeable", "m": "fairly big" },
+    { "w": "big", "m": "large in size or amount" },
+    { "w": "huge", "m": "very big" },
+    { "w": "gigantic", "m": "extremely big, like a giant" },
+    { "w": "colossal", "m": "so big it is hard to believe" }
+  ]},
+  { "id": "small", "tired": "small", "title": "Smaller than 'small'", "steps": [
+    { "w": "smallish", "m": "a bit small" },
+    { "w": "small", "m": "little in size or amount" },
+    { "w": "tiny", "m": "very small" },
+    { "w": "minuscule", "m": "extremely small" },
+    { "w": "microscopic", "m": "so small you need a microscope" }
+  ]},
+  { "id": "happy", "tired": "happy", "title": "Happier than 'happy'", "steps": [
+    { "w": "content", "m": "quietly satisfied with what you have" },
+    { "w": "happy", "m": "feeling good about things" },
+    { "w": "delighted", "m": "very pleased and happy" },
+    { "w": "elated", "m": "extremely happy and excited" },
+    { "w": "ecstatic", "m": "so happy you can hardly contain it" }
+  ]},
+  { "id": "sad", "tired": "sad", "title": "Sadder than 'sad'", "steps": [
+    { "w": "down", "m": "a little sad, usually for a short time" },
+    { "w": "sad", "m": "unhappy" },
+    { "w": "miserable", "m": "very sad and uncomfortable" },
+    { "w": "heartbroken", "m": "deeply sad, especially after a loss" },
+    { "w": "inconsolable", "m": "so sad that nobody can comfort you" }
+  ]},
+  { "id": "angry", "tired": "angry", "title": "Angrier than 'angry'", "steps": [
+    { "w": "displeased", "m": "mildly unhappy about something; a formal word" },
+    { "w": "annoyed", "m": "a little angry about something small" },
+    { "w": "angry", "m": "strongly unhappy with someone or something" },
+    { "w": "furious", "m": "extremely angry" },
+    { "w": "livid", "m": "so angry you can barely speak" }
+  ]},
+  { "id": "afraid", "tired": "afraid", "title": "More scared than 'afraid'", "steps": [
+    { "w": "uneasy", "m": "slightly worried that something is wrong" },
+    { "w": "nervous", "m": "worried about what might happen" },
+    { "w": "afraid", "m": "feeling fear" },
+    { "w": "terrified", "m": "very afraid" },
+    { "w": "petrified", "m": "so afraid you cannot move" }
+  ]},
+  { "id": "tired", "tired": "tired", "title": "More tired than 'tired'", "steps": [
+    { "w": "sluggish", "m": "slow and low on energy" },
+    { "w": "tired", "m": "needing rest or sleep" },
+    { "w": "worn out", "m": "very tired after hard work" },
+    { "w": "exhausted", "m": "completely tired, with no energy left" },
+    { "w": "burnt out", "m": "exhausted by long stress or overwork" }
+  ]},
+  { "id": "hot", "tired": "hot", "title": "Hotter than 'hot'", "steps": [
+    { "w": "lukewarm", "m": "only slightly warm" },
+    { "w": "warm", "m": "pleasantly heated" },
+    { "w": "hot", "m": "high in temperature" },
+    { "w": "boiling", "m": "very hot (informal)" },
+    { "w": "scorching", "m": "so hot it seems to burn" }
+  ]},
+  { "id": "cold", "tired": "cold", "title": "Colder than 'cold'", "steps": [
+    { "w": "cool", "m": "pleasantly low in temperature" },
+    { "w": "chilly", "m": "cold enough to be uncomfortable" },
+    { "w": "cold", "m": "low in temperature" },
+    { "w": "freezing", "m": "very cold" },
+    { "w": "bitterly cold", "m": "so cold it hurts" }
+  ]},
+  { "id": "important", "tired": "important", "title": "More than 'important'", "steps": [
+    { "w": "minor", "m": "important, but only a little" },
+    { "w": "notable", "m": "worth noticing" },
+    { "w": "important", "m": "it matters a lot" },
+    { "w": "crucial", "m": "extremely important; everything depends on it" },
+    { "w": "life-or-death", "m": "so important that survival depends on it" }
+  ]},
+  { "id": "difficult", "tired": "difficult", "title": "Harder than 'difficult'", "steps": [
+    { "w": "manageable", "m": "can be done with some effort" },
+    { "w": "tricky", "m": "a bit difficult; needs care" },
+    { "w": "difficult", "m": "not easy to do" },
+    { "w": "gruelling", "m": "very hard and tiring for a long time" },
+    { "w": "insurmountable", "m": "too difficult to overcome at all" }
+  ]},
+  { "id": "funny", "tired": "funny", "title": "Funnier than 'funny'", "steps": [
+    { "w": "mildly amusing", "m": "makes you smile a little" },
+    { "w": "amusing", "m": "makes you smile" },
+    { "w": "funny", "m": "makes you laugh" },
+    { "w": "hilarious", "m": "makes you laugh loudly" },
+    { "w": "side-splitting", "m": "so funny your sides hurt from laughing" }
+  ]},
+  { "id": "surprised", "tired": "surprised", "title": "More than 'surprised'", "steps": [
+    { "w": "mildly surprised", "m": "did not quite expect it" },
+    { "w": "surprised", "m": "did not expect it" },
+    { "w": "amazed", "m": "very surprised" },
+    { "w": "astonished", "m": "extremely surprised" },
+    { "w": "speechless", "m": "so surprised you cannot speak" }
+  ]},
+  { "id": "beautiful", "tired": "beautiful", "title": "More than 'beautiful'", "steps": [
+    { "w": "pleasant", "m": "nice to look at" },
+    { "w": "pretty", "m": "pleasing to look at, in a delicate way" },
+    { "w": "beautiful", "m": "very pleasing to look at" },
+    { "w": "stunning", "m": "so beautiful it makes you stop" },
+    { "w": "breathtaking", "m": "so beautiful it takes your breath away" }
+  ]}
+]

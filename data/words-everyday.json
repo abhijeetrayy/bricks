@@ -1,0 +1,444 @@
+[
+  {
+    "w": "postpone",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "verb",
+    "say": "pohst-POHN",
+    "mean": "to move a planned event to a later time",
+    "hi": "आगे बढ़ाना, टालना",
+    "ex": "Ma'am, could we postpone tomorrow's review to Friday? The client's data hasn't reached us yet.",
+    "with": [
+      "postpone a meeting",
+      "postpone until",
+      "postponed indefinitely"
+    ],
+    "instead": "put off",
+    "note": "The opposite, 'prepone', is Indian English only. In emails abroad, write 'bring forward' or 'move earlier'."
+  },
+  {
+    "w": "reschedule",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "verb",
+    "say": "ree-SHED-yool",
+    "mean": "to fix a new time for something that was already planned",
+    "hi": "नया समय तय करना",
+    "ex": "The dentist's clinic called to reschedule my Tuesday appointment because the doctor is away at a wedding.",
+    "with": [
+      "reschedule a meeting",
+      "reschedule for",
+      "ask to reschedule"
+    ],
+    "instead": "change the timing",
+    "note": "Postpone = later only; reschedule = any new time, earlier or later. Both ree-SHED-yool and ree-SKED-jool are correct."
+  },
+  {
+    "w": "convenient",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "kun-VEE-nee-unt",
+    "mean": "easy for you, because it suits your time or plans",
+    "hi": "सुविधाजनक",
+    "ex": "Uncle, please let me know a convenient time to come and collect the house papers.",
+    "with": [
+      "a convenient time",
+      "at your convenience",
+      "if convenient"
+    ],
+    "instead": "okay for you",
+    "note": "Ask 'Is 4 p.m. convenient for you?', not 'Are you convenient at 4?'. The time is convenient, not the person."
+  },
+  {
+    "w": "appreciate",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "verb",
+    "say": "uh-PREE-shee-ayt",
+    "mean": "to be thankful for something, or to understand its value",
+    "hi": "क़द्र करना",
+    "ex": "I would appreciate it if you could send the rent receipt by the fifth, as my office needs it for HRA.",
+    "with": [
+      "really appreciate",
+      "I'd appreciate it if",
+      "much appreciated"
+    ],
+    "instead": "be thankful for",
+    "note": "'I would appreciate it if you could...' is a polite request. Don't drop 'it': 'I would appreciate if' is a common error."
+  },
+  {
+    "w": "available",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "uh-VAY-luh-bul",
+    "mean": "free to meet or talk; or ready to be used or bought",
+    "hi": "उपलब्ध, ख़ाली",
+    "ex": "Are you available for a quick call after lunch? I need ten minutes to go over the invoice.",
+    "with": [
+      "available for",
+      "readily available",
+      "make available"
+    ],
+    "instead": "free",
+    "note": "No 'on' before today or tomorrow: 'I'm not available today', not 'on today'. For things: 'Tatkal tickets are available online'."
+  },
+  {
+    "w": "inconvenience",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "noun",
+    "say": "in-kun-VEE-nee-uns",
+    "mean": "trouble or difficulty that disturbs your comfort or plans",
+    "hi": "असुविधा, परेशानी",
+    "ex": "The society notice read: 'We regret the inconvenience caused by Sunday's water cut in Block C.'",
+    "with": [
+      "sorry for the inconvenience",
+      "cause inconvenience",
+      "a minor inconvenience"
+    ],
+    "instead": "trouble",
+    "note": "'Sorry for the inconvenience caused' is correct but overused. Naming the actual problem sounds warmer: 'Sorry the lift was off all morning.'"
+  },
+  {
+    "w": "request",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ri-KWEST",
+    "mean": "to ask for something politely or formally",
+    "hi": "गुज़ारिश करना",
+    "ex": "I would like to request two days' leave next week for my sister's engagement in Patna.",
+    "with": [
+      "request a refund",
+      "a request for",
+      "on request"
+    ],
+    "instead": "ask for",
+    "note": "As a verb, no 'for': 'I request a refund', not 'I request for a refund'. As a noun, 'for' is right: 'a request for leave'."
+  },
+  {
+    "w": "follow up",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "fol-oh UP",
+    "mean": "to check again later on something you asked or discussed earlier",
+    "hi": "दोबारा पूछना",
+    "ex": "If the bank doesn't reply by Thursday, I'll follow up with the branch manager in person.",
+    "with": [
+      "follow up on",
+      "follow up with",
+      "a follow-up email"
+    ],
+    "instead": "check again",
+    "note": "Verb: two words (follow up). Noun/adjective: hyphen (a follow-up). Also, 'revert' means 'go back', not 'reply'; write 'please reply', not 'kindly revert'."
+  },
+  {
+    "w": "punctual",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "PUNK-choo-ul",
+    "mean": "arriving or doing things at the agreed time, not late",
+    "hi": "समय का पाबंद",
+    "ex": "Mr D'Souza is so punctual that the whole staff room could set its clocks by his 8:55 arrival.",
+    "with": [
+      "always punctual",
+      "punctual payment",
+      "punctual to the minute"
+    ],
+    "instead": "on time",
+    "note": "Usually for people or payments. Noun: punctuality. Jokes about 'Indian Stretchable Time' aside, being punctual for interviews and calls is read as respect."
+  },
+  {
+    "w": "considerate",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "kun-SID-uh-rut",
+    "mean": "thinking about other people's feelings and needs",
+    "hi": "दूसरों का ख़याल रखने वाला",
+    "ex": "It was considerate of our neighbour to warn us before the drilling started for his new kitchen.",
+    "with": [
+      "considerate of",
+      "kind and considerate",
+      "considerate towards"
+    ],
+    "instead": "thinks of others",
+    "note": "Don't confuse with 'considerable' (large in amount). Considerate is about kindness; considerable is about size."
+  },
+  {
+    "w": "hesitate",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "verb",
+    "say": "HEZ-i-tayt",
+    "mean": "to pause before acting because you feel unsure or shy",
+    "hi": "झिझकना",
+    "ex": "Please don't hesitate to call me if the plumber doesn't turn up on Saturday.",
+    "with": [
+      "don't hesitate to",
+      "hesitate before",
+      "without hesitation"
+    ],
+    "instead": "feel shy to",
+    "note": "'Please do not hesitate to contact me' is a correct but stiff email ending. 'Feel free to call me' sounds warmer."
+  },
+  {
+    "w": "prompt",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "PROMPT",
+    "mean": "done quickly, without delay",
+    "hi": "तुरंत, फ़ौरन",
+    "ex": "Thank you for your prompt reply; the courier reached our Guwahati office the very next day.",
+    "with": [
+      "a prompt reply",
+      "prompt action",
+      "prompt payment"
+    ],
+    "instead": "quick",
+    "note": "Also a verb ('the alarm prompted us to leave'). The adverb 'promptly' means at once or exactly on time: 'promptly at 9'."
+  },
+  {
+    "w": "courteous",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "KUR-tee-us",
+    "mean": "polite and respectful in the way you speak and behave",
+    "hi": "शिष्ट, विनम्र",
+    "ex": "Even when the customer shouted about the late delivery, the call-centre agent in Noida stayed courteous.",
+    "with": [
+      "courteous staff",
+      "a courteous reply",
+      "polite and courteous"
+    ],
+    "instead": "very polite",
+    "note": "Said KUR-tee-us, not 'kor-shus'. Noun: courtesy ('a courtesy call'). A little more formal than 'polite'."
+  },
+  {
+    "w": "discreet",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "di-SKREET",
+    "mean": "careful not to share private things or cause embarrassment",
+    "hi": "राज़दार, सावधान",
+    "ex": "Please be discreet about Mohan's surgery; he hasn't told the rest of the team yet.",
+    "with": [
+      "be discreet",
+      "a discreet word",
+      "discreet enquiries"
+    ],
+    "instead": "keeping quiet about it",
+    "note": "Sounds the same as 'discrete' (separate, distinct), but means something different. Noun: discretion ('at your discretion')."
+  },
+  {
+    "w": "reluctant",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "ri-LUK-tunt",
+    "mean": "not wanting to do something, so slow or unwilling to do it",
+    "hi": "अनमना, अनिच्छुक",
+    "ex": "The landlord was reluctant to return the full deposit, but agreed after seeing photos of the clean flat.",
+    "with": [
+      "reluctant to",
+      "a reluctant agreement",
+      "somewhat reluctant"
+    ],
+    "instead": "not very willing",
+    "note": "Followed by 'to' + verb: 'reluctant to agree'. 'Hesitant' suggests doubt; 'reluctant' suggests you simply don't want to."
+  },
+  {
+    "w": "hospitable",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "hos-PIT-uh-bul",
+    "mean": "friendly and generous towards guests and visitors",
+    "hi": "मेहमाननवाज़",
+    "ex": "Our hosts in Amritsar were so hospitable that we couldn't leave without a second round of parathas.",
+    "with": [
+      "warm and hospitable",
+      "hospitable to",
+      "a hospitable family"
+    ],
+    "instead": "very welcoming",
+    "note": "Both hos-PIT-uh-bul and HOS-pit-uh-bul are correct. Noun: hospitality. An 'inhospitable' place, like a desert, is hard to live in."
+  },
+  {
+    "w": "gracious",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "GRAY-shus",
+    "mean": "kind, polite and generous, even when you don't have to be",
+    "hi": "शालीन, मेहरबान",
+    "ex": "Even after losing the final, the Kerala captain was gracious and praised the winners' bowling.",
+    "with": [
+      "a gracious host",
+      "gracious in defeat",
+      "a gracious gesture"
+    ],
+    "instead": "nice and polite",
+    "note": "'Gracious in defeat' means losing with dignity. Not the same as 'graceful', which means moving beautifully."
+  },
+  {
+    "w": "frugal",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "FROO-gul",
+    "mean": "careful to spend little and waste nothing",
+    "hi": "किफ़ायती",
+    "ex": "My frugal grandmother reuses every gift-wrapper and still carries the steel tiffin she bought in 1975.",
+    "with": [
+      "a frugal lifestyle",
+      "a frugal meal",
+      "frugal innovation"
+    ],
+    "instead": "careful with money",
+    "note": "Neutral or positive, unlike 'stingy' or 'kanjoos', which mean unwilling to spend even on others."
+  },
+  {
+    "w": "procrastinate",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "verb",
+    "say": "proh-KRAS-ti-nayt",
+    "mean": "to keep delaying something you should do now",
+    "hi": "टालमटोल करना",
+    "ex": "I procrastinate on my income tax return every year until the last week of July, then panic.",
+    "with": [
+      "stop procrastinating",
+      "a tendency to procrastinate",
+      "procrastinate on"
+    ],
+    "instead": "keep putting off",
+    "note": "Postponing is a decision to move something; procrastinating is delaying out of habit or avoidance. Noun: procrastination."
+  },
+  {
+    "w": "amenable",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "uh-MEE-nuh-bul",
+    "mean": "willing to accept or agree to a suggestion",
+    "hi": "राज़ी",
+    "ex": "If the landlord is amenable, we would like to paint the bedroom ourselves and deduct the cost from the rent.",
+    "with": [
+      "amenable to",
+      "amenable to change",
+      "amenable to reason"
+    ],
+    "instead": "open to it",
+    "note": "Always 'amenable to' + noun or -ing: 'amenable to rescheduling'. Not the same as 'amiable' (friendly) or 'amenities' (facilities)."
+  },
+  {
+    "w": "cordial",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "KOR-dee-ul",
+    "mean": "friendly and polite, but in a slightly formal way",
+    "hi": "दोस्ताना, सौहार्दपूर्ण",
+    "ex": "The two families had a cordial meeting over chai and samosas before discussing the wedding dates.",
+    "with": [
+      "cordial relations",
+      "a cordial meeting",
+      "a cordial welcome"
+    ],
+    "instead": "friendly enough",
+    "note": "Often signals 'polite but not close': 'relations stayed cordial' after a dispute. Indian wedding cards often 'cordially invite' you."
+  },
+  {
+    "w": "reciprocate",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "verb",
+    "say": "ri-SIP-ruh-kayt",
+    "mean": "to give or do something in return for what you received",
+    "hi": "बदले में लौटाना",
+    "ex": "The Rahmans invited us for Eid lunch, so we'd like to reciprocate by hosting them for Onam sadya.",
+    "with": [
+      "reciprocate the gesture",
+      "reciprocate kindness",
+      "reciprocate feelings"
+    ],
+    "instead": "do the same back",
+    "note": "'Reciprocate back' repeats itself; the 'back' is already in the word. Noun: reciprocity."
+  },
+  {
+    "w": "intrusive",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "in-TROO-siv",
+    "mean": "entering someone's private life or space in an unwelcome way",
+    "hi": "दख़लअंदाज़",
+    "ex": "Relatives asking 'When is the good news coming?' at every function can feel intrusive to newly married couples.",
+    "with": [
+      "intrusive questions",
+      "an intrusive neighbour",
+      "feel intrusive"
+    ],
+    "instead": "too nosy",
+    "note": "Verb: intrude. 'Sorry to intrude, but...' is a polite way to interrupt someone's private moment or meeting."
+  },
+  {
+    "w": "accommodate",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "verb",
+    "say": "uh-KOM-uh-dayt",
+    "mean": "to make room for someone, or adjust to meet their needs",
+    "hi": "जगह देना, ध्यान रखना",
+    "ex": "The hotel can accommodate your request for a ground-floor room, since your mother uses a wheelchair.",
+    "with": [
+      "accommodate a request",
+      "accommodate guests",
+      "accommodate needs"
+    ],
+    "instead": "fit in",
+    "note": "Often misspelt in emails: double c AND double m. In British use the noun is uncountable: 'find accommodation', not 'accommodations'."
+  },
+  {
+    "w": "faux pas",
+    "room": "everyday",
+    "floor": 5,
+    "pos": "noun",
+    "say": "foh PAH",
+    "mean": "an embarrassing social mistake, like saying the wrong thing",
+    "hi": "शर्मनाक चूक",
+    "ex": "Asking my aunt her age at the kitty party was a faux pas I will never repeat.",
+    "with": [
+      "commit a faux pas",
+      "a social faux pas",
+      "a major faux pas"
+    ],
+    "instead": "awkward mistake",
+    "note": "French: the x and s are silent, so say foh PAH. The plural is spelt the same: 'two faux pas'."
+  },
+  {
+    "w": "impeccable",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "im-PEK-uh-bul",
+    "mean": "perfect, with no mistakes or faults at all",
+    "hi": "बेदाग़, बेमिसाल",
+    "ex": "The wedding planner's arrangements in Udaipur were impeccable, right down to the name cards on every table.",
+    "with": [
+      "impeccable manners",
+      "impeccable timing",
+      "an impeccable record"
+    ],
+    "instead": "perfect",
+    "note": "Usually for manners, timing, taste, service or a record. Stronger than 'very good': it means nothing at all can be faulted."
+  }
+]

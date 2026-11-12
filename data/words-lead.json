@@ -1,0 +1,444 @@
+[
+  {
+    "w": "deadline",
+    "room": "lead",
+    "floor": 1,
+    "pos": "noun",
+    "say": "DED-lyn",
+    "mean": "the last time or date by which a job must be finished",
+    "hi": "आख़िरी तारीख़",
+    "ex": "The GST filing deadline is the 20th, so Meenakshi's accounts team in Chennai is working through the weekend.",
+    "with": [
+      "meet a deadline",
+      "miss the deadline",
+      "a tight deadline"
+    ],
+    "instead": "last date",
+    "note": "You 'meet' a deadline, not 'achieve' or 'complete' it. To ask for more time, request 'an extension'."
+  },
+  {
+    "w": "priority",
+    "room": "lead",
+    "floor": 1,
+    "pos": "noun",
+    "say": "pry-OR-i-tee",
+    "mean": "the thing that matters most and must be dealt with first",
+    "hi": "प्राथमिकता",
+    "ex": "With the monsoon two weeks away, the panchayat's first priority is clearing the village drains.",
+    "with": [
+      "top priority",
+      "set priorities",
+      "high priority"
+    ],
+    "instead": "most important thing",
+    "note": "If everything is 'top priority', nothing is. The verb is 'prioritise' (British spelling): 'prioritise the client's bug over the new feature'."
+  },
+  {
+    "w": "responsible",
+    "room": "lead",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "ri-SPON-suh-bul",
+    "mean": "having the duty to deal with something, and the blame if it fails",
+    "hi": "ज़िम्मेदार",
+    "ex": "Arjun is responsible for vendor payments, so ask him why the wedding caterer still hasn't been paid.",
+    "with": [
+      "responsible for",
+      "hold someone responsible",
+      "a responsible adult"
+    ],
+    "instead": "in charge",
+    "note": "Responsible FOR a task, responsible TO a person (your manager). Not 'responsible of'."
+  },
+  {
+    "w": "feedback",
+    "room": "lead",
+    "floor": 1,
+    "pos": "noun",
+    "say": "FEED-bak",
+    "mean": "comments on someone's work about what is good and what to improve",
+    "hi": "राय और सुझाव",
+    "ex": "After her first client demo at the Pune office, Sneha asked her manager for honest feedback on the slides.",
+    "with": [
+      "give feedback",
+      "honest feedback",
+      "positive feedback"
+    ],
+    "instead": "comments",
+    "note": "Uncountable: 'some feedback' or 'a piece of feedback', never 'a feedback' or 'feedbacks', a very common Indian office error."
+  },
+  {
+    "w": "organise",
+    "room": "lead",
+    "floor": 1,
+    "pos": "verb",
+    "say": "OR-guh-nyz",
+    "mean": "to plan and arrange something so that it happens smoothly",
+    "hi": "इंतज़ाम करना",
+    "ex": "Farhan offered to organise the hostel farewell, from booking the hall to ordering forty plates of biryani.",
+    "with": [
+      "organise an event",
+      "well organised",
+      "organise your thoughts"
+    ],
+    "instead": "set up",
+    "note": "British and Indian spelling is 'organise'; American is 'organize'. Either is fine, but stay consistent within one document."
+  },
+  {
+    "w": "delegate",
+    "room": "lead",
+    "floor": 2,
+    "pos": "verb",
+    "say": "DEL-i-gayt",
+    "mean": "to give part of your work or power to someone else to do",
+    "hi": "काम सौंपना",
+    "ex": "As the new branch head in Lucknow, Kavya had to learn to delegate instead of checking every loan file herself.",
+    "with": [
+      "delegate tasks",
+      "delegate responsibility",
+      "learn to delegate"
+    ],
+    "instead": "hand over work",
+    "note": "The verb is DEL-i-gayt; the noun (a person sent to a conference) is DEL-i-gut. You can delegate a task, but not the final blame."
+  },
+  {
+    "w": "initiative",
+    "room": "lead",
+    "floor": 2,
+    "pos": "noun",
+    "say": "i-NISH-uh-tiv",
+    "mean": "the ability to act on your own without being told; also a new plan",
+    "hi": "पहल",
+    "ex": "Nobody asked Priya to fix the messy shared drive; she took the initiative and sorted every folder by client.",
+    "with": [
+      "take the initiative",
+      "show initiative",
+      "a new initiative"
+    ],
+    "instead": "acting without being told",
+    "note": "Two meanings: a quality ('she shows initiative') and a programme ('a new safety initiative'). Spelling has four i's: i-ni-ti-a-tive."
+  },
+  {
+    "w": "accountable",
+    "room": "lead",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "uh-KOWN-tuh-bul",
+    "mean": "expected to explain your actions and accept the results, good or bad",
+    "hi": "जवाबदेह",
+    "ex": "The housing society committee is accountable to residents, so it must show exactly where the maintenance money went.",
+    "with": [
+      "hold someone accountable",
+      "accountable to",
+      "accountable for"
+    ],
+    "instead": "has to answer for",
+    "note": "Responsible = it is your job to do. Accountable = you must answer for the result. Many can be responsible; one person should be accountable."
+  },
+  {
+    "w": "consensus",
+    "room": "lead",
+    "floor": 2,
+    "pos": "noun",
+    "say": "kun-SEN-sus",
+    "mean": "general agreement among most of the people in a group",
+    "hi": "आम सहमति",
+    "ex": "After two hours of argument at the Kolkata adda, the only consensus was that the tea had gone cold.",
+    "with": [
+      "reach a consensus",
+      "broad consensus",
+      "build consensus"
+    ],
+    "instead": "everyone agreeing",
+    "note": "Spelt 'consensus', not 'concensus'. 'General consensus' repeats itself; 'consensus' alone is enough."
+  },
+  {
+    "w": "feasible",
+    "room": "lead",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "FEE-zuh-bul",
+    "mean": "possible to actually do, given the time, money and people you have",
+    "hi": "मुमकिन, व्यावहारिक",
+    "ex": "Is it really feasible to launch the app before Diwali with only three developers?",
+    "with": [
+      "technically feasible",
+      "feasibility study",
+      "financially feasible"
+    ],
+    "instead": "doable",
+    "note": "Feasible means practical, not just 'possible'. A plan can be possible in theory but not feasible on your budget."
+  },
+  {
+    "w": "collaborate",
+    "room": "lead",
+    "floor": 2,
+    "pos": "verb",
+    "say": "kuh-LAB-uh-rayt",
+    "mean": "to work with other people on a shared task",
+    "hi": "मिलकर काम करना",
+    "ex": "Two Bengaluru startups agreed to collaborate on a Kannada voice assistant for farmers.",
+    "with": [
+      "collaborate with",
+      "collaborate on",
+      "collaborate closely"
+    ],
+    "instead": "work together",
+    "note": "Collaborate WITH a person ON a project. 'Collaborate together' repeats itself; drop 'together'."
+  },
+  {
+    "w": "negotiate",
+    "room": "lead",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ni-GOH-shee-ayt",
+    "mean": "to discuss with someone until you reach an agreement both can accept",
+    "hi": "मोल-भाव करना",
+    "ex": "Before joining, Ankit tried to negotiate a higher salary and one work-from-home day each week.",
+    "with": [
+      "negotiate a deal",
+      "negotiate with",
+      "negotiate a salary"
+    ],
+    "instead": "talk and settle",
+    "note": "Said with 'sh': ni-GOH-shee-ayt, not ni-GOH-see-ayt. The noun is 'negotiation'."
+  },
+  {
+    "w": "mitigate",
+    "room": "lead",
+    "floor": 3,
+    "pos": "verb",
+    "say": "MIT-i-gayt",
+    "mean": "to make something bad less serious or less harmful",
+    "hi": "असर कम करना",
+    "ex": "Mumbai's civic body desilts the nullahs before June to mitigate flooding during the heaviest rain.",
+    "with": [
+      "mitigate the risk",
+      "mitigate the impact",
+      "mitigating factors"
+    ],
+    "instead": "reduce the damage",
+    "note": "You mitigate a problem directly, never 'mitigate against' it. Don't confuse with 'militate against' (to work against)."
+  },
+  {
+    "w": "autonomy",
+    "room": "lead",
+    "floor": 3,
+    "pos": "noun",
+    "say": "aw-TON-uh-mee",
+    "mean": "the freedom to make your own decisions without being controlled",
+    "hi": "स्वायत्तता, आज़ादी",
+    "ex": "The startup gives each team the autonomy to choose its own tools, as long as it hits its quarterly targets.",
+    "with": [
+      "full autonomy",
+      "autonomy over",
+      "give autonomy"
+    ],
+    "instead": "freedom to decide",
+    "note": "Adjective: autonomous ('an autonomous college'). Autonomy still comes with accountability: you are free to decide, and you answer for the result."
+  },
+  {
+    "w": "constructive",
+    "room": "lead",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "kun-STRUK-tiv",
+    "mean": "helpful and meant to improve something, not just to find fault",
+    "hi": "रचनात्मक",
+    "ex": "Instead of just calling the report weak, Leela gave constructive suggestions for each section.",
+    "with": [
+      "constructive criticism",
+      "constructive feedback",
+      "a constructive discussion"
+    ],
+    "instead": "helpful",
+    "note": "'Constructive criticism' says what to fix and how. Its opposite is 'destructive': criticism that only hurts."
+  },
+  {
+    "w": "bottleneck",
+    "room": "lead",
+    "floor": 3,
+    "pos": "noun",
+    "say": "BOT-ul-nek",
+    "mean": "one slow point that holds up the whole process",
+    "hi": "अड़चन",
+    "ex": "The single baggage scanner at the metro gate became a bottleneck during the morning rush.",
+    "with": [
+      "create a bottleneck",
+      "the main bottleneck",
+      "remove a bottleneck"
+    ],
+    "instead": "hold-up",
+    "note": "Like the narrow neck of a bottle. Often a person: if every approval waits for one boss, that boss is the bottleneck."
+  },
+  {
+    "w": "iterate",
+    "room": "lead",
+    "floor": 3,
+    "pos": "verb",
+    "say": "IT-uh-rayt",
+    "mean": "to repeat a process again and again, improving it each time",
+    "hi": "बार-बार सुधारना",
+    "ex": "The design team will iterate on the payment screen after watching how kirana owners in Indore actually use it.",
+    "with": [
+      "iterate on",
+      "iterate quickly",
+      "iterative process"
+    ],
+    "instead": "keep improving",
+    "note": "A startup and software word. Don't confuse with 'reiterate' (to say again). Noun: 'the third iteration of the design'."
+  },
+  {
+    "w": "mandate",
+    "room": "lead",
+    "floor": 3,
+    "pos": "noun",
+    "say": "MAN-dayt",
+    "mean": "the official power or order given to someone to do a particular job",
+    "hi": "आदेश, अधिकार",
+    "ex": "The committee's mandate is only to suggest a new canteen menu, not to change the office timings.",
+    "with": [
+      "a clear mandate",
+      "a mandate to",
+      "beyond its mandate"
+    ],
+    "instead": "official order",
+    "note": "Also a verb: 'the rule mandates helmets for both riders'. After an election, the winner's authority from voters is called a 'mandate'."
+  },
+  {
+    "w": "scalable",
+    "room": "lead",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "SKAY-luh-bul",
+    "mean": "able to grow much bigger without breaking or costing much more",
+    "hi": "बढ़ाने लायक",
+    "ex": "Her tiffin service works for fifty homes, but is it scalable to five thousand across Hyderabad?",
+    "with": [
+      "highly scalable",
+      "a scalable model",
+      "scalable business"
+    ],
+    "instead": "can grow",
+    "note": "Scalable doesn't just mean 'big'; it means growth without costs growing as fast. The verb is 'scale up'."
+  },
+  {
+    "w": "stakeholder",
+    "room": "lead",
+    "floor": 3,
+    "pos": "noun",
+    "say": "STAYK-hohl-dur",
+    "mean": "anyone affected by a decision or interested in its result",
+    "hi": "हितधारक",
+    "ex": "Before redrawing the bus routes, the city consulted every stakeholder: drivers, shopkeepers, schoolchildren and daily commuters.",
+    "with": [
+      "key stakeholders",
+      "stakeholder meeting",
+      "consult stakeholders"
+    ],
+    "instead": "people involved",
+    "note": "Wider than 'shareholder', who owns shares. Customers, staff and neighbours of a factory are all stakeholders."
+  },
+  {
+    "w": "incentive",
+    "room": "lead",
+    "floor": 2,
+    "pos": "noun",
+    "say": "in-SEN-tiv",
+    "mean": "something, often a reward, that encourages you to do something",
+    "hi": "प्रोत्साहन",
+    "ex": "The dairy cooperative gives farmers an incentive of two rupees extra per litre for cleaner milk.",
+    "with": [
+      "financial incentive",
+      "an incentive to",
+      "tax incentive"
+    ],
+    "instead": "reason to try",
+    "note": "An incentive pulls you towards an action; a 'disincentive' pushes you away. 'Motive' is your own inner reason; an incentive comes from outside."
+  },
+  {
+    "w": "trade-off",
+    "room": "lead",
+    "floor": 4,
+    "pos": "noun",
+    "say": "TRAYD-of",
+    "mean": "giving up some of one thing to get more of another",
+    "hi": "एक के बदले दूसरा",
+    "ex": "The Gurugram job paid more, but the trade-off was a two-hour commute every day.",
+    "with": [
+      "a trade-off between",
+      "make a trade-off",
+      "an acceptable trade-off"
+    ],
+    "instead": "give and take",
+    "note": "The noun is hyphenated (a trade-off); the verb is two words: 'trade off speed against cost'."
+  },
+  {
+    "w": "foresight",
+    "room": "lead",
+    "floor": 4,
+    "pos": "noun",
+    "say": "FOR-syt",
+    "mean": "the ability to see what may happen and plan for it",
+    "hi": "दूर की सोच",
+    "ex": "Thanks to her father's foresight, the family had savings ready when the shop shut during the lockdown.",
+    "with": [
+      "have the foresight to",
+      "show foresight",
+      "lack of foresight"
+    ],
+    "instead": "planning ahead",
+    "note": "Opposite of 'hindsight', which is wisdom after the event. You show foresight before; you say 'in hindsight' after."
+  },
+  {
+    "w": "decisive",
+    "room": "lead",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "di-SY-siv",
+    "mean": "able to make choices quickly and firmly; or settling a result clearly",
+    "hi": "निर्णायक",
+    "ex": "When the site crashed during the sale, Imran was decisive: he rolled back the update within minutes.",
+    "with": [
+      "decisive action",
+      "a decisive leader",
+      "a decisive moment"
+    ],
+    "instead": "quick to decide",
+    "note": "Don't confuse with 'divisive' (causing people to disagree). A 'decisive win' is a clear one, not a narrow one."
+  },
+  {
+    "w": "groupthink",
+    "room": "lead",
+    "floor": 5,
+    "pos": "noun",
+    "say": "GROOP-think",
+    "mean": "when a group agrees too easily and nobody questions a bad idea",
+    "hi": "भेड़चाल",
+    "ex": "The board fell into groupthink; nobody questioned the expansion plan until the losses began.",
+    "with": [
+      "avoid groupthink",
+      "fall into groupthink",
+      "a culture of groupthink"
+    ],
+    "instead": "everyone just agreeing",
+    "note": "Not the same as consensus. Consensus is real agreement after debate; groupthink is agreement because nobody dares to disagree."
+  },
+  {
+    "w": "sunk cost",
+    "room": "lead",
+    "floor": 5,
+    "pos": "noun",
+    "say": "SUNK kost",
+    "mean": "money or effort already spent that you can never get back",
+    "hi": "डूबी हुई लागत",
+    "ex": "The half-built godown is a sunk cost; spending more on a bad location will only lose more money.",
+    "with": [
+      "sunk cost fallacy",
+      "treat it as a sunk cost",
+      "ignore sunk costs"
+    ],
+    "instead": "money already gone",
+    "note": "The 'sunk cost fallacy' is carrying on with something bad only because you've already invested in it, like sitting through a terrible film because you paid."
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "w": "however",
+    "room": "link",
+    "floor": 1,
+    "pos": "connector",
+    "say": "how-EV-ur",
+    "mean": "but; used to add a point that goes against what came before",
+    "hi": "लेकिन, फिर भी",
+    "ex": "The flat in Andheri is close to the station. However, the rent is far above our budget.",
+    "with": [
+      "however, ...",
+      "however hard you try",
+      "however much it costs"
+    ],
+    "instead": "but",
+    "note": "At sentence start, put a comma after it: 'However, ...'. To join two clauses use a semicolon: 'It rained; however, play continued.' A comma alone is wrong."
+  },
+  {
+    "w": "although",
+    "room": "link",
+    "floor": 1,
+    "pos": "connector",
+    "say": "awl-THOH",
+    "mean": "even though; admits one fact before a contrasting one",
+    "hi": "हालाँकि",
+    "ex": "Although the train was three hours late, Deepa still reached Bhopal in time for the mehendi.",
+    "with": [
+      "although it rained",
+      "although expensive",
+      "although I agree"
+    ],
+    "instead": "even though",
+    "note": "Never 'although ... but': 'Although it rained, but we played' is wrong. Use one: 'Although it rained, we played.' Comma after the although-clause when it comes first."
+  },
+  {
+    "w": "therefore",
+    "room": "link",
+    "floor": 1,
+    "pos": "connector",
+    "say": "THAIR-for",
+    "mean": "for that reason; as a result",
+    "hi": "इसलिए",
+    "ex": "The exam centre is in Thane and the locals are packed; therefore, Aman left home at six.",
+    "with": [
+      "and therefore",
+      "it therefore follows",
+      "therefore, we"
+    ],
+    "instead": "so",
+    "note": "A formal 'so'. Joining two clauses, put a semicolon or full stop before it and a comma after: 'It rained; therefore, we stayed.'"
+  },
+  {
+    "w": "instead",
+    "room": "link",
+    "floor": 1,
+    "pos": "connector",
+    "say": "in-STED",
+    "mean": "in place of something else; as the other choice",
+    "hi": "इसके बजाय",
+    "ex": "The canteen ran out of dosa, so Siddharth had idli instead.",
+    "with": [
+      "instead of",
+      "go instead",
+      "instead, we decided"
+    ],
+    "instead": "",
+    "note": "'Instead of' + noun or -ing: 'instead of going', never 'instead of to go'. At sentence start: 'Instead, ...' with a comma."
+  },
+  {
+    "w": "unless",
+    "room": "link",
+    "floor": 1,
+    "pos": "connector",
+    "say": "un-LES",
+    "mean": "except if; if not",
+    "hi": "जब तक ... न",
+    "ex": "Unless you renew your driving licence before Monday, the RTO will charge a late fee.",
+    "with": [
+      "unless otherwise stated",
+      "unless you hurry",
+      "not unless"
+    ],
+    "instead": "if not",
+    "note": "Unless already means 'if not', so don't add another 'not'. Use present tense for the future: 'unless it rains', not 'unless it will rain'."
+  },
+  {
+    "w": "whereas",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "wair-AZ",
+    "mean": "while on the other hand; compares two different facts",
+    "hi": "जबकि",
+    "ex": "Chennai gets most of its rain from October to December, whereas Mumbai gets it from June to September.",
+    "with": [
+      "whereas in the past",
+      "whereas most people",
+      "whereas the other"
+    ],
+    "instead": "and on the other hand",
+    "note": "Joins two contrasting facts inside one sentence, usually with a comma before it. Don't start a standalone sentence with it the way you would with 'However,'."
+  },
+  {
+    "w": "moreover",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "mor-OH-vur",
+    "mean": "also, and more importantly; adds a stronger point",
+    "hi": "इसके अलावा, ऊपर से",
+    "ex": "The new route saves twenty minutes. Moreover, it avoids the underpass near Sion that floods every July.",
+    "with": [
+      "moreover, it",
+      "moreover, the cost",
+      "and moreover"
+    ],
+    "instead": "and also",
+    "note": "Starts a sentence, or follows a semicolon, with a comma after: 'Moreover, ...'. A comma alone before it is wrong. In speech, 'what's more' is lighter."
+  },
+  {
+    "w": "despite",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "di-SPYT",
+    "mean": "even though something happened; without being stopped by it",
+    "hi": "के बावजूद",
+    "ex": "Despite the heavy rain, the Durga Puja pandal in Salt Lake was packed till midnight.",
+    "with": [
+      "despite the fact that",
+      "despite everything",
+      "despite repeated requests"
+    ],
+    "instead": "even with",
+    "note": "Never 'despite of'. Use 'despite + noun/-ing' or 'in spite of'. Before a full clause write 'despite the fact that'. Comma after a leading despite-phrase."
+  },
+  {
+    "w": "nevertheless",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "nev-ur-thuh-LES",
+    "mean": "even so; in spite of what was just said",
+    "hi": "फिर भी",
+    "ex": "The team was missing two senior players; nevertheless, they won the Ranji match by an innings.",
+    "with": [
+      "but nevertheless",
+      "nevertheless true",
+      "nevertheless, we"
+    ],
+    "instead": "but still",
+    "note": "One word, not 'never the less'. After a full stop or semicolon, with a comma after it. A little stronger and more formal than 'however'."
+  },
+  {
+    "w": "meanwhile",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "MEEN-wyl",
+    "mean": "at the same time, while something else is happening",
+    "hi": "इस बीच",
+    "ex": "Papa went to queue at the ration shop; meanwhile, Mummy put the rajma on to soak.",
+    "with": [
+      "in the meanwhile",
+      "meanwhile, back home",
+      "meanwhile, the"
+    ],
+    "instead": "at the same time",
+    "note": "Usually at sentence start with a comma: 'Meanwhile, ...'. 'In the meantime' means the same. News uses it to switch scenes: 'Meanwhile, in Guwahati...'"
+  },
+  {
+    "w": "otherwise",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "UTH-ur-wyz",
+    "mean": "if not; if that does not happen, then",
+    "hi": "वरना",
+    "ex": "Carry an umbrella to the interview; otherwise, you'll reach the Bandra office soaking wet.",
+    "with": [
+      "unless otherwise stated",
+      "otherwise known as",
+      "think otherwise"
+    ],
+    "instead": "or else",
+    "note": "Joining two clauses needs a semicolon or full stop before it: '...; otherwise, ...'. A comma alone is a common error. 'Or else' is the casual version."
+  },
+  {
+    "w": "besides",
+    "room": "link",
+    "floor": 2,
+    "pos": "connector",
+    "say": "bi-SYDZ",
+    "mean": "in addition; also, as one more reason",
+    "hi": "इसके अलावा",
+    "ex": "I'd rather skip the reception; besides, I have an early flight to Kochi tomorrow.",
+    "with": [
+      "besides that",
+      "besides, I",
+      "anyone besides"
+    ],
+    "instead": "apart from that",
+    "note": "'Besides' (with s) = in addition. 'Beside' (no s) = next to: 'sit beside me'. As a connector: 'Besides, ...' with a comma."
+  },
+  {
+    "w": "consequently",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "KON-si-kwunt-lee",
+    "mean": "as a result of what has just been said",
+    "hi": "नतीजतन",
+    "ex": "The portal was down all morning; consequently, hundreds of students missed the scholarship deadline.",
+    "with": [
+      "and consequently",
+      "consequently, the",
+      "consequently rose"
+    ],
+    "instead": "and so",
+    "note": "Like 'therefore': full stop or semicolon before it, comma after. Don't confuse with 'subsequently', which only means 'later', not 'as a result'."
+  },
+  {
+    "w": "likewise",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "LYK-wyz",
+    "mean": "in the same way; also",
+    "hi": "इसी तरह",
+    "ex": "Mehul thanked the volunteers at the gurdwara langar, and the visiting students did likewise.",
+    "with": [
+      "do likewise",
+      "likewise, the",
+      "and likewise"
+    ],
+    "instead": "in the same way",
+    "note": "At sentence start: 'Likewise, ...' with a comma. 'Do likewise' = do the same. Replying 'Likewise' to 'Nice to meet you' is fine."
+  },
+  {
+    "w": "provided that",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "pruh-VY-did that",
+    "mean": "only if; on the condition that",
+    "hi": "बशर्ते",
+    "ex": "You can borrow my scooter for the weekend, provided that you fill the tank before returning it.",
+    "with": [
+      "provided that you",
+      "provided that it",
+      "only provided that"
+    ],
+    "instead": "only if",
+    "note": "Stronger than 'if': it sets a condition. 'That' can be dropped ('provided you pay'). Use present tense after it, not 'will'. Comma before it."
+  },
+  {
+    "w": "in contrast",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "in KON-trast",
+    "mean": "used to show that two things are very different",
+    "hi": "इसके उलट",
+    "ex": "Rajasthan's summers are dry and scorching; in contrast, Meghalaya stays cool and wet most of the year.",
+    "with": [
+      "in contrast to",
+      "in sharp contrast",
+      "by contrast"
+    ],
+    "instead": "but on the other hand",
+    "note": "'In contrast, ...' starts a sentence with a comma; 'in contrast to X' compares inside one sentence. Noun is KON-trast; the verb is kun-TRAST."
+  },
+  {
+    "w": "furthermore",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "FUR-thur-mor",
+    "mean": "also; adds another point to an argument",
+    "hi": "साथ ही",
+    "ex": "The new hostel has no night warden. Furthermore, the main gate lock has been broken for weeks.",
+    "with": [
+      "furthermore, the",
+      "and furthermore",
+      "furthermore, it"
+    ],
+    "instead": "and also",
+    "note": "Sentence start, comma after. Moreover and furthermore are near twins; never stack them ('Moreover, furthermore'). Plain 'also' often reads better."
+  },
+  {
+    "w": "hence",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "HENS",
+    "mean": "for this reason; also, from now",
+    "hi": "इसलिए, अतः",
+    "ex": "The monsoon was weak this year, hence the jump in vegetable prices at Azadpur mandi.",
+    "with": [
+      "hence the name",
+      "hence the delay",
+      "three years hence"
+    ],
+    "instead": "that is why",
+    "note": "Often takes just a noun, no verb: 'hence the delay'. 'From hence' is wrong; 'hence' already includes 'from'. In casual writing, 'so' is simpler."
+  },
+  {
+    "w": "albeit",
+    "room": "link",
+    "floor": 3,
+    "pos": "connector",
+    "say": "awl-BEE-it",
+    "mean": "although; used before a short phrase, not a full clause",
+    "hi": "भले ही",
+    "ex": "The metro extension finally opened, albeit two years late and well over budget.",
+    "with": [
+      "albeit slowly",
+      "albeit briefly",
+      "albeit small"
+    ],
+    "instead": "though it was",
+    "note": "Goes after a comma, before a short phrase: 'a win, albeit narrow'. Never add a subject and verb: not 'albeit it was narrow'. Say awl-BEE-it."
+  },
+  {
+    "w": "notwithstanding",
+    "room": "link",
+    "floor": 4,
+    "pos": "connector",
+    "say": "not-with-STAN-ding",
+    "mean": "in spite of; without being stopped by",
+    "hi": "के बावजूद",
+    "ex": "Notwithstanding the heavy rain, lakhs of warkaris walked on towards Pandharpur for Ashadhi Ekadashi.",
+    "with": [
+      "notwithstanding the fact that",
+      "notwithstanding anything",
+      "these problems notwithstanding"
+    ],
+    "instead": "in spite of",
+    "note": "Very formal, common in contracts and court orders. Can come before or after the noun: 'these problems notwithstanding'. In normal writing, 'despite' is better."
+  },
+  {
+    "w": "thereby",
+    "room": "link",
+    "floor": 4,
+    "pos": "connector",
+    "say": "thair-BY",
+    "mean": "by doing this; as a result of that action",
+    "hi": "इससे",
+    "ex": "The farmer switched to drip irrigation, thereby cutting his water use almost by half.",
+    "with": [
+      "thereby reducing",
+      "thereby making",
+      "and thereby"
+    ],
+    "instead": "and by doing this",
+    "note": "After a comma, followed by an -ing verb: ', thereby saving time'. It links an action to its result. Not the same as 'thereafter' (after that)."
+  },
+  {
+    "w": "whereby",
+    "room": "link",
+    "floor": 4,
+    "pos": "connector",
+    "say": "wair-BY",
+    "mean": "by which; through which a system or plan works",
+    "hi": "जिसके ज़रिए",
+    "ex": "The housing society set up a system whereby residents pay maintenance by UPI and get an instant receipt.",
+    "with": [
+      "a system whereby",
+      "an arrangement whereby",
+      "a scheme whereby"
+    ],
+    "instead": "by which",
+    "note": "Comes right after a noun like system, scheme or rule, with no comma. Formal. Don't mix it up with 'whereas' (contrast) or 'thereby' (result)."
+  },
+  {
+    "w": "insofar as",
+    "room": "link",
+    "floor": 4,
+    "pos": "connector",
+    "say": "in-soh-FAR az",
+    "mean": "to the extent that; only as far as",
+    "hi": "जहाँ तक",
+    "ex": "The new rule helps, insofar as it gives night-shift staff a safe cab home.",
+    "with": [
+      "insofar as possible",
+      "insofar as it",
+      "only insofar as"
+    ],
+    "instead": "as far as",
+    "note": "It limits a claim: true only to that degree. Write 'insofar as' (British also 'in so far as'), never 'insofar that'. Usually a comma before it."
+  },
+  {
+    "w": "conversely",
+    "room": "link",
+    "floor": 4,
+    "pos": "connector",
+    "say": "KON-vurs-lee",
+    "mean": "in the opposite way; looking at it the other way round",
+    "hi": "इसके विपरीत",
+    "ex": "When the rupee falls, imports cost more; conversely, textile exporters in Tiruppur earn more.",
+    "with": [
+      "and conversely",
+      "conversely, when",
+      "conversely, a"
+    ],
+    "instead": "the other way round",
+    "note": "Use it for a reversal of the same relationship, not for any difference ('in contrast' fits that). Semicolon or full stop before it, comma after."
+  },
+  {
+    "w": "hitherto",
+    "room": "link",
+    "floor": 5,
+    "pos": "connector",
+    "say": "hith-ur-TOO",
+    "mean": "until now; up to this time",
+    "hi": "अब तक",
+    "ex": "The Keezhadi excavation revealed a hitherto unknown picture of early city life in Tamil Nadu.",
+    "with": [
+      "hitherto unknown",
+      "hitherto unseen",
+      "as hitherto"
+    ],
+    "instead": "until now",
+    "note": "Formal and old-fashioned; today it mostly sits before an adjective ('hitherto unknown'), not at sentence start. In speech, say 'until now' or 'so far'."
+  },
+  {
+    "w": "vis-à-vis",
+    "room": "link",
+    "floor": 5,
+    "pos": "connector",
+    "say": "veez-ah-VEE",
+    "mean": "in relation to; compared with",
+    "hi": "के मुक़ाबले",
+    "ex": "The finance head asked how our costs looked vis-à-vis last year before approving the Diwali bonus.",
+    "with": [
+      "vis-à-vis the",
+      "our position vis-à-vis",
+      "vis-à-vis others"
+    ],
+    "instead": "compared with",
+    "note": "French: the final s is silent, veez-ah-VEE. Indian office letters overuse it; 'regarding' or 'compared with' usually reads better. Goes before a noun, no comma."
+  }
+]

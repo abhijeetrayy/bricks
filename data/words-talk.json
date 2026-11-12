@@ -1,0 +1,444 @@
+[
+  {
+    "w": "explain",
+    "room": "talk",
+    "floor": 1,
+    "pos": "verb",
+    "say": "ik-SPLAYN",
+    "mean": "make something clear by giving details or reasons",
+    "hi": "समझाना",
+    "ex": "Mrs Rao asked the lineman to explain why her electricity bill had doubled in May.",
+    "with": [
+      "explain why",
+      "explain to someone",
+      "clearly explain"
+    ],
+    "instead": "tell about",
+    "note": "Say 'explain it to me', never 'explain me'. This is one of the most common Indian English errors."
+  },
+  {
+    "w": "suggest",
+    "room": "talk",
+    "floor": 1,
+    "pos": "verb",
+    "say": "suh-JEST",
+    "mean": "put forward an idea or plan for others to think about",
+    "hi": "सुझाव देना",
+    "ex": "Can I suggest we leave for Lonavala at five, before the expressway traffic builds up?",
+    "with": [
+      "suggest that",
+      "strongly suggest",
+      "the evidence suggests"
+    ],
+    "instead": "say maybe we should",
+    "note": "Say 'suggest that we go' or 'suggest going', not 'suggest us to go'."
+  },
+  {
+    "w": "complain",
+    "room": "talk",
+    "floor": 1,
+    "pos": "verb",
+    "say": "kum-PLAYN",
+    "mean": "say that you are unhappy or annoyed about something",
+    "hi": "शिकायत करना",
+    "ex": "Residents of Sector 12 decided to complain to the municipal office about the overflowing drains.",
+    "with": [
+      "complain about",
+      "complain to",
+      "constantly complain"
+    ],
+    "instead": "keep cribbing",
+    "note": "Complain ABOUT a thing, TO a person. 'Crib' for complain is Indian slang; use complain in formal writing."
+  },
+  {
+    "w": "warn",
+    "room": "talk",
+    "floor": 1,
+    "pos": "verb",
+    "say": "WORN",
+    "mean": "tell someone about a danger or problem before it happens",
+    "hi": "चेतावनी देना, आगाह करना",
+    "ex": "The weather office sent alerts to warn fishermen in Odisha not to go to sea for three days.",
+    "with": [
+      "warn about",
+      "warn against",
+      "warn someone not to"
+    ],
+    "instead": "tell to be careful",
+    "note": "Warn someone OF or ABOUT a danger, or warn them NOT TO do something. Noun: warning."
+  },
+  {
+    "w": "mention",
+    "room": "talk",
+    "floor": 1,
+    "pos": "verb",
+    "say": "MEN-shun",
+    "mean": "speak or write about something briefly",
+    "hi": "ज़िक्र करना",
+    "ex": "Did Farhan mention that the parent-teacher meeting has been moved to Saturday?",
+    "with": [
+      "briefly mention",
+      "mention in passing",
+      "not to mention"
+    ],
+    "instead": "say briefly",
+    "note": "You mention a thing, not 'mention about' it. 'Not to mention' adds a bigger point: 'tiring, not to mention costly'."
+  },
+  {
+    "w": "insist",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "in-SIST",
+    "mean": "say firmly that something must happen or is true, and not back down",
+    "hi": "ज़िद करना, अड़ जाना",
+    "ex": "Nani will always insist that we eat something before leaving, even if we just had lunch.",
+    "with": [
+      "insist on",
+      "insist that",
+      "firmly insist"
+    ],
+    "instead": "kept saying",
+    "note": "'Insist on doing', not 'insist to do'. In Indian homes, a host who insists is being hospitable, not rude."
+  },
+  {
+    "w": "clarify",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "KLA-ri-feye",
+    "mean": "make something clearer by explaining it more",
+    "hi": "स्पष्ट करना",
+    "ex": "The college put up a notice to clarify that the exams would be held offline, not online.",
+    "with": [
+      "clarify a point",
+      "let me clarify",
+      "clarify the rules"
+    ],
+    "instead": "make clear",
+    "note": "Clarify removes confusion that already exists; explain can start from zero."
+  },
+  {
+    "w": "emphasise",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "EM-fuh-seyez",
+    "mean": "give special importance to a point by stressing it",
+    "hi": "ज़ोर देना",
+    "ex": "The doctor wanted to emphasise one thing: finish the full course of antibiotics, even if you feel better.",
+    "with": [
+      "emphasise the need",
+      "emphasise that",
+      "strongly emphasise"
+    ],
+    "instead": "really point out",
+    "note": "'Emphasise the point', not 'emphasise ON the point'. Only the noun takes 'on': 'emphasis on'. US spelling: emphasize."
+  },
+  {
+    "w": "remark",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ri-MAHK",
+    "mean": "say something briefly as a comment or opinion",
+    "hi": "टिप्पणी करना",
+    "ex": "It is rude to remark on someone's weight at a family wedding, however close the aunty is.",
+    "with": [
+      "remark on",
+      "remark that",
+      "a passing remark"
+    ],
+    "instead": "said something about",
+    "note": "Also a noun. A 'passing remark' is a quick, unplanned comment. Remark on/about something."
+  },
+  {
+    "w": "assure",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "uh-SHOOR",
+    "mean": "tell someone firmly that something is true, to remove their doubt",
+    "hi": "भरोसा दिलाना, यक़ीन दिलाना",
+    "ex": "I can assure you, sir, the parcel will reach Guwahati by Monday.",
+    "with": [
+      "I can assure you",
+      "assure someone that",
+      "rest assured"
+    ],
+    "instead": "promise",
+    "note": "You assure a PERSON; you ensure something happens; you insure against loss. Three different words."
+  },
+  {
+    "w": "hint",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "HINT",
+    "mean": "say something indirectly and let others guess what you mean",
+    "hi": "इशारा करना",
+    "ex": "Pooja tried to hint that she wanted a book, not jewellery, for her birthday this year.",
+    "with": [
+      "drop a hint",
+      "hint at",
+      "a broad hint"
+    ],
+    "instead": "say indirectly",
+    "note": "Also a noun. 'Drop a hint' is the common phrase; a 'broad hint' is a very obvious one."
+  },
+  {
+    "w": "urge",
+    "room": "talk",
+    "floor": 2,
+    "pos": "verb",
+    "say": "URJ",
+    "mean": "strongly advise or ask someone to do something",
+    "hi": "आग्रह करना, ज़ोर देकर कहना",
+    "ex": "Doctors urge everyone to drink boiled or filtered water during the monsoon.",
+    "with": [
+      "urge someone to",
+      "strongly urge",
+      "urge caution"
+    ],
+    "instead": "strongly tell",
+    "note": "Stronger than 'advise', politer than 'order'. As a noun it means a sudden strong wish: 'an urge to eat samosas'."
+  },
+  {
+    "w": "reassure",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "ree-uh-SHOOR",
+    "mean": "say something to make a worried person feel calmer",
+    "hi": "तसल्ली देना, दिलासा देना",
+    "ex": "The pilot came on the speaker to reassure passengers that the bumpy ride over the Western Ghats was normal.",
+    "with": [
+      "reassure someone",
+      "try to reassure",
+      "reassuring words"
+    ],
+    "instead": "calm down",
+    "note": "Assure = tell firmly that something is true; reassure = remove worry, often again and again. Reassure is about feelings."
+  },
+  {
+    "w": "retort",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "ri-TORT",
+    "mean": "reply quickly and sharply, often with anger or wit",
+    "hi": "पलटकर जवाब देना",
+    "ex": "When the anchor kept interrupting, the panellist was quick to retort, 'Please let me finish one sentence.'",
+    "with": [
+      "retort that",
+      "a sharp retort",
+      "a witty retort"
+    ],
+    "instead": "answered back",
+    "note": "A retort is a sharp comeback; a reply is any answer. It is also a noun: 'a sharp retort'."
+  },
+  {
+    "w": "mutter",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "MUT-ur",
+    "mean": "speak quietly and unclearly, usually because you are annoyed",
+    "hi": "बड़बड़ाना",
+    "ex": "Stuck at Silk Board junction, the auto driver began to mutter about the endless metro work.",
+    "with": [
+      "mutter under your breath",
+      "mutter about",
+      "mutter something"
+    ],
+    "instead": "said softly and grumpily",
+    "note": "Mutter usually carries a complaint; mumble is just unclear speech; whisper is quiet on purpose."
+  },
+  {
+    "w": "imply",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "im-PLEYE",
+    "mean": "suggest something without saying it directly",
+    "hi": "इशारे में कहना",
+    "ex": "Are you trying to imply that I ate the last laddoo?",
+    "with": [
+      "imply that",
+      "seem to imply",
+      "clearly imply"
+    ],
+    "instead": "indirectly say",
+    "note": "The speaker implies; the listener infers. 'Are you implying I'm late?' is right; 'Are you inferring...?' is a common mix-up."
+  },
+  {
+    "w": "elaborate",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "i-LAB-uh-rayt",
+    "mean": "give more details about something you have said",
+    "hi": "विस्तार से बताना",
+    "ex": "The interviewer asked Ritu to elaborate on her role in the hackathon project.",
+    "with": [
+      "elaborate on",
+      "care to elaborate",
+      "refuse to elaborate"
+    ],
+    "instead": "explain more",
+    "note": "The verb ends '-rayt'; the adjective ('an elaborate wedding') ends '-rut'. Say 'elaborate on', not 'elaborate about'."
+  },
+  {
+    "w": "acknowledge",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "uk-NOL-ij",
+    "mean": "admit that something is true, or publicly thank someone for their work",
+    "hi": "मानना, स्वीकार करना",
+    "ex": "At the farewell, the principal paused to acknowledge the support staff who had kept the school running.",
+    "with": [
+      "acknowledge the mistake",
+      "publicly acknowledge",
+      "acknowledge receipt"
+    ],
+    "instead": "admit",
+    "note": "'Please acknowledge receipt' is office English for 'tell me you got it'. The silent k: say uk-NOL-ij."
+  },
+  {
+    "w": "articulate",
+    "room": "talk",
+    "floor": 3,
+    "pos": "verb",
+    "say": "ahr-TIK-yoo-layt",
+    "mean": "express your thoughts or feelings clearly in words",
+    "hi": "साफ़ शब्दों में कहना",
+    "ex": "Many students know the answer but struggle to articulate it during a viva.",
+    "with": [
+      "clearly articulate",
+      "struggle to articulate",
+      "articulate a vision"
+    ],
+    "instead": "put into words",
+    "note": "As an adjective ('an articulate speaker') it ends '-lut' and means able to express ideas clearly."
+  },
+  {
+    "w": "allude",
+    "room": "talk",
+    "floor": 4,
+    "pos": "verb",
+    "say": "uh-LOOD",
+    "mean": "mention something indirectly, without naming it",
+    "hi": "इशारे से ज़िक्र करना",
+    "ex": "In his wedding speech, Vikram seemed to allude to the groom's many failed driving tests.",
+    "with": [
+      "allude to",
+      "briefly allude",
+      "seem to allude"
+    ],
+    "instead": "hint at",
+    "note": "Always 'allude to'. Don't confuse it with 'elude' (escape). Allude is an indirect mention; 'refer to' can be direct."
+  },
+  {
+    "w": "reiterate",
+    "room": "talk",
+    "floor": 4,
+    "pos": "verb",
+    "say": "ree-IT-uh-rayt",
+    "mean": "say something again to make it clear or stress it",
+    "hi": "दोहराना",
+    "ex": "The coach wanted to reiterate that nobody skips fielding practice before the Ranji match.",
+    "with": [
+      "reiterate the point",
+      "reiterate a demand",
+      "let me reiterate"
+    ],
+    "instead": "say again",
+    "note": "Don't write 'reiterate again': the 're' already means again. A favourite word of press statements."
+  },
+  {
+    "w": "digress",
+    "room": "talk",
+    "floor": 4,
+    "pos": "verb",
+    "say": "deye-GRES",
+    "mean": "move away from the main topic while speaking or writing",
+    "hi": "मुद्दे से भटकना",
+    "ex": "Our history professor would often digress into long stories about his village near Darbhanga.",
+    "with": [
+      "digress from",
+      "if I may digress",
+      "but I digress"
+    ],
+    "instead": "go off topic",
+    "note": "'But I digress' is a polite way to say 'back to the point'. Noun: digression."
+  },
+  {
+    "w": "concise",
+    "room": "talk",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "kun-SEYES",
+    "mean": "short and clear, with no extra words",
+    "hi": "संक्षिप्त",
+    "ex": "Keep the WhatsApp update concise: time, venue and what to bring for the picnic.",
+    "with": [
+      "clear and concise",
+      "a concise summary",
+      "a concise answer"
+    ],
+    "instead": "short and to the point",
+    "note": "Concise means short AND complete; brief means only short. Long answers do not earn more marks than concise ones."
+  },
+  {
+    "w": "eloquent",
+    "room": "talk",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "EL-uh-kwunt",
+    "mean": "speaking or writing in a beautiful, powerful and moving way",
+    "hi": "ज़बान का धनी",
+    "ex": "The retired judge gave an eloquent farewell speech that left the whole courtroom in tears.",
+    "with": [
+      "an eloquent speech",
+      "an eloquent speaker",
+      "an eloquent silence"
+    ],
+    "instead": "spoke really well",
+    "note": "Eloquent moves people; articulate is simply clear. An 'eloquent silence' says a lot without words."
+  },
+  {
+    "w": "laconic",
+    "room": "talk",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "luh-KON-ik",
+    "mean": "using very few words, sometimes in a dry or cool way",
+    "hi": "कम बोलने वाला",
+    "ex": "Asked how the Himalayan trek went, my laconic cousin from Shimla just said, 'Cold. Good.'",
+    "with": [
+      "a laconic reply",
+      "laconic humour",
+      "a laconic style"
+    ],
+    "instead": "said very little",
+    "note": "Laconic usually describes a person or way of speaking; concise describes a piece of writing. Named after the famously brief Spartans of Laconia."
+  },
+  {
+    "w": "euphemism",
+    "room": "talk",
+    "floor": 5,
+    "pos": "noun",
+    "say": "YOO-fuh-miz-um",
+    "mean": "a soft or polite word used instead of a harsh or awkward one",
+    "hi": "नरम शब्द",
+    "ex": "At the Bengaluru startup, 'restructuring' turned out to be a euphemism for firing forty people.",
+    "with": [
+      "a euphemism for",
+      "a polite euphemism",
+      "a corporate euphemism"
+    ],
+    "instead": "soft word",
+    "note": "'Passed away' for died, 'let go' for fired. Not a lie, but it can hide a hard truth; good writers notice them."
+  }
+]

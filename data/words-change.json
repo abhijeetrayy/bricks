@@ -1,0 +1,444 @@
+[
+  {
+    "w": "gradual",
+    "room": "change",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "GRAJ-oo-ul",
+    "mean": "happening slowly, a little at a time",
+    "hi": "धीरे-धीरे होने वाला",
+    "ex": "After his knee surgery, Rohit's recovery was gradual: first a walk to the gate, then to the chai stall.",
+    "with": [
+      "gradual change",
+      "gradual improvement",
+      "a gradual decline"
+    ],
+    "instead": "slow, step by step",
+    "note": "Opposite of sudden. The adverb 'gradually' is very useful: 'Prices gradually came down.'"
+  },
+  {
+    "w": "sudden",
+    "room": "change",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "SUD-un",
+    "mean": "happening quickly when nobody expects it",
+    "hi": "अचानक",
+    "ex": "A sudden downpour sent the whole Dadar vegetable market running for plastic sheets.",
+    "with": [
+      "a sudden change",
+      "sudden death",
+      "all of a sudden"
+    ],
+    "instead": "quick and unexpected",
+    "note": "The fixed phrase is 'all of a sudden', not 'all of sudden'. Sudden means unexpected; for speed alone, use 'quick' or 'rapid'."
+  },
+  {
+    "w": "improve",
+    "room": "change",
+    "floor": 1,
+    "pos": "verb",
+    "say": "im-PROOV",
+    "mean": "to get better, or to make something better",
+    "hi": "सुधारना, बेहतर होना",
+    "ex": "Meera wants to improve her spoken English before the campus interviews in Pune.",
+    "with": [
+      "improve your skills",
+      "greatly improve",
+      "improve on last year"
+    ],
+    "instead": "make better",
+    "note": "No 'on' for things: 'improve your marks'. 'Improve on' means beat an earlier result: 'improve on last year's score'."
+  },
+  {
+    "w": "decrease",
+    "room": "change",
+    "floor": 1,
+    "pos": "verb",
+    "say": "dee-KREES",
+    "mean": "to become smaller in number or amount, or to make it so",
+    "hi": "घटना, कम होना",
+    "ex": "Doctors expect the number of dengue cases to decrease once the monsoon ends.",
+    "with": [
+      "decrease sharply",
+      "a decrease in",
+      "decrease by half"
+    ],
+    "instead": "go down",
+    "note": "Stress moves: the verb is dee-KREES, the noun is DEE-krees, just like increase. 'A decrease in sales'; 'a decrease of 10%'."
+  },
+  {
+    "w": "temporary",
+    "room": "change",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "TEM-puh-ruh-ree",
+    "mean": "lasting only for a short time, not for ever",
+    "hi": "अस्थायी, कुछ समय का",
+    "ex": "Metro work means a temporary diversion near Silk Board for the next two months.",
+    "with": [
+      "temporary job",
+      "temporary relief",
+      "a temporary measure"
+    ],
+    "instead": "for a short time",
+    "note": "Opposite of permanent. Stress the first syllable: TEM-puh-ruh-ree, not tem-po-RA-ry."
+  },
+  {
+    "w": "decline",
+    "room": "change",
+    "floor": 2,
+    "pos": "verb",
+    "say": "dih-KLINE",
+    "mean": "to become less or worse; also, to politely say no",
+    "hi": "गिरावट आना; मना करना",
+    "ex": "Footfall at Kolkata's old single-screen cinemas began to decline once the multiplexes arrived.",
+    "with": [
+      "a sharp decline",
+      "decline steadily",
+      "politely decline"
+    ],
+    "instead": "go down",
+    "note": "Also means politely refuse: 'She declined the invitation' is softer than 'refused'. As a noun: 'a decline in sales'."
+  },
+  {
+    "w": "evolve",
+    "room": "change",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ih-VOLV",
+    "mean": "to change slowly over a long time, usually into something more developed",
+    "hi": "धीरे-धीरे विकसित होना",
+    "ex": "Film music continues to evolve, mixing Punjabi folk, Carnatic violin and electronic beats.",
+    "with": [
+      "evolve over time",
+      "constantly evolve",
+      "evolve into"
+    ],
+    "instead": "slowly change",
+    "note": "Evolve is slow and natural; for quick or forced change, use 'transform' or 'shift'. Not only animals: ideas, cities and languages evolve."
+  },
+  {
+    "w": "stable",
+    "room": "change",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "STAY-bul",
+    "mean": "firm and steady; not likely to change or fall",
+    "hi": "स्थिर",
+    "ex": "After two days in the ICU, the doctor told the family that Nani's condition was finally stable.",
+    "with": [
+      "stable condition",
+      "a stable job",
+      "financially stable"
+    ],
+    "instead": "not changing",
+    "note": "Indian parents' 'stable job' means a secure one. Noun: stability. A horse's 'stable' is a different word with the same spelling."
+  },
+  {
+    "w": "rapid",
+    "room": "change",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "RAP-id",
+    "mean": "very fast; happening in a short time",
+    "hi": "तेज़, तेज़ी से होने वाला",
+    "ex": "The rapid spread of UPI means even the sugarcane-juice seller near Charminar now takes payment by QR code.",
+    "with": [
+      "rapid growth",
+      "rapid progress",
+      "a rapid response"
+    ],
+    "instead": "very fast",
+    "note": "More formal than 'fast'. Use it for change, growth or progress; for a person, say 'a fast runner', not 'a rapid runner'."
+  },
+  {
+    "w": "permanent",
+    "room": "change",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "PUR-muh-nunt",
+    "mean": "lasting for ever or for a very long time",
+    "hi": "स्थायी, पक्का",
+    "ex": "After three years on contract, Shalini finally got a permanent post at the district hospital.",
+    "with": [
+      "permanent job",
+      "permanent address",
+      "permanent damage"
+    ],
+    "instead": "lasting forever",
+    "note": "Indian forms ask for a 'permanent address' (your home town) and a 'present address'. Opposite: temporary."
+  },
+  {
+    "w": "outdated",
+    "room": "change",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "owt-DAY-tid",
+    "mean": "old-fashioned; not as good or useful as newer things",
+    "hi": "पुराना पड़ चुका",
+    "ex": "The bank's outdated software crashed again, and the queue in Lucknow stretched out of the door.",
+    "with": [
+      "outdated rules",
+      "outdated technology",
+      "hopelessly outdated"
+    ],
+    "instead": "too old, not modern",
+    "note": "Outdated things are still used but behind the times; obsolete things have mostly stopped being used. An old syllabus is outdated; a typewriter is obsolete."
+  },
+  {
+    "w": "revive",
+    "room": "change",
+    "floor": 2,
+    "pos": "verb",
+    "say": "rih-VIVE",
+    "mean": "to bring back to life, use or strength",
+    "hi": "फिर से जान डालना",
+    "ex": "Weavers in Chanderi hope that online orders will revive their struggling handloom trade.",
+    "with": [
+      "revive the economy",
+      "revive interest",
+      "revive an old tradition"
+    ],
+    "instead": "bring back to life",
+    "note": "Used for people (revive a patient), traditions, economies and old songs. Noun: revival."
+  },
+  {
+    "w": "deteriorate",
+    "room": "change",
+    "floor": 3,
+    "pos": "verb",
+    "say": "dih-TEER-ee-uh-rayt",
+    "mean": "to slowly become worse",
+    "hi": "बिगड़ना, ख़राब होते जाना",
+    "ex": "Delhi's air quality began to deteriorate after Diwali, and schools shifted to online classes.",
+    "with": [
+      "rapidly deteriorate",
+      "deteriorating health",
+      "a deteriorating situation"
+    ],
+    "instead": "get worse",
+    "note": "Say all five syllables: dih-TEER-ee-uh-rayt, not 'de-te-rate'. Usually things deteriorate on their own; we rarely say someone deteriorates something."
+  },
+  {
+    "w": "stagnate",
+    "room": "change",
+    "floor": 3,
+    "pos": "verb",
+    "say": "stag-NAYT",
+    "mean": "to stop growing, moving or improving",
+    "hi": "ठहर जाना, रुक जाना",
+    "ex": "Without new skills, Farhan feared his career would stagnate in the same back-office job for years.",
+    "with": [
+      "wages stagnate",
+      "stagnate for years",
+      "a stagnant economy"
+    ],
+    "instead": "stay stuck",
+    "note": "Comes from still, dirty water: a stagnant pond breeds mosquitoes. So it suggests going stale, not just taking a pause."
+  },
+  {
+    "w": "surge",
+    "room": "change",
+    "floor": 2,
+    "pos": "noun",
+    "say": "SURJ",
+    "mean": "a sudden, strong rise in amount or number",
+    "hi": "अचानक उछाल",
+    "ex": "There is always a surge in train bookings to Patna in the weeks before Chhath Puja.",
+    "with": [
+      "a sudden surge",
+      "a surge in demand",
+      "surge pricing"
+    ],
+    "instead": "sudden big rise",
+    "note": "Also a verb: 'The crowd surged forward.' Cab apps use 'surge pricing': fares jump when demand jumps."
+  },
+  {
+    "w": "inevitable",
+    "room": "change",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "in-EV-ih-tuh-bul",
+    "mean": "certain to happen; cannot be stopped or avoided",
+    "hi": "जो होकर रहेगा, अटल",
+    "ex": "With forty runs needed off two overs and one wicket left, defeat felt inevitable to the Ranchi crowd.",
+    "with": [
+      "almost inevitable",
+      "the inevitable question",
+      "seem inevitable"
+    ],
+    "instead": "bound to happen",
+    "note": "Stress the second syllable: in-EV-ih-tuh-bul. 'Accept the inevitable' means stop fighting what must happen."
+  },
+  {
+    "w": "transient",
+    "room": "change",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "TRAN-zee-unt",
+    "mean": "lasting only a short time; passing quickly",
+    "hi": "क्षणिक, थोड़े समय का",
+    "ex": "The doctor said Kavya's dizziness was transient and would pass once she drank some ORS.",
+    "with": [
+      "a transient phase",
+      "transient pain",
+      "a transient population"
+    ],
+    "instead": "short-lived",
+    "note": "More formal than 'temporary'. A 'transient population' means people who keep moving in and out, like migrant workers or hostel students."
+  },
+  {
+    "w": "obsolete",
+    "room": "change",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "OB-suh-leet",
+    "mean": "no longer used because something newer has replaced it",
+    "hi": "चलन से बाहर",
+    "ex": "Pagers became obsolete in India almost as soon as cheap mobile phones arrived.",
+    "with": [
+      "become obsolete",
+      "render obsolete",
+      "obsolete technology"
+    ],
+    "instead": "no longer used",
+    "note": "Stronger than outdated. 'Render something obsolete' means make it useless: 'Online forms rendered the queue obsolete.'"
+  },
+  {
+    "w": "unprecedented",
+    "room": "change",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "un-PRES-ih-den-tid",
+    "mean": "never happened or seen before",
+    "hi": "अभूतपूर्व, पहले कभी नहीं हुआ",
+    "ex": "Chennai received unprecedented rainfall that December, and whole neighbourhoods went under water.",
+    "with": [
+      "unprecedented scale",
+      "unprecedented levels",
+      "an unprecedented move"
+    ],
+    "instead": "never seen before",
+    "note": "News channels overuse it to mean just 'big'. Use it only when something truly has no earlier example."
+  },
+  {
+    "w": "perennial",
+    "room": "change",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "puh-REN-ee-ul",
+    "mean": "lasting a very long time, or coming back again and again",
+    "hi": "सदाबहार, बार-बार लौटने वाला",
+    "ex": "Waterlogging in Gurugram every monsoon has become a perennial problem.",
+    "with": [
+      "a perennial problem",
+      "a perennial favourite",
+      "perennial river"
+    ],
+    "instead": "always there",
+    "note": "From geography class: a perennial river like the Ganga flows all year, while a seasonal one dries up."
+  },
+  {
+    "w": "momentum",
+    "room": "change",
+    "floor": 3,
+    "pos": "noun",
+    "say": "muh-MEN-tum",
+    "mean": "the force or speed that keeps something moving or growing",
+    "hi": "रफ़्तार, ज़ोर",
+    "ex": "After two quick boundaries, the momentum shifted and the crowd at Eden Gardens sensed a comeback.",
+    "with": [
+      "gain momentum",
+      "lose momentum",
+      "build momentum"
+    ],
+    "instead": "speed and energy",
+    "note": "It is about keeping going once you have started. In physics, it is mass times velocity."
+  },
+  {
+    "w": "irreversible",
+    "room": "change",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "ir-ih-VUR-suh-bul",
+    "mean": "cannot be changed back to how it was",
+    "hi": "जिसे पलटा न जा सके",
+    "ex": "Years of untreated diabetes had caused irreversible damage to Mr Iyer's eyes.",
+    "with": [
+      "irreversible damage",
+      "an irreversible decision",
+      "irreversible change"
+    ],
+    "instead": "cannot be undone",
+    "note": "Not 'unreversible'. Opposite: reversible."
+  },
+  {
+    "w": "flux",
+    "room": "change",
+    "floor": 4,
+    "pos": "noun",
+    "say": "FLUKS",
+    "mean": "a state of constant change, where nothing is settled",
+    "hi": "लगातार बदलाव, उथल-पुथल",
+    "ex": "With the founders leaving and new investors arriving, the startup was in flux for months.",
+    "with": [
+      "in a state of flux",
+      "constant flux",
+      "in flux"
+    ],
+    "instead": "always changing",
+    "note": "Almost always used as 'in flux' or 'in a state of flux'. In everyday speech, 'up in the air' is close."
+  },
+  {
+    "w": "erode",
+    "room": "change",
+    "floor": 4,
+    "pos": "verb",
+    "say": "ih-ROHD",
+    "mean": "to wear away slowly, little by little",
+    "hi": "धीरे-धीरे घिसना, खोखला करना",
+    "ex": "Repeated paper leaks erode students' trust in the exam system.",
+    "with": [
+      "erode trust",
+      "erode savings",
+      "slowly erode"
+    ],
+    "instead": "slowly weaken",
+    "note": "Literally, rivers wear away land, as the Brahmaputra does to Majuli island. Figuratively, inflation erodes savings. Noun: erosion."
+  },
+  {
+    "w": "ephemeral",
+    "room": "change",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "ih-FEM-uh-rul",
+    "mean": "lasting a very short time",
+    "hi": "क्षणभंगुर, पल भर का",
+    "ex": "Rangoli is ephemeral art: hours of careful work, swept away by the next morning.",
+    "with": [
+      "ephemeral beauty",
+      "ephemeral fame",
+      "ephemeral nature"
+    ],
+    "instead": "short-lived",
+    "note": "Literary. Use it for striking things that vanish (fame, trends, blossoms). For a short job or fix, plain 'temporary' is better."
+  },
+  {
+    "w": "inertia",
+    "room": "change",
+    "floor": 4,
+    "pos": "noun",
+    "say": "ih-NUR-shuh",
+    "mean": "not wanting to change or act; staying the same out of habit",
+    "hi": "जड़ता, सुस्ती",
+    "ex": "Most people keep the same bank account for decades out of sheer inertia, not loyalty.",
+    "with": [
+      "sheer inertia",
+      "overcome inertia",
+      "bureaucratic inertia"
+    ],
+    "instead": "too lazy to change",
+    "note": "From physics: things stay still or keep moving unless pushed. In life, it means sticking with what is because change takes effort."
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "w": "nervous",
+    "room": "feel",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "NUR-vus",
+    "mean": "worried and a little scared about something that is about to happen",
+    "hi": "घबराया हुआ",
+    "ex": "Kavya was so nervous before her first board exam that she checked her admit card five times.",
+    "with": [
+      "feel nervous",
+      "nervous about the interview",
+      "a nervous smile"
+    ],
+    "instead": "a bit scared",
+    "note": "Nervous is about something coming soon and usually passes; anxious is deeper worry that can last much longer."
+  },
+  {
+    "w": "relieved",
+    "room": "feel",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "ri-LEEVD",
+    "mean": "happy because a worry or problem has gone away",
+    "hi": "राहत में",
+    "ex": "Mrs Fernandes was relieved when the doctor said her son only had a mild viral fever.",
+    "with": [
+      "relieved to hear",
+      "deeply relieved",
+      "a relieved sigh"
+    ],
+    "instead": "happy that it's over",
+    "note": "Say 'relieved to hear/know' + the news. The noun is 'relief', as in 'What a relief!'"
+  },
+  {
+    "w": "lonely",
+    "room": "feel",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "LOHN-lee",
+    "mean": "sad because you are alone or have no one close to you",
+    "hi": "अकेला, तन्हा",
+    "ex": "In his first month at the Pune hostel, Arjun felt lonely until he joined the college quiz club.",
+    "with": [
+      "feel lonely",
+      "lonely in a big city",
+      "a lonely evening"
+    ],
+    "instead": "sad and alone",
+    "note": "Alone is a fact (no one is with you); lonely is a feeling. You can be alone and happy, or lonely in a crowd."
+  },
+  {
+    "w": "grateful",
+    "room": "feel",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "GRAYT-ful",
+    "mean": "feeling thankful for something someone did for you",
+    "hi": "शुक्रगुज़ार, आभारी",
+    "ex": "Ramesh, a farmer in Vidarbha, was grateful to the neighbours who lent him their tractor during sowing.",
+    "with": [
+      "deeply grateful",
+      "grateful for your help",
+      "grateful to someone"
+    ],
+    "instead": "very thankful",
+    "note": "Grateful TO a person, FOR a thing. Spelling trap: it is 'grate-ful', not 'great-ful'."
+  },
+  {
+    "w": "embarrassed",
+    "room": "feel",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "im-BA-rust",
+    "mean": "feeling silly and awkward because others saw a small mistake",
+    "hi": "झेंपा हुआ",
+    "ex": "Siddharth was embarrassed when he slipped on the wet platform in front of a packed Mumbai local.",
+    "with": [
+      "feel embarrassed",
+      "embarrassed about the mistake",
+      "an embarrassed laugh"
+    ],
+    "instead": "a little awkward",
+    "note": "Embarrassed = awkward about a harmless, public slip; ashamed = guilty about something truly wrong. Spell it with double r and double s."
+  },
+  {
+    "w": "anxious",
+    "room": "feel",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "ANGK-shus",
+    "mean": "worried and uneasy, often for a long time, about what might happen",
+    "hi": "बेचैन, फ़िक्रमंद",
+    "ex": "Priya's parents grew anxious when her flight from Chennai was delayed and her phone stayed switched off.",
+    "with": [
+      "anxious about",
+      "an anxious wait",
+      "feel anxious"
+    ],
+    "instead": "very worried",
+    "note": "'Anxious to do something' can also mean eager: 'She is anxious to start her new job.' Say ANGK-shus, not 'ang-zee-us'."
+  },
+  {
+    "w": "frustrated",
+    "room": "feel",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "frus-TRAY-tid",
+    "mean": "upset because you keep trying but cannot do or change something",
+    "hi": "खीझा हुआ, झुँझलाया",
+    "ex": "Imran grew frustrated when the passport website crashed for the fifth time before he could pay.",
+    "with": [
+      "frustrated with",
+      "feel frustrated",
+      "deeply frustrated"
+    ],
+    "instead": "fed up",
+    "note": "Frustrated is about blocked effort; exasperated is patience worn out by someone or something that keeps going wrong."
+  },
+  {
+    "w": "envious",
+    "room": "feel",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "EN-vee-us",
+    "mean": "wanting something good that another person has",
+    "hi": "रश्क करता हुआ",
+    "ex": "Tanvi was a little envious of her cousin's job in Bengaluru, though she was genuinely happy for her.",
+    "with": [
+      "envious of",
+      "slightly envious",
+      "envious glances"
+    ],
+    "instead": "wanting what they have",
+    "note": "Envious: you want what someone else has. Jealous: you fear losing what is yours. Indians often say 'jealous' for both; careful speakers don't."
+  },
+  {
+    "w": "jealous",
+    "room": "feel",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "JEL-us",
+    "mean": "afraid someone will take away a person or thing you love",
+    "hi": "जलन से भरा",
+    "ex": "Little Aarav got jealous when his grandmother spent the whole Diwali evening playing with the new baby.",
+    "with": [
+      "jealous of",
+      "get jealous",
+      "fiercely jealous"
+    ],
+    "instead": "upset someone else gets the attention",
+    "note": "Strictly, jealous = guarding what is yours (love, attention); envious = wanting what is theirs. In casual talk, jealous is used for both."
+  },
+  {
+    "w": "overwhelmed",
+    "room": "feel",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "oh-vur-WELMD",
+    "mean": "feeling there is too much at once: work, emotion or news",
+    "hi": "बोझ तले दबा",
+    "ex": "With three deadlines and her sister's wedding in the same week, Meenal felt completely overwhelmed.",
+    "with": [
+      "feel overwhelmed",
+      "overwhelmed by work",
+      "overwhelmed with joy"
+    ],
+    "instead": "too much to handle",
+    "note": "It can be good too: 'overwhelmed by everyone's love' at a farewell. Say 'overwhelmed by/with', not 'overwhelmed from'."
+  },
+  {
+    "w": "nostalgic",
+    "room": "feel",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "nos-TAL-jik",
+    "mean": "fondly missing a happy time from your past",
+    "hi": "पुरानी यादों में खोया",
+    "ex": "The smell of first rain on the school ground made Joseph nostalgic for his childhood in Kottayam.",
+    "with": [
+      "feel nostalgic",
+      "nostalgic for",
+      "nostalgic about the old days"
+    ],
+    "instead": "missing the old days",
+    "note": "Nostalgic looks back at the past with sweet sadness; wistful longs for something you cannot have, past or not."
+  },
+  {
+    "w": "ashamed",
+    "room": "feel",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "uh-SHAYMD",
+    "mean": "feeling bad about yourself because you did something wrong",
+    "hi": "शर्मिंदा",
+    "ex": "Rohit felt ashamed that he had shouted at the old chaiwala over two rupees of change.",
+    "with": [
+      "ashamed of",
+      "deeply ashamed",
+      "nothing to be ashamed of"
+    ],
+    "instead": "feel bad about what i did",
+    "note": "Ashamed = guilt about doing wrong; embarrassed = awkward about a harmless slip. You are embarrassed by a torn kurta, ashamed of a lie."
+  },
+  {
+    "w": "apprehensive",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "ap-ri-HEN-siv",
+    "mean": "a little worried that something bad or difficult may happen",
+    "hi": "आशंकित, मन में खटका",
+    "ex": "Gurpreet was apprehensive about moving to Chennai, since she did not speak a word of Tamil.",
+    "with": [
+      "apprehensive about",
+      "slightly apprehensive",
+      "an apprehensive look"
+    ],
+    "instead": "a bit worried",
+    "note": "Calmer and more formal than 'scared', and always about the future. Don't mix it up with 'comprehensive'."
+  },
+  {
+    "w": "resentful",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "ri-ZENT-ful",
+    "mean": "angry for a long time because you feel you were treated unfairly",
+    "hi": "मन में नाराज़गी पाले",
+    "ex": "Suresh remained resentful for years that his younger brother was given the family shop in Indore.",
+    "with": [
+      "resentful of",
+      "feel resentful",
+      "a resentful silence"
+    ],
+    "instead": "still angry about it",
+    "note": "Resentment is old, quiet anger that keeps coming back, not a quick flash of temper. Naming it is the first step to letting it go."
+  },
+  {
+    "w": "content",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "kun-TENT",
+    "mean": "quietly happy and satisfied with what you have",
+    "hi": "संतुष्ट, सुकून में",
+    "ex": "Lakshmi Amma is content with her small garden, her old radio and her evening filter coffee.",
+    "with": [
+      "content with",
+      "perfectly content",
+      "content to wait"
+    ],
+    "instead": "happy enough",
+    "note": "As this adjective, stress the second part: kun-TENT. The noun 'content' (YouTube content, table of contents) is KON-tent."
+  },
+  {
+    "w": "ambivalent",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "am-BIV-uh-lunt",
+    "mean": "having mixed feelings, partly for something and partly against it",
+    "hi": "दुविधा में",
+    "ex": "Fatima felt ambivalent about the transfer to Dubai: more money, but far from her ageing parents.",
+    "with": [
+      "ambivalent about",
+      "deeply ambivalent",
+      "an ambivalent attitude"
+    ],
+    "instead": "mixed feelings",
+    "note": "Ambivalent is not 'indifferent'. Ambivalent means you care in two directions at once; indifferent means you don't care."
+  },
+  {
+    "w": "elated",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "i-LAY-tid",
+    "mean": "extremely happy and excited because of good news",
+    "hi": "फूला न समाया",
+    "ex": "The whole village was elated when Kiran from the panchayat school cleared the IIT entrance exam.",
+    "with": [
+      "elated by the news",
+      "feel elated",
+      "elated fans"
+    ],
+    "instead": "very very happy",
+    "note": "Elated is the high you feel right after good news. More formal than 'over the moon'."
+  },
+  {
+    "w": "indignant",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "in-DIG-nunt",
+    "mean": "angry because something is unfair or wrong",
+    "hi": "नाइंसाफ़ी पर नाराज़",
+    "ex": "Passengers were indignant when the airline cancelled the flight and then refused to give refunds.",
+    "with": [
+      "indignant at",
+      "indignant about",
+      "an indignant letter"
+    ],
+    "instead": "angry at the unfairness",
+    "note": "Indignant anger is about injustice, often done to others. 'Righteous indignation' is a common phrase."
+  },
+  {
+    "w": "exasperated",
+    "room": "feel",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "ig-ZAS-puh-ray-tid",
+    "mean": "very annoyed because something keeps going wrong or someone won't listen",
+    "hi": "तंग आया हुआ",
+    "ex": "Exasperated after calling them ten times, Mrs Banerjee switched off the Wi-Fi to get the kids to dinner.",
+    "with": [
+      "exasperated by",
+      "an exasperated sigh",
+      "increasingly exasperated"
+    ],
+    "instead": "totally fed up",
+    "note": "Exasperated = patience used up by repeated trouble; frustrated = blocked from reaching a goal."
+  },
+  {
+    "w": "wistful",
+    "room": "feel",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "WIST-ful",
+    "mean": "gently sad while longing for something you cannot have",
+    "hi": "हसरत भरा",
+    "ex": "Dadi gave a wistful smile as she turned the pages of old photos of her childhood home in Lahore.",
+    "with": [
+      "a wistful smile",
+      "a wistful look",
+      "feel wistful"
+    ],
+    "instead": "a little sad and longing",
+    "note": "Wistful is soft and quiet, not deep grief. It often describes a smile, a look or a tone of voice."
+  },
+  {
+    "w": "melancholy",
+    "room": "feel",
+    "floor": 4,
+    "pos": "noun",
+    "say": "MEL-un-kuh-lee",
+    "mean": "a deep, quiet sadness that stays for a while",
+    "hi": "गहरी उदासी",
+    "ex": "There is a gentle melancholy in the old Hindi film songs that Anwar plays on rainy evenings.",
+    "with": [
+      "a touch of melancholy",
+      "a melancholy mood",
+      "deep melancholy"
+    ],
+    "instead": "sad mood",
+    "note": "Also an adjective ('a melancholy tune'). A literary word for a mood, music or place, not a medical term. Stress the first syllable."
+  },
+  {
+    "w": "vindicated",
+    "room": "feel",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "VIN-di-kay-tid",
+    "mean": "proved right after others doubted or blamed you",
+    "hi": "सही साबित हुआ",
+    "ex": "When his food startup finally made a profit, Harsh felt vindicated; his relatives had called it a waste of money.",
+    "with": [
+      "feel vindicated",
+      "fully vindicated",
+      "vindicated by the results"
+    ],
+    "instead": "proved right",
+    "note": "Use it only when you were doubted or blamed first. The verb is 'vindicate': 'The report vindicated the nurses.'"
+  },
+  {
+    "w": "disillusioned",
+    "room": "feel",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "dis-i-LOO-zhund",
+    "mean": "disappointed after learning something is not as good as you believed",
+    "hi": "मोहभंग हुआ",
+    "ex": "After two years of unpaid assistant jobs, Ankit grew disillusioned with the film industry.",
+    "with": [
+      "disillusioned with",
+      "become disillusioned",
+      "disillusioned voters"
+    ],
+    "instead": "lost faith",
+    "note": "It means your illusions were broken, not that you have them. Say 'disillusioned with', not 'disillusioned from'."
+  },
+  {
+    "w": "euphoric",
+    "room": "feel",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "yoo-FO-rik",
+    "mean": "extremely happy and excited, often together with a crowd",
+    "hi": "ख़ुशी से झूमता",
+    "ex": "Euphoric fans danced on Marine Drive late into the night after India won the World Cup.",
+    "with": [
+      "euphoric crowd",
+      "feel euphoric",
+      "a euphoric mood"
+    ],
+    "instead": "wildly happy",
+    "note": "Stronger than elated, and usually short-lived. The noun is 'euphoria': 'the euphoria after the result'."
+  },
+  {
+    "w": "schadenfreude",
+    "room": "feel",
+    "floor": 5,
+    "pos": "noun",
+    "say": "SHAH-dun-froy-duh",
+    "mean": "a secret pleasure at someone else's trouble or failure",
+    "hi": "दूसरे के दुख पर ख़ुशी",
+    "ex": "When the rude neighbour's shiny car splashed into a pothole, Rahul felt a small flash of schadenfreude.",
+    "with": [
+      "a touch of schadenfreude",
+      "pure schadenfreude",
+      "feel schadenfreude"
+    ],
+    "instead": "secret joy at their bad luck",
+    "note": "A German word (harm + joy) with no neat English or Hindi equal. People usually admit to it with a little guilt."
+  },
+  {
+    "w": "forlorn",
+    "room": "feel",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "fur-LORN",
+    "mean": "sad, alone and without hope; looking left behind",
+    "hi": "बेसहारा और उदास",
+    "ex": "A forlorn puppy sat outside the closed chai stall in the rain until Sana carried it home.",
+    "with": [
+      "a forlorn look",
+      "a forlorn hope",
+      "look forlorn"
+    ],
+    "instead": "sad and abandoned",
+    "note": "Often describes how someone or something looks. 'A forlorn hope' is a plan that is very unlikely to work."
+  }
+]

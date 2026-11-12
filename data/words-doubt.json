@@ -1,0 +1,427 @@
+[
+  {
+    "w": "certain",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "SUR-tun",
+    "mean": "completely sure, with no doubt",
+    "hi": "पक्का",
+    "ex": "Rekha was certain she had locked the door, but she still walked back from the bus stop to check.",
+    "with": [
+      "absolutely certain",
+      "almost certain",
+      "certain that"
+    ],
+    "instead": "100 percent sure",
+    "note": "'A certain person' means a particular person you don't name. 'For certain' = definitely: 'Nobody knows for certain.'"
+  },
+  {
+    "w": "likely",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "LYKE-lee",
+    "mean": "probably going to happen or be true",
+    "hi": "संभावित",
+    "ex": "With dark clouds piling up over Marine Drive, heavy rain is likely by evening.",
+    "with": [
+      "highly likely",
+      "most likely",
+      "likely to"
+    ],
+    "instead": "will probably happen",
+    "note": "Use it with 'to': 'Prices are likely to rise.' 'Unlikely' is a polite way to say 'probably not'."
+  },
+  {
+    "w": "obvious",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "OB-vee-us",
+    "mean": "easy to see or understand",
+    "hi": "साफ़ ज़ाहिर",
+    "ex": "It was obvious from his muddy shoes that Kabir had played football in the rain instead of going to tuition.",
+    "with": [
+      "obvious reason",
+      "painfully obvious",
+      "state the obvious"
+    ],
+    "instead": "clear to everyone",
+    "note": "'Obviously' can sound rude ('Obviously, you didn't read it'). Use it carefully with people who may not know."
+  },
+  {
+    "w": "unclear",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "un-KLEER",
+    "mean": "not easy to understand, or not yet known",
+    "hi": "साफ़ नहीं",
+    "ex": "It is still unclear whether the Ganesh procession will take its usual route through the market this year.",
+    "with": [
+      "remain unclear",
+      "it is unclear whether",
+      "unclear instructions"
+    ],
+    "instead": "nobody knows yet",
+    "note": "'It is unclear whether...' is the careful news way of saying the facts aren't in yet."
+  },
+  {
+    "w": "confirm",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "verb",
+    "say": "kun-FURM",
+    "mean": "to say or show that something is definitely true or fixed",
+    "hi": "पक्का करना",
+    "ex": "Please confirm your seat by tonight, or the travel agent will give the Goa ticket to someone else.",
+    "with": [
+      "confirm a booking",
+      "confirm the news",
+      "officially confirm"
+    ],
+    "instead": "make sure",
+    "note": "'Kindly confirm once' is Indian English; in standard English just write 'Please confirm.'"
+  },
+  {
+    "w": "apparently",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "adverb",
+    "say": "uh-PAR-unt-lee",
+    "mean": "according to what you have heard, or what seems to be true",
+    "hi": "सुना है",
+    "ex": "Apparently the new biryani place near Charminar has a two-hour wait on Friday nights.",
+    "with": [
+      "apparently not",
+      "apparently so",
+      "was apparently"
+    ],
+    "instead": "people are saying",
+    "note": "It signals you haven't checked it yourself. Spelling: double 'p', and '-ent' not '-ant'."
+  },
+  {
+    "w": "ambiguous",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "am-BIG-yoo-us",
+    "mean": "having more than one possible meaning",
+    "hi": "दोहरे मतलब वाला",
+    "ex": "The sign 'No parking after 10' was ambiguous: nobody in the Chandigarh market knew if it meant morning or night.",
+    "with": [
+      "deliberately ambiguous",
+      "ambiguous answer",
+      "highly ambiguous"
+    ],
+    "instead": "could mean two things",
+    "note": "Ambiguous = more than one meaning; ambivalent = mixed feelings. Words are ambiguous; people feel ambivalent."
+  },
+  {
+    "w": "estimate",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ES-ti-mayt",
+    "mean": "to make a careful guess about a number or amount",
+    "hi": "अंदाज़ा लगाना",
+    "ex": "The contractor could only estimate the cost of fixing the leaking roof after the first heavy rain in Kochi.",
+    "with": [
+      "rough estimate",
+      "estimate the cost",
+      "conservative estimate"
+    ],
+    "instead": "roughly guess",
+    "note": "The verb is ES-ti-mayt; the noun is ES-ti-mut. To 'underestimate' someone is to think they are weaker than they are."
+  },
+  {
+    "w": "speculate",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "verb",
+    "say": "SPEK-yoo-layt",
+    "mean": "to guess about something without having enough facts",
+    "hi": "अटकलें लगाना",
+    "ex": "Fans began to speculate about the captain's retirement when he skipped the post-match press conference.",
+    "with": [
+      "speculate about",
+      "widely speculate",
+      "too early to speculate"
+    ],
+    "instead": "guess",
+    "note": "News often says 'speculation is rife' (everyone is guessing). In money matters, to speculate is to make risky bets for profit."
+  },
+  {
+    "w": "presumably",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "adverb",
+    "say": "pri-ZYOO-muh-blee",
+    "mean": "used to say you think something is probably true",
+    "hi": "शायद",
+    "ex": "The lights at the Kapoors' flat are off, so presumably they have left for the wedding in Jaipur.",
+    "with": [
+      "presumably because",
+      "presumably not",
+      "is presumably"
+    ],
+    "instead": "i guess",
+    "note": "You are guessing sensibly from evidence. Related words: presume, presumption."
+  },
+  {
+    "w": "tentative",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "TEN-tuh-tiv",
+    "mean": "not yet fixed or final; also done without full confidence",
+    "hi": "कच्चा, तय नहीं",
+    "ex": "The tentative date for Aditi's engagement is 14 February, but the pandit still has to check the muhurat.",
+    "with": [
+      "tentative plan",
+      "tentative date",
+      "tentative steps"
+    ],
+    "instead": "not final",
+    "note": "It can describe behaviour too: 'a tentative smile' is a shy, unsure one. Spelling: ten-ta-tive."
+  },
+  {
+    "w": "verify",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "verb",
+    "say": "VER-i-fye",
+    "mean": "to check that something is true or correct",
+    "hi": "जाँचना",
+    "ex": "Before forwarding the 'breaking news' to the family group, Salma decided to verify it on two news sites.",
+    "with": [
+      "verify the facts",
+      "independently verify",
+      "verify your identity"
+    ],
+    "instead": "check",
+    "note": "Verify = check whether it is true; confirm = state that it is true. You verify first, then confirm."
+  },
+  {
+    "w": "arguably",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adverb",
+    "say": "AR-gyoo-uh-blee",
+    "mean": "used to say a claim is reasonable, though some may disagree",
+    "hi": "कहा जा सकता है",
+    "ex": "Arguably, Sachin's 'Desert Storm' century in Sharjah was the finest one-day innings of the nineties.",
+    "with": [
+      "arguably the best",
+      "arguably the most",
+      "is arguably"
+    ],
+    "instead": "maybe",
+    "note": "It hedges a strong claim politely. It does not mean 'in an argumentative way'."
+  },
+  {
+    "w": "evidently",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adverb",
+    "say": "EV-i-dunt-lee",
+    "mean": "in a way that is clear from what you can see",
+    "hi": "ज़ाहिर है",
+    "ex": "Evidently, the bride's family had not expected two hundred extra guests; the caterer ran out of jalebis by nine.",
+    "with": [
+      "evidently not",
+      "quite evidently",
+      "was evidently"
+    ],
+    "instead": "clearly",
+    "note": "Evidently = clear from the evidence; apparently = it seems so, but you are less sure."
+  },
+  {
+    "w": "conceivably",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adverb",
+    "say": "kun-SEE-vuh-blee",
+    "mean": "possibly; in a way you can imagine happening",
+    "hi": "मुमकिन है",
+    "ex": "If the Brahmaputra keeps rising, the ferry to Majuli could conceivably stop for a week.",
+    "with": [
+      "could conceivably",
+      "might conceivably",
+      "conceivably happen"
+    ],
+    "instead": "possibly",
+    "note": "Weaker than 'probably': it only means 'not impossible'. Opposite idea: inconceivable."
+  },
+  {
+    "w": "definitive",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "di-FIN-i-tiv",
+    "mean": "final and complete, accepted as the most reliable",
+    "hi": "अंतिम",
+    "ex": "Dida's old notebook is the definitive guide to making shorshe ilish in our family.",
+    "with": [
+      "definitive answer",
+      "definitive guide",
+      "definitive proof"
+    ],
+    "instead": "final",
+    "note": "Definite = clear, fixed ('a definite yes'). Definitive = final, the standard ('the definitive biography'). Not interchangeable."
+  },
+  {
+    "w": "conclusive",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "kun-KLOO-siv",
+    "mean": "proving something so clearly that no doubt is left",
+    "hi": "निर्णायक",
+    "ex": "The blood test gave conclusive proof that Imran's fever was typhoid, not dengue.",
+    "with": [
+      "conclusive evidence",
+      "conclusive proof",
+      "far from conclusive"
+    ],
+    "instead": "settling the matter",
+    "note": "Conclusive is about proof ending the doubt; definitive is about being the final, standard version."
+  },
+  {
+    "w": "sceptical",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "SKEP-ti-kul",
+    "mean": "doubting that something is true or will work",
+    "hi": "शंका रखने वाला",
+    "ex": "Many farmers in Vidarbha were sceptical of the new seed until they saw their neighbour's harvest.",
+    "with": [
+      "deeply sceptical",
+      "sceptical of",
+      "remain sceptical"
+    ],
+    "instead": "not convinced",
+    "note": "British/Indian spelling 'sceptical', American 'skeptical'; both have a hard 'k'. Sceptical is healthy doubt; cynical assumes the worst."
+  },
+  {
+    "w": "inconclusive",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "in-kun-KLOO-siv",
+    "mean": "not giving a clear result or answer",
+    "hi": "बेनतीजा",
+    "ex": "Talks between the two housing societies over the shared park were inconclusive, so they will meet again on Sunday.",
+    "with": [
+      "inconclusive results",
+      "remain inconclusive",
+      "inconclusive evidence"
+    ],
+    "instead": "without a clear result",
+    "note": "An 'inconclusive' test result means 'we still don't know', not 'negative'."
+  },
+  {
+    "w": "unequivocal",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "un-i-KWIV-uh-kul",
+    "mean": "completely clear, leaving no doubt at all",
+    "hi": "दो-टूक",
+    "ex": "The principal's message was unequivocal: no phones in the exam hall, not even switched off.",
+    "with": [
+      "unequivocal support",
+      "unequivocal answer",
+      "in unequivocal terms"
+    ],
+    "instead": "very clear",
+    "note": "Spelled 'unequivocal', never 'unequivocable'. Adverb 'unequivocally' is common: 'She unequivocally denied it.'"
+  },
+  {
+    "w": "dubious",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "DYOO-bee-us",
+    "mean": "probably not true, honest or good; or feeling doubtful about something",
+    "hi": "संदिग्ध",
+    "ex": "The 'government job' offer that asked for fifty thousand rupees upfront looked dubious to Rahul's mother.",
+    "with": [
+      "dubious claim",
+      "highly dubious",
+      "dubious about"
+    ],
+    "instead": "fishy",
+    "note": "A thing is dubious (suspect); a person is dubious about something (unsure). 'Dubious distinction' = an honour you'd rather not have."
+  },
+  {
+    "w": "provisional",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "pruh-VIZH-uh-nul",
+    "mean": "arranged for now, and likely to be changed or confirmed later",
+    "hi": "अस्थायी",
+    "ex": "Neha got provisional admission to the Delhi college, subject to her final marksheet arriving by August.",
+    "with": [
+      "provisional admission",
+      "provisional certificate",
+      "provisional answer key"
+    ],
+    "instead": "for now",
+    "note": "Tentative = uncertain; provisional = officially 'for now' until confirmed, as in a provisional certificate."
+  },
+  {
+    "w": "ostensibly",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adverb",
+    "say": "o-STEN-suh-blee",
+    "mean": "as it seems or is claimed, though the real reason may be different",
+    "hi": "कहने को",
+    "ex": "Ostensibly Mamaji came to return the pressure cooker, but he really wanted to discuss a match for his son.",
+    "with": [
+      "ostensibly to",
+      "ostensibly because",
+      "ostensibly about"
+    ],
+    "instead": "supposedly",
+    "note": "It hints the stated reason is not the real one. Apparently = it seems so; ostensibly = that's the claim, but doubt it."
+  },
+  {
+    "w": "equivocal",
+    "room": "doubt",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "i-KWIV-uh-kul",
+    "mean": "unclear, often on purpose, so it can be read more than one way",
+    "hi": "गोलमोल",
+    "ex": "Asked whether fees would rise, the college trustee gave an equivocal reply about 'reviewing all options'.",
+    "with": [
+      "equivocal answer",
+      "equivocal response",
+      "deliberately equivocal"
+    ],
+    "instead": "vague on purpose",
+    "note": "Ambiguous may be accidental; equivocal suggests dodging. The verb 'equivocate' means avoid giving a straight answer."
+  },
+  {
+    "w": "prima facie",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "phrase",
+    "say": "pry-muh-FAY-shee",
+    "mean": "at first look, before checking more deeply",
+    "hi": "पहली नज़र में",
+    "ex": "The magistrate said there was a prima facie case against the builder for using poor-quality cement.",
+    "with": [
+      "prima facie case",
+      "prima facie evidence",
+      "prima facie view"
+    ],
+    "instead": "at first sight",
+    "note": "Legal Latin, very common in Indian court reports. Prima facie evidence can still be disproved later. No hyphen."
+  }
+]

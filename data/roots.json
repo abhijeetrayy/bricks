@@ -1,0 +1,183 @@
+[
+  { "root": "nov", "means": "new", "from": "Latin novus", "echo": "नव (nav) — new, as in नवरात्रि and नवीन", "words": [
+    { "w": "novel", "m": "new and unusual" },
+    { "w": "novice", "m": "a beginner, someone new to something" },
+    { "w": "innovate", "m": "to bring in new ideas or methods" },
+    { "w": "renovate", "m": "to make an old building like new again" },
+    { "w": "novelty", "m": "something new and unusual" }
+  ]},
+  { "root": "vid / vis", "means": "see", "from": "Latin videre, visus", "echo": "विद् (vid) — to know; वेद (ved) and विद्या (vidyā) mean knowledge", "words": [
+    { "w": "evident", "m": "easy to see; clear" },
+    { "w": "video", "m": "moving pictures you watch (literally 'I see')" },
+    { "w": "provide", "m": "to give what is needed (first meant 'to see ahead')" },
+    { "w": "visible", "m": "able to be seen" },
+    { "w": "supervise", "m": "to watch over people's work" },
+    { "w": "revise", "m": "to look at again and improve" }
+  ]},
+  { "root": "gen", "means": "birth, kind, family", "from": "Latin genus, gignere; Greek genos", "echo": "जन् (jan) — to be born; जन्म (janm) birth, जनक (janak) father", "words": [
+    { "w": "generate", "m": "to produce or create" },
+    { "w": "gender", "m": "being male, female or another identity" },
+    { "w": "genre", "m": "a kind or type of art, film or book" },
+    { "w": "progeny", "m": "children or descendants" },
+    { "w": "indigenous", "m": "born in and belonging to a place" }
+  ]},
+  { "root": "mort", "means": "death", "from": "Latin mors, mortis", "echo": "मृत्यु (mṛtyu) — death; also मृत (mṛt), dead", "words": [
+    { "w": "mortal", "m": "certain to die some day" },
+    { "w": "immortal", "m": "never dying" },
+    { "w": "mortality", "m": "the number of deaths; being mortal" },
+    { "w": "mortgage", "m": "a home loan (old French 'death pledge')" },
+    { "w": "post-mortem", "m": "an examination of a body after death" }
+  ]},
+  { "root": "reg", "means": "rule, king", "from": "Latin rex, regis; regere", "echo": "राज (rāj) — rule; राजा (rājā) king", "words": [
+    { "w": "regal", "m": "fit for a king or queen" },
+    { "w": "reign", "m": "the time a king or queen rules" },
+    { "w": "regime", "m": "a government or system of rule" },
+    { "w": "regulate", "m": "to control by rules" },
+    { "w": "region", "m": "an area (first: an area under one rule)" }
+  ]},
+  { "root": "junct / jug", "means": "join, yoke", "from": "Latin iungere, iunctus; iugum", "echo": "युज् (yuj) — to join; योग (yog), संयोग (sanyog), युग (yug)", "words": [
+    { "w": "junction", "m": "a place where roads or railway lines meet" },
+    { "w": "conjunction", "m": "a joining word like 'and' or 'but'" },
+    { "w": "juncture", "m": "a particular point in time or events" },
+    { "w": "adjunct", "m": "something added or joined to a main thing" },
+    { "w": "subjugate", "m": "to conquer and control (put under the yoke)" }
+  ]},
+  { "root": "voc / vok", "means": "voice, call", "from": "Latin vox, vocis; vocare", "echo": "वाक् (vāk) — speech; वचन (vachan) word, promise", "words": [
+    { "w": "vocal", "m": "using the voice; speaking out strongly" },
+    { "w": "vocabulary", "m": "all the words a person knows" },
+    { "w": "advocate", "m": "to speak in support of; a lawyer" },
+    { "w": "provoke", "m": "to call out a strong reaction" },
+    { "w": "invoke", "m": "to call on a law, idea or god" },
+    { "w": "vocation", "m": "a strong calling to a kind of work" }
+  ]},
+  { "root": "nav / naut", "means": "ship, sailor", "from": "Latin navis; Greek naus, nautes", "echo": "नौ (nau) — boat; नाव (nāv), नौका (naukā), नाविक (nāvik) boatman", "words": [
+    { "w": "navy", "m": "a country's warships and sailors" },
+    { "w": "naval", "m": "to do with the navy" },
+    { "w": "navigate", "m": "to find your way, first by ship" },
+    { "w": "nautical", "m": "to do with ships and sailing" },
+    { "w": "astronaut", "m": "a space traveller (literally 'star sailor')" }
+  ]},
+  { "root": "sta / stat", "means": "stand", "from": "Latin stare, status", "echo": "स्था (sthā) — to stand; स्थान (sthān), स्थिर (sthir), स्थापना (sthāpnā)", "words": [
+    { "w": "stable", "m": "firmly standing; not likely to change" },
+    { "w": "statue", "m": "a standing figure made of stone or metal" },
+    { "w": "station", "m": "a place where trains or buses stop" },
+    { "w": "establish", "m": "to set up firmly" },
+    { "w": "obstacle", "m": "something standing in your way" },
+    { "w": "constant", "m": "staying the same; not changing" }
+  ]},
+  { "root": "dent", "means": "tooth", "from": "Latin dens, dentis", "echo": "दन्त (dant) — tooth; Hindi दाँत (dā̃t), दन्तमंजन", "words": [
+    { "w": "dentist", "m": "a doctor for teeth" },
+    { "w": "dental", "m": "to do with teeth" },
+    { "w": "dentures", "m": "a set of false teeth" },
+    { "w": "trident", "m": "a spear with three points ('three teeth')" },
+    { "w": "indent", "m": "to start a line a little further in" }
+  ]},
+  { "root": "nom / nomin", "means": "name", "from": "Latin nomen, nominis", "echo": "नाम (nām) — name", "words": [
+    { "w": "nominate", "m": "to name someone for a job or prize" },
+    { "w": "nominal", "m": "in name only; very small" },
+    { "w": "denomination", "m": "the value of a note or coin; a religious group" },
+    { "w": "nomenclature", "m": "a system of naming things" },
+    { "w": "misnomer", "m": "a wrong or misleading name" }
+  ]},
+  { "root": "cred", "means": "believe, trust", "from": "Latin credere", "echo": "श्रद्धा (śraddhā) — faith, trust", "words": [
+    { "w": "credible", "m": "able to be believed" },
+    { "w": "incredible", "m": "hard to believe" },
+    { "w": "credit", "m": "trust that you will pay later; praise" },
+    { "w": "credentials", "m": "papers or qualities that make people trust you" },
+    { "w": "creed", "m": "a set of beliefs" },
+    { "w": "credulous", "m": "too quick to believe things" }
+  ]},
+  { "root": "sed / sid / sess", "means": "sit", "from": "Latin sedere, sessus", "echo": "सद् (sad) — to sit; उपनिषद् (upaniṣad) means 'sitting near' a teacher", "words": [
+    { "w": "sedentary", "m": "involving a lot of sitting; inactive" },
+    { "w": "sediment", "m": "matter that settles at the bottom of a liquid" },
+    { "w": "preside", "m": "to sit in charge of a meeting" },
+    { "w": "resident", "m": "someone who lives in a place" },
+    { "w": "session", "m": "a period of sitting for work or study" },
+    { "w": "supersede", "m": "to take the place of something older" }
+  ]},
+  { "root": "bene", "means": "well, good", "from": "Latin bene", "echo": "", "words": [
+    { "w": "benefit", "m": "a good result or help" },
+    { "w": "beneficial", "m": "helpful; doing good" },
+    { "w": "benevolent", "m": "kind and wanting to do good" },
+    { "w": "benefactor", "m": "someone who gives money or help" },
+    { "w": "benign", "m": "gentle and harmless" }
+  ]},
+  { "root": "mal", "means": "bad, badly", "from": "Latin malus, male", "echo": "", "words": [
+    { "w": "malfunction", "m": "to fail to work properly" },
+    { "w": "malnutrition", "m": "poor health from bad or too little food" },
+    { "w": "malpractice", "m": "wrong or careless work by a professional" },
+    { "w": "malice", "m": "the wish to harm someone" },
+    { "w": "malaria", "m": "a fever once blamed on 'bad air'" }
+  ]},
+  { "root": "dict", "means": "say, speak", "from": "Latin dicere, dictus", "echo": "", "words": [
+    { "w": "predict", "m": "to say what will happen" },
+    { "w": "contradict", "m": "to say the opposite" },
+    { "w": "verdict", "m": "a decision in a court case ('true saying')" },
+    { "w": "dictate", "m": "to say words for someone to write; to order" },
+    { "w": "dictionary", "m": "a book of words and their meanings" },
+    { "w": "jurisdiction", "m": "the area where a court's word is law" }
+  ]},
+  { "root": "spect", "means": "look", "from": "Latin specere, spectus", "echo": "", "words": [
+    { "w": "inspect", "m": "to look at closely" },
+    { "w": "spectator", "m": "someone who watches an event" },
+    { "w": "perspective", "m": "a way of looking at things" },
+    { "w": "retrospect", "m": "looking back at the past" },
+    { "w": "suspect", "m": "to think something may be true or wrong" },
+    { "w": "spectacles", "m": "glasses for seeing better" }
+  ]},
+  { "root": "port", "means": "carry", "from": "Latin portare", "echo": "", "words": [
+    { "w": "transport", "m": "to carry from one place to another" },
+    { "w": "portable", "m": "easy to carry" },
+    { "w": "export", "m": "to send goods out to another country" },
+    { "w": "import", "m": "to bring goods in from another country" },
+    { "w": "support", "m": "to hold up or help" },
+    { "w": "porter", "m": "someone who carries luggage" }
+  ]},
+  { "root": "scrib / script", "means": "write", "from": "Latin scribere, scriptus", "echo": "", "words": [
+    { "w": "describe", "m": "to say or write what something is like" },
+    { "w": "manuscript", "m": "a book or text written by hand" },
+    { "w": "prescription", "m": "a doctor's written order for medicine" },
+    { "w": "subscribe", "m": "to sign up to receive something regularly" },
+    { "w": "inscription", "m": "words carved or written on something" },
+    { "w": "scripture", "m": "holy writings" }
+  ]},
+  { "root": "chron", "means": "time", "from": "Greek chronos", "echo": "", "words": [
+    { "w": "chronic", "m": "lasting a long time" },
+    { "w": "chronological", "m": "in the order things happened" },
+    { "w": "synchronise", "m": "to make things happen at the same time" },
+    { "w": "chronicle", "m": "a record of events in time order" },
+    { "w": "anachronism", "m": "something out of its proper time" }
+  ]},
+  { "root": "path", "means": "feeling, suffering", "from": "Greek pathos", "echo": "", "words": [
+    { "w": "sympathy", "m": "feeling sorry for someone's trouble" },
+    { "w": "empathy", "m": "feeling what another person feels" },
+    { "w": "apathy", "m": "lack of interest or feeling" },
+    { "w": "pathetic", "m": "causing pity; very poor or weak" },
+    { "w": "pathology", "m": "the study of diseases" },
+    { "w": "telepathy", "m": "knowing thoughts without words, from far away" }
+  ]},
+  { "root": "log", "means": "word, reason, study", "from": "Greek logos", "echo": "", "words": [
+    { "w": "logic", "m": "clear, correct reasoning" },
+    { "w": "dialogue", "m": "a conversation between people" },
+    { "w": "monologue", "m": "a long speech by one person" },
+    { "w": "analogy", "m": "a comparison that explains something" },
+    { "w": "apology", "m": "words saying you are sorry" },
+    { "w": "biology", "m": "the study of living things" }
+  ]},
+  { "root": "tract", "means": "pull, drag", "from": "Latin trahere, tractus", "echo": "", "words": [
+    { "w": "attract", "m": "to pull towards you" },
+    { "w": "distract", "m": "to pull attention away" },
+    { "w": "subtract", "m": "to take away a number" },
+    { "w": "extract", "m": "to pull out" },
+    { "w": "tractor", "m": "a machine that pulls farm equipment" },
+    { "w": "contract", "m": "to shrink; a written agreement" }
+  ]},
+  { "root": "ject", "means": "throw", "from": "Latin iacere, iactus", "echo": "", "words": [
+    { "w": "reject", "m": "to refuse or throw back" },
+    { "w": "project", "m": "to throw forward; a planned piece of work" },
+    { "w": "inject", "m": "to put liquid into the body with a needle" },
+    { "w": "eject", "m": "to throw out with force" },
+    { "w": "object", "m": "to argue against; a thing" },
+    { "w": "interject", "m": "to say something while another person talks" }
+  ]}
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "a": "affect",
+    "b": "effect",
+    "rule": "Affect is usually a verb: to change or influence something. Effect is usually a noun: the result of a change.",
+    "trick": "Affect is the Action; Effect is the End result.",
+    "qs": [
+      {
+        "s": "The heat will ___ the wheat crop in Punjab.",
+        "a": "affect"
+      },
+      {
+        "s": "The new metro line has had a big ___ on traffic in Pune.",
+        "a": "effect"
+      },
+      {
+        "s": "Loud wedding music late at night can ___ a baby's sleep.",
+        "a": "affect"
+      }
+    ]
+  },
+  {
+    "a": "advice",
+    "b": "advise",
+    "rule": "Advice is a noun: the help or opinion you give. Advise is a verb: the act of giving it.",
+    "trick": "You give advICE like a thing; you adviSe as an action.",
+    "qs": [
+      {
+        "s": "My nani's ___ is to save a little every month.",
+        "a": "advice"
+      },
+      {
+        "s": "Doctors ___ drinking plenty of water during a Chennai summer.",
+        "a": "advise"
+      },
+      {
+        "s": "Can you give me some ___ about choosing a college in Delhi?",
+        "a": "advice"
+      }
+    ]
+  },
+  {
+    "a": "lose",
+    "b": "loose",
+    "rule": "Lose (one o) is a verb: to fail to keep, find or win something. Loose (two o's) is an adjective: not tight.",
+    "trick": "Lose has lost an o.",
+    "qs": [
+      {
+        "s": "Don't ___ your metro card on the way to Rajiv Chowk.",
+        "a": "lose"
+      },
+      {
+        "s": "This kurta is too ___; I need a smaller size.",
+        "a": "loose"
+      },
+      {
+        "s": "If we drop one more catch, we will ___ the match.",
+        "a": "lose"
+      }
+    ]
+  },
+  {
+    "a": "lend",
+    "b": "borrow",
+    "rule": "You lend something to someone: you give it for a while. You borrow something from someone: you take it for a while.",
+    "trick": "Lend goes out; borrow comes in.",
+    "qs": [
+      {
+        "s": "Meena, could you ___ me your scooter for an hour?",
+        "a": "lend"
+      },
+      {
+        "s": "Can I ___ your notes from yesterday's chemistry class?",
+        "a": "borrow"
+      },
+      {
+        "s": "Arjun had to ___ ₹500 from his roommate to pay the electricity bill.",
+        "a": "borrow"
+      }
+    ]
+  },
+  {
+    "a": "fewer",
+    "b": "less",
+    "rule": "Use fewer for things you can count (fewer buses). Use less for things you cannot count (less water, less noise).",
+    "trick": "Can you count it? Fewer. Can you only measure it? Less.",
+    "qs": [
+      {
+        "s": "There were ___ passengers on the Mumbai local because of the holiday.",
+        "a": "fewer"
+      },
+      {
+        "s": "Please put ___ sugar in my chai.",
+        "a": "less"
+      },
+      {
+        "s": "This year, ___ students failed the maths board exam.",
+        "a": "fewer"
+      }
+    ]
+  },
+  {
+    "a": "economic",
+    "b": "economical",
+    "rule": "Economic means to do with the economy, trade or money. Economical means saving money or not wasting things.",
+    "trick": "Economic is about the economy; economical is about your wallet.",
+    "qs": [
+      {
+        "s": "The budget speech focused on ___ growth.",
+        "a": "economic"
+      },
+      {
+        "s": "A small hatchback is more ___ than an SUV for city driving.",
+        "a": "economical"
+      },
+      {
+        "s": "Farmers in Vidarbha face serious ___ problems when the rains fail.",
+        "a": "economic"
+      }
+    ]
+  },
+  {
+    "a": "sensible",
+    "b": "sensitive",
+    "rule": "Sensible means having good judgement; practical. Sensitive means easily affected or hurt, or quick to notice others' feelings.",
+    "trick": "Sensible people are wise; sensitive teeth hurt.",
+    "qs": [
+      {
+        "s": "Wearing a helmet on a bike is the ___ thing to do.",
+        "a": "sensible"
+      },
+      {
+        "s": "My teeth are ___ to cold water.",
+        "a": "sensitive"
+      },
+      {
+        "s": "Carrying an umbrella in the Kerala monsoon is a ___ plan.",
+        "a": "sensible"
+      }
+    ]
+  },
+  {
+    "a": "principal",
+    "b": "principle",
+    "rule": "Principal is the head of a school, or means 'main'. Principle is a basic rule or belief.",
+    "trick": "The principal is your pal; a principle is a rule.",
+    "qs": [
+      {
+        "s": "The ___ called a meeting of all class teachers.",
+        "a": "principal"
+      },
+      {
+        "s": "My grandfather never told lies; it was a matter of ___ for him.",
+        "a": "principle"
+      },
+      {
+        "s": "Rice is the ___ crop of West Bengal.",
+        "a": "principal"
+      }
+    ]
+  },
+  {
+    "a": "stationary",
+    "b": "stationery",
+    "rule": "Stationary means not moving. Stationery means paper, pens, envelopes and other writing things.",
+    "trick": "Stationery has e for envelope; stationary has a for 'at rest'.",
+    "qs": [
+      {
+        "s": "The bus was ___ at the signal when the auto hit it.",
+        "a": "stationary"
+      },
+      {
+        "s": "Riya bought notebooks and pens from the ___ shop near her school.",
+        "a": "stationery"
+      },
+      {
+        "s": "Keep the bike ___ while the attendant fills petrol.",
+        "a": "stationary"
+      }
+    ]
+  },
+  {
+    "a": "compliment",
+    "b": "complement",
+    "rule": "A compliment is praise. A complement is something that goes well with another thing or makes it complete.",
+    "trick": "I like compliments; a complement completes.",
+    "qs": [
+      {
+        "s": "Aunty paid me a ___ on my Bengali.",
+        "a": "compliment"
+      },
+      {
+        "s": "Coconut chutney is the perfect ___ to a crisp dosa.",
+        "a": "complement"
+      },
+      {
+        "s": "The interviewer's ___ about my project made me smile.",
+        "a": "compliment"
+      }
+    ]
+  },
+  {
+    "a": "its",
+    "b": "it's",
+    "rule": "It's is short for 'it is' or 'it has'. Its means 'belonging to it' and has no apostrophe, like his and her.",
+    "trick": "If 'it is' fits, write it's.",
+    "qs": [
+      {
+        "s": "I think ___ going to rain in Mumbai today.",
+        "a": "it's"
+      },
+      {
+        "s": "The cat licked ___ paw on the verandah.",
+        "a": "its"
+      },
+      {
+        "s": "The bank changed ___ logo last year.",
+        "a": "its"
+      }
+    ]
+  },
+  {
+    "a": "then",
+    "b": "than",
+    "rule": "Than is for comparing (taller than). Then is about time or order (first this, then that).",
+    "trick": "thAn compAres; thEn is about whEn.",
+    "qs": [
+      {
+        "s": "Kolkata is more humid ___ Delhi in August.",
+        "a": "than"
+      },
+      {
+        "s": "Finish your homework, and ___ you can watch the match.",
+        "a": "then"
+      },
+      {
+        "s": "My brother is two years older ___ me.",
+        "a": "than"
+      }
+    ]
+  },
+  {
+    "a": "practice",
+    "b": "practise",
+    "rule": "In British and Indian English, practice is the noun and practise is the verb. American English uses practice for both.",
+    "trick": "Same pattern as advice (noun) and advise (verb).",
+    "qs": [
+      {
+        "s": "You must ___ every day if you want to sing ragas well.",
+        "a": "practise"
+      },
+      {
+        "s": "Cricket ___ starts at six in the morning.",
+        "a": "practice"
+      },
+      {
+        "s": "Dr Fernandes runs a busy medical ___ in Panaji.",
+        "a": "practice"
+      }
+    ]
+  },
+  {
+    "a": "accept",
+    "b": "except",
+    "rule": "Accept is a verb: to take or agree to something. Except means 'but not' or 'leaving out'.",
+    "trick": "EXcept EXcludes.",
+    "qs": [
+      {
+        "s": "Please ___ this small gift from our family.",
+        "a": "accept"
+      },
+      {
+        "s": "Everyone came to the wedding ___ my uncle from Dubai.",
+        "a": "except"
+      },
+      {
+        "s": "Most shops in our market ___ UPI payments now.",
+        "a": "accept"
+      }
+    ]
+  },
+  {
+    "a": "adapt",
+    "b": "adopt",
+    "rule": "Adapt means to change to suit a new situation. Adopt means to take something or someone as your own.",
+    "trick": "Adapt to fit; adopt an option.",
+    "qs": [
+      {
+        "s": "It took Anjali a month to ___ to the Delhi winter.",
+        "a": "adapt"
+      },
+      {
+        "s": "The couple decided to ___ a baby girl.",
+        "a": "adopt"
+      },
+      {
+        "s": "My cousin wants to ___ a stray puppy from our lane.",
+        "a": "adopt"
+      }
+    ]
+  },
+  {
+    "a": "beside",
+    "b": "besides",
+    "rule": "Beside means next to. Besides means 'in addition to' or 'also'.",
+    "trick": "Beside is by the side; besides adds something extra.",
+    "qs": [
+      {
+        "s": "Come and sit ___ me on the bench.",
+        "a": "beside"
+      },
+      {
+        "s": "What else do you eat for breakfast ___ idli?",
+        "a": "besides"
+      },
+      {
+        "s": "The old temple stands ___ the river.",
+        "a": "beside"
+      }
+    ]
+  },
+  {
+    "a": "ensure",
+    "b": "insure",
+    "rule": "Ensure means to make sure something happens. Insure means to buy insurance against loss or damage.",
+    "trick": "Insure involves insurance.",
+    "qs": [
+      {
+        "s": "Please ___ that the gas is switched off before you leave.",
+        "a": "ensure"
+      },
+      {
+        "s": "It is wise to ___ your new car before you drive it.",
+        "a": "insure"
+      },
+      {
+        "s": "The headmistress will ___ that every child gets a mid-day meal.",
+        "a": "ensure"
+      }
+    ]
+  },
+  {
+    "a": "imply",
+    "b": "infer",
+    "rule": "The speaker implies: hints at something without saying it. The listener infers: works it out from the hints.",
+    "trick": "Imply goes out from the speaker; infer comes in to the listener.",
+    "qs": [
+      {
+        "s": "Are you trying to ___ that I ate the last laddoo?",
+        "a": "imply"
+      },
+      {
+        "s": "From the dark clouds over Guwahati, we can ___ that it will rain.",
+        "a": "infer"
+      },
+      {
+        "s": "Her silence seemed to ___ that she disliked the plan.",
+        "a": "imply"
+      }
+    ]
+  },
+  {
+    "a": "historic",
+    "b": "historical",
+    "rule": "Historic means important enough to be remembered in history. Historical means about, or from, the past.",
+    "trick": "Historic makes history; historical is about history.",
+    "qs": [
+      {
+        "s": "India's ___ moon landing made headlines around the world.",
+        "a": "historic"
+      },
+      {
+        "s": "The museum in Hyderabad has many ___ documents from the Nizam's time.",
+        "a": "historical"
+      },
+      {
+        "s": "The ___ novel is set in Mughal Delhi.",
+        "a": "historical"
+      }
+    ]
+  },
+  {
+    "a": "continual",
+    "b": "continuous",
+    "rule": "Continual means happening again and again, with breaks. Continuous means going on without any break.",
+    "trick": "Continuous is one unbroken line; continual keeps coming back.",
+    "qs": [
+      {
+        "s": "It rained for 48 hours, a ___ downpour with no break at all.",
+        "a": "continuous"
+      },
+      {
+        "s": "These ___ phone calls, one after another, stop me from working.",
+        "a": "continual"
+      },
+      {
+        "s": "A ___ white line in the middle of the road means you must not overtake.",
+        "a": "continuous"
+      }
+    ]
+  },
+  {
+    "a": "eminent",
+    "b": "imminent",
+    "rule": "Eminent means famous and respected. Imminent means about to happen very soon.",
+    "trick": "Imminent is coming in a minute.",
+    "qs": [
+      {
+        "s": "An ___ scientist from IISc gave the lecture.",
+        "a": "eminent"
+      },
+      {
+        "s": "Fishermen were warned that a cyclone was ___.",
+        "a": "imminent"
+      },
+      {
+        "s": "The ___ singer was honoured with a Padma award.",
+        "a": "eminent"
+      }
+    ]
+  },
+  {
+    "a": "discreet",
+    "b": "discrete",
+    "rule": "Discreet means careful not to embarrass people or give away secrets. Discrete means separate and distinct.",
+    "trick": "In discrete, the t keeps the two e's separate.",
+    "qs": [
+      {
+        "s": "Please be ___ about the surprise party for Dadi.",
+        "a": "discreet"
+      },
+      {
+        "s": "The course is divided into four ___ modules.",
+        "a": "discrete"
+      },
+      {
+        "s": "A good bank manager is always ___ about customers' money.",
+        "a": "discreet"
+      }
+    ]
+  },
+  {
+    "a": "everyday",
+    "b": "every day",
+    "rule": "Everyday (one word) describes a noun: ordinary, normal. Every day (two words) means each day.",
+    "trick": "If you can say \"each day\", write two words.",
+    "qs": [
+      {
+        "s": "Traffic jams are an ___ problem in Bengaluru.",
+        "a": "everyday"
+      },
+      {
+        "s": "Nani walks in the park ___ at six.",
+        "a": "every day"
+      },
+      {
+        "s": "Wear your ___ clothes; it is not a wedding.",
+        "a": "everyday"
+      }
+    ]
+  },
+  {
+    "a": "council",
+    "b": "counsel",
+    "rule": "A council is a group of people who meet to decide things. Counsel is advice, a lawyer, or the act of advising.",
+    "trick": "A council is a committee; counsel is consulting.",
+    "qs": [
+      {
+        "s": "The municipal ___ voted to build a new park in Indore.",
+        "a": "council"
+      },
+      {
+        "s": "The senior ___ argued the case in the Supreme Court.",
+        "a": "counsel"
+      },
+      {
+        "s": "Schools should ___ students who feel stressed before exams.",
+        "a": "counsel"
+      }
+    ]
+  },
+  {
+    "a": "emigrate",
+    "b": "immigrate",
+    "rule": "Emigrate means to leave your country to live in another. Immigrate means to come into a new country to live.",
+    "trick": "Emigrate is Exit; Immigrate is In.",
+    "qs": [
+      {
+        "s": "My uncle wants to ___ from India next year.",
+        "a": "emigrate"
+      },
+      {
+        "s": "Canada allows many skilled workers to ___ into the country each year.",
+        "a": "immigrate"
+      },
+      {
+        "s": "In 1972, many Gujarati families had to ___ from Uganda.",
+        "a": "emigrate"
+      }
+    ]
+  },
+  {
+    "a": "elicit",
+    "b": "illicit",
+    "rule": "Elicit is a verb: to draw out an answer or reaction. Illicit is an adjective: illegal or not allowed.",
+    "trick": "Illicit is illegal; both start with ill.",
+    "qs": [
+      {
+        "s": "The teacher asked simple questions to ___ answers from shy students.",
+        "a": "elicit"
+      },
+      {
+        "s": "Police seized a truck carrying ___ liquor.",
+        "a": "illicit"
+      },
+      {
+        "s": "The quiz host's joke failed to ___ a single laugh.",
+        "a": "elicit"
+      }
+    ]
+  }
+]
