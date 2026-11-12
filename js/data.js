@@ -1,30 +1,30 @@
 // Rooms, floors, and loading every data file.
 
 export const ROOMS = [
-  { id: 'think',    name: 'Think clearly',          line: 'Words for reasoning: evidence, bias, nuance.' },
-  { id: 'argue',    name: 'Agree and disagree',     line: 'Persuade, concede, refute — without shouting.' },
-  { id: 'doubt',    name: 'Sure or not sure',       line: 'Say exactly how certain you are.' },
-  { id: 'feel',     name: 'Feelings, precisely',    line: 'Name a feeling exactly and it gets easier to handle.' },
-  { id: 'people',   name: 'People and character',   line: 'Describe a person fairly and exactly.' },
-  { id: 'talk',     name: 'Ways of saying',         line: 'Better than "said", "told" and "asked".' },
-  { id: 'phrasal',  name: 'Phrasal verbs',          line: 'Figure out, turn down, come up with — how English is really spoken.' },
-  { id: 'idioms',   name: 'Expressions',            line: 'The elephant in the room, a grey area: a picture in a phrase.' },
-  { id: 'lead',     name: 'Lead and work',          line: 'Meetings, teams, decisions, plans.' },
-  { id: 'everyday', name: 'Everyday upgrades',      line: 'Polite, practical words for office and home.' },
-  { id: 'link',     name: 'Joining words',          line: 'However, whereas, despite — grammar that makes logic flow.' },
-  { id: 'change',   name: 'Change and time',        line: 'How things grow, fall, last or vanish.' },
-  { id: 'amount',   name: 'How much',               line: 'Stop saying "very". Say how much.' },
-  { id: 'cause',    name: 'Cause and effect',       line: 'Why things happen and what follows.' },
-  { id: 'world',    name: 'Paint a picture',        line: 'Places, weather, smells and sounds.' },
-  { id: 'society',  name: 'Society and public life', line: 'Words for news, rights and power. No sides taken.' },
+  { id: 'think',    name: 'Think clearly',          c: '#1F5FBF', code: 'TH', line: 'Words for reasoning: evidence, bias, nuance.' },
+  { id: 'argue',    name: 'Agree and disagree',     c: '#D23B2B', code: 'AG', line: 'Persuade, concede, refute — without shouting.' },
+  { id: 'doubt',    name: 'Sure or not sure',       c: '#6D4BC3', code: 'SN', line: 'Say exactly how certain you are.' },
+  { id: 'feel',     name: 'Feelings, precisely',    c: '#B0287A', code: 'FE', line: 'Name a feeling exactly and it gets easier to handle.' },
+  { id: 'people',   name: 'People and character',   c: '#E07A1F', code: 'PC', line: 'Describe a person fairly and exactly.' },
+  { id: 'talk',     name: 'Ways of saying',         c: '#E8A800', code: 'WS', line: 'Better than "said", "told" and "asked".' },
+  { id: 'phrasal',  name: 'Phrasal verbs',          c: '#0E9AA7', code: 'PV', line: 'Figure out, turn down, come up with — how English is really spoken.' },
+  { id: 'idioms',   name: 'Expressions',            c: '#8A6A3B', code: 'EX', line: 'The elephant in the room, a grey area: a picture in a phrase.' },
+  { id: 'lead',     name: 'Lead and work',          c: '#1E9A5A', code: 'LW', line: 'Meetings, teams, decisions, plans.' },
+  { id: 'everyday', name: 'Everyday upgrades',      c: '#7C8794', code: 'EU', line: 'Polite, practical words for office and home.' },
+  { id: 'link',     name: 'Joining words',          c: '#2FA7E0', code: 'JW', line: 'However, whereas, despite — grammar that makes logic flow.' },
+  { id: 'change',   name: 'Change and time',        c: '#7FB02F', code: 'CT', line: 'How things grow, fall, last or vanish.' },
+  { id: 'amount',   name: 'How much',               c: '#E5568E', code: 'HM', line: 'Stop saying "very". Say how much.' },
+  { id: 'cause',    name: 'Cause and effect',       c: '#00566E', code: 'CE', line: 'Why things happen and what follows.' },
+  { id: 'world',    name: 'Paint a picture',        c: '#9E8F1E', code: 'PP', line: 'Places, weather, smells and sounds.' },
+  { id: 'society',  name: 'Society and public life', c: '#6B2C1E', code: 'SP', line: 'Words for news, rights and power. No sides taken.' },
 ];
 
 export const FLOORS = [
-  { n: 1, name: 'Ground floor', short: 'G', line: 'You have seen these words. Now start using them.' },
-  { n: 2, name: 'First floor',  short: '1', line: 'Clear: the words of good news, office and college talk.' },
-  { n: 3, name: 'Second floor', short: '2', line: 'Precise: words that sharpen what you mean.' },
-  { n: 4, name: 'Third floor',  short: '3', line: 'Persuasive: words of strong writers and leaders.' },
-  { n: 5, name: 'Terrace',      short: 'T', line: 'Rare but powerful. Know them; use them sparingly.' },
+  { n: 1, name: 'Zone 1', tag: 'Everyday',   line: 'You have seen these words. Now start using them.' },
+  { n: 2, name: 'Zone 2', tag: 'Clear',      line: 'The words of good news, office and college talk.' },
+  { n: 3, name: 'Zone 3', tag: 'Precise',    line: 'Words that sharpen exactly what you mean.' },
+  { n: 4, name: 'Zone 4', tag: 'Persuasive', line: 'Words of strong writers, lawyers and leaders.' },
+  { n: 5, name: 'Zone 5', tag: 'Rare',       line: 'Rare but powerful. Know them; use them sparingly.' },
 ];
 
 export const D = {

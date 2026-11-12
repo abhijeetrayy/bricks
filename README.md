@@ -1,4 +1,4 @@
-# Bricks — English words to build your thoughts
+# Wordline — English words for clear thinking
 
 **Live:** https://abhijeetrayy.github.io/bricks/
 
@@ -25,16 +25,17 @@ node bricks/scripts/check.mjs
 
 ## What is in it
 
-**Kachcha → pakka.** Every word is a brick. It starts as a *kachchi eent*, raw clay. When you start learning it,
-it goes into the *bhatta* (kiln) and glows orange. Answer it right over a few days and it comes out *pakka*: fired red.
-"Pakka" already means "solid, sure" in everyday Indian speech.
+**Every topic is a metro line, every word a station.** The home page shows a network map. Each of the 16 lines is one
+job you need words for, like thinking, disagreeing or describing feelings. The stretch you have travelled shows in
+full colour. Levels are zones, from zone 1 (everyday) to zone 5 (rare).
 
-**The house (home page).** An elevation drawing of a building, one brick per word. A new visitor sees a whole
-clay house. It turns red as words become pakka. Floors are levels, from Ground (seen but not used) to Terrace
-(rare but powerful). "Find your floor" is a 26-word yes/no test with 6 made-up words, so over-claiming lowers the
-score.
+Each page plays a part in the metaphor:
+- **Today's five words** are a route, shown like the strip map above a metro door.
+- **A line page** has a full strip map with tilted station names, plus the station list drawn as a rail.
+- **A word page** is a station signboard, with previous and next stations.
+- **"Find your zone"** is a 26-word yes/no test that includes 6 made-up words, so claiming words you don't know lowers your score.
 
-**Words: 16 rooms, grouped by purpose, never A to Z.**
+**Words: 16 lines, grouped by purpose, never A to Z.**
 Think clearly · Agree and disagree · Sure or not sure · Feelings, precisely · People and character ·
 Ways of saying · Phrasal verbs · Expressions · Lead and work · Everyday upgrades · Joining words ·
 Change and time · How much · Cause and effect · Paint a picture · Society and public life.
@@ -66,7 +67,7 @@ example. Each situation also lists what to avoid and why. The situations include
 - **Speak for a minute:** a topic, three words to use, and a 60-second clock.
 - **Upgrade the sentence:** replace the tired phrases in a flat sentence one by one, then read it aloud.
 - **Which sounds best?:** pick the phrase that works in a real moment.
-- **Fill the gap**, **One better word**, **Word or meaning** and **Brick rush:** these can be limited to one room or your floor.
+- **Fill the gap**, **One better word**, **Word or meaning** and **Rush hour:** these can be limited to one line or your zone.
 - **Natural partners:** make or do a mistake? heavy or strong rain?
 - **Build the ladder** and **Which is stronger?:** words of exactly the right strength.
 - **Mix-ups** and **Root hunt.**
@@ -93,35 +94,24 @@ example. Each situation also lists what to avoid and why. The situations include
 
 ## Design
 
-**One idea runs through the whole site:** words are bricks.
-- **Today's five words** are a small stack of clay bricks. Tap one and it flips to show the meaning.
-- **Rooms** are a wall of wide bricks laid in running bond. Each one fills with orange and red as you learn its words.
-- **On a word page,** the word itself is a big brick, pressed into the face like a kiln stamp. Its colour shows where you are with it.
+Wordline is built like metro signage. It uses a white background, ink, and one typeface (Hanken Grotesk) for clarity, with Tiro Devanagari Hindi for the Hindi hints.
 
-**Colour:**
-- Clay #E2CBA2 for words you haven't learned.
-- Kiln orange #EBA25A for words you're learning.
-- Fired red #B2512E for words you know.
-- A cool lime-wash page, ink text and neel-blue links.
-- A faint grain gives the bricks the feel of real clay.
-
-Pages are otherwise flat, with no pills and no tracked-capital labels.
-
-| Role | Typeface |
+| Element | Meaning |
 |---|---|
-| Words and headings | Spectral |
-| Reading text | Atkinson Hyperlegible |
-| Counts | Big Shoulders Display |
-| Hindi | Tiro Devanagari Hindi |
+| Line colour | Which topic a word belongs to |
+| Filled station | A word you know |
+| Signal-yellow station | A word you are learning |
+| Hollow station | A word not visited yet |
+| Dark panel with signal yellow | "Where you are now": today's route and the station signboard |
 
-Every link is visible, and phones get a bottom tab bar.
+There are no decorative cards or pills. Every link is visible, and phones get a bottom tab bar. On phones the network map scrolls sideways at a readable size, like a real metro map.
 
 ## Files
 
 ```
-index.html, css/bricks.css
+index.html, css/metro.css
 js/main.js    pages and routing (hash routes: #/word/nuance, #/phrases/disagree, #/play/upgrade …)
-js/house.js   the house elevation (SVG, running bond, one brick per word)
+js/map.js     metro drawings: network map, line minis, strip maps, the rail, the learn minimap
 js/quiz.js    question builders, quiz runner, ladder and upgrade games
 js/store.js   progress in localStorage (no accounts, nothing sent anywhere)
 js/data.js    rooms, floors, loading (with retries for weak connections)
@@ -136,4 +126,4 @@ scripts/check.mjs          data checker
 
 - Progress lives on one device. Settings has a copy/paste way to move it. Friend leagues would need accounts and a server.
 - All entries were written and then proofread for accuracy, including the Hindi, but a fluent human proofread before a wide launch would still help.
-- "Bricks" is a working title.
+- The repository and web address still say "bricks" (the first name). Renaming the repo would change the URL.

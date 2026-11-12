@@ -1,5 +1,5 @@
 // Progress lives in this browser only (localStorage). No accounts.
-// Each word has a box 0–5 (Leitner). Box 0 = new. 1–2 = learning. 3+ = laid (a brick in your house).
+// Each word has a box 0–5 (Leitner). Box 0 = new. 1–2 = learning. 3+ = known (a station you have visited).
 
 const KEY = 'bricks.v1';
 const DAY = 86400000;
@@ -47,7 +47,7 @@ function setBox(id, box) {
   return { was, now };
 }
 
-/** "I know this word" — lays the brick straight away, first review in a week. */
+/** "I know this word" — counts as known straight away, first review in a week. */
 export const markKnown = (id) => setBox(id, 3);
 /** "Still learning" — box 1, back tomorrow. */
 export const markLearning = (id) => setBox(id, 1);
