@@ -48,7 +48,7 @@
       "constantly complain"
     ],
     "instead": "keep cribbing",
-    "note": "Complain ABOUT a thing, TO a person. 'Crib' for complain is Indian slang; use complain in formal writing."
+    "note": "Complain ABOUT a thing, TO a person. 'Crib' (complain) is informal; use 'complain' in formal writing."
   },
   {
     "w": "warn",
@@ -106,7 +106,7 @@
     "room": "talk",
     "floor": 2,
     "pos": "verb",
-    "say": "KLA-ri-feye",
+    "say": "KLAR-i-fye",
     "mean": "make something clearer by explaining it more",
     "hi": "स्पष्ट करना",
     "ex": "The college put up a notice to clarify that the exams would be held offline, not online.",
@@ -123,7 +123,7 @@
     "room": "talk",
     "floor": 2,
     "pos": "verb",
-    "say": "EM-fuh-seyez",
+    "say": "EM-fuh-syze",
     "mean": "give special importance to a point by stressing it",
     "hi": "ज़ोर देना",
     "ex": "The doctor wanted to emphasise one thing: finish the full course of antibiotics, even if you feel better.",
@@ -140,7 +140,7 @@
     "room": "talk",
     "floor": 2,
     "pos": "verb",
-    "say": "ri-MAHK",
+    "say": "ri-MAHRK",
     "mean": "say something briefly as a comment or opinion",
     "hi": "टिप्पणी करना",
     "ex": "It is rude to remark on someone's weight at a family wedding, however close the aunty is.",
@@ -259,7 +259,7 @@
     "room": "talk",
     "floor": 3,
     "pos": "verb",
-    "say": "im-PLEYE",
+    "say": "im-PLYE",
     "mean": "suggest something without saying it directly",
     "hi": "इशारे में कहना",
     "ex": "Are you trying to imply that I ate the last laddoo?",
@@ -361,7 +361,7 @@
     "room": "talk",
     "floor": 4,
     "pos": "verb",
-    "say": "deye-GRES",
+    "say": "dye-GRES",
     "mean": "move away from the main topic while speaking or writing",
     "hi": "मुद्दे से भटकना",
     "ex": "Our history professor would often digress into long stories about his village near Darbhanga.",
@@ -378,7 +378,7 @@
     "room": "talk",
     "floor": 3,
     "pos": "adjective",
-    "say": "kun-SEYES",
+    "say": "kun-SYCE",
     "mean": "short and clear, with no extra words",
     "hi": "संक्षिप्त",
     "ex": "Keep the WhatsApp update concise: time, venue and what to bring for the picnic.",
@@ -388,7 +388,7 @@
       "a concise answer"
     ],
     "instead": "short and to the point",
-    "note": "Concise means short AND complete; brief means only short. Long answers do not earn more marks than concise ones."
+    "note": "Concise means short AND complete; brief means only short. Noun: conciseness. Cutting extra words makes writing concise."
   },
   {
     "w": "eloquent",

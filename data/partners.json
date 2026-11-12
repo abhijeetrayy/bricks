@@ -1,0 +1,402 @@
+[
+  {
+    "s": "I ___ a silly mistake in the report.",
+    "a": "made",
+    "wrong": [
+      "did",
+      "gave"
+    ],
+    "pair": "make a mistake",
+    "note": "We make mistakes, but we do homework."
+  },
+  {
+    "s": "Please ___ your homework before dinner.",
+    "a": "do",
+    "wrong": [
+      "make",
+      "give"
+    ],
+    "pair": "do homework",
+    "note": "Homework, chores and work take 'do'."
+  },
+  {
+    "s": "Can you ___ me a favour and post this letter?",
+    "a": "do",
+    "wrong": [
+      "make",
+      "give"
+    ],
+    "pair": "do someone a favour",
+    "note": "A favour is something you do for someone."
+  },
+  {
+    "s": "We have been working for two hours; let's ___ a break.",
+    "a": "take",
+    "wrong": [
+      "do",
+      "give"
+    ],
+    "pair": "take a break",
+    "note": "'Have a break' is also fine; 'do a break' is not English."
+  },
+  {
+    "s": "Please ___ attention to the safety instructions.",
+    "a": "pay",
+    "wrong": [
+      "do",
+      "take"
+    ],
+    "pair": "pay attention",
+    "note": "Attention is something you pay, as if it costs you effort."
+  },
+  {
+    "s": "Can you ___ a secret?",
+    "a": "keep",
+    "wrong": [
+      "save",
+      "stay"
+    ],
+    "pair": "keep a secret",
+    "note": "We keep secrets, promises and appointments."
+  },
+  {
+    "s": "I ran but could not ___ the 8:15 local.",
+    "a": "catch",
+    "wrong": [
+      "hold",
+      "attend"
+    ],
+    "pair": "catch a train",
+    "note": "You catch a train, bus or flight when you reach it in time."
+  },
+  {
+    "s": "Ananya ___ a cold after getting wet in the rain.",
+    "a": "caught",
+    "wrong": [
+      "took",
+      "held"
+    ],
+    "pair": "catch a cold",
+    "note": "You catch a cold, as if it flew to you."
+  },
+  {
+    "s": "Meena ___ an important question at the meeting.",
+    "a": "raised",
+    "wrong": [
+      "rose",
+      "told"
+    ],
+    "pair": "raise a question",
+    "note": "Raise takes an object; rise does not. You raise a question."
+  },
+  {
+    "s": "We should not ___ conclusions without enough data.",
+    "a": "draw",
+    "wrong": [
+      "pull",
+      "take"
+    ],
+    "pair": "draw conclusions",
+    "note": "We draw conclusions, the way we draw water from a well."
+  },
+  {
+    "s": "After four hours, the two sides ___ an agreement.",
+    "a": "reached",
+    "wrong": [
+      "arrived",
+      "came"
+    ],
+    "pair": "reach an agreement",
+    "note": "Arrive needs 'at'; reach takes the object directly."
+  },
+  {
+    "s": "Our team ___ the deadline with a day to spare.",
+    "a": "met",
+    "wrong": [
+      "completed",
+      "caught"
+    ],
+    "pair": "meet a deadline",
+    "note": "You meet or miss a deadline; you complete the work."
+  },
+  {
+    "s": "My cousin ___ a small bakery in Pune.",
+    "a": "runs",
+    "wrong": [
+      "drives",
+      "walks"
+    ],
+    "pair": "run a business",
+    "note": "You run a shop, a company or a project."
+  },
+  {
+    "s": "The college will ___ a meeting on Friday.",
+    "a": "hold",
+    "wrong": [
+      "do",
+      "stand"
+    ],
+    "pair": "hold a meeting",
+    "note": "Formal events are held: meetings, elections, talks."
+  },
+  {
+    "s": "Please ___ on the light; it is dark in here.",
+    "a": "switch",
+    "wrong": [
+      "open",
+      "start"
+    ],
+    "pair": "switch on the light",
+    "note": "'Open the light' is common in India but confuses others. Lights are switched or turned on."
+  },
+  {
+    "s": "Kabir will ___ his maths exam on Monday.",
+    "a": "take",
+    "wrong": [
+      "give",
+      "make"
+    ],
+    "pair": "take an exam",
+    "note": "'Give an exam' is common in India, but elsewhere the examiner gives it. Students take or sit it."
+  },
+  {
+    "s": "We had ___ rain all night, and the streets flooded.",
+    "a": "heavy",
+    "wrong": [
+      "big",
+      "tall"
+    ],
+    "pair": "heavy rain",
+    "note": "Rain is heavy or light, never big."
+  },
+  {
+    "s": "I need a cup of ___ coffee to wake up.",
+    "a": "strong",
+    "wrong": [
+      "heavy",
+      "hard"
+    ],
+    "pair": "strong coffee",
+    "note": "Tea and coffee are strong or weak."
+  },
+  {
+    "s": "The child has a ___ fever, so we are taking her to the doctor.",
+    "a": "high",
+    "wrong": [
+      "big",
+      "tall"
+    ],
+    "pair": "a high fever",
+    "note": "Fever and temperature are high, not big."
+  },
+  {
+    "s": "I am ___ sorry for the delay in replying.",
+    "a": "deeply",
+    "wrong": [
+      "highly",
+      "heavily"
+    ],
+    "pair": "deeply sorry",
+    "note": "Deeply goes with feelings: deeply sorry, deeply moved, deeply hurt."
+  },
+  {
+    "s": "The fans were ___ disappointed by the last-ball loss.",
+    "a": "bitterly",
+    "wrong": [
+      "heavily",
+      "sharply"
+    ],
+    "pair": "bitterly disappointed",
+    "note": "Bitterly is the natural partner of disappointed, cold and regret."
+  },
+  {
+    "s": "It is ___ unlikely that the match will start on time.",
+    "a": "highly",
+    "wrong": [
+      "strongly",
+      "heavily"
+    ],
+    "pair": "highly unlikely",
+    "note": "Highly goes with likely, unlikely, probable and successful."
+  },
+  {
+    "s": "I am ___ aware of the risks of this plan.",
+    "a": "fully",
+    "wrong": [
+      "heavily",
+      "bitterly"
+    ],
+    "pair": "fully aware",
+    "note": "Fully aware means you know everything about it."
+  },
+  {
+    "s": "I ___ disagree with the decision to cut the library budget.",
+    "a": "strongly",
+    "wrong": [
+      "highly",
+      "heavily"
+    ],
+    "pair": "strongly disagree",
+    "note": "'Highly disagree' is a common mistake; we strongly agree or disagree."
+  },
+  {
+    "s": "The scooter missed us by inches; it was a ___ escape.",
+    "a": "narrow",
+    "wrong": [
+      "thin",
+      "small"
+    ],
+    "pair": "a narrow escape",
+    "note": "A narrow escape means you only just avoided danger."
+  },
+  {
+    "s": "I have only a ___ idea of how the new tax works.",
+    "a": "vague",
+    "wrong": [
+      "blurry",
+      "thin"
+    ],
+    "pair": "a vague idea",
+    "note": "Vague means unclear; blurry is for pictures and eyesight."
+  },
+  {
+    "s": "There is a ___ chance of rain tomorrow.",
+    "a": "slight",
+    "wrong": [
+      "light",
+      "short"
+    ],
+    "pair": "a slight chance",
+    "note": "Slight or small chance; rain can be light, a chance cannot."
+  },
+  {
+    "s": "The instructions were ___ clear, so nobody got lost.",
+    "a": "crystal",
+    "wrong": [
+      "glass",
+      "water"
+    ],
+    "pair": "crystal clear",
+    "note": "Crystal clear means completely clear, with no doubt at all."
+  },
+  {
+    "s": "She gave us a ___ smile when she saw the results.",
+    "a": "broad",
+    "wrong": [
+      "thick",
+      "fat"
+    ],
+    "pair": "a broad smile",
+    "note": "A broad smile is a wide, happy one."
+  },
+  {
+    "s": "There has been a ___ rise in petrol prices this month.",
+    "a": "sharp",
+    "wrong": [
+      "pointed",
+      "hard"
+    ],
+    "pair": "a sharp rise",
+    "note": "Sharp or steep rise means sudden and large."
+  },
+  {
+    "s": "Let me ___ a look at your code before you submit it.",
+    "a": "have",
+    "wrong": [
+      "do",
+      "make"
+    ],
+    "pair": "have a look",
+    "note": "'Take a look' also works; 'do a look' does not."
+  },
+  {
+    "s": "Please don't ___ a noise; the baby is sleeping.",
+    "a": "make",
+    "wrong": [
+      "do",
+      "give"
+    ],
+    "pair": "make a noise",
+    "note": "We make noise, make a sound, make a fuss."
+  },
+  {
+    "s": "Dr Iyer ___ a speech at the annual day function.",
+    "a": "gave",
+    "wrong": [
+      "said",
+      "spoke"
+    ],
+    "pair": "give a speech",
+    "note": "You give or make a speech; you say words and speak at a function."
+  },
+  {
+    "s": "We should ___ a party for Dadi's eightieth birthday.",
+    "a": "throw",
+    "wrong": [
+      "make",
+      "play"
+    ],
+    "pair": "throw a party",
+    "note": "Throw or have a party; 'make a party' is a common slip."
+  },
+  {
+    "s": "Please ___ a seat; the doctor will see you soon.",
+    "a": "take",
+    "wrong": [
+      "catch",
+      "sit"
+    ],
+    "pair": "take a seat",
+    "note": "'Have a seat' is also polite; 'sit a seat' is not English."
+  },
+  {
+    "s": "Rahul ___ his promise and came to the wedding.",
+    "a": "kept",
+    "wrong": [
+      "saved",
+      "stayed"
+    ],
+    "pair": "keep a promise",
+    "note": "You keep or break a promise."
+  },
+  {
+    "s": "Zoya ___ a good impression at the interview.",
+    "a": "made",
+    "wrong": [
+      "took",
+      "put"
+    ],
+    "pair": "make an impression",
+    "note": "You make an impression on someone."
+  },
+  {
+    "s": "Are you ready to ___ the risk of starting your own firm?",
+    "a": "take",
+    "wrong": [
+      "do",
+      "make"
+    ],
+    "pair": "take a risk",
+    "note": "We take risks and take chances."
+  },
+  {
+    "s": "Please ___ me a call when you land in Chennai.",
+    "a": "give",
+    "wrong": [
+      "do",
+      "make"
+    ],
+    "pair": "give someone a call",
+    "note": "Give me a call is friendly; 'make me a call' is not used."
+  },
+  {
+    "s": "Doctors have ___ the alarm about rising dengue cases.",
+    "a": "raised",
+    "wrong": [
+      "lifted",
+      "risen"
+    ],
+    "pair": "raise the alarm",
+    "note": "Raise the alarm means warn people about danger."
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "w": "find out",
+    "room": "phrasal",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "fynd OWT",
+    "mean": "to learn a fact or the truth, often by asking or checking",
+    "hi": "पता करना, पता लगाना",
+    "ex": "Can you find out what time the last bus leaves Varanasi for Prayagraj on Sunday?",
+    "with": [
+      "find out more",
+      "find out the truth",
+      "find out why"
+    ],
+    "instead": "come to know",
+    "note": "'I came to know' is common in India; 'I found out' sounds more natural elsewhere. Say 'find out about it'."
+  },
+  {
+    "w": "give up",
+    "room": "phrasal",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "giv UP",
+    "mean": "to stop trying, or to stop a habit",
+    "hi": "छोड़ देना, हार मानना",
+    "ex": "Arjun refused to give up even after failing the CA final twice.",
+    "with": [
+      "give up smoking",
+      "never give up",
+      "give up on someone"
+    ],
+    "instead": "stop trying",
+    "note": "Separable: 'give it up', never 'give up it'. Use -ing after it: 'give up eating sugar'. 'Give up on someone' = stop hoping."
+  },
+  {
+    "w": "look into",
+    "room": "phrasal",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "luk IN-too",
+    "mean": "to examine a problem or complaint to find out the facts",
+    "hi": "जाँच करना, ग़ौर करना",
+    "ex": "The railway helpline promised to look into my complaint about the broken AC in coach B3.",
+    "with": [
+      "look into a complaint",
+      "look into the matter",
+      "promise to look into"
+    ],
+    "instead": "check about",
+    "note": "Not separable: 'look into it', never 'look it into'. 'I'll look into it' is a polite office promise, so do follow it up."
+  },
+  {
+    "w": "point out",
+    "room": "phrasal",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "poynt OWT",
+    "mean": "to make someone notice a fact, often a mistake",
+    "hi": "ध्यान दिलाना",
+    "ex": "Thanks for taking the time to point out the error in the GST figure before the invoice went out.",
+    "with": [
+      "point out a mistake",
+      "point out that",
+      "rightly point out"
+    ],
+    "instead": "tell about",
+    "note": "Separable: 'point it out'. A common pattern is 'point out that...'. Softer than 'correct': 'May I point out one thing?'"
+  },
+  {
+    "w": "bring up",
+    "room": "phrasal",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "bring UP",
+    "mean": "to start talking about a subject",
+    "hi": "बात छेड़ना, ज़िक्र करना",
+    "ex": "Please don't bring up the property dispute at Nani's birthday lunch; everyone will start shouting.",
+    "with": [
+      "bring up a topic",
+      "bring up an issue",
+      "bring it up"
+    ],
+    "instead": "start talking about",
+    "note": "Separable: 'bring it up'. Second meaning: to raise a child ('She was brought up in Patna')."
+  },
+  {
+    "w": "carry on",
+    "room": "phrasal",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "ka-ree ON",
+    "mean": "to continue doing something",
+    "hi": "जारी रखना",
+    "ex": "Sorry for the interruption, Professor Iyer; please carry on with the lecture.",
+    "with": [
+      "carry on working",
+      "carry on with",
+      "carry on regardless"
+    ],
+    "instead": "keep going",
+    "note": "Mostly spoken; in formal writing 'continue' is better. Use 'carry on + -ing' or 'carry on with + noun'."
+  },
+  {
+    "w": "come across",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "kum uh-KROS",
+    "mean": "to find or meet by chance; also, to seem a certain way",
+    "hi": "अचानक मिलना; लगना",
+    "ex": "If you come across a good tailor in Lajpat Nagar, please send me the number.",
+    "with": [
+      "come across as rude",
+      "come across a problem",
+      "come across an article"
+    ],
+    "instead": "find by chance",
+    "note": "Two meanings: find by chance ('come across an old letter') and seem ('He comes across as arrogant'). Not separable."
+  },
+  {
+    "w": "figure out",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "fig-ur OWT",
+    "mean": "to understand or solve something after thinking about it",
+    "hi": "समझ पाना, हल निकालना",
+    "ex": "Priya spent the whole evening trying to figure out why the hostel Wi-Fi kept disconnecting.",
+    "with": [
+      "figure out how",
+      "figure out why",
+      "figure it out"
+    ],
+    "instead": "understand somehow",
+    "note": "Casual but fine at work. Separable: 'figure it out'. 'Work out' means the same and sounds more British."
+  },
+  {
+    "w": "put off",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "put OFF",
+    "mean": "to delay doing something until later",
+    "hi": "टालना",
+    "ex": "Stop trying to put off the dentist visit, Rahul; that tooth won't fix itself.",
+    "with": [
+      "put off a decision",
+      "put off going",
+      "put it off"
+    ],
+    "instead": "keep delaying",
+    "note": "Separable: 'put it off'. Also means 'make someone dislike': 'His rudeness put me off.' 'Postpone' is the formal word."
+  },
+  {
+    "w": "turn down",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "turn DOWN",
+    "mean": "to say no to an offer, request or invitation",
+    "hi": "ठुकराना, मना करना",
+    "ex": "It was hard to turn down a job in Dubai, but Faisal wanted to stay near his parents in Lucknow.",
+    "with": [
+      "turn down an offer",
+      "turn down a request",
+      "politely turn down"
+    ],
+    "instead": "say no to",
+    "note": "Separable: 'turn it down', never 'turn down it'. Also means lower the volume: 'turn the TV down'. 'Reject' sounds harsher."
+  },
+  {
+    "w": "rule out",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "rool OWT",
+    "mean": "to decide that something is not possible or not the cause",
+    "hi": "इनकार करना, ख़ारिज करना",
+    "ex": "The doctor ordered a blood test to rule out dengue before treating the fever as viral.",
+    "with": [
+      "rule out the possibility",
+      "can't rule out",
+      "rule it out"
+    ],
+    "instead": "say it's not possible",
+    "note": "Very common in news: 'Police have not ruled out foul play.' Separable: 'rule it out'."
+  },
+  {
+    "w": "back up",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "bak UP",
+    "mean": "to support a claim with proof, or to support a person",
+    "hi": "साथ देना; सबूत देना",
+    "ex": "If you say sales fell because of the rains, back up the claim with numbers from each district.",
+    "with": [
+      "back up a claim",
+      "back up your files",
+      "back someone up"
+    ],
+    "instead": "support",
+    "note": "Also means to copy computer data. The verb is two words (back up); the noun is one (a backup)."
+  },
+  {
+    "w": "sort out",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "sort OWT",
+    "mean": "to fix a problem or put things in order",
+    "hi": "सुलझाना, ठीक करना",
+    "ex": "Let me sort out the seating plan before the baraat arrives.",
+    "with": [
+      "sort out a problem",
+      "sort things out",
+      "get it sorted"
+    ],
+    "instead": "solve",
+    "note": "Friendly and common in British and Indian speech. Separable: 'sort it out'. 'Sorted!' means everything is fixed."
+  },
+  {
+    "w": "set up",
+    "room": "phrasal",
+    "floor": 2,
+    "pos": "phrasal verb",
+    "say": "set UP",
+    "mean": "to start or arrange something, such as a business, meeting or system",
+    "hi": "शुरू करना, खड़ा करना",
+    "ex": "My cousin Joseph left his bank job to set up a cloud kitchen in Pune.",
+    "with": [
+      "set up a business",
+      "set up a meeting",
+      "set up a committee"
+    ],
+    "instead": "start",
+    "note": "Verb: two words (set up). Noun: 'a setup' or 'a set-up'. 'Set someone up' can also mean trick them into looking guilty."
+  },
+  {
+    "w": "come up with",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "kum UP with",
+    "mean": "to think of an idea, plan or answer",
+    "hi": "सुझाना, तरकीब निकालना",
+    "ex": "The team has two days to come up with a cheaper design for the solar water pump.",
+    "with": [
+      "come up with an idea",
+      "come up with a plan",
+      "come up with a solution"
+    ],
+    "instead": "think of",
+    "note": "Cannot be split: 'come up with it', never 'come it up with'. Use it for new ideas; 'devise' is the formal version."
+  },
+  {
+    "w": "follow through",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "fol-oh THROO",
+    "mean": "to finish what you started or promised",
+    "hi": "बात पूरी करना, अंजाम तक पहुँचाना",
+    "ex": "Many people announce a fitness plan on New Year's Day; few follow through after the first week.",
+    "with": [
+      "follow through on a promise",
+      "follow through with",
+      "fail to follow through"
+    ],
+    "instead": "keep your word",
+    "note": "Not 'follow up' (check again later): follow through = actually complete it. In cricket, the follow-through is the end of the bowling action."
+  },
+  {
+    "w": "play down",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "play DOWN",
+    "mean": "to make something seem less important or serious than it is",
+    "hi": "हल्का करके दिखाना",
+    "ex": "The airline tried to play down the delay, but passengers had been stuck at Chennai airport for six hours.",
+    "with": [
+      "play down the risk",
+      "play down fears",
+      "play it down"
+    ],
+    "instead": "make it seem small",
+    "note": "Opposite: 'play up'. Separable: 'play it down'. Common in news: 'Officials played down fears of a shortage.' Also one word: 'downplay'."
+  },
+  {
+    "w": "brush off",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "brush OFF",
+    "mean": "to refuse to take something seriously or to listen to it",
+    "hi": "अनसुना करना, टाल देना",
+    "ex": "Don't brush off a chest pain as gas, Papa; get an ECG done today.",
+    "with": [
+      "brush off criticism",
+      "brush off a question",
+      "brush it off"
+    ],
+    "instead": "ignore",
+    "note": "Separable: 'brush it off'. It hints at carelessness. 'Give someone the brush-off' = rudely reject them."
+  },
+  {
+    "w": "live up to",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "liv UP too",
+    "mean": "to be as good as people expected",
+    "hi": "उम्मीदों पर खरा उतरना",
+    "ex": "The new biryani place in Hyderabad did not live up to the hype on Instagram.",
+    "with": [
+      "live up to expectations",
+      "live up to the hype",
+      "live up to your name"
+    ],
+    "instead": "be as good as expected",
+    "note": "Here 'live' rhymes with 'give', not 'five'. Cannot be split. Often negative: 'failed to live up to'."
+  },
+  {
+    "w": "fall through",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "fawl THROO",
+    "mean": "(of a plan or deal) to fail and not happen",
+    "hi": "बात न बनना, खटाई में पड़ना",
+    "ex": "Get the agreement in writing, or the flat deal may fall through at the last minute.",
+    "with": [
+      "the deal fell through",
+      "plans fall through",
+      "fall through at the last minute"
+    ],
+    "instead": "not work out",
+    "note": "Used for plans and deals, not people: 'The deal fell through.' It takes no object."
+  },
+  {
+    "w": "catch on",
+    "room": "phrasal",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "kach ON",
+    "mean": "to become popular; also, to finally understand",
+    "hi": "चल पड़ना; समझ आना",
+    "ex": "Nobody expected UPI to catch on so fast among sabziwalas and chai stalls.",
+    "with": [
+      "quickly catch on",
+      "catch on with young people",
+      "finally catch on"
+    ],
+    "instead": "become popular",
+    "note": "Two senses: become popular ('the trend caught on') and understand ('she caught on to the trick'). Casual but fine at work."
+  },
+  {
+    "w": "gloss over",
+    "room": "phrasal",
+    "floor": 4,
+    "pos": "phrasal verb",
+    "say": "glos OH-vur",
+    "mean": "to pass quickly over a problem so that people don't notice it",
+    "hi": "लीपापोती करना",
+    "ex": "The annual report seems to gloss over the losses in the Kolkata branch.",
+    "with": [
+      "gloss over the problems",
+      "gloss over details",
+      "gloss over a mistake"
+    ],
+    "instead": "skip quickly over",
+    "note": "Always critical: it suggests hiding something. Not split in normal use: 'gloss over it'."
+  },
+  {
+    "w": "iron out",
+    "room": "phrasal",
+    "floor": 4,
+    "pos": "phrasal verb",
+    "say": "eye-urn OWT",
+    "mean": "to solve small problems or differences before things go ahead",
+    "hi": "मसले सुलझाना",
+    "ex": "The two families met over chai to iron out the last details of the wedding budget.",
+    "with": [
+      "iron out differences",
+      "iron out the details",
+      "iron out problems"
+    ],
+    "instead": "fix small problems",
+    "note": "Picture pressing creases flat. Used for small problems, not big crises. Separable: 'iron them out'. Say EYE-urn, not 'eye-RON'."
+  },
+  {
+    "w": "weigh in",
+    "room": "phrasal",
+    "floor": 4,
+    "pos": "phrasal verb",
+    "say": "way IN",
+    "mean": "to give your opinion in a discussion, often as an expert",
+    "hi": "राय देना",
+    "ex": "Before we finalise the leave policy, I'd like Meenakshi from legal to weigh in.",
+    "with": [
+      "weigh in on",
+      "weigh in with",
+      "experts weigh in"
+    ],
+    "instead": "give an opinion",
+    "note": "Fine at work and in news. Use 'on' + topic: 'weigh in on the debate'. Not separable."
+  },
+  {
+    "w": "mull over",
+    "room": "phrasal",
+    "floor": 4,
+    "pos": "phrasal verb",
+    "say": "mul OH-vur",
+    "mean": "to think carefully about something for a while before deciding",
+    "hi": "सोच-विचार करना",
+    "ex": "Take the weekend to mull over the offer from the Bengaluru startup before you reply.",
+    "with": [
+      "mull over an offer",
+      "mull it over",
+      "mull over the options"
+    ],
+    "instead": "think about it for some time",
+    "note": "Separable: 'mull it over'. It suggests slow, unhurried thinking."
+  },
+  {
+    "w": "double down",
+    "room": "phrasal",
+    "floor": 5,
+    "pos": "phrasal verb",
+    "say": "dub-ul DOWN",
+    "mean": "to stick to a choice even more firmly after people question it",
+    "hi": "और अड़ जाना",
+    "ex": "Instead of apologising, the anchor chose to double down on his claim in the next night's debate.",
+    "with": [
+      "double down on",
+      "double down on a strategy",
+      "choose to double down"
+    ],
+    "instead": "insist even harder",
+    "note": "From card games (doubling a bet). American, now common in news. Usually critical (stubbornness), but can be positive: 'double down on quality'."
+  },
+  {
+    "w": "pan out",
+    "room": "phrasal",
+    "floor": 5,
+    "pos": "phrasal verb",
+    "say": "pan OWT",
+    "mean": "to develop or end in a particular way",
+    "hi": "नतीजा निकलना",
+    "ex": "Nobody knows how the Ranji season will pan out now that three key players are injured.",
+    "with": [
+      "see how things pan out",
+      "pan out well",
+      "didn't pan out"
+    ],
+    "instead": "turn out",
+    "note": "Casual. Often negative or uncertain: 'The plan didn't pan out.' From gold miners washing gravel in a pan."
+  }
+]

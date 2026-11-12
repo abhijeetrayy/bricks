@@ -6,7 +6,7 @@
     "pos": "verb",
     "say": "pohst-POHN",
     "mean": "to move a planned event to a later time",
-    "hi": "आगे बढ़ाना, टालना",
+    "hi": "टालना, आगे खिसकाना",
     "ex": "Ma'am, could we postpone tomorrow's review to Friday? The client's data hasn't reached us yet.",
     "with": [
       "postpone a meeting",
@@ -40,7 +40,7 @@
     "pos": "adjective",
     "say": "kun-VEE-nee-unt",
     "mean": "easy for you, because it suits your time or plans",
-    "hi": "सुविधाजनक",
+    "hi": "सुविधाजनक, मुनासिब",
     "ex": "Uncle, please let me know a convenient time to come and collect the house papers.",
     "with": [
       "a convenient time",
@@ -57,7 +57,7 @@
     "pos": "verb",
     "say": "uh-PREE-shee-ayt",
     "mean": "to be thankful for something, or to understand its value",
-    "hi": "क़द्र करना",
+    "hi": "क़द्र करना, आभारी होना",
     "ex": "I would appreciate it if you could send the rent receipt by the fifth, as my office needs it for HRA.",
     "with": [
       "really appreciate",
@@ -227,7 +227,7 @@
     "pos": "adjective",
     "say": "di-SKREET",
     "mean": "careful not to share private things or cause embarrassment",
-    "hi": "राज़दार, सावधान",
+    "hi": "राज़ रखने वाला, सावधान",
     "ex": "Please be discreet about Mohan's surgery; he hasn't told the rest of the team yet.",
     "with": [
       "be discreet",

@@ -1,5 +1,5 @@
 [
-  { "root": "nov", "means": "new", "from": "Latin novus", "echo": "नव (nav) — new, as in नवरात्रि and नवीन", "words": [
+  { "root": "nov", "means": "new", "from": "Latin novus", "echo": "नव (nav) — new, as in नवीन (navīn) and नवयुवक (navyuvak)", "words": [
     { "w": "novel", "m": "new and unusual" },
     { "w": "novice", "m": "a beginner, someone new to something" },
     { "w": "innovate", "m": "to bring in new ideas or methods" },
@@ -65,7 +65,7 @@
     { "w": "obstacle", "m": "something standing in your way" },
     { "w": "constant", "m": "staying the same; not changing" }
   ]},
-  { "root": "dent", "means": "tooth", "from": "Latin dens, dentis", "echo": "दन्त (dant) — tooth; Hindi दाँत (dā̃t), दन्तमंजन", "words": [
+  { "root": "dent", "means": "tooth", "from": "Latin dens, dentis", "echo": "दन्त (dant) — tooth; Hindi दाँत (dā̃t)", "words": [
     { "w": "dentist", "m": "a doctor for teeth" },
     { "w": "dental", "m": "to do with teeth" },
     { "w": "dentures", "m": "a set of false teeth" },
@@ -109,7 +109,7 @@
     { "w": "malice", "m": "the wish to harm someone" },
     { "w": "malaria", "m": "a fever once blamed on 'bad air'" }
   ]},
-  { "root": "dict", "means": "say, speak", "from": "Latin dicere, dictus", "echo": "", "words": [
+  { "root": "dict", "means": "say, speak", "from": "Latin dicere, dictus", "echo": "दिश् (diś) — to point out, show; दिशा (diśā) direction", "words": [
     { "w": "predict", "m": "to say what will happen" },
     { "w": "contradict", "m": "to say the opposite" },
     { "w": "verdict", "m": "a decision in a court case ('true saying')" },
@@ -117,7 +117,7 @@
     { "w": "dictionary", "m": "a book of words and their meanings" },
     { "w": "jurisdiction", "m": "the area where a court's word is law" }
   ]},
-  { "root": "spect", "means": "look", "from": "Latin specere, spectus", "echo": "", "words": [
+  { "root": "spect", "means": "look", "from": "Latin specere, spectus", "echo": "पश् / स्पश् (paś / spaś) — to see; पश्यति (paśyati) he sees", "words": [
     { "w": "inspect", "m": "to look at closely" },
     { "w": "spectator", "m": "someone who watches an event" },
     { "w": "perspective", "m": "a way of looking at things" },

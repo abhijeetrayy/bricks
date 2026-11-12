@@ -1,0 +1,444 @@
+[
+  {
+    "w": "on the same page",
+    "room": "idioms",
+    "floor": 1,
+    "pos": "phrase",
+    "say": "on thuh saym PAYJ",
+    "mean": "understanding a plan or situation in the same way",
+    "hi": "एक राय पर",
+    "ex": "Before the client call, let's make sure the whole Hyderabad team is on the same page about pricing.",
+    "with": [
+      "get everyone on the same page",
+      "be on the same page",
+      "not on the same page"
+    ],
+    "instead": "in agreement",
+    "note": "Fine at work; very common in meetings, a little cliché in formal writing. It means shared understanding, not always full agreement."
+  },
+  {
+    "w": "break the ice",
+    "room": "idioms",
+    "floor": 1,
+    "pos": "phrase",
+    "say": "brayk thee ICE",
+    "mean": "to say or do something that helps strangers relax and start talking",
+    "hi": "झिझक तोड़ना",
+    "ex": "At hostel orientation, Rohan tried to break the ice by asking everyone which home food they missed most.",
+    "with": [
+      "break the ice with",
+      "try to break the ice",
+      "help break the ice"
+    ],
+    "instead": "start the conversation",
+    "note": "Casual and fine at work. An 'icebreaker' is a game or question used for this at workshops."
+  },
+  {
+    "w": "in hot water",
+    "room": "idioms",
+    "floor": 1,
+    "pos": "phrase",
+    "say": "in hot WAW-tur",
+    "mean": "in trouble, usually because of something you did",
+    "hi": "मुसीबत में फँसना",
+    "ex": "Kabir landed in hot water with the principal after posting the exam timetable as a meme.",
+    "with": [
+      "land in hot water",
+      "get into hot water",
+      "in hot water with"
+    ],
+    "instead": "in trouble",
+    "note": "Casual; fine in spoken work talk. Used for trouble you caused yourself, not plain bad luck."
+  },
+  {
+    "w": "once in a blue moon",
+    "room": "idioms",
+    "floor": 1,
+    "pos": "phrase",
+    "say": "wuns in uh bloo MOON",
+    "mean": "very rarely",
+    "hi": "कभी-कभार, बरसों में एक बार",
+    "ex": "My brother in Toronto calls once in a blue moon, usually when he needs a document from home.",
+    "with": [
+      "only once in a blue moon",
+      "happen once in a blue moon",
+      "visit once in a blue moon"
+    ],
+    "instead": "very rarely",
+    "note": "Casual. Hindi says a rarely seen person has become 'ईद का चाँद'; in English you would say 'We hardly ever see you!'"
+  },
+  {
+    "w": "get the hang of",
+    "room": "idioms",
+    "floor": 1,
+    "pos": "phrase",
+    "say": "get thuh HANG uv",
+    "mean": "to learn how to do something after some practice",
+    "hi": "हाथ बैठ जाना",
+    "ex": "Riding a scooter in Guwahati traffic is scary at first, but you'll get the hang of it in a week.",
+    "with": [
+      "get the hang of it",
+      "finally get the hang of",
+      "quickly get the hang of"
+    ],
+    "instead": "learn how to do",
+    "note": "Casual but fine at work. Followed by 'it' or a noun or -ing word: 'get the hang of cooking'."
+  },
+  {
+    "w": "the bottom line",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "thuh BOT-um line",
+    "mean": "the most important fact, or the final result",
+    "hi": "असल बात, लब्बोलुआब",
+    "ex": "We can debate the design all day, but the bottom line is that the app must launch before Diwali.",
+    "with": [
+      "the bottom line is",
+      "hurt the bottom line",
+      "improve the bottom line"
+    ],
+    "instead": "the main point",
+    "note": "Fine at work; overused in speeches. In business it also means profit, so 'hurt the bottom line' = cut profit."
+  },
+  {
+    "w": "on the fence",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "on thuh FENS",
+    "mean": "not able to decide between two choices or sides",
+    "hi": "दुविधा में",
+    "ex": "Ritu is still on the fence about taking science or commerce after Class 10.",
+    "with": [
+      "sit on the fence",
+      "still on the fence",
+      "on the fence about"
+    ],
+    "instead": "not sure which side",
+    "note": "Fine at work. 'Sitting on the fence' can sound critical: avoiding a choice to stay safe. Use 'about' + topic."
+  },
+  {
+    "w": "food for thought",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "food fur THAWT",
+    "mean": "an idea that is worth thinking about carefully",
+    "hi": "सोचने वाली बात",
+    "ex": "The retired judge's talk on fairness gave the law students plenty of food for thought.",
+    "with": [
+      "give food for thought",
+      "plenty of food for thought",
+      "real food for thought"
+    ],
+    "instead": "something to think about",
+    "note": "Fine at work and in writing, but a cliché as an essay ending. No 'a': say 'food for thought', not 'a food for thought'."
+  },
+  {
+    "w": "a grey area",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "uh GRAY air-ee-uh",
+    "mean": "a situation where the rules are unclear, neither clearly right nor wrong",
+    "hi": "अस्पष्ट मामला",
+    "ex": "Whether delivery riders count as employees is still a grey area in labour law.",
+    "with": [
+      "a legal grey area",
+      "fall into a grey area",
+      "something of a grey area"
+    ],
+    "instead": "unclear situation",
+    "note": "Fine at work and in formal writing. British spelling 'grey'; American 'gray area'."
+  },
+  {
+    "w": "the tip of the iceberg",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "thuh tip uv thee ICE-burg",
+    "mean": "a small, visible part of a much bigger problem",
+    "hi": "असली समस्या की झलक भर",
+    "ex": "The ten fake degree cases caught this year may be just the tip of the iceberg, officials warned.",
+    "with": [
+      "just the tip of the iceberg",
+      "only the tip of the iceberg",
+      "merely the tip of the iceberg"
+    ],
+    "instead": "a small part of a bigger problem",
+    "note": "Fine at work and in news, but a cliché; use it once. Almost always about problems, rarely good things."
+  },
+  {
+    "w": "back to square one",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "bak too skwair WUN",
+    "mean": "back at the start, because the first attempt failed",
+    "hi": "फिर वहीं के वहीं",
+    "ex": "The landlord backed out at the last minute, so we're back to square one in our flat hunt in Koramangala.",
+    "with": [
+      "go back to square one",
+      "be back to square one",
+      "right back to square one"
+    ],
+    "instead": "starting again",
+    "note": "Casual; fine at work. It means the effort so far was wasted and you must start over."
+  },
+  {
+    "w": "cut corners",
+    "room": "idioms",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "kut KOR-nurz",
+    "mean": "to do something cheaply or quickly by skipping important steps",
+    "hi": "शॉर्टकट मारना, लापरवाही करना",
+    "ex": "Engineers say the flyover cracked because the contractor chose to cut corners on cement and steel.",
+    "with": [
+      "cut corners on safety",
+      "never cut corners",
+      "cut corners to save money"
+    ],
+    "instead": "skip steps to save money",
+    "note": "Fine at work; always critical. Use 'cut corners on' + what was skimped. Not the same as a clever shortcut or jugaad."
+  },
+  {
+    "w": "the elephant in the room",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "thee EL-uh-funt in thuh room",
+    "mean": "a big, obvious problem that everyone avoids talking about",
+    "hi": "सबकी जानी अनकही बात",
+    "ex": "At the family meeting about Dadi's house, the loan Chacha never repaid was the elephant in the room.",
+    "with": [
+      "address the elephant in the room",
+      "ignore the elephant in the room",
+      "the elephant in the room is"
+    ],
+    "instead": "the obvious problem nobody mentions",
+    "note": "Fine at work, a little overused. 'Let's address the elephant in the room' is a polite way to raise an awkward issue."
+  },
+  {
+    "w": "a double-edged sword",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "uh DUB-ul ejd sord",
+    "mean": "something that has both good and bad effects",
+    "hi": "दोधारी तलवार",
+    "ex": "Working from home is a double-edged sword: no Gurugram traffic, but the workday never seems to end.",
+    "with": [
+      "a double-edged sword for",
+      "prove a double-edged sword",
+      "something of a double-edged sword"
+    ],
+    "instead": "good and bad at once",
+    "note": "Fine at work and in writing; Hindi uses the same picture. A cliché in essays, so don't lean on it."
+  },
+  {
+    "w": "devil's advocate",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "dev-ulz AD-vuh-kut",
+    "mean": "someone who argues the other side on purpose to test an idea",
+    "hi": "जानबूझकर उलटा पक्ष",
+    "ex": "Let me play devil's advocate: what if customers in small towns don't want home delivery at all?",
+    "with": [
+      "play devil's advocate",
+      "act as devil's advocate",
+      "just playing devil's advocate"
+    ],
+    "instead": "arguing the other side",
+    "note": "Fine at work. Usually 'play devil's advocate'. You may not believe the view yourself; you are testing the plan."
+  },
+  {
+    "w": "move the goalposts",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "moov thuh GOHL-pohsts",
+    "mean": "to unfairly change the rules or targets after someone has started",
+    "hi": "बीच में नियम बदलना",
+    "ex": "Every time we meet the sales target, the regional head seems to move the goalposts again.",
+    "with": [
+      "keep moving the goalposts",
+      "move the goalposts on someone",
+      "stop moving the goalposts"
+    ],
+    "instead": "change the rules midway",
+    "note": "Fine at work, but it is a complaint about unfairness. From football. Often 'keep moving the goalposts'."
+  },
+  {
+    "w": "bite the bullet",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "byte thuh BUL-it",
+    "mean": "to finally do something hard or unpleasant that you have been avoiding",
+    "hi": "कड़वा घूँट पीना",
+    "ex": "After months of back pain, Sunita decided to bite the bullet and book the surgery.",
+    "with": [
+      "finally bite the bullet",
+      "decide to bite the bullet",
+      "bite the bullet and"
+    ],
+    "instead": "do the hard thing",
+    "note": "Casual; fine at work. Used for accepting a hard choice, not for bravery in danger."
+  },
+  {
+    "w": "a blessing in disguise",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "uh bles-ing in dis-GYZE",
+    "mean": "something that seemed bad at first but turned out to be good",
+    "hi": "छिपा हुआ वरदान",
+    "ex": "Missing the flight to Goa was a blessing in disguise; that evening I met my future business partner.",
+    "with": [
+      "turn out to be a blessing in disguise",
+      "prove a blessing in disguise",
+      "a real blessing in disguise"
+    ],
+    "instead": "bad luck that turned out well",
+    "note": "Casual and fine at work; a cliché in essays. Said afterwards, once the good side shows. Hindi: 'जो होता है, अच्छे के लिए होता है'."
+  },
+  {
+    "w": "read between the lines",
+    "room": "idioms",
+    "floor": 3,
+    "pos": "phrase",
+    "say": "reed bih-TWEEN thuh lynz",
+    "mean": "to understand a hidden meaning that is not said openly",
+    "hi": "इशारा समझना",
+    "ex": "The HR email only says 'restructuring', but read between the lines and you can see layoffs coming.",
+    "with": [
+      "read between the lines of",
+      "learn to read between the lines",
+      "if you read between the lines"
+    ],
+    "instead": "find the hidden meaning",
+    "note": "Fine at work. Careful: you can also 'read in' meanings that were never there."
+  },
+  {
+    "w": "a red herring",
+    "room": "idioms",
+    "floor": 4,
+    "pos": "phrase",
+    "say": "uh red HER-ing",
+    "mean": "an unimportant point that pulls attention away from the real issue",
+    "hi": "ध्यान भटकाने वाली बात",
+    "ex": "In the meeting on hostel fees, the dress-code question was a red herring that ate up half an hour.",
+    "with": [
+      "a red herring to",
+      "prove a red herring",
+      "throw in a red herring"
+    ],
+    "instead": "distraction",
+    "note": "Fine at work and in formal writing; common in mystery stories and debates. It misleads, often on purpose."
+  },
+  {
+    "w": "the lion's share",
+    "room": "idioms",
+    "floor": 4,
+    "pos": "phrase",
+    "say": "thuh LY-unz shair",
+    "mean": "the biggest part of something",
+    "hi": "सबसे बड़ा हिस्सा",
+    "ex": "Bengaluru and Delhi still take the lion's share of startup funding in India.",
+    "with": [
+      "the lion's share of",
+      "take the lion's share",
+      "get the lion's share"
+    ],
+    "instead": "most of it",
+    "note": "Fine at work and in writing. It means the largest part, not all of it, and often hints the split is unfair."
+  },
+  {
+    "w": "a catch-22",
+    "room": "idioms",
+    "floor": 4,
+    "pos": "phrase",
+    "say": "uh kach-twen-tee-TOO",
+    "mean": "a trap where you cannot win, because each condition blocks the other",
+    "hi": "उलटा चक्कर, बंद गली",
+    "ex": "It's a catch-22 for freshers: companies want experience, but you can't get experience without a job.",
+    "with": [
+      "a classic catch-22",
+      "caught in a catch-22",
+      "a real catch-22"
+    ],
+    "instead": "no-win situation",
+    "note": "Fine at work and in writing; often written 'Catch-22', after Joseph Heller's 1961 novel. Use it for circular traps, not any hard choice."
+  },
+  {
+    "w": "rest on your laurels",
+    "room": "idioms",
+    "floor": 4,
+    "pos": "phrase",
+    "say": "rest on yor LOR-ulz",
+    "mean": "to stop trying because you are happy with past success",
+    "hi": "पुरानी कामयाबी पर बैठ जाना",
+    "ex": "Topping the district in Class 10 is great, Aditi, but don't rest on your laurels in Class 11.",
+    "with": [
+      "never rest on your laurels",
+      "can't rest on our laurels",
+      "rest on its laurels"
+    ],
+    "instead": "relax after one success",
+    "note": "Fine at work and in writing. Change 'your' to fit: our, their, its. Laurels were the leaf crowns given to winners in ancient Greece."
+  },
+  {
+    "w": "a pyrrhic victory",
+    "room": "idioms",
+    "floor": 4,
+    "pos": "phrase",
+    "say": "uh PIR-ik vik-tuh-ree",
+    "mean": "a win that cost so much that it was hardly worth winning",
+    "hi": "बहुत महँगी जीत",
+    "ex": "Winning the boundary case after twelve years and lakhs in fees was a pyrrhic victory for the Shetty brothers.",
+    "with": [
+      "at best a pyrrhic victory",
+      "prove a pyrrhic victory",
+      "a pyrrhic victory for"
+    ],
+    "instead": "costly win",
+    "note": "Formal writing and news. Often capitalised 'Pyrrhic', after King Pyrrhus, who beat Rome but lost much of his army. Say PIR-ik."
+  },
+  {
+    "w": "Hobson's choice",
+    "room": "idioms",
+    "floor": 5,
+    "pos": "phrase",
+    "say": "HOB-sunz choys",
+    "mean": "a so-called choice where you must take the one thing offered or nothing",
+    "hi": "मजबूरी, कोई विकल्प नहीं",
+    "ex": "With only one bus to the village after 6 pm, it was Hobson's choice: squeeze into the 6:10 or walk home.",
+    "with": [
+      "it's Hobson's choice",
+      "a case of Hobson's choice",
+      "offered Hobson's choice"
+    ],
+    "instead": "no real choice",
+    "note": "Formal and a bit old-fashioned. Not a hard choice between two options (that is a dilemma); it is no real choice at all."
+  },
+  {
+    "w": "Occam's razor",
+    "room": "idioms",
+    "floor": 5,
+    "pos": "phrase",
+    "say": "ok-umz RAY-zur",
+    "mean": "the idea that the simplest explanation that fits the facts is usually right",
+    "hi": "सबसे सरल कारण ही सही",
+    "ex": "The fan stopped and so did the fridge; by Occam's razor, it's a power cut, not two broken machines.",
+    "with": [
+      "apply Occam's razor",
+      "by Occam's razor",
+      "Occam's razor suggests"
+    ],
+    "instead": "the simplest explanation",
+    "note": "Formal and academic. A rule of thumb, not proof. Named after William of Ockham, a 14th-century English friar."
+  }
+]

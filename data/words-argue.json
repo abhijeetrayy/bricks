@@ -8,7 +8,11 @@
     "mean": "to make someone believe that something is true or right",
     "hi": "यक़ीन दिलाना",
     "ex": "It took Meera a whole evening to convince her father that a BCom graduate can become a good chef.",
-    "with": ["convince someone of", "fully convinced", "try to convince"],
+    "with": [
+      "convince someone of",
+      "fully convinced",
+      "try to convince"
+    ],
     "instead": "make them believe",
     "note": "Convince = make someone believe; persuade = make someone act. 'She convinced me it was safe, then persuaded me to go.'"
   },
@@ -21,7 +25,11 @@
     "mean": "to disagree with a plan or idea and try to stop it",
     "hi": "विरोध करना",
     "ex": "Residents of the Pune colony met on Sunday to oppose the plan to cut forty old banyan trees for a parking lot.",
-    "with": ["strongly oppose", "oppose the plan", "be opposed to"],
+    "with": [
+      "strongly oppose",
+      "oppose the plan",
+      "be opposed to"
+    ],
     "instead": "be against",
     "note": "Say 'I oppose the plan' or 'I am opposed to the plan', never 'I oppose to the plan'."
   },
@@ -34,7 +42,11 @@
     "mean": "to agree, often unwillingly, that something is true",
     "hi": "क़ुबूल करना",
     "ex": "Vikram had to admit that his sister's route to Lonavala was faster than his.",
-    "with": ["admit defeat", "freely admit", "admit a mistake"],
+    "with": [
+      "admit defeat",
+      "freely admit",
+      "admit a mistake"
+    ],
     "instead": "own up",
     "note": "Use -ing after it: 'He admitted copying' or 'admitted to copying'. It also means let in: 'admitted to hospital'."
   },
@@ -46,8 +58,12 @@
     "say": "JUS-ti-fye",
     "mean": "to give good reasons why something is right or needed",
     "hi": "सही ठहराना",
-    "ex": "How will the school justify a thirty percent fee hike when half the classrooms still have no working fans?",
-    "with": ["justify a decision", "hard to justify", "justify the cost"],
+    "ex": "How will the school justify a thirty per cent fee hike when half the classrooms still have no working fans?",
+    "with": [
+      "justify a decision",
+      "hard to justify",
+      "justify the cost"
+    ],
     "instead": "give reasons for",
     "note": "Something that 'cannot be justified' has no good defence at all. Noun: justification."
   },
@@ -60,7 +76,11 @@
     "mean": "a discussion where people give opposite views on a question",
     "hi": "बहस",
     "ex": "The college debate on open-book exams got so heated that the principal had to step in.",
-    "with": ["heated debate", "open to debate", "public debate"],
+    "with": [
+      "heated debate",
+      "open to debate",
+      "public debate"
+    ],
     "instead": "argument",
     "note": "Noun: 'a debate on/about X'. Verb takes no preposition: 'we debated the issue', not 'debated on the issue'."
   },
@@ -73,7 +93,11 @@
     "mean": "based on good reasons, so it should be accepted",
     "hi": "जायज़",
     "ex": "Lata aunty's point in the family WhatsApp group was valid: the forwarded 'cure' had no doctor's name on it.",
-    "with": ["valid point", "perfectly valid", "valid reason"],
+    "with": [
+      "valid point",
+      "perfectly valid",
+      "valid reason"
+    ],
     "instead": "fair",
     "note": "It also means officially usable: a valid ticket, a valid passport. The 'validity' of a phone recharge is the same sense."
   },
@@ -86,7 +110,11 @@
     "mean": "to answer an argument or attack with one of your own",
     "hi": "जवाब देना",
     "ex": "When the manager blamed her team for the delay, Tanvi was ready to counter with the client's late approvals.",
-    "with": ["counter an argument", "counter the claim", "counter-argument"],
+    "with": [
+      "counter an argument",
+      "counter the claim",
+      "counter-argument"
+    ],
     "instead": "answer back",
     "note": "Common in nouns like 'counter-argument' and 'counter-offer'. 'Counterproductive' means it works against your own goal."
   },
@@ -98,8 +126,12 @@
     "say": "kum-PEL-ing",
     "mean": "so strong or interesting that you have to believe it or pay attention",
     "hi": "दमदार",
-    "ex": "The lawyer showed compelling evidence that the signatures on the land papers in Allahabad were forged.",
-    "with": ["compelling evidence", "compelling case", "compelling reason"],
+    "ex": "The lawyer showed compelling evidence that the signatures on the land papers in Jabalpur were forged.",
+    "with": [
+      "compelling evidence",
+      "compelling case",
+      "compelling reason"
+    ],
     "instead": "very convincing",
     "note": "A 'compelling story' is one you can't stop reading. 'Compulsive' is different: unable to stop yourself (a compulsive liar)."
   },
@@ -112,7 +144,11 @@
     "mean": "a reason you give for not agreeing with something",
     "hi": "एतराज़",
     "ex": "Nobody at the housing society meeting raised an objection to repainting the building before the monsoon.",
-    "with": ["raise an objection", "no objection", "strong objection"],
+    "with": [
+      "raise an objection",
+      "no objection",
+      "strong objection"
+    ],
     "instead": "problem with it",
     "note": "You have an objection 'to' something, not 'on' it. An NOC is a No Objection Certificate."
   },
@@ -125,7 +161,11 @@
     "mean": "to get someone to do something by giving them good reasons",
     "hi": "राज़ी करना",
     "ex": "Jaspreet tried for weeks to persuade her grandmother to get the cataract surgery at the free eye camp.",
-    "with": ["persuade someone to", "easily persuaded", "try to persuade"],
+    "with": [
+      "persuade someone to",
+      "easily persuaded",
+      "try to persuade"
+    ],
     "instead": "talk into",
     "note": "Persuade someone TO DO something; convince someone THAT something is true. Pronounced pur-SWAYD, with a 'w' sound."
   },
@@ -138,7 +178,11 @@
     "mean": "the opinion you openly hold on an issue",
     "hi": "रुख़",
     "ex": "The coach took a firm stance: no player who skipped practice would play the Ranji match.",
-    "with": ["take a stance", "firm stance", "clear stance"],
+    "with": [
+      "take a stance",
+      "firm stance",
+      "clear stance"
+    ],
     "instead": "position",
     "note": "Also a batter's way of standing at the crease; picture the cricket stance to remember 'where you stand'."
   },
@@ -149,9 +193,13 @@
     "pos": "verb",
     "say": "kon-truh-DIKT",
     "mean": "to say the opposite of what someone said, or to not match it",
-    "hi": "उलटा कहना",
+    "hi": "बात काटना, झुठलाना",
     "ex": "The CCTV footage seemed to contradict the shopkeeper's claim that the thief had come after midnight.",
-    "with": ["contradict yourself", "directly contradict", "contradict the evidence"],
+    "with": [
+      "contradict yourself",
+      "directly contradict",
+      "contradict the evidence"
+    ],
     "instead": "say the opposite",
     "note": "Facts can contradict each other too: 'The two reports contradict each other.' Adjective: contradictory."
   },
@@ -162,9 +210,13 @@
     "pos": "verb",
     "say": "kun-SEED",
     "mean": "to admit, often unwillingly, that the other side is right or has won",
-    "hi": "हार मान लेना",
+    "hi": "मान लेना, हार मानना",
     "ex": "After the third recount, the losing candidate in the village panchayat election had to concede defeat.",
-    "with": ["concede defeat", "concede a point", "reluctantly concede"],
+    "with": [
+      "concede defeat",
+      "concede a point",
+      "reluctantly concede"
+    ],
     "instead": "unwillingly agree",
     "note": "Cricket uses it too: 'the bowler conceded 40 runs'. Conceding a small point makes your main argument look fairer, not weaker."
   },
@@ -177,7 +229,11 @@
     "mean": "to prove that a claim is wrong",
     "hi": "ग़लत साबित करना",
     "ex": "The fact-checker used the bank's own circular to refute the viral claim that all ATMs would shut for a week.",
-    "with": ["refute a claim", "easily refute", "refute the allegations"],
+    "with": [
+      "refute a claim",
+      "easily refute",
+      "refute the allegations"
+    ],
     "instead": "prove wrong",
     "note": "Refute = prove wrong; rebut = argue against (may not succeed); deny = just say it's false. Don't use 'refute' when you mean 'deny'."
   },
@@ -190,7 +246,11 @@
     "mean": "to slowly weaken something, often in a hidden way",
     "hi": "कमज़ोर करना",
     "ex": "Repeated paper leaks undermine public trust in the state's board exams.",
-    "with": ["undermine trust", "undermine confidence", "seriously undermine"],
+    "with": [
+      "undermine trust",
+      "undermine confidence",
+      "seriously undermine"
+    ],
     "instead": "weaken",
     "note": "Usually slow or hidden damage. Don't confuse with 'underestimate' (to think something is smaller or weaker than it is)."
   },
@@ -203,7 +263,11 @@
     "mean": "to support a claim with proof",
     "hi": "सबूत से साबित करना",
     "ex": "The insurance company asked Farhan to substantiate his claim with the hospital bills and discharge summary.",
-    "with": ["substantiate a claim", "fail to substantiate", "substantiate the allegations"],
+    "with": [
+      "substantiate a claim",
+      "fail to substantiate",
+      "substantiate the allegations"
+    ],
     "instead": "back up",
     "note": "'Unsubstantiated' means not backed by proof, common in news: 'unsubstantiated rumours'."
   },
@@ -216,7 +280,11 @@
     "mean": "able to be believed or trusted",
     "hi": "भरोसेमंद",
     "ex": "The reporter would not run the story until she found a credible source inside the hospital.",
-    "with": ["credible source", "credible threat", "credible evidence"],
+    "with": [
+      "credible source",
+      "credible threat",
+      "credible evidence"
+    ],
     "instead": "believable",
     "note": "Credible = believable; credulous = too quick to believe; creditable = deserving praise. 'Incredible' now usually just means amazing."
   },
@@ -229,7 +297,11 @@
     "mean": "a warning or condition you add to what you say",
     "hi": "शर्त, चेतावनी",
     "ex": "The doctor approved Papa's Kedarnath trek with one caveat: he must carry his inhaler at all times.",
-    "with": ["one caveat", "with the caveat that", "important caveat"],
+    "with": [
+      "one caveat",
+      "with the caveat that",
+      "important caveat"
+    ],
     "instead": "small warning",
     "note": "Pronounced KAV-ee-at, not ka-VEET. 'Caveat emptor' (Latin) means 'let the buyer beware'."
   },
@@ -242,7 +314,11 @@
     "mean": "to argue against a claim by giving reasons it is wrong",
     "hi": "जवाबी दलील देना",
     "ex": "In the inter-college debate, Nikhil had just two minutes to rebut every point the other team made.",
-    "with": ["rebut a claim", "rebut the argument", "rebut the charge"],
+    "with": [
+      "rebut a claim",
+      "rebut the argument",
+      "rebut the charge"
+    ],
     "instead": "argue back",
     "note": "Rebut = answer with counter-arguments; refute = actually prove wrong. Noun: rebuttal. Stress the second syllable: ri-BUT."
   },
@@ -255,7 +331,11 @@
     "mean": "to say firmly that something is true, especially in an argument",
     "hi": "दावा करना",
     "ex": "The farmers contend that the new canal will flood their fields every monsoon.",
-    "with": ["contend that", "critics contend", "contend with"],
+    "with": [
+      "contend that",
+      "critics contend",
+      "contend with"
+    ],
     "instead": "claim",
     "note": "'Contend with' means deal with a difficulty: 'contend with Mumbai traffic'. A 'contender' is someone competing for a prize."
   },
@@ -268,7 +348,11 @@
     "mean": "clear, logical and convincing",
     "hi": "ठोस",
     "ex": "Priya's cogent two-page note persuaded the hostel warden to keep the library open till midnight.",
-    "with": ["cogent argument", "cogent reasons", "clear and cogent"],
+    "with": [
+      "cogent argument",
+      "cogent reasons",
+      "clear and cogent"
+    ],
     "instead": "clear and convincing",
     "note": "Soft 'g', as in 'gem': KOH-junt. Cogent praises the logic; compelling can also mean emotionally gripping."
   },
@@ -281,7 +365,11 @@
     "mean": "impossible to prove wrong",
     "hi": "अकाट्य",
     "ex": "Hawk-Eye gave irrefutable proof that the ball had pitched outside leg stump.",
-    "with": ["irrefutable proof", "irrefutable evidence", "irrefutable logic"],
+    "with": [
+      "irrefutable proof",
+      "irrefutable evidence",
+      "irrefutable logic"
+    ],
     "instead": "impossible to argue with",
     "note": "Two pronunciations are accepted: i-ri-FYOO-tuh-bul and i-REF-yuh-tuh-bul. Use it only when the proof really is final."
   },
@@ -294,7 +382,11 @@
     "mean": "open to argument, or no longer worth arguing about because things changed",
     "hi": "बेमानी बहस",
     "ex": "Whether to fly or take the Shatabdi became a moot point once every flight to Bhopal was cancelled.",
-    "with": ["moot point", "moot question", "moot court"],
+    "with": [
+      "moot point",
+      "moot question",
+      "moot court"
+    ],
     "instead": "no longer matters",
     "note": "UK: 'moot point' = still debatable; US: no longer relevant. Indian news uses 'mooted' = proposed. Never 'mute point'."
   },
@@ -307,7 +399,11 @@
     "mean": "language used to persuade, often impressive but empty",
     "hi": "लफ़्फ़ाज़ी",
     "ex": "Voters in the small town were tired of election rhetoric and just wanted to know when the water tank would be fixed.",
-    "with": ["empty rhetoric", "heated rhetoric", "political rhetoric"],
+    "with": [
+      "empty rhetoric",
+      "heated rhetoric",
+      "political rhetoric"
+    ],
     "instead": "big talk",
     "note": "Silent 'h': RET-uh-rik. Neutral sense: the art of persuasive speaking. A 'rhetorical question' expects no answer."
   },
@@ -320,7 +416,11 @@
     "mean": "a twisted, weaker version of someone's argument, attacked instead of the real one",
     "hi": "तोड़ा-मरोड़ा तर्क",
     "ex": "'So you want students never to study?' was a straw man; Ishaan had only asked for fewer Saturday classes.",
-    "with": ["attack a straw man", "straw man argument", "set up a straw man"],
+    "with": [
+      "attack a straw man",
+      "straw man argument",
+      "set up a straw man"
+    ],
     "instead": "twisting someone's words",
     "note": "The fair opposite is 'steelmanning': stating the other side's strongest version before you reply to it."
   },
@@ -333,7 +433,11 @@
     "mean": "seeming right at first, but actually false or misleading",
     "hi": "ऊपर से सही लगने वाला",
     "ex": "The cream's specious claim to remove dark circles in three days fooled half the girls in the hostel.",
-    "with": ["specious argument", "specious reasoning", "specious claim"],
+    "with": [
+      "specious argument",
+      "specious reasoning",
+      "specious claim"
+    ],
     "instead": "sounds right but isn't",
     "note": "Don't confuse with 'spacious' (roomy). Like 'plausible', but suggesting the appearance of truth is a trick."
   }

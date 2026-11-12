@@ -21,7 +21,7 @@
     { "w": "colossal", "m": "so big it is hard to believe" }
   ]},
   { "id": "small", "tired": "small", "title": "Smaller than 'small'", "steps": [
-    { "w": "smallish", "m": "a bit small" },
+    { "w": "modest", "m": "fairly small; not large" },
     { "w": "small", "m": "little in size or amount" },
     { "w": "tiny", "m": "very small" },
     { "w": "minuscule", "m": "extremely small" },
@@ -58,9 +58,9 @@
   { "id": "tired", "tired": "tired", "title": "More tired than 'tired'", "steps": [
     { "w": "sluggish", "m": "slow and low on energy" },
     { "w": "tired", "m": "needing rest or sleep" },
-    { "w": "worn out", "m": "very tired after hard work" },
+    { "w": "weary", "m": "very tired, especially after long effort" },
     { "w": "exhausted", "m": "completely tired, with no energy left" },
-    { "w": "burnt out", "m": "exhausted by long stress or overwork" }
+    { "w": "shattered", "m": "so tired you can barely move (informal)" }
   ]},
   { "id": "hot", "tired": "hot", "title": "Hotter than 'hot'", "steps": [
     { "w": "lukewarm", "m": "only slightly warm" },
@@ -81,7 +81,7 @@
     { "w": "notable", "m": "worth noticing" },
     { "w": "important", "m": "it matters a lot" },
     { "w": "crucial", "m": "extremely important; everything depends on it" },
-    { "w": "life-or-death", "m": "so important that survival depends on it" }
+    { "w": "paramount", "m": "more important than anything else" }
   ]},
   { "id": "difficult", "tired": "difficult", "title": "Harder than 'difficult'", "steps": [
     { "w": "manageable", "m": "can be done with some effort" },
@@ -91,17 +91,17 @@
     { "w": "insurmountable", "m": "too difficult to overcome at all" }
   ]},
   { "id": "funny", "tired": "funny", "title": "Funnier than 'funny'", "steps": [
-    { "w": "mildly amusing", "m": "makes you smile a little" },
     { "w": "amusing", "m": "makes you smile" },
     { "w": "funny", "m": "makes you laugh" },
-    { "w": "hilarious", "m": "makes you laugh loudly" },
+    { "w": "hilarious", "m": "extremely funny; makes you laugh loudly" },
+    { "w": "uproarious", "m": "so funny a whole room roars with laughter" },
     { "w": "side-splitting", "m": "so funny your sides hurt from laughing" }
   ]},
   { "id": "surprised", "tired": "surprised", "title": "More than 'surprised'", "steps": [
-    { "w": "mildly surprised", "m": "did not quite expect it" },
     { "w": "surprised", "m": "did not expect it" },
-    { "w": "amazed", "m": "very surprised" },
+    { "w": "amazed", "m": "very surprised, often in a good way" },
     { "w": "astonished", "m": "extremely surprised" },
+    { "w": "stunned", "m": "so shocked you cannot react for a moment" },
     { "w": "speechless", "m": "so surprised you cannot speak" }
   ]},
   { "id": "beautiful", "tired": "beautiful", "title": "More than 'beautiful'", "steps": [

@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "opinion",
+    "title": "Give your opinion",
+    "when": "When someone asks what you think, or you want to add your view to a discussion.",
+    "phrases": [
+      {
+        "p": "If you ask me, …",
+        "tone": "casual",
+        "ex": "If you ask me, the new canteen menu is a step down from the old one."
+      },
+      {
+        "p": "My honest take is that …",
+        "tone": "casual",
+        "ex": "My honest take is that Rohan's plan is good, but the timeline is far too tight."
+      },
+      {
+        "p": "The way I see it, …",
+        "tone": "neutral",
+        "ex": "The way I see it, we should launch in Pune first and test the market before Mumbai."
+      },
+      {
+        "p": "I'd lean towards …",
+        "tone": "neutral",
+        "ex": "I'd lean towards the second vendor — their quote is higher, but their delivery record is far better."
+      },
+      {
+        "p": "I'm fairly convinced that …",
+        "tone": "neutral",
+        "ex": "I'm fairly convinced that the drop in sales is about pricing, not the new packaging."
+      },
+      {
+        "p": "In my view, …",
+        "tone": "formal",
+        "ex": "In my view, the board should approve the expansion only after the third-quarter numbers are in."
+      },
+      {
+        "p": "I would argue that …",
+        "tone": "formal",
+        "ex": "I would argue that rural clinics need trained nurses more than they need new buildings."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "According to me, …",
+        "why": "Common in India, but elsewhere 'according to' introduces someone else's view, so it sounds odd.",
+        "better": "In my opinion, …"
+      },
+      {
+        "p": "Basically, actually, what I feel is, see, …",
+        "why": "Fillers pile up before the point, and listeners lose patience.",
+        "better": "I think the main issue is cost."
+      },
+      {
+        "p": "Obviously, anyone can see that …",
+        "why": "Suggests people who disagree are foolish, so they stop listening.",
+        "better": "I think the evidence points to …"
+      }
+    ]
+  },
+  {
+    "id": "agree",
+    "title": "Agree and add something",
+    "when": "When you agree with someone and want to build on their point, not just nod.",
+    "phrases": [
+      {
+        "p": "Absolutely — and on top of that, …",
+        "tone": "casual",
+        "ex": "Absolutely — and on top of that, the metro station is just five minutes from that flat."
+      },
+      {
+        "p": "That's exactly it.",
+        "tone": "casual",
+        "ex": "That's exactly it — Meera isn't upset about the money, she's upset that nobody asked her."
+      },
+      {
+        "p": "I'm with you on that.",
+        "tone": "casual",
+        "ex": "I'm with you on that — the Saturday review meetings have to go."
+      },
+      {
+        "p": "Building on what … said, …",
+        "tone": "neutral",
+        "ex": "Building on what Priya said, we could add a Hindi version of the app for smaller towns."
+      },
+      {
+        "p": "I couldn't agree more.",
+        "tone": "neutral",
+        "ex": "I couldn't agree more — this exam schedule leaves no time at all for revision."
+      },
+      {
+        "p": "I fully support this, and I'd add that …",
+        "tone": "formal",
+        "ex": "I fully support this, and I'd add that we need a clear budget for training staff in Lucknow."
+      },
+      {
+        "p": "To echo that point, …",
+        "tone": "formal",
+        "ex": "To echo that point, early screening in district hospitals saves both lives and money."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Same to same.",
+        "why": "Indian English for 'exactly the same'; people outside India may not follow it.",
+        "better": "Exactly — I think the same."
+      },
+      {
+        "p": "Yes yes yes, correct, correct.",
+        "why": "Sounds impatient, as if you want the other person to stop talking.",
+        "better": "Yes, that's right — and there's one more thing."
+      },
+      {
+        "p": "Ditto.",
+        "why": "Just echoes without adding anything, which feels lazy in a discussion.",
+        "better": "I agree, and the cost data backs it up too."
+      }
+    ]
+  },
+  {
+    "id": "disagree",
+    "title": "Disagree without offending",
+    "when": "When you think someone is wrong but want to keep the conversation friendly and useful.",
+    "phrases": [
+      {
+        "p": "I'm not so sure about that.",
+        "tone": "casual",
+        "ex": "I'm not so sure about that — Goa in May is going to be brutally hot."
+      },
+      {
+        "p": "Hmm, I'm not sold on that.",
+        "tone": "casual",
+        "ex": "Hmm, I'm not sold on that — another attendance app sounds like more work, not less."
+      },
+      {
+        "p": "I see it a little differently.",
+        "tone": "neutral",
+        "ex": "I see it a little differently — I think the delay came from the vendor, not our team."
+      },
+      {
+        "p": "Can I push back on that a little?",
+        "tone": "neutral",
+        "ex": "Can I push back on that a little? I don't think customers in Indore will pay extra for faster delivery."
+      },
+      {
+        "p": "I'd question whether …",
+        "tone": "neutral",
+        "ex": "I'd question whether a four-day week would work for the night shift at the plant."
+      },
+      {
+        "p": "I have some reservations about …",
+        "tone": "formal",
+        "ex": "I have some reservations about outsourcing the call centre to a vendor we haven't audited."
+      },
+      {
+        "p": "With respect, I think the data suggests otherwise.",
+        "tone": "formal",
+        "ex": "With respect, I think the data suggests otherwise — footfall in the Kochi store actually rose in March."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "You are wrong.",
+        "why": "Attacks the person, so they defend instead of listening.",
+        "better": "I'm not sure that's right — here's why."
+      },
+      {
+        "p": "No, no, no, that's nonsense.",
+        "why": "Dismisses the idea and the person together, and the discussion turns into a fight.",
+        "better": "I don't think that works, because the numbers don't add up."
+      },
+      {
+        "p": "With all due respect, you don't know what you're talking about.",
+        "why": "The polite opening doesn't hide the insult; it just sounds sarcastic.",
+        "better": "I think we're looking at different numbers — can we compare?"
+      }
+    ]
+  },
+  {
+    "id": "concede",
+    "title": "Accept a point, then add yours",
+    "when": "When the other person has a good point, but you still want to add your own.",
+    "phrases": [
+      {
+        "p": "Fair enough, but …",
+        "tone": "casual",
+        "ex": "Fair enough, but we still need someone to pick up Dadi from the station."
+      },
+      {
+        "p": "OK, you've got me there.",
+        "tone": "casual",
+        "ex": "OK, you've got me there — I did promise to book the tickets. But you said you'd pack."
+      },
+      {
+        "p": "That's a fair point, but …",
+        "tone": "neutral",
+        "ex": "That's a fair point, but the cheaper laptops will cost us more in repairs."
+      },
+      {
+        "p": "I take your point. At the same time, …",
+        "tone": "neutral",
+        "ex": "I take your point. At the same time, the Jaipur clients have been asking for this for months."
+      },
+      {
+        "p": "Granted, … — but …",
+        "tone": "neutral",
+        "ex": "Granted, the new road cuts travel time — but the trees along the lake are a real loss."
+      },
+      {
+        "p": "I accept that …; however, …",
+        "tone": "formal",
+        "ex": "I accept that the deadline is fixed; however, the scope can still be reduced."
+      },
+      {
+        "p": "While I acknowledge …, …",
+        "tone": "formal",
+        "ex": "While I acknowledge the concerns about cost, the long-term savings are hard to ignore."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "OK fine, whatever you say.",
+        "why": "Sounds like you have given up and are sulking, not agreeing.",
+        "better": "Fine, that part makes sense — but here's my worry."
+      },
+      {
+        "p": "You may be right, but I am also right.",
+        "why": "Turns it into a contest instead of combining the two ideas.",
+        "better": "You're right on cost, and I think timing matters too."
+      },
+      {
+        "p": "Even then also, …",
+        "why": "Indian English pattern; 'even then' or 'even so' alone is clearer to everyone.",
+        "better": "Even so, …"
+      }
+    ]
+  },
+  {
+    "id": "unsure",
+    "title": "Say you are not sure",
+    "when": "When you don't know the answer, or aren't confident enough to give a firm view.",
+    "phrases": [
+      {
+        "p": "I'm not 100% sure, but …",
+        "tone": "casual",
+        "ex": "I'm not 100% sure, but I think the last train to Thane leaves at 12:30."
+      },
+      {
+        "p": "Don't quote me on this, but …",
+        "tone": "casual",
+        "ex": "Don't quote me on this, but I heard the board results are out on Friday."
+      },
+      {
+        "p": "I'm in two minds about it.",
+        "tone": "casual",
+        "ex": "I'm in two minds about it — the Pune offer pays more, but I'd miss Kolkata."
+      },
+      {
+        "p": "I'd need to check, but I think …",
+        "tone": "neutral",
+        "ex": "I'd need to check, but I think the GST rate on this went up in April."
+      },
+      {
+        "p": "As far as I know, …",
+        "tone": "neutral",
+        "ex": "As far as I know, the visa takes about three weeks from the Chennai consulate."
+      },
+      {
+        "p": "My understanding is that …",
+        "tone": "neutral",
+        "ex": "My understanding is that the policy covers parents, but let me confirm with HR."
+      },
+      {
+        "p": "I don't have a firm view on that yet.",
+        "tone": "formal",
+        "ex": "I don't have a firm view on that yet; I'd like to see the audit report first."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "I don't know.",
+        "why": "On its own it ends the conversation; add what you do know or what you'll do.",
+        "better": "I don't know offhand — I'll find out by tomorrow."
+      },
+      {
+        "p": "100% it is like that only.",
+        "why": "Sounds certain when you aren't, and if you're wrong, people trust you less.",
+        "better": "I think so, but I'd double-check."
+      },
+      {
+        "p": "Maybe, maybe not, who knows.",
+        "why": "Sounds careless, as if the question doesn't matter to you.",
+        "better": "It could go either way — it depends on the budget."
+      }
+    ]
+  },
+  {
+    "id": "ask",
+    "title": "Ask what someone means",
+    "when": "When you didn't follow what someone said, or need them to be more specific.",
+    "phrases": [
+      {
+        "p": "Sorry, I didn't quite catch that.",
+        "tone": "casual",
+        "ex": "Sorry, I didn't quite catch that — did you say Tuesday or Thursday?"
+      },
+      {
+        "p": "Wait, so you're saying …?",
+        "tone": "casual",
+        "ex": "Wait, so you're saying the flight leaves from Terminal 1, not Terminal 2?"
+      },
+      {
+        "p": "What do you mean by …?",
+        "tone": "neutral",
+        "ex": "What do you mean by 'soon' — this week or this month?"
+      },
+      {
+        "p": "Could you say a bit more about …?",
+        "tone": "neutral",
+        "ex": "Could you say a bit more about why the Hyderabad pilot didn't work?"
+      },
+      {
+        "p": "Just so I'm clear, …",
+        "tone": "neutral",
+        "ex": "Just so I'm clear, the report goes to Anjali first, and then to the client?"
+      },
+      {
+        "p": "Could you give me an example?",
+        "tone": "neutral",
+        "ex": "Could you give me an example of what 'more ownership' would look like in my role?"
+      },
+      {
+        "p": "Could you clarify what you mean by …?",
+        "tone": "formal",
+        "ex": "Could you clarify what you mean by 'restructuring' for the Bhopal branch?"
+      }
+    ],
+    "avoid": [
+      {
+        "p": "What?",
+        "why": "Sounds rude or shocked; people may think you're challenging them.",
+        "better": "Sorry, what was that?"
+      },
+      {
+        "p": "I am not getting you.",
+        "why": "Common in Indian offices; elsewhere it sounds vague and a little blunt.",
+        "better": "I'm not sure I follow — could you explain?"
+      },
+      {
+        "p": "Your point is not clear.",
+        "why": "Blames the speaker; it is kinder to own the confusion yourself.",
+        "better": "I think I've missed something — what's the main point?"
+      }
+    ]
+  },
+  {
+    "id": "explain",
+    "title": "Explain what you meant",
+    "when": "When someone has misunderstood you, or you need to say your point again more clearly.",
+    "phrases": [
+      {
+        "p": "Sorry, that came out wrong.",
+        "tone": "casual",
+        "ex": "Sorry, that came out wrong — I wasn't saying your cooking is bad, Ma!"
+      },
+      {
+        "p": "What I'm getting at is …",
+        "tone": "casual",
+        "ex": "What I'm getting at is that we can't keep booking the same hall every year."
+      },
+      {
+        "p": "What I meant was …",
+        "tone": "neutral",
+        "ex": "What I meant was that we should delay the launch, not cancel it."
+      },
+      {
+        "p": "Let me put it another way.",
+        "tone": "neutral",
+        "ex": "Let me put it another way: every extra step in sign-up loses us users."
+      },
+      {
+        "p": "I think I wasn't clear — …",
+        "tone": "neutral",
+        "ex": "I think I wasn't clear — I'm happy with the design, just not the colours."
+      },
+      {
+        "p": "My point is simply that …",
+        "tone": "formal",
+        "ex": "My point is simply that the farmers need cold storage before they need new seeds."
+      },
+      {
+        "p": "To clarify, …",
+        "tone": "formal",
+        "ex": "To clarify, the refund applies only to orders placed before 1 October."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "You didn't understand me.",
+        "why": "Blames the listener; taking ownership keeps things calm.",
+        "better": "Let me try that again more clearly."
+      },
+      {
+        "p": "Actually, basically, what I am trying to say is, see, …",
+        "why": "Fillers delay the point; say the point first.",
+        "better": "My point is this: we need more time."
+      },
+      {
+        "p": "As I already told you, …",
+        "why": "Sounds impatient and makes the listener feel slow.",
+        "better": "To go back to what I said earlier, …"
+      }
+    ]
+  },
+  {
+    "id": "time",
+    "title": "Buy time to think",
+    "when": "When you're asked something and need a moment, or need to come back later with an answer.",
+    "phrases": [
+      {
+        "p": "Hmm, give me a sec.",
+        "tone": "casual",
+        "ex": "Hmm, give me a sec — I'm trying to remember which hotel we stayed at in Ooty."
+      },
+      {
+        "p": "I'd rather not give you a half-baked answer.",
+        "tone": "casual",
+        "ex": "I'd rather not give you a half-baked answer, so let me speak to the site engineer first."
+      },
+      {
+        "p": "Good question — let me think about that for a second.",
+        "tone": "neutral",
+        "ex": "Good question — let me think about that for a second. I'd say about three weeks."
+      },
+      {
+        "p": "Let me get back to you on that.",
+        "tone": "neutral",
+        "ex": "Let me get back to you on that — I need to check stock with the Surat warehouse."
+      },
+      {
+        "p": "That's worth thinking through properly.",
+        "tone": "neutral",
+        "ex": "That's worth thinking through properly; can I send you my thoughts by tonight?"
+      },
+      {
+        "p": "Let me just pull up the numbers.",
+        "tone": "neutral",
+        "ex": "Let me just pull up the numbers before I answer — I don't want to guess."
+      },
+      {
+        "p": "I'd like to come back to you with a considered answer.",
+        "tone": "formal",
+        "ex": "I'd like to come back to you with a considered answer by Monday, if that's acceptable."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Umm… uhh… umm…",
+        "why": "Long fillers sound unprepared; a short, honest pause sounds confident.",
+        "better": "Let me think for a moment."
+      },
+      {
+        "p": "I will revert.",
+        "why": "Indian office English; elsewhere 'revert' means 'go back to', so it can confuse.",
+        "better": "I'll get back to you by Friday."
+      },
+      {
+        "p": "I don't know, I'll see.",
+        "why": "Sounds as if you won't follow up; give a time instead.",
+        "better": "I'll check and reply by this evening."
+      }
+    ]
+  },
+  {
+    "id": "interrupt",
+    "title": "Interrupt politely",
+    "when": "When you need to break into a conversation or meeting without seeming rude.",
+    "phrases": [
+      {
+        "p": "Hang on a sec —",
+        "tone": "casual",
+        "ex": "Hang on a sec — did anyone actually book the banquet hall?"
+      },
+      {
+        "p": "Sorry, quick question —",
+        "tone": "casual",
+        "ex": "Sorry, quick question — is this budget per month or per quarter?"
+      },
+      {
+        "p": "Sorry to jump in, but …",
+        "tone": "neutral",
+        "ex": "Sorry to jump in, but the cab is already waiting downstairs."
+      },
+      {
+        "p": "Can I just add something here?",
+        "tone": "neutral",
+        "ex": "Can I just add something here? The Nagpur numbers include last year's returns."
+      },
+      {
+        "p": "Before we move on, …",
+        "tone": "neutral",
+        "ex": "Before we move on, could we confirm who's handling the vendor call?"
+      },
+      {
+        "p": "If I could come in on that point, …",
+        "tone": "formal",
+        "ex": "If I could come in on that point, the regulations changed in January."
+      },
+      {
+        "p": "May I interject briefly?",
+        "tone": "formal",
+        "ex": "May I interject briefly? The figure on slide four should read crore, not lakh."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Wait, wait, listen to me.",
+        "why": "Demands attention and cuts the speaker off; they will resent it.",
+        "better": "Sorry — may I add one thing?"
+      },
+      {
+        "p": "Stop, stop, that's not the point.",
+        "why": "Shuts the speaker down, and everyone else in the room feels it too.",
+        "better": "Can I pause us there for a second?"
+      },
+      {
+        "p": "One small doubt, sir.",
+        "why": "In India 'doubt' means a question; elsewhere it means you distrust something.",
+        "better": "I have a quick question."
+      }
+    ]
+  },
+  {
+    "id": "refocus",
+    "title": "Bring the talk back on track",
+    "when": "When a meeting or conversation drifts and you need to steer it back to the main point.",
+    "phrases": [
+      {
+        "p": "Anyway, where were we?",
+        "tone": "casual",
+        "ex": "Anyway, where were we? Oh yes — who's driving to Lonavala."
+      },
+      {
+        "p": "Let's get back to the main point.",
+        "tone": "neutral",
+        "ex": "Let's get back to the main point — do we hire one person or two?"
+      },
+      {
+        "p": "That's a good point, but maybe one for another day.",
+        "tone": "neutral",
+        "ex": "That's a good point, but maybe one for another day; today we need to fix the budget."
+      },
+      {
+        "p": "Coming back to …",
+        "tone": "neutral",
+        "ex": "Coming back to the wedding menu, Aunty, have we decided on the sweets?"
+      },
+      {
+        "p": "Can we park that for now?",
+        "tone": "neutral",
+        "ex": "Can we park that for now and come back to it after lunch?"
+      },
+      {
+        "p": "In the interest of time, …",
+        "tone": "formal",
+        "ex": "In the interest of time, let's focus on the three items that need a decision today."
+      },
+      {
+        "p": "I'm conscious of the time, so …",
+        "tone": "formal",
+        "ex": "I'm conscious of the time, so let's agree the next steps for the Kolkata launch."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "This is all useless discussion.",
+        "why": "Insults everyone's contribution, so people stop speaking up.",
+        "better": "Let's focus on what we need to decide today."
+      },
+      {
+        "p": "You are going off-track again.",
+        "why": "Singles out one person and embarrasses them in front of others.",
+        "better": "Let's bring it back to the agenda."
+      },
+      {
+        "p": "We are deviating, kindly come to the point.",
+        "why": "Stiff office English that sounds like a scolding.",
+        "better": "Let's get to the decision we need."
+      }
+    ]
+  },
+  {
+    "id": "structure",
+    "title": "Organise your point",
+    "when": "When you have several things to say and want listeners to follow you easily.",
+    "phrases": [
+      {
+        "p": "Two quick things.",
+        "tone": "casual",
+        "ex": "Two quick things — the guest list, and who's picking up the cake."
+      },
+      {
+        "p": "The main thing is …",
+        "tone": "casual",
+        "ex": "The main thing is, Papa needs rest, so let's not plan a big party."
+      },
+      {
+        "p": "There are three things I want to cover.",
+        "tone": "neutral",
+        "ex": "There are three things I want to cover: cost, timeline and who does what."
+      },
+      {
+        "p": "Let me start with …",
+        "tone": "neutral",
+        "ex": "Let me start with the good news: we're ahead of target in Gujarat."
+      },
+      {
+        "p": "Moving on to …",
+        "tone": "neutral",
+        "ex": "Moving on to hiring, we've filled four of the six roles in Noida."
+      },
+      {
+        "p": "The second point, and the bigger one, is …",
+        "tone": "neutral",
+        "ex": "The second point, and the bigger one, is that our main supplier wants to raise prices."
+      },
+      {
+        "p": "To begin with, …",
+        "tone": "formal",
+        "ex": "To begin with, I'll outline why the Kerala project ran over budget."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Firstly, secondly, lastly, then also one more thing…",
+        "why": "Promises an end, then keeps adding; listeners lose track.",
+        "better": "That's my third and final point."
+      },
+      {
+        "p": "Let me give you the full background first.",
+        "why": "People want the point before the history, and may stop listening.",
+        "better": "Here's the headline, then the background."
+      },
+      {
+        "p": "Where should I start… OK, so, yeah…",
+        "why": "Shows you haven't planned; a quick plan makes you sound sure.",
+        "better": "Let me take this in two parts."
+      }
+    ]
+  },
+  {
+    "id": "example",
+    "title": "Give an example",
+    "when": "When your point is abstract and an example would make it click.",
+    "phrases": [
+      {
+        "p": "Like when …",
+        "tone": "casual",
+        "ex": "Like when we got lost in Shimla because Rahul trusted the map over the local driver."
+      },
+      {
+        "p": "Say, for example, …",
+        "tone": "casual",
+        "ex": "Say, for example, your landlord raises the rent by 20% — what would you do?"
+      },
+      {
+        "p": "Take …, for instance.",
+        "tone": "neutral",
+        "ex": "Take the Mumbai dabbawalas, for instance — they run a near-perfect system without any app."
+      },
+      {
+        "p": "Here's a quick example.",
+        "tone": "neutral",
+        "ex": "Here's a quick example: last Diwali, half our orders came in after 9 p.m."
+      },
+      {
+        "p": "A good case in point is …",
+        "tone": "neutral",
+        "ex": "A good case in point is Kerala's literacy drive, which relied heavily on volunteers."
+      },
+      {
+        "p": "To give you a sense of what I mean, …",
+        "tone": "neutral",
+        "ex": "To give you a sense of what I mean, one late flight cost us two client meetings."
+      },
+      {
+        "p": "To illustrate, …",
+        "tone": "formal",
+        "ex": "To illustrate, the Bhopal plant cut water use by 30% after fixing just two pipes."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "For example like, suppose, see…",
+        "why": "Stacked fillers before the example make it hard to follow.",
+        "better": "For example, last month we lost two big orders."
+      },
+      {
+        "p": "Etc., etc., you know what I mean.",
+        "why": "Leaves the listener to supply the example you were meant to give.",
+        "better": "Here's one specific case."
+      },
+      {
+        "p": "Many examples are there.",
+        "why": "Indian English word order, and it promises examples without giving one.",
+        "better": "There are plenty — here's one."
+      }
+    ]
+  },
+  {
+    "id": "summarise",
+    "title": "Sum up",
+    "when": "When you want to wrap up a discussion or check that everyone has the same picture.",
+    "phrases": [
+      {
+        "p": "Long story short, …",
+        "tone": "casual",
+        "ex": "Long story short, the train was cancelled and we reached Varanasi at midnight."
+      },
+      {
+        "p": "In a nutshell, …",
+        "tone": "casual",
+        "ex": "In a nutshell, the flat is great, but the owner won’t allow pets."
+      },
+      {
+        "p": "So, to sum up, …",
+        "tone": "neutral",
+        "ex": "So, to sum up, we're moving the launch to May and hiring two more testers."
+      },
+      {
+        "p": "The bottom line is …",
+        "tone": "neutral",
+        "ex": "The bottom line is we can't afford a new office this year."
+      },
+      {
+        "p": "So where we've landed is …",
+        "tone": "neutral",
+        "ex": "So where we've landed is that Kavya leads the redesign and Arjun handles the client."
+      },
+      {
+        "p": "In short, …",
+        "tone": "neutral",
+        "ex": "In short, the scheme works, but only where the panchayat is closely involved."
+      },
+      {
+        "p": "To summarise the key points, …",
+        "tone": "formal",
+        "ex": "To summarise the key points, revenue is up, costs are flat, and hiring is on hold."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "So that's all, any doubts?",
+        "why": "Ends without a summary, and 'doubts' means distrust outside India.",
+        "better": "That's the summary — any questions?"
+      },
+      {
+        "p": "So yeah, that's it, basically.",
+        "why": "Trails off without saying what was decided.",
+        "better": "So, the decision is to wait until May."
+      },
+      {
+        "p": "In a nutshell, to conclude, in summary, …",
+        "why": "Three openers for one summary; pick one and get to it.",
+        "better": "In summary, …"
+      }
+    ]
+  },
+  {
+    "id": "feedback",
+    "title": "Give feedback kindly and clearly",
+    "when": "When you need to tell someone what is working and what isn't, honestly but without hurting them.",
+    "phrases": [
+      {
+        "p": "This is solid — just a couple of tweaks.",
+        "tone": "casual",
+        "ex": "This is solid — just a couple of tweaks and it's ready for the Delhi office."
+      },
+      {
+        "p": "Have you thought about …?",
+        "tone": "casual",
+        "ex": "Have you thought about adding photos? Your grandmother's recipes would really come alive."
+      },
+      {
+        "p": "What's working really well is …",
+        "tone": "neutral",
+        "ex": "What's working really well is how you handle angry customers — calm and clear."
+      },
+      {
+        "p": "One thing I'd change is …",
+        "tone": "neutral",
+        "ex": "One thing I'd change is the opening slide; it's too crowded to read."
+      },
+      {
+        "p": "Can I share a thought on …?",
+        "tone": "neutral",
+        "ex": "Can I share a thought on the report? The summary could come first."
+      },
+      {
+        "p": "Next time, it might help to …",
+        "tone": "neutral",
+        "ex": "Next time, it might help to send the agenda a day before the meeting."
+      },
+      {
+        "p": "I'd encourage you to …",
+        "tone": "formal",
+        "ex": "I'd encourage you to present the data yourself at the next review; you know it best."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "This is not up to the mark.",
+        "why": "Says it's bad but not why, so they can't fix it.",
+        "better": "The analysis is good; the conclusion needs more data."
+      },
+      {
+        "p": "Who made this? It's all wrong.",
+        "why": "Public blame makes people defensive and buries the useful part.",
+        "better": "Can we go through this together? A few parts need fixing."
+      },
+      {
+        "p": "No offence, but this is quite bad.",
+        "why": "'No offence' warns that offence is coming; it doesn't soften anything.",
+        "better": "I think this needs another round — here's what I'd look at."
+      }
+    ]
+  },
+  {
+    "id": "no",
+    "title": "Say no politely",
+    "when": "When you need to turn down a request, invitation or extra work without damaging the relationship.",
+    "phrases": [
+      {
+        "p": "I'd love to, but I can't this time.",
+        "tone": "casual",
+        "ex": "I'd love to, but I can't this time — it's my cousin's mehendi on Saturday."
+      },
+      {
+        "p": "I'm going to have to pass on this one.",
+        "tone": "casual",
+        "ex": "I'm going to have to pass on this one; my plate is full until the audit."
+      },
+      {
+        "p": "I can't take that on right now.",
+        "tone": "neutral",
+        "ex": "I can't take that on right now without dropping the Chennai report."
+      },
+      {
+        "p": "That won't work for me, but here's what I can do.",
+        "tone": "neutral",
+        "ex": "That won't work for me, but here's what I can do: review it on Thursday morning."
+      },
+      {
+        "p": "Honestly, I'm stretched too thin this week.",
+        "tone": "neutral",
+        "ex": "Honestly, I'm stretched too thin this week — can we look at it next Monday?"
+      },
+      {
+        "p": "Thank you for thinking of me, but I'll have to decline.",
+        "tone": "formal",
+        "ex": "Thank you for thinking of me, but I'll have to decline the panel invitation this year."
+      },
+      {
+        "p": "Unfortunately, we're unable to accommodate this request.",
+        "tone": "formal",
+        "ex": "Unfortunately, we're unable to accommodate this request, as the hall is booked until December."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "I will try.",
+        "why": "Said when you mean no, it sounds like yes; a clear no is kinder.",
+        "better": "I can't do it this week, sorry."
+      },
+      {
+        "p": "Not possible.",
+        "why": "Blunt and final; it offers no reason or alternative.",
+        "better": "I can't manage that, but I could help next week."
+      },
+      {
+        "p": "Sorry, it's not in my hands, what can I do?",
+        "why": "Sounds helpless and passes the blame without helping.",
+        "better": "I can't approve that, but I'll ask Neha, who can."
+      }
+    ]
+  },
+  {
+    "id": "request",
+    "title": "Ask for something",
+    "when": "When you need something from someone — help, information, a favour or a decision.",
+    "phrases": [
+      {
+        "p": "Could you do me a favour?",
+        "tone": "casual",
+        "ex": "Could you do me a favour and pick up my parcel from the society office?"
+      },
+      {
+        "p": "Any chance you could …?",
+        "tone": "casual",
+        "ex": "Any chance you could cover my shift on Sunday? I'll take yours next week."
+      },
+      {
+        "p": "Would you mind …?",
+        "tone": "neutral",
+        "ex": "Would you mind sending me the slides before the call?"
+      },
+      {
+        "p": "Would it be possible to …?",
+        "tone": "neutral",
+        "ex": "Would it be possible to move our meeting to 4 p.m.? My flight from Bengaluru is delayed."
+      },
+      {
+        "p": "When you get a chance, could you …?",
+        "tone": "neutral",
+        "ex": "When you get a chance, could you check the invoice from the Ludhiana supplier?"
+      },
+      {
+        "p": "I'd really appreciate your help with …",
+        "tone": "neutral",
+        "ex": "I'd really appreciate your help with the tender documents; you've done this before."
+      },
+      {
+        "p": "I'd be grateful if you could …",
+        "tone": "formal",
+        "ex": "I'd be grateful if you could share the revised contract by Friday."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Kindly do the needful.",
+        "why": "Old Indian office English, and it doesn't say what you actually need.",
+        "better": "Could you please approve my leave by Friday?"
+      },
+      {
+        "p": "I humbly request you to kindly …",
+        "why": "Over-formal and self-lowering; it reads like a petition, not a request.",
+        "better": "Please could you share the file?"
+      },
+      {
+        "p": "Send me the file.",
+        "why": "Sounds like an order, especially in writing; 'could you' costs nothing.",
+        "better": "Could you send me the file when you can?"
+      }
+    ]
+  },
+  {
+    "id": "sorry",
+    "title": "Apologise properly",
+    "when": "When you have made a mistake or let someone down and want to repair it properly.",
+    "phrases": [
+      {
+        "p": "My bad!",
+        "tone": "casual",
+        "ex": "My bad! I sent the wrong link to the group — here's the right one."
+      },
+      {
+        "p": "Sorry for the mix-up.",
+        "tone": "casual",
+        "ex": "Sorry for the mix-up — the meeting is at 3, not 2."
+      },
+      {
+        "p": "I'm really sorry — that was my fault.",
+        "tone": "neutral",
+        "ex": "I'm really sorry — that was my fault. I forgot to tell the caterer about the change."
+      },
+      {
+        "p": "I'm sorry — here's how I'll fix it.",
+        "tone": "neutral",
+        "ex": "I'm sorry — here's how I'll fix it: I'll reprint the badges and bring them by ten."
+      },
+      {
+        "p": "I owe you an apology.",
+        "tone": "neutral",
+        "ex": "I owe you an apology, Farhan — I talked over you in the meeting."
+      },
+      {
+        "p": "I apologise for the delay.",
+        "tone": "formal",
+        "ex": "I apologise for the delay in replying; the Pune site visit ran over."
+      },
+      {
+        "p": "Please accept my sincere apologies for …",
+        "tone": "formal",
+        "ex": "Please accept my sincere apologies for the cancelled delivery; your refund is on its way."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Sorry if you felt hurt.",
+        "why": "Apologises for their feelings, not your action, so it sounds like blame.",
+        "better": "I'm sorry I said that."
+      },
+      {
+        "p": "Sorry, sorry, but it wasn't really my fault.",
+        "why": "The 'but' cancels the apology.",
+        "better": "I'm sorry. I should have double-checked."
+      },
+      {
+        "p": "Extremely sorry for the inconvenience caused, regret the same.",
+        "why": "A stock office line; it sounds copied, not meant.",
+        "better": "I'm sorry this caused you extra work."
+      }
+    ]
+  },
+  {
+    "id": "wrong",
+    "title": "Admit you were wrong",
+    "when": "When you realise your view or decision was mistaken and want to say so with grace.",
+    "phrases": [
+      {
+        "p": "You were right, I was wrong.",
+        "tone": "casual",
+        "ex": "You were right, I was wrong — the shortcut through Karol Bagh took twice as long."
+      },
+      {
+        "p": "Yeah, that one's on me.",
+        "tone": "casual",
+        "ex": "Yeah, that one's on me — I told everyone the wrong venue."
+      },
+      {
+        "p": "I stand corrected.",
+        "tone": "neutral",
+        "ex": "I stand corrected — the match starts at 7:30, not 8."
+      },
+      {
+        "p": "I got that wrong.",
+        "tone": "neutral",
+        "ex": "I got that wrong; the deadline is the 15th, not the 20th."
+      },
+      {
+        "p": "I've changed my mind on this.",
+        "tone": "neutral",
+        "ex": "I've changed my mind on this — after the survey, I think the old timings were better."
+      },
+      {
+        "p": "Looking back, I misjudged …",
+        "tone": "neutral",
+        "ex": "Looking back, I misjudged how long the Assam shipment would take."
+      },
+      {
+        "p": "I was mistaken about …",
+        "tone": "formal",
+        "ex": "I was mistaken about the second-quarter figures in Monday's email; the corrected sheet is attached."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "Mistakes happen, it's fine.",
+        "why": "Said about your own mistake, it excuses you before anyone else can.",
+        "better": "That was my mistake, and I'll fix it."
+      },
+      {
+        "p": "Technically, I wasn't wrong.",
+        "why": "Wins a small point and loses trust; people remember the dodge.",
+        "better": "OK, my mistake."
+      },
+      {
+        "p": "OK fine, I was wrong, happy now?",
+        "why": "Turns an admission into a jab and reopens the fight.",
+        "better": "You're right — sorry, I was wrong."
+      }
+    ]
+  },
+  {
+    "id": "persuade",
+    "title": "Recommend and persuade",
+    "when": "When you want someone to choose an option or back your idea.",
+    "phrases": [
+      {
+        "p": "Trust me, you'll love it.",
+        "tone": "casual",
+        "ex": "Trust me, you'll love it — the dosa at that place in Basavanagudi is worth the queue."
+      },
+      {
+        "p": "What if we tried …?",
+        "tone": "casual",
+        "ex": "What if we tried a three-month pilot in Coimbatore before going national?"
+      },
+      {
+        "p": "I'd really recommend …",
+        "tone": "neutral",
+        "ex": "I'd really recommend the morning train — it's faster and you'll miss the traffic."
+      },
+      {
+        "p": "Here's why I think it's worth it.",
+        "tone": "neutral",
+        "ex": "Here's why I think it's worth it: we save two days on every order."
+      },
+      {
+        "p": "The strongest case for this is …",
+        "tone": "neutral",
+        "ex": "The strongest case for this is that customers have asked for it 400 times."
+      },
+      {
+        "p": "If we wait, we risk …",
+        "tone": "neutral",
+        "ex": "If we wait, we risk missing the Diwali season entirely."
+      },
+      {
+        "p": "My recommendation would be to …",
+        "tone": "formal",
+        "ex": "My recommendation would be to phase the rollout over two quarters to limit the risk."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "You have to do this, there is no other option.",
+        "why": "Pressure makes people resist; reasons persuade better than orders.",
+        "better": "I think this is our best option, and here's why."
+      },
+      {
+        "p": "Everyone is doing it.",
+        "why": "A weak reason; people want to know why it fits them.",
+        "better": "Three firms like ours tried it — here's what changed."
+      },
+      {
+        "p": "Just trust me, I know best.",
+        "why": "Asks for faith instead of giving reasons, and sounds arrogant.",
+        "better": "Let me show you the numbers that convinced me."
+      }
+    ]
+  },
+  {
+    "id": "close",
+    "title": "End a meeting or conversation",
+    "when": "When you need to wrap up a meeting, call or chat without it ending awkwardly.",
+    "phrases": [
+      {
+        "p": "I'll let you go — talk soon!",
+        "tone": "casual",
+        "ex": "I'll let you go — talk soon! Say hi to Aunty for me."
+      },
+      {
+        "p": "Right, I'd better get going.",
+        "tone": "casual",
+        "ex": "Right, I'd better get going — the last bus to Howrah leaves at ten."
+      },
+      {
+        "p": "Great, I think that's everything.",
+        "tone": "neutral",
+        "ex": "Great, I think that's everything — thanks for staying late, everyone."
+      },
+      {
+        "p": "Let's leave it there for today.",
+        "tone": "neutral",
+        "ex": "Let's leave it there for today and pick up the design questions on Monday."
+      },
+      {
+        "p": "So, next steps: …",
+        "tone": "neutral",
+        "ex": "So, next steps: Ishaan sends the quote, and I'll call the client tomorrow."
+      },
+      {
+        "p": "Anything else before we wrap up?",
+        "tone": "neutral",
+        "ex": "Anything else before we wrap up? OK, see you all on Thursday."
+      },
+      {
+        "p": "Thank you all for your time.",
+        "tone": "formal",
+        "ex": "Thank you all for your time; I'll circulate the minutes shortly, along with the revised timeline."
+      }
+    ],
+    "avoid": [
+      {
+        "p": "OK, so… that's all… anything else… no?… OK… bye?",
+        "why": "Trailing off leaves everyone unsure whether the meeting has ended.",
+        "better": "That's all for today — thanks, everyone."
+      },
+      {
+        "p": "Let's meet again and discuss further.",
+        "why": "Sets up another meeting with no owner or date, so nothing moves.",
+        "better": "Let's meet Thursday at 4; Asha will send the invite."
+      },
+      {
+        "p": "OK, bye, I'm leaving.",
+        "why": "Abrupt; it sounds as if you're annoyed or bored.",
+        "better": "I have to head off now — thanks, this was helpful."
+      }
+    ]
+  }
+]

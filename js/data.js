@@ -7,6 +7,8 @@ export const ROOMS = [
   { id: 'feel',     name: 'Feelings, precisely',    line: 'Name a feeling exactly and it gets easier to handle.' },
   { id: 'people',   name: 'People and character',   line: 'Describe a person fairly and exactly.' },
   { id: 'talk',     name: 'Ways of saying',         line: 'Better than "said", "told" and "asked".' },
+  { id: 'phrasal',  name: 'Phrasal verbs',          line: 'Figure out, turn down, come up with — how English is really spoken.' },
+  { id: 'idioms',   name: 'Expressions',            line: 'The elephant in the room, a grey area: a picture in a phrase.' },
   { id: 'lead',     name: 'Lead and work',          line: 'Meetings, teams, decisions, plans.' },
   { id: 'everyday', name: 'Everyday upgrades',      line: 'Polite, practical words for office and home.' },
   { id: 'link',     name: 'Joining words',          line: 'However, whereas, despite — grammar that makes logic flow.' },
@@ -28,22 +30,28 @@ export const FLOORS = [
 export const D = {
   words: [], byId: new Map(), byRoom: new Map(), byFloor: new Map(),
   ladders: [], roots: [], mixups: [], indian: [], say: [],
+  phrases: [], upgrades: [], partners: [], talk: [],
 };
+const EXTRA = ['ladders', 'roots', 'mixups', 'indian', 'say', 'phrases', 'upgrades', 'partners', 'talk'];
 
 export const slug = (w) => w.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
+// Fetch one data file, retrying a dropped connection (common on weak mobile networks).
 async function get(path, fallback = []) {
-  try {
-    const r = await fetch(path, { cache: 'no-cache' });
-    if (!r.ok) return fallback;
-    return await r.json();
-  } catch { return fallback; }
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      const r = await fetch(path, { cache: 'no-cache' });
+      if (r.ok) return await r.json();
+      if (r.status === 404) return fallback;
+    } catch { /* retry */ }
+    await new Promise((res) => setTimeout(res, 300 * (attempt + 1)));
+  }
+  return fallback;
 }
 
 export async function loadAll() {
   const roomFiles = await Promise.all(ROOMS.map((r) => get(`data/words-${r.id}.json`)));
-  const [ladders, roots, mixups, indian, say] = await Promise.all(
-    ['ladders', 'roots', 'mixups', 'indian', 'say'].map((n) => get(`data/${n}.json`)));
+  const extra = await Promise.all(EXTRA.map((n) => get(`data/${n}.json`)));
   ROOMS.forEach((r, i) => {
     const list = (roomFiles[i] || []).map((x) => ({ ...x, room: r.id, id: slug(x.w) }));
     list.sort((a, b) => a.floor - b.floor);
@@ -55,7 +63,8 @@ export async function loadAll() {
     }
   });
   for (const f of FLOORS) D.byFloor.set(f.n, D.words.filter((w) => w.floor === f.n));
-  Object.assign(D, { ladders, roots, mixups, indian, say });
+  EXTRA.forEach((n, i) => { D[n] = extra[i] || []; });
+  D.upgrades = D.upgrades.filter((u) => u.parts?.every((p) => typeof p === 'string' || p.options?.includes(p.pick)));
   return D;
 }
 

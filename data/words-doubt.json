@@ -13,7 +13,7 @@
       "almost certain",
       "certain that"
     ],
-    "instead": "100 percent sure",
+    "instead": "100 per cent sure",
     "note": "'A certain person' means a particular person you don't name. 'For certain' = definitely: 'Nobody knows for certain.'"
   },
   {
@@ -23,7 +23,7 @@
     "pos": "adjective",
     "say": "LYKE-lee",
     "mean": "probably going to happen or be true",
-    "hi": "संभावित",
+    "hi": "होने के आसार",
     "ex": "With dark clouds piling up over Marine Drive, heavy rain is likely by evening.",
     "with": [
       "highly likely",
@@ -81,7 +81,7 @@
       "confirm the news",
       "officially confirm"
     ],
-    "instead": "make sure",
+    "instead": "say for sure",
     "note": "'Kindly confirm once' is Indian English; in standard English just write 'Please confirm.'"
   },
   {
@@ -91,7 +91,7 @@
     "pos": "adverb",
     "say": "uh-PAR-unt-lee",
     "mean": "according to what you have heard, or what seems to be true",
-    "hi": "सुना है",
+    "hi": "सुना है, लगता है",
     "ex": "Apparently the new biryani place near Charminar has a two-hour wait on Friday nights.",
     "with": [
       "apparently not",
@@ -166,7 +166,7 @@
       "presumably not",
       "is presumably"
     ],
-    "instead": "i guess",
+    "instead": "my guess is",
     "note": "You are guessing sensibly from evidence. Related words: presume, presumption."
   },
   {
@@ -217,7 +217,7 @@
       "arguably the most",
       "is arguably"
     ],
-    "instead": "maybe",
+    "instead": "you could say",
     "note": "It hedges a strong claim politely. It does not mean 'in an argumentative way'."
   },
   {
@@ -261,7 +261,7 @@
     "pos": "adjective",
     "say": "di-FIN-i-tiv",
     "mean": "final and complete, accepted as the most reliable",
-    "hi": "अंतिम",
+    "hi": "सबसे पक्का, प्रामाणिक",
     "ex": "Dida's old notebook is the definitive guide to making shorshe ilish in our family.",
     "with": [
       "definitive answer",
@@ -278,7 +278,7 @@
     "pos": "adjective",
     "say": "kun-KLOO-siv",
     "mean": "proving something so clearly that no doubt is left",
-    "hi": "निर्णायक",
+    "hi": "पुख़्ता",
     "ex": "The blood test gave conclusive proof that Imran's fever was typhoid, not dengue.",
     "with": [
       "conclusive evidence",
@@ -295,7 +295,7 @@
     "pos": "adjective",
     "say": "SKEP-ti-kul",
     "mean": "doubting that something is true or will work",
-    "hi": "शंका रखने वाला",
+    "hi": "शक करने वाला",
     "ex": "Many farmers in Vidarbha were sceptical of the new seed until they saw their neighbour's harvest.",
     "with": [
       "deeply sceptical",

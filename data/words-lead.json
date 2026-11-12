@@ -4,7 +4,7 @@
     "room": "lead",
     "floor": 1,
     "pos": "noun",
-    "say": "DED-lyn",
+    "say": "DED-lyne",
     "mean": "the last time or date by which a job must be finished",
     "hi": "आख़िरी तारीख़",
     "ex": "The GST filing deadline is the 20th, so Meenakshi's accounts team in Chennai is working through the weekend.",
@@ -72,7 +72,7 @@
     "room": "lead",
     "floor": 1,
     "pos": "verb",
-    "say": "OR-guh-nyz",
+    "say": "OR-guh-nyze",
     "mean": "to plan and arrange something so that it happens smoothly",
     "hi": "इंतज़ाम करना",
     "ex": "Farhan offered to organise the hostel farewell, from booking the hall to ordering forty plates of biryani.",
@@ -193,7 +193,7 @@
     "pos": "verb",
     "say": "ni-GOH-shee-ayt",
     "mean": "to discuss with someone until you reach an agreement both can accept",
-    "hi": "मोल-भाव करना",
+    "hi": "बातचीत से तय करना",
     "ex": "Before joining, Ankit tried to negotiate a higher salary and one work-from-home day each week.",
     "with": [
       "negotiate a deal",
@@ -201,7 +201,7 @@
       "negotiate a salary"
     ],
     "instead": "talk and settle",
-    "note": "Said with 'sh': ni-GOH-shee-ayt, not ni-GOH-see-ayt. The noun is 'negotiation'."
+    "note": "Usually said with 'sh': ni-GOH-shee-ayt ('see' is also heard in Britain). The noun is 'negotiation'."
   },
   {
     "w": "mitigate",
@@ -370,7 +370,7 @@
       "make a trade-off",
       "an acceptable trade-off"
     ],
-    "instead": "give and take",
+    "instead": "the price you pay",
     "note": "The noun is hyphenated (a trade-off); the verb is two words: 'trade off speed against cost'."
   },
   {
@@ -378,7 +378,7 @@
     "room": "lead",
     "floor": 4,
     "pos": "noun",
-    "say": "FOR-syt",
+    "say": "FOR-syte",
     "mean": "the ability to see what may happen and plan for it",
     "hi": "दूर की सोच",
     "ex": "Thanks to her father's foresight, the family had savings ready when the shop shut during the lockdown.",
