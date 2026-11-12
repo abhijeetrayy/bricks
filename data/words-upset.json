@@ -1,0 +1,434 @@
+[
+  {
+    "w": "annoyed",
+    "room": "upset",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "uh-NOYD",
+    "mean": "a little angry about something that keeps bothering you",
+    "hi": "चिढ़ा हुआ",
+    "ex": "Sameer was annoyed when the cable went off just before the last over.",
+    "ex2": "The teacher looked annoyed as phones kept ringing during the parents' meeting.",
+    "with": [
+      "annoyed with someone",
+      "annoyed about",
+      "slightly annoyed"
+    ],
+    "instead": "a bit angry",
+    "note": "Annoyed with a person, annoyed about or at a thing. It is milder than angry."
+  },
+  {
+    "w": "irritated",
+    "room": "upset",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "IR-i-tay-tid",
+    "mean": "impatient and slightly angry because something keeps bothering you",
+    "hi": "खीझा हुआ",
+    "ex": "Passengers grew irritated as the Mumbai local stood still for twenty minutes without any announcement.",
+    "ex2": "Leela gets irritated when her brother hums the same film song while she is studying.",
+    "with": [
+      "get irritated",
+      "irritated by",
+      "visibly irritated"
+    ],
+    "instead": "getting on my nerves",
+    "note": "'Irritating' describes the thing; 'irritated' describes how you feel. 'The noise is irritating; I am irritated.'"
+  },
+  {
+    "w": "fed up",
+    "room": "upset",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "fed UP",
+    "mean": "unhappy and tired of something that has gone on too long",
+    "hi": "तंग आ चुका",
+    "ex": "The farmers were fed up with waiting three months for payment from the sugar mill.",
+    "ex2": "Ritu is fed up with her old phone, which dies by lunchtime every day.",
+    "with": [
+      "fed up with",
+      "totally fed up",
+      "getting fed up"
+    ],
+    "instead": "had enough",
+    "note": "Say 'fed up with' in careful writing; 'fed up of' is common in speech but less formal."
+  },
+  {
+    "w": "let down",
+    "room": "upset",
+    "floor": 1,
+    "pos": "phrasal verb",
+    "say": "let DOWN",
+    "mean": "to disappoint someone who trusted you to do something",
+    "hi": "उम्मीद तोड़ना",
+    "ex": "Fans felt let down when their star skipped the final for an advertisement shoot.",
+    "ex2": "Voters in the ward felt let down after the promised drains were never built.",
+    "with": [
+      "feel let down",
+      "let someone down",
+      "badly let down"
+    ],
+    "instead": "disappointed by them",
+    "note": "The person goes in the middle: 'You let me down.' For the feeling, say 'I felt let down.'"
+  },
+  {
+    "w": "complaint",
+    "room": "upset",
+    "floor": 1,
+    "pos": "noun",
+    "say": "kum-PLAYNT",
+    "mean": "a statement that you are unhappy with something, often made officially",
+    "hi": "शिकायत",
+    "ex": "Ayesha filed a complaint with the airline after her bag reached Chennai two days late.",
+    "ex2": "The hostel warden received a complaint that the mess served the same dal every day.",
+    "with": [
+      "file a complaint",
+      "lodge a complaint",
+      "a formal complaint"
+    ],
+    "instead": "telling them I'm unhappy",
+    "note": "Complaint against a person, complaint about a thing. 'Complain' is the verb, not the noun."
+  },
+  {
+    "w": "disappointed",
+    "room": "upset",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "dis-uh-POYN-tid",
+    "mean": "sad because something was not as good as you hoped",
+    "hi": "निराश",
+    "ex": "Kabir was disappointed with his marks, though he had studied every night for a month.",
+    "ex2": "We were disappointed by the new restaurant in Koramangala: the biryani was cold and bland.",
+    "with": [
+      "deeply disappointed",
+      "disappointed with",
+      "disappointed by"
+    ],
+    "instead": "not happy with it",
+    "note": "A calm 'I'm disappointed' often works better than shouting; it shows you expected better."
+  },
+  {
+    "w": "unacceptable",
+    "room": "upset",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "un-uk-SEP-tuh-bul",
+    "mean": "too bad to be allowed or put up with",
+    "hi": "मंज़ूर नहीं",
+    "ex": "The principal said that bullying juniors in the hostel was completely unacceptable.",
+    "ex2": "Waiting six hours in a hospital corridor with a high fever is unacceptable, and Rehana told the manager so.",
+    "with": [
+      "completely unacceptable",
+      "simply unacceptable",
+      "unacceptable behaviour"
+    ],
+    "instead": "not okay at all",
+    "note": "A firm but polite word for complaints: 'This delay is unacceptable' is stronger than 'This is very bad.'"
+  },
+  {
+    "w": "lose your temper",
+    "room": "upset",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "looz yor TEM-pur",
+    "mean": "to suddenly become very angry and show it",
+    "hi": "आपा खोना",
+    "ex": "Try not to lose your temper with the call centre staff; they did not create the problem.",
+    "ex2": "Coaches tell young players: never lose your temper with the umpire, however bad the decision.",
+    "with": [
+      "lose your temper with",
+      "quick to lose your temper",
+      "never lose your temper"
+    ],
+    "instead": "get very angry",
+    "note": "Change 'your' to fit: 'He lost his temper.' 'Keep your temper' means stay calm."
+  },
+  {
+    "w": "vent",
+    "room": "upset",
+    "floor": 2,
+    "pos": "verb",
+    "say": "VENT",
+    "mean": "to let out anger or frustration by talking about it",
+    "hi": "भड़ास निकालना",
+    "ex": "After a tough shift at the hospital, Neha calls her sister just to vent.",
+    "ex2": "Many fans vent on social media after India loses, then calm down by morning.",
+    "with": [
+      "vent your anger",
+      "vent about",
+      "need to vent"
+    ],
+    "instead": "let it all out",
+    "note": "'I just need to vent' tells the listener you want them to listen, not to solve the problem."
+  },
+  {
+    "w": "bitter",
+    "room": "upset",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "BIT-ur",
+    "mean": "angry and hurt for a long time because you feel treated unfairly",
+    "hi": "कड़वाहट भरा",
+    "ex": "Chacha is still bitter that his younger brother got the ancestral house in Jaipur.",
+    "ex2": "After losing the final on penalties, the players gave short, bitter answers to reporters.",
+    "with": [
+      "bitter about",
+      "a bitter fight",
+      "a bitter experience"
+    ],
+    "instead": "still angry about it",
+    "note": "Bitter anger is old and lasting, close to 'resentful'. It is also a taste: bitter gourd is karela."
+  },
+  {
+    "w": "offended",
+    "room": "upset",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "uh-FEN-did",
+    "mean": "upset because someone said or did something rude or disrespectful",
+    "hi": "बुरा मान गया",
+    "ex": "Nani was offended when the guests left the wedding lunch without tasting her special kheer.",
+    "ex2": "Joseph was offended by the joke about his accent, though his colleagues said it was harmless.",
+    "with": [
+      "deeply offended",
+      "offended by",
+      "easily offended"
+    ],
+    "instead": "felt insulted",
+    "note": "'Don't be offended, but...' usually comes before something that may offend. The noun is 'offence' in British spelling."
+  },
+  {
+    "w": "disgruntled",
+    "room": "upset",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "dis-GRUN-tuld",
+    "mean": "unhappy and annoyed, especially about how you are treated",
+    "hi": "असंतुष्ट",
+    "ex": "Disgruntled delivery workers in Hyderabad switched off their apps to protest the cut in pay per order.",
+    "ex2": "A disgruntled shareholder stood up at the meeting and asked why profits kept falling.",
+    "with": [
+      "disgruntled employees",
+      "disgruntled customers",
+      "a disgruntled fan"
+    ],
+    "instead": "unhappy and grumbling",
+    "note": "Usually describes people with an ongoing complaint: disgruntled staff, customers or fans."
+  },
+  {
+    "w": "aggrieved",
+    "room": "upset",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "uh-GREEVD",
+    "mean": "feeling that you have been treated unfairly",
+    "hi": "अन्याय से दुखी",
+    "ex": "The aggrieved farmers said the compensation for their land was half the market rate.",
+    "ex2": "Feeling aggrieved after being skipped for promotion, Meenakshi asked HR for a written explanation.",
+    "with": [
+      "the aggrieved party",
+      "feel aggrieved",
+      "deeply aggrieved"
+    ],
+    "instead": "treated unfairly",
+    "note": "In law, the 'aggrieved party' is the person who was wronged. More formal than 'upset'."
+  },
+  {
+    "w": "appalled",
+    "room": "upset",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "uh-PAWLD",
+    "mean": "shocked and disgusted by something very bad",
+    "hi": "हैरान और दुखी",
+    "ex": "Visitors were appalled by the garbage piled up beside the temple tank.",
+    "ex2": "Doctors were appalled to find expired medicines being sold at the village chemist.",
+    "with": [
+      "appalled by",
+      "appalled at",
+      "absolutely appalled"
+    ],
+    "instead": "really shocked",
+    "note": "Stronger than 'shocked': it adds moral disgust. 'Appalling' describes the thing itself."
+  },
+  {
+    "w": "outraged",
+    "room": "upset",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "OWT-rayjd",
+    "mean": "very angry because something seems deeply wrong or unfair",
+    "hi": "बेहद नाराज़",
+    "ex": "Parents were outraged when the school raised fees by forty percent in the middle of the year.",
+    "ex2": "Cricket fans were outraged when tickets for the final cost more than a month's salary.",
+    "with": [
+      "outraged by",
+      "outraged at",
+      "public outrage"
+    ],
+    "instead": "super angry",
+    "note": "Outrage is anger at injustice, often shared by many people at once."
+  },
+  {
+    "w": "object to",
+    "room": "upset",
+    "floor": 3,
+    "pos": "phrasal verb",
+    "say": "ub-JEKT too",
+    "mean": "to say that you do not agree with or do not like something",
+    "hi": "ऐतराज़ करना",
+    "ex": "Residents object to the plan to cut forty old trees for a parking lot.",
+    "ex2": "Many students object to the new rule that the hostel gates close at eight.",
+    "with": [
+      "strongly object to",
+      "object to the plan",
+      "object to being"
+    ],
+    "instead": "not okay with",
+    "note": "Followed by a noun or -ing: 'I object to being shouted at', not 'I object to be shouted at'."
+  },
+  {
+    "w": "simmer",
+    "room": "upset",
+    "floor": 3,
+    "pos": "verb",
+    "say": "SIM-ur",
+    "mean": "to stay quietly angry for a long time, close to exploding",
+    "hi": "अंदर ही अंदर सुलगना",
+    "ex": "Anger over the water shortage began to simmer in the colony long before anyone protested.",
+    "ex2": "Through the long meeting, Faisal sat silent, letting his annoyance simmer as his idea was ignored.",
+    "with": [
+      "simmer with anger",
+      "tensions simmer",
+      "simmer down"
+    ],
+    "instead": "quietly angry",
+    "note": "'Simmer down' means calm down. In the kitchen, dal simmers on low heat, just below boiling."
+  },
+  {
+    "w": "seethe",
+    "room": "upset",
+    "floor": 4,
+    "pos": "verb",
+    "say": "SEETH",
+    "mean": "to be very angry inside without fully showing it",
+    "hi": "ग़ुस्से में उबलना",
+    "ex": "Kiran had to seethe in silence while the client blamed her team for his own mistake.",
+    "ex2": "Fans began to seethe as the umpire ignored an obvious no-ball shown on the big screen.",
+    "with": [
+      "seethe with anger",
+      "seethe in silence",
+      "seething resentment"
+    ],
+    "instead": "boiling inside",
+    "note": "Stronger than simmer. Often used as 'She was seething.' The 'th' is soft, as in 'breathe'."
+  },
+  {
+    "w": "livid",
+    "room": "upset",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "LIV-id",
+    "mean": "extremely angry",
+    "hi": "आग-बबूला",
+    "ex": "Papa was livid when he found out the mechanic had charged ten thousand rupees for a fake repair.",
+    "ex2": "The captain was livid after his batsmen threw away their wickets in the last five overs.",
+    "with": [
+      "absolutely livid",
+      "livid with",
+      "livid about"
+    ],
+    "instead": "really really angry",
+    "note": "Informal and strong. It rhymes with 'vivid'."
+  },
+  {
+    "w": "rankle",
+    "room": "upset",
+    "floor": 4,
+    "pos": "verb",
+    "say": "RANG-kul",
+    "mean": "to keep causing bitter feelings long after something happened",
+    "hi": "खटकते रहना",
+    "ex": "It still seems to rankle with Harpreet that the coach picked his own nephew for the state team.",
+    "ex2": "The unfair fine from the society committee continued to rankle long after Mr Iyer had paid it.",
+    "with": [
+      "continue to rankle",
+      "still rankle",
+      "rankle with"
+    ],
+    "instead": "keeps bothering me",
+    "note": "The subject is the event, not the person: 'The remark rankled with him', not 'He rankled.'"
+  },
+  {
+    "w": "irate",
+    "room": "upset",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "eye-RAYT",
+    "mean": "very angry, often loudly and openly",
+    "hi": "तमतमाया हुआ",
+    "ex": "An irate passenger shouted at the airline staff after his flight was cancelled for the third time.",
+    "ex2": "Irate residents blocked the road in Patna after a week without electricity.",
+    "with": [
+      "irate customers",
+      "irate passengers",
+      "an irate call"
+    ],
+    "instead": "angry and shouting",
+    "note": "Common in news reports, as in 'irate customers'. More formal than 'furious'."
+  },
+  {
+    "w": "galling",
+    "room": "upset",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "GAW-ling",
+    "mean": "annoying and unfair in a way that hurts your pride",
+    "hi": "चुभने वाला",
+    "ex": "It was galling for Sanjana to see a copy of her project win the prize.",
+    "ex2": "It is galling to pay toll every day for a highway full of potholes.",
+    "with": [
+      "deeply galling",
+      "particularly galling",
+      "galling to see"
+    ],
+    "instead": "so annoying",
+    "note": "Usually in 'It is galling to...' or 'It is galling that...'. It is about unfairness that stings."
+  },
+  {
+    "w": "incensed",
+    "room": "upset",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "in-SENST",
+    "mean": "extremely angry, usually at something unfair or insulting",
+    "hi": "बेहद ग़ुस्से में",
+    "ex": "The weavers were incensed when a big brand copied their traditional designs without credit.",
+    "ex2": "Ananya was incensed to learn the vegetable seller had been cheating her grandmother on the weight.",
+    "with": [
+      "incensed by",
+      "incensed at",
+      "incensed that"
+    ],
+    "instead": "boiling with anger",
+    "note": "Formal and strong. Stress the second syllable, in-SENST, unlike incense sticks (IN-sens)."
+  },
+  {
+    "w": "umbrage",
+    "room": "upset",
+    "floor": 5,
+    "pos": "noun",
+    "say": "UM-brij",
+    "mean": "a feeling of being offended, usually in the phrase 'take umbrage'",
+    "hi": "बुरा मानना",
+    "ex": "The senior doctor took umbrage at the intern questioning his diagnosis in front of patients.",
+    "ex2": "Some fans took umbrage at the commentator calling their state team 'minnows'.",
+    "with": [
+      "take umbrage",
+      "take umbrage at",
+      "took umbrage"
+    ],
+    "instead": "got offended",
+    "note": "Almost only used in 'take umbrage at'. It can sound slightly mocking, as if someone is easily offended."
+  }
+]

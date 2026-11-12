@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "You meet someone new at a friend's party and want to start a conversation.",
+    "say": "Hi. So... what do you do?",
+    "better": "Hi, I'm Arjun. How do you know Meera? I know her from college.",
+    "also": ["Hi, I'm Arjun. Have you tried the kebabs yet? They're excellent."],
+    "weak": ["Hi, which company? What's your package?", "Hello. Nice weather, no?"],
+    "why": "Start from what you share. It's easier to answer than a job interview question.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone introduces themselves, and you forget their name a minute later.",
+    "say": "Sorry, what's your good name again, please?",
+    "better": "I'm sorry, I've forgotten your name already. Tell me once more?",
+    "also": ["Remind me of your name? I want to get it right."],
+    "weak": ["Hey... you! Hi! (avoids using any name all evening)", "Your name was something with R, right? Rahul? Rohit?"],
+    "why": "Admitting it quickly is normal. Avoiding it all night is more awkward.",
+    "tone": "casual"
+  },
+  {
+    "situation": "At a wedding, you meet the bride's elderly relative you don't know.",
+    "say": "Hello uncle, myself Priya, I am the bride's friend only.",
+    "better": "Namaste, uncle. I'm Priya, Sana's friend from college. Are you from her mother's side?",
+    "also": ["Namaste! I'm Priya. Sana talks about her family a lot."],
+    "weak": ["Hi uncle. (and walks away)", "Uncle, who are you exactly?"],
+    "why": "'Myself Priya' is a common slip. 'I'm Priya' plus one detail is warm and clear.",
+    "tone": "formal"
+  },
+  {
+    "situation": "At a networking event, you want to ask a senior professional for advice.",
+    "say": "Sir, please give me your number, I will call you for guidance.",
+    "better": "I really liked your talk on supply chains. Could I email you one question about moving into that field?",
+    "also": ["Would you be open to a fifteen-minute call sometime next month?"],
+    "weak": ["Sir, can you get me a job in your company?", "Sir, please do the needful and guide me."],
+    "why": "A small, specific request is easy to say yes to. 'Guidance' is too vague.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A stranger at a party asks, \"So, what's your caste?\"",
+    "say": "Umm... actually... we are, means, from UP side...",
+    "better": "I don't really see why that matters. Tell me, how do you know the hosts?",
+    "also": ["I'd rather not get into that. What do you do in Hyderabad?"],
+    "weak": ["What a backward question, are you from the stone age?", "Why, what's yours first?"],
+    "why": "You can decline an intrusive question calmly and move the conversation on.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want to leave a conversation at a party that has gone on too long.",
+    "say": "Okay, I'll just come. (and never comes back)",
+    "better": "It was great talking to you. I'm going to say hi to my cousin before she leaves.",
+    "also": ["I'll let you get back to the party. Lovely meeting you!"],
+    "weak": ["This is boring, I'm going.", "Excuse me, I need to take an urgent call. (no call)"],
+    "why": "End warmly with a real reason. 'I'll just come' is a promise you won't keep.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone at a wedding compliments your outfit.",
+    "say": "Arre, no no, it's very old, just got it from Sarojini.",
+    "better": "Thank you! I love the colour of your saree too.",
+    "also": ["Thanks so much, that's kind of you."],
+    "weak": ["Yes, I know, it's designer, cost me twenty thousand.", "No, I look fat in this."],
+    "why": "Accept a compliment with a thank you. Brushing it off makes the other person awkward.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You attend a funeral and meet the grieving family.",
+    "say": "Everything happens for a reason, he is in a better place now.",
+    "better": "I'm so sorry. He was always kind to me. Please tell me if I can help with anything.",
+    "also": ["I'm so sorry for your loss. I'm thinking of you all."],
+    "weak": ["How did he die? Was it sudden?", "At least he lived a long life, no?"],
+    "why": "Keep it short and sincere. Don't explain away someone's grief.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A neighbour you barely know says hello in the lift.",
+    "say": "Hmm. (nods and looks at phone)",
+    "better": "Good morning! I'm Divya from the fourth floor. I don't think we've met properly.",
+    "also": ["Hi! Did the water supply come back on your floor too?"],
+    "weak": ["Hi, which flat? Owner or tenant?", "Hello. (silence for eight floors)"],
+    "why": "A name and one easy line turns a stranger into a neighbour.",
+    "tone": "casual"
+  },
+  {
+    "situation": "At a networking event, someone asks, \"So, tell me about yourself.\"",
+    "say": "I am basically from Patna, did my schooling there, then B.Tech, then...",
+    "better": "I'm a data analyst at a health startup in Pune. Right now I'm working on predicting hospital bed demand.",
+    "also": ["I help small shops sell online. Lately I'm interested in rural payments."],
+    "weak": ["Nothing much, I'm just a normal employee.", "I'm a visionary disruptor passionate about synergy."],
+    "why": "Lead with what you do now and one interesting detail, not your whole history.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You meet an old classmate who has become very successful.",
+    "say": "Arre, big shot now! You won't remember small people like us.",
+    "better": "So good to see you! I read about your company in the paper. How does it feel?",
+    "also": ["Congratulations on everything. Tell me, how did it all start?"],
+    "weak": ["You were so average in school, how did you manage?", "Can you give me some contacts, bro?"],
+    "why": "Plain warmth beats a taunt dressed up as a joke.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone at a gathering starts a heated political argument with you.",
+    "say": "You people are all brainwashed by WhatsApp university.",
+    "better": "I see it differently, but I don't think we'll settle it over samosas. Let's talk cricket instead?",
+    "also": ["That's an interesting view. I'd rather keep tonight light, though."],
+    "weak": ["You're completely wrong and frankly stupid.", "Ya, ya, you're right. (doesn't agree)"],
+    "why": "You can disagree without a fight, and choose not to debate at a party.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want to follow up with someone you met at a conference.",
+    "say": "Hi, we met at that event. Please connect.",
+    "better": "Hi Ritu, we spoke after your panel at the Bengaluru fintech summit. I'd love to stay in touch and hear about your project.",
+    "also": ["Great meeting you yesterday. Here's the article on UPI I mentioned."],
+    "weak": ["Hi, I'm looking for job, please refer.", "Hi. 👋"],
+    "why": "Remind them where you met and give a reason to reply.",
+    "tone": "formal"
+  },
+  {
+    "situation": "At a wedding, you're asked to say a few words for the couple on stage.",
+    "say": "I'm not a good speaker, but... umm... best wishes for the happy married life.",
+    "better": "I've known Imran since we were eight. Zoya, he's loyal, funny and terrible at cooking. Look after each other. Cheers!",
+    "also": ["To two people who make each other better. Congratulations!"],
+    "weak": ["I don't want to speak, someone else please.", "Imran's ex would be shocked to see this day! 😂"],
+    "why": "Short, warm and specific beats a nervous apology. Skip embarrassing stories.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone you just met asks how much your flat cost.",
+    "say": "Uh, around... it was some 80-90 lakh, with loan and all.",
+    "better": "We got a decent deal, I think! Are you looking to buy in this area?",
+    "also": ["Prices have gone crazy, haven't they? We're just happy to have a place."],
+    "weak": ["None of your business.", "Why, are you from the income tax department?"],
+    "why": "You can skip the number and turn the question back to them kindly.",
+    "tone": "casual"
+  },
+  {
+    "situation": "At a party, you meet someone whose job you don't understand.",
+    "say": "Oh, nice, nice. (nods, no idea what it is)",
+    "better": "I've never heard of that. What does a normal day look like for you?",
+    "also": ["That sounds interesting. Explain it to me like I'm in Class 8?"],
+    "weak": ["Is that even a real job?", "Oh, so how much does it pay?"],
+    "why": "Curiosity is a gift. Asking makes people feel interesting.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You're running late to a friend's housewarming party.",
+    "say": "On the way, five minutes! (still at home)",
+    "better": "Running about forty minutes late, sorry! Start without me, I'll bring dessert.",
+    "also": ["Leaving now, I'll be there by eight thirty."],
+    "weak": ["Traffic is very bad, I'm stuck. (just leaving)", "(no message, arrives an hour late)"],
+    "why": "An honest time lets people plan. 'Five minutes' fools no one.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A guest at a wedding asks why you're not married yet.",
+    "say": "Haha, no one wants me, aunty, what to do.",
+    "better": "It'll happen when it happens, aunty. Today I'm just enjoying the food and dancing!",
+    "also": ["I'm in no hurry. Isn't the decor lovely?"],
+    "weak": ["Marriage is a scam, aunty.", "Why are you asking, do you have someone for me?"],
+    "why": "Light and confident. No self-mocking and no lecture needed.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone at a gathering keeps interrupting you while you speak.",
+    "say": "Haan, haan, you say, you say. (gives up)",
+    "better": "Let me just finish this point, then I really want to hear yours.",
+    "also": ["One second, I'm almost done."],
+    "weak": ["Can you shut up for one minute?", "(stops talking for the rest of the evening)"],
+    "why": "Hold your turn politely. You don't need to be loud to be heard.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You meet a friend's spouse for the first time.",
+    "say": "Oh, so you're the famous wife! He never stops complaining about you. 😄",
+    "better": "So lovely to finally meet you, Ananya! Karthik talks about you all the time.",
+    "also": ["I've heard so much about you, all good, I promise."],
+    "weak": ["Hi. So, arranged or love?", "You're much prettier than he said."],
+    "why": "A warm first line sets the tone. Jokes about their marriage can land badly.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You're at a party where you know only the host, and feel awkward.",
+    "say": "(stands near the snacks scrolling Instagram all night)",
+    "better": "Hi, I only know Rhea here. Mind if I join you? I'm Kabir.",
+    "also": ["Hi, I'm Kabir. Is this your first time at one of Rhea's parties too?"],
+    "weak": ["(asks the host to introduce you to everyone, one by one)", "I don't know anyone, this is so boring."],
+    "why": "Saying you know no one is honest and gives people an easy way in.",
+    "tone": "casual"
+  },
+  {
+    "situation": "At a networking event, someone gives you their card and asks for yours.",
+    "say": "Sorry, I don't have card, I'm just a fresher, nothing special.",
+    "better": "I don't have cards on me. Can I add you on LinkedIn? I'm Shreya, I've just started as a UX designer.",
+    "also": ["Let me scan your QR and send you a message right now."],
+    "weak": ["Cards are outdated, no one uses them.", "Nothing special about me, sorry."],
+    "why": "Never shrink yourself. Offer a simple way to connect.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Someone you met makes a comment about your region's food or language.",
+    "say": "Haha ya, we South Indians only eat idli-dosa. (forced laugh)",
+    "better": "Ha, there's a lot more than idli! You should try Chettinad food sometime, I'll take you.",
+    "also": ["That's a common idea. Kerala and Tamil Nadu food are very different, actually."],
+    "weak": ["You North Indians only know butter chicken.", "That's such a racist thing to say."],
+    "why": "Correct the stereotype with warmth and an invitation, not a counter-stereotype.",
+    "tone": "casual"
+  },
+  {
+    "situation": "An acquaintance asks you to buy a product from their new MLM business.",
+    "say": "Ya, sure, I'll see, send me details. (never will)",
+    "better": "Thanks for thinking of me, but I won't be buying. Good luck with it, though.",
+    "also": ["It's not for me, but I'm happy to catch up over coffee."],
+    "weak": ["MLM is a scam, you'll lose money.", "Maybe next month, after my salary. (every month)"],
+    "why": "A kind, clear no saves both of you endless follow-ups.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want to invite a new colleague to a weekend outing with your friends.",
+    "say": "If you are free, then only come, no compulsion.",
+    "better": "A few of us are going to Nandi Hills on Saturday morning. Would love it if you joined!",
+    "also": ["We're doing a dosa breakfast on Sunday. Want to come along?"],
+    "weak": ["You can come if you want, I don't know if others will like it.", "You probably won't come, but still asking."],
+    "why": "A warm, specific invite makes people feel wanted, not tolerated.",
+    "tone": "casual"
+  }
+]

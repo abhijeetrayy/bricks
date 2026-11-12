@@ -2,11 +2,13 @@
 import fs from 'node:fs';
 const dir = new URL('../data/', import.meta.url);
 const read = (f) => JSON.parse(fs.readFileSync(new URL(f, dir), 'utf8'));
-const ROOMS = ['think','argue','doubt','feel','people','talk','phrasal','idioms','lead','everyday','link','change','amount','cause','world','society'];
+const ROOMS = ['think','argue','doubt','feel','people','talk','phrasal','idioms','lead','everyday','link','change','amount','cause','world','society','firm','read','upset','opinion'];
+const exists = (f) => fs.existsSync(new URL(f, dir));
 let bad = 0; const fail = (...m) => { bad++; console.log('✗', ...m); };
 const seen = new Map(); let n = 0; const floors = [0,0,0,0,0,0];
 const wre = (w) => new RegExp(`(^|[^\\p{L}])${w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(?![\\p{L}])`, 'iu');
 for (const r of ROOMS) {
+  if (!exists(`words-${r}.json`)) { fail('missing file', `words-${r}.json`); continue; }
   for (const x of read(`words-${r}.json`)) {
     n++; floors[x.floor]++;
     for (const k of ['w','floor','pos','say','mean','hi','ex']) if (!x[k]) fail(r, x.w, 'missing', k);
@@ -46,7 +48,20 @@ const PA = read('partners.json');
 for (const p of PA) { if ((p.s.match(/_{2,}/g) || []).length !== 1) fail('partner', p.s, 'blank'); if (p.wrong.includes(p.a) || p.wrong.length < 1) fail('partner', p.s, 'options'); }
 const T = read('talk.json'); for (const t of T) for (const r of t.rooms) if (!ROOMS.includes(r)) fail('talk', t.t, 'room', r);
 const I = read('indian.json'); const SA = read('say.json');
-const nEx2 = ROOMS.reduce((t, r) => t + read(`words-${r}.json`).filter((x) => x.ex2).length, 0);
-console.log(`${n} words (${nEx2} with a second sentence) · floors ${floors.slice(1).join('/')} · ${P.length} situations (${allP.size} phrases) · ${U.length} upgrades · ${PA.length} partners · ${T.length} talk prompts · ${L.length} ladders · ${R.length} roots · ${M.length} mix-ups · ${I.length} Indian notes · ${SA.length} say-it-right`);
+const nEx2 = ROOMS.filter((r) => exists(`words-${r}.json`)).reduce((t, r) => t + read(`words-${r}.json`).filter((x) => x.ex2).length, 0);
+// categories by intent
+const INT = read('intents.json');
+for (const it of INT) { for (const r of it.rooms) if (!ROOMS.includes(r)) fail('intent', it.id, 'unknown room', r);
+  for (const w of it.words) if (!seen.has(w.toLowerCase())) fail('intent', it.id, 'unknown word', w); }
+// say this, not that
+const SCN = ['work','lead','love','family','friends','social','debate','opinion','online','feelings','upset','firm'];
+let nSw = 0; const says = new Set();
+for (const sc of SCN) { if (!exists(`swaps-${sc}.json`)) { fail('missing file', `swaps-${sc}.json`); continue; }
+  for (const x of read(`swaps-${sc}.json`)) { nSw++;
+    for (const k of ['situation','say','better','why','tone']) if (!x[k]) fail('swap', sc, 'missing', k, x.say);
+    if (!Array.isArray(x.weak) || x.weak.length !== 2) fail('swap', sc, 'weak needs 2', x.say);
+    if (!['casual','neutral','formal'].includes(x.tone)) fail('swap', sc, 'tone', x.tone);
+    if (says.has(x.say)) fail('swap', sc, 'repeat', x.say); says.add(x.say); } }
+console.log(`${n} words (${nEx2} with a second sentence) · ${INT.length} categories · ${nSw} phrase swaps · floors ${floors.slice(1).join('/')} · ${P.length} situations (${allP.size} phrases) · ${U.length} upgrades · ${PA.length} partners · ${T.length} talk prompts · ${L.length} ladders · ${R.length} roots · ${M.length} mix-ups · ${I.length} Indian notes · ${SA.length} say-it-right`);
 console.log(bad ? `${bad} problem(s)` : 'All checks pass.');
 process.exit(bad ? 1 : 0);

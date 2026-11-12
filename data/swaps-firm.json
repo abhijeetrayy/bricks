@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A friend asks to borrow 20,000 rupees, and you do not want to lend it.",
+    "say": "Yaar, actually, I'm a bit tight this month, maybe later...",
+    "better": "I'm not able to lend money, but I hope you find a way soon. Can I help in another way?",
+    "also": ["I keep a rule of not lending money to friends. It protects the friendship."],
+    "weak": ["Arre, I'll check and tell you.", "Sorry, sorry, I'll try to arrange something."],
+    "why": "A clear no is kinder than a vague maybe that leaves them waiting.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your manager asks you to take on a colleague's work while yours is already full.",
+    "say": "Okay sir, I'll try to adjust somehow.",
+    "better": "I can't take that on without dropping something. Should I push the vendor report to next week?",
+    "also": ["My plate is full. Which of my current tasks should move?"],
+    "weak": ["Sir, why always me? Give it to someone else.", "Yes sir, no problem, I'll stay late."],
+    "why": "Shows the trade-off and lets the manager choose; firm, not defensive.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A relative insists you attend a function you have no time for.",
+    "say": "Haan aunty, I'll try to come, let's see.",
+    "better": "Aunty, I won't be able to make it this time. I'll call to wish them, and I'll send a gift.",
+    "also": ["I can't come on Sunday, but I'd love to visit them next month."],
+    "weak": ["I'll definitely come, pakka!", "I'm too busy for all these functions."],
+    "why": "A warm, definite no beats a 'maybe' you will break.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A colleague keeps asking you to cover for them when they leave early.",
+    "say": "Okay, but please, this is the last time, haan.",
+    "better": "I'm not comfortable covering for you anymore. If you need to leave early, please tell the manager directly.",
+    "also": ["I've done it a few times, but I can't keep doing it."],
+    "weak": ["Fine, go, I'll manage, as always.", "You're so selfish, always running away."],
+    "why": "Clear limit, no guilt trip, no insult.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A salesperson keeps pushing a credit card you have already refused.",
+    "say": "Not now, maybe later, I'll think about it.",
+    "better": "No, thank you. I'm not interested, and I'd like you to remove my number from your list.",
+    "also": ["I've decided. Please don't call again."],
+    "weak": ["Okay, send me the details, I'll see.", "Stop calling me, you people are a nuisance!"],
+    "why": "A short, final no ends the pressure; 'maybe' invites more calls.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your client wants extra features added free, outside the agreed scope.",
+    "say": "Okay sir, we'll try to adjust in the same cost.",
+    "better": "Happy to add those. They're outside our agreed scope, so I'll send a quote and timeline by tomorrow.",
+    "also": ["We can do it as phase two. Let me share the cost."],
+    "weak": ["That's not possible, sir, it's not in contract, sorry.", "Okay, we'll manage, no extra charges."],
+    "why": "Says yes to the work and no to doing it free, calmly.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your in-laws keep pushing you to have a child soon.",
+    "say": "Haan, haan, let's see, God's wish.",
+    "better": "We know you're excited, and we love that. This is our decision, and we'll share news when we're ready.",
+    "also": ["We'd rather not discuss this right now. Thank you for understanding."],
+    "weak": ["This is none of your business.", "Soon, soon, very soon, don't worry."],
+    "why": "Kind but closed: respects them, keeps the decision yours.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend pressures you to drink at a party when you do not want to.",
+    "say": "No yaar, actually, I have a headache, small issue.",
+    "better": "I'm not drinking tonight. I'm having a great time though. Get me a lime soda?",
+    "also": ["No thanks, I'm good. Really."],
+    "weak": ["Okay, just one, only for you.", "I'm not like you people, I don't drink."],
+    "why": "No excuse needed; a cheerful, final no works best.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your team pushes to cut testing to meet a deadline, and you disagree.",
+    "say": "Okay, as you all say, majority wins.",
+    "better": "I hear the pressure, but I can't sign off without testing payments. Let's cut a smaller feature instead.",
+    "also": ["I'm holding firm on this. A payment bug will cost us more than a delay."],
+    "weak": ["Fine, but if anything breaks, don't blame me.", "You all don't understand quality at all."],
+    "why": "Holds the line, gives a reason, and offers another way.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A neighbour keeps asking you to keep their parcels and keys.",
+    "say": "Sure aunty, anytime, no problem at all.",
+    "better": "I'm happy to help now and then, but I'm out most days, so I can't keep parcels regularly.",
+    "also": ["This week works, but please find another option going forward."],
+    "weak": ["Aunty, I'm not your watchman.", "Okay, okay, give, what else."],
+    "why": "Sets a limit while keeping the relationship warm.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your boss calls on a Sunday, during a family event, about non-urgent work.",
+    "say": "Yes sir, tell me sir, I'm free.",
+    "better": "I'm at a family function today. If it can wait, I'll handle it first thing Monday.",
+    "also": ["If it's urgent, I can take ten minutes now. Otherwise, Monday."],
+    "weak": ["Sir, it's Sunday! Can't you leave me alone one day?", "Sorry sir, network is very bad here, call you later."],
+    "why": "Polite and clear about your time, with an option for real urgency.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A cousin asks you to lie to their parents about where they were.",
+    "say": "Okay, but if I get caught, you're responsible.",
+    "better": "I'm not going to lie for you. I'll keep quiet, but if they ask me directly, I'll tell the truth.",
+    "also": ["I care about you, but I won't lie to your parents."],
+    "weak": ["Fine, what should I say, tell me the story.", "I'll tell them everything right now."],
+    "why": "Clear about what you will and won't do, without betraying them.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone asks you to review their work for free, again.",
+    "say": "Haan, send, I'll see when I get time.",
+    "better": "I can't do free reviews anymore, my time's limited. My rate is 1,500 per document if that works.",
+    "also": ["I've helped a few times, but I need to charge for reviews now."],
+    "weak": ["Sure, no worries, it's only small work.", "Why should I always do your work?"],
+    "why": "Values your time openly instead of quietly resenting it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "In a negotiation, the other side asks you to drop your price again.",
+    "say": "Okay, okay, final, I'll give ten percent more discount.",
+    "better": "This is already our best price. I can't go lower, but I can add free delivery.",
+    "also": ["The price stays. Let's see what else would make this work for you."],
+    "weak": ["Sir, please understand, we also have families.", "Take it or leave it."],
+    "why": "Holds the price calmly and offers something that costs you less.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your friend asks you to be a loan guarantor.",
+    "say": "Let me ask my father and tell you.",
+    "better": "I won't be able to stand guarantee. It's a rule I keep with everyone. I hope the loan works out.",
+    "also": ["I can't sign that, but I'm happy to help you compare loan options."],
+    "weak": ["Okay, send the papers, I'll sign.", "Are you mad? I don't trust anyone with money."],
+    "why": "A clear 'rule I keep' makes the no less personal.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A senior colleague insists you redo a task their way, but yours is sound.",
+    "say": "Okay sir, you're senior, you know better.",
+    "better": "I've thought about it and I'd like to keep my approach. It's faster and passed all checks. Can I walk you through it?",
+    "also": ["I respect your experience, but here the data supports my way."],
+    "weak": ["Sir, your method is outdated.", "Okay, I'll redo it, no problem."],
+    "why": "Respectful but steady: reasons, evidence, and openness to discuss.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You've said no once, and a friend keeps pushing: 'Come on, just this once.'",
+    "say": "Okay fine, you're forcing me, so I'll do it.",
+    "better": "I've already said no, and that's my answer. Let's talk about something else.",
+    "also": ["I know you want me to, but it's still a no."],
+    "weak": ["Why don't you ever listen? You're so irritating.", "Let me think again, maybe..."],
+    "why": "Repeat the no calmly; you owe no new reason.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A recruiter asks you to accept an offer on the spot.",
+    "say": "Okay, I'll join, I don't want to lose this chance.",
+    "better": "Thank you, I'm interested. I'll give you my decision by Thursday after reviewing the offer properly.",
+    "also": ["I need two days to decide. I'll confirm by Thursday."],
+    "weak": ["Why so much hurry? Is something wrong with the company?", "Can I tell you next month?"],
+    "why": "Takes the time you need, with a clear date.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A family elder asks you to give up your weekend to run their errands, again.",
+    "say": "Okay, okay, what's the point of my weekend anyway.",
+    "better": "I can do the bank work on Saturday morning, but the rest of the weekend I need for myself.",
+    "also": ["I'll help with one thing this weekend. Which matters most?"],
+    "weak": ["I'm always the one, why can't others help?", "No, I'm busy, ask someone else."],
+    "why": "Says yes to part, no to the rest; helpful and protective of your time.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your team lead wants you to give a fake positive update to the client.",
+    "say": "Okay, as you say, I'll manage it somehow.",
+    "better": "I'm not comfortable telling the client we're on track. Let's share the delay honestly with a recovery plan.",
+    "also": ["I'd rather give them bad news now than a bigger shock later."],
+    "weak": ["That's lying, I won't be part of your drama.", "Fine, but it's on you, not me."],
+    "why": "Refuses the lie and offers a better path, without accusing.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend wants you to join a business scheme you don't trust.",
+    "say": "Haan, sounds nice, I'll think and tell you.",
+    "better": "Thanks for thinking of me, but I'm going to pass. It's not something I'm comfortable investing in.",
+    "also": ["It's a no from me, but I hope it goes well for you."],
+    "weak": ["These schemes are all frauds, you're getting cheated.", "Okay, maybe I'll put a small amount."],
+    "why": "A clear no without lecturing them about their choice.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your manager wants you to cancel your approved leave for a meeting.",
+    "say": "Okay sir, I'll cancel, no issue.",
+    "better": "My leave was approved last month and I have travel booked. I can join a short call that morning if it's essential.",
+    "also": ["I'll brief Anil before I go, so he can cover the meeting."],
+    "weak": ["Sir, this always happens, I never get leave.", "Fine, I'll cancel and lose the tickets."],
+    "why": "Holds to the agreed plan and still offers a reasonable fix.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Someone you just met asks how much you earn.",
+    "say": "Haha, not much yaar, just okay okay.",
+    "better": "I'd rather keep that private, but I'm happy to talk about the work itself.",
+    "also": ["I keep salary stuff private. What do you do?"],
+    "weak": ["Why do you want to know? That's so rude.", "Around 18 lakhs, why, what's yours?"],
+    "why": "Polite, light and clear; no lie and no lecture.",
+    "tone": "casual"
+  },
+  {
+    "situation": "During a debate, people shout to make you change your view.",
+    "say": "Okay, okay, maybe you all are right.",
+    "better": "I hear you, and I still see it differently. Shouting won't change my mind; a good reason might.",
+    "also": ["Let's lower our voices. I'm open to evidence, not pressure."],
+    "weak": ["You all are idiots, I won't argue with you.", "Whatever, think what you want."],
+    "why": "Stays open to reasons but not to pressure.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your friend wants to stay at your place for a month, and you can't host.",
+    "say": "Yaar, actually there's some problem, my landlord, you know...",
+    "better": "I can't host you for a month, it's too long for my space. I can do this weekend while you find a place.",
+    "also": ["A month won't work for me, but let me share some PG contacts."],
+    "weak": ["Sure, come, stay as long as you want.", "No, I don't like guests."],
+    "why": "Honest limit plus real help beats a made-up excuse.",
+    "tone": "casual"
+  }
+]

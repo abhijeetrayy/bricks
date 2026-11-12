@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "Your partner forgot your birthday, and you're hurt.",
+    "say": "It's fine. Whatever. I'm used to it.",
+    "better": "I felt hurt that you forgot my birthday. It matters to me. Can we talk about it?",
+    "also": ["Honestly, I was upset about my birthday, and I want you to know that."],
+    "weak": ["You never care about me, you only care about yourself.", "Nothing happened. I'm fine."],
+    "why": "Name the feeling with 'I', instead of sulking or attacking.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You shouted during a fight and want to apologise.",
+    "say": "Sorry if you felt bad.",
+    "better": "I'm sorry I raised my voice. You didn't deserve that, and I'll work on it.",
+    "also": ["I was wrong to shout at you. I'm sorry."],
+    "weak": ["Okay, sorry. Happy now?", "Sorry, but you also started it."],
+    "why": "A real apology names what you did, with no 'if' and no 'but'.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You feel jealous when your partner texts a friend late at night.",
+    "say": "Why are you always talking to her? Who is she, actually?",
+    "better": "I feel a bit insecure when you text Priya late at night. Can you help me understand?",
+    "also": ["This is my own insecurity, but I wanted to be honest that it's bothering me."],
+    "weak": ["Show me your phone, right now.", "Fine, talk to her only. Why do you need me?"],
+    "why": "Own the jealousy as your feeling instead of accusing.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You've hardly spent any time together for weeks.",
+    "say": "You don't have time for me at all.",
+    "better": "I miss us. Could we keep Sunday evenings just for the two of us?",
+    "also": ["I'd love more time with you. Can we plan one proper date a week?"],
+    "weak": ["I know, your work is more important than me.", "Do whatever you want, I don't care anymore."],
+    "why": "Ask for what you want, not only for what's missing.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You've had a draining day and need an evening alone.",
+    "say": "Just leave me alone.",
+    "better": "I need some time to myself tonight. It's not about you. I'll call you tomorrow.",
+    "also": ["I'm drained. Can I have a quiet evening, and we talk tomorrow?"],
+    "weak": ["Don't call me. I'll call when I feel like it.", "Nothing, I'm fine, why do you keep asking?"],
+    "why": "Ask for space with a reason and a time, so it doesn't feel like rejection.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner cancels your plans at the last minute, again.",
+    "say": "As usual. I knew it.",
+    "better": "I'm disappointed. It's the third time this month. Can we make plans you're sure you can keep?",
+    "also": ["I get that work came up, but I was looking forward to this. Let's fix a new time now."],
+    "weak": ["No problem, it's okay, I'll just sit at home.", "You never keep your word. You're so unreliable."],
+    "why": "Be honest about the pattern and ask for a change, without labels.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You're deciding where to eat tonight.",
+    "say": "Anything is fine, you decide.",
+    "better": "I'm in the mood for South Indian. How about that new dosa place?",
+    "also": ["I'd like something light. Thai or South Indian?"],
+    "weak": ["Anything, but not Chinese, not pizza, not that place, not...", "You decide. You always decide anyway."],
+    "why": "Say what you'd like. 'Anything' puts the whole decision on them.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner is upset after a bad day at work.",
+    "say": "Don't be sad yaar, chill, it's not a big deal.",
+    "better": "That sounds really hard. Do you want advice, or do you just want me to listen?",
+    "also": ["I'm here. Tell me what happened."],
+    "weak": ["You're overthinking. Just forget it.", "At least it's not as bad as what happened to me."],
+    "why": "Listen first and ask what they need. Don't brush feelings away.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to talk about a future together, including marriage.",
+    "say": "My parents are asking, so tell me, are you serious or not?",
+    "better": "I've been thinking about our future. Can we talk about where we both see this going?",
+    "also": ["I'm serious about us. I'd like to know how you feel about the next step."],
+    "weak": ["Decide fast, my parents are already looking for matches.", "Whatever happens, happens. Let's not think about it."],
+    "why": "Share your own wish first, then invite theirs, without an ultimatum.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your partner made a joke about you in front of friends.",
+    "say": "Okay, very funny. Ha ha.",
+    "better": "That joke at dinner stung. I know you didn't mean harm, but please don't do that in front of friends.",
+    "also": ["Can we talk about that joke tonight? It embarrassed me."],
+    "weak": ["You insulted me in front of everyone. You always do this.", "Nothing. I'm not talking to you."],
+    "why": "Raise it in private, say how it felt, and make a clear request.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You rarely tell your partner what you love about them.",
+    "say": "You know na I love you, why should I say it?",
+    "better": "I don't say it enough, but I love how you look after everyone around you.",
+    "also": ["Thank you for today. You made everything easier."],
+    "weak": ["Obviously I love you, don't be filmy.", "Haan haan, love you too. Bye."],
+    "why": "Specific appreciation lands far better than love that's just assumed.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Decisions about your life as a couple keep being made by your partner's parents.",
+    "say": "Your mother is always interfering in our life.",
+    "better": "I feel left out when decisions about us are made at your parents' place. Can we decide together first?",
+    "also": ["I respect your parents. I'd just like us to agree on things before we share them."],
+    "weak": ["Choose: me or your family.", "Fine, let your mother decide everything then."],
+    "why": "Talk about the situation and your need, not an attack on their family.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're worried about how much the two of you are spending.",
+    "say": "You are spending too much, we can't afford all this.",
+    "better": "I'm worried about our savings. Can we sit down this weekend and plan a monthly budget together?",
+    "also": ["Let's agree how much each of us spends freely, and how much we save."],
+    "weak": ["You have no sense of money at all.", "Fine, spend. We'll see what happens at month end."],
+    "why": "Make money a shared plan, not a blame game.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your partner scrolls on their phone all through dinner.",
+    "say": "Keep your phone aside, I'm not talking to a wall.",
+    "better": "Can we keep our phones away during dinner? I really like our time to talk.",
+    "also": ["Phone-free dinners this week? I miss talking to you."],
+    "weak": ["Marry your phone then.", "Okay, I'll also use my phone, no problem."],
+    "why": "Make a simple request and say why it matters to you.",
+    "tone": "casual"
+  },
+  {
+    "situation": "After an argument, your partner has stopped talking to you.",
+    "say": "Fine, don't talk. Who cares.",
+    "better": "I don't like it when we stop talking. I'm ready to listen whenever you are.",
+    "also": ["I know you're upset. Can we talk once we've both calmed down?"],
+    "weak": ["If you don't talk now, don't talk ever.", "Okay, I'll also not talk. Let's see who breaks first."],
+    "why": "Keep the door open instead of matching silence with silence.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner asks 'What's wrong?' and something is bothering you.",
+    "say": "Nothing. I'm fine.",
+    "better": "I'm upset about this morning. Give me ten minutes, then I'd like to talk about it.",
+    "also": ["Something's bothering me. Can we talk after dinner?"],
+    "weak": ["You should know what's wrong.", "Why would anything be wrong? Everything is just perfect."],
+    "why": "Say that something is wrong. Making them guess leads to bigger fights.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You've decided to end the relationship.",
+    "say": "It's not you, it's me. Let's be friends.",
+    "better": "I've thought about this a lot. I don't see a future for us, and I don't want to keep pretending.",
+    "also": ["This is hard to say, but I want to end things. You deserve honesty."],
+    "weak": ["I'm very busy these days, let's talk later. (And never call.)", "You've changed. You're not the person I liked."],
+    "why": "Be honest and kind. Vague lines leave the other person confused.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "In a long-distance relationship, your partner skipped yesterday's call.",
+    "say": "You didn't call yesterday. Forget it.",
+    "better": "I missed hearing from you yesterday. Can we fix a call time that works for both of us?",
+    "also": ["I know your shifts are long. Even a two-minute call helps me."],
+    "weak": ["You've found someone else, haven't you?", "Okay, call only when you feel like it."],
+    "why": "Turn the complaint into a simple plan you both agree on.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You're doing most of the housework and you're tired of it.",
+    "say": "I am doing everything in this house alone.",
+    "better": "I'm tired of handling all the cooking. Could you take over dinners on weekdays?",
+    "also": ["Can we split the chores? I'll do mornings, you do evenings."],
+    "weak": ["You just sit and watch TV like a guest.", "Leave it, I'll do it, as always."],
+    "why": "A specific ask gets results. 'Everything' starts a fight.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner has sincerely apologised after a fight.",
+    "say": "Hmm. Okay. Let's see.",
+    "better": "Thank you for saying that. I accept it, and I'm glad we talked.",
+    "also": ["That means a lot. Let's move on."],
+    "weak": ["Sorry is not enough. You'll pay for this.", "It's okay, it's okay, I'm used to it."],
+    "why": "Accept a real apology clearly, so you can both move on.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want the mountains for your holiday; your partner wants the beach.",
+    "say": "We always do what you want. This time Manali, final.",
+    "better": "I'd really like the mountains this time. Could we do Manali now and Goa on the next trip?",
+    "also": ["Let's each list our top two places and find one we both like."],
+    "weak": ["Fine, Goa. I'll just sit in the hotel.", "If it's not Manali, I'm not going."],
+    "why": "State your preference and offer a fair trade.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner feels jealous of a colleague you often mention.",
+    "say": "You are being so insecure, it's just a colleague!",
+    "better": "I can see this is worrying you. Nikhil is just a colleague, and I'm happy for you to meet him.",
+    "also": ["I get why it felt odd. Ask me anything; I've nothing to hide."],
+    "weak": ["Your jealousy is your problem, not mine.", "Okay, I'll stop talking to all my colleagues then."],
+    "why": "Reassure and stay open instead of calling their feeling silly.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner said yes to a Saturday plan for both of you without asking.",
+    "say": "Why didn't you ask me before? I'm not coming.",
+    "better": "I wish you'd checked with me first. I can't make Saturday, but I'd love to go another weekend.",
+    "also": ["Next time, can we check plans together? Saturday doesn't work for me."],
+    "weak": ["You never consider me. You just decide everything.", "Fine, I'll come, but don't expect me to enjoy it."],
+    "why": "Say no clearly, ask for a change next time, and offer another option.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to understand what makes your partner feel loved.",
+    "say": "Tell me na, what do you want from me?",
+    "better": "What's one small thing I do that makes you feel loved? I'd like to do more of it.",
+    "also": ["When do you feel most cared for by me?"],
+    "weak": ["What more do you want? I'm already doing so much.", "I don't understand you at all."],
+    "why": "Curious questions build closeness. Defensive ones shut it down.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Lately you feel your partner takes you for granted.",
+    "say": "Nobody values me in this relationship.",
+    "better": "Lately I feel taken for granted. A thank-you now and then would mean a lot to me.",
+    "also": ["I'd like to feel more appreciated. Small things matter to me."],
+    "weak": ["You'll realise my value when I'm gone.", "Fine, from tomorrow I'll also stop doing anything."],
+    "why": "Say the feeling, and the small thing that would help.",
+    "tone": "neutral"
+  }
+]

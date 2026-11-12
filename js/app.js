@@ -1,5 +1,5 @@
 // Say it better — one daily practice: five real sentences said the flat way; you pick the exact word or phrase.
-import { D, ROOMS, FLOORS, loadAll, roomOf, floorOf, slug } from './data.js';
+import { D, ROOMS, FLOORS, SCENES, loadAll, roomOf, floorOf, slug } from './data.js';
 import * as S from './store.js';
 import { esc, shuffle, sample, pick, gapWord, markWord, speak, speakBtn, toast, share } from './util.js';
 
@@ -38,46 +38,74 @@ function distract(w, n = 2) {
 }
 
 // ================================================================ the daily plan
-function newPlan(extra) {
+// Which phrase scene goes with each word category.
+const INTENT_SCENE = { opinion: 'opinion', firm: 'firm', disagree: 'debate', upset: 'upset', read: 'social', people: 'friends', feel: 'feelings',
+  think: 'opinion', sure: 'debate', why: 'opinion', link: 'opinion', work: 'work', describe: 'social', society: 'debate', natural: 'friends' };
+
+function pickSwaps(n, sceneId) {
+  const st = S.state();
+  st.doneSw = st.doneSw || [];
+  const pool = (sceneId ? D.scenes.find((s) => s.id === sceneId)?.items : D.swaps) || [];
+  let fresh = pool.filter((x) => !st.doneSw.includes(x.key));
+  if (fresh.length < n) { st.doneSw = st.doneSw.filter((k) => !pool.some((x) => x.key === k)); fresh = pool; }
+  return sample(fresh, n);
+}
+
+function pickWords(pool, n, L, used) {
+  let fresh = pool.filter((w) => w.floor <= L && S.statusOf(w.id) === 'new' && !used.has(w.id));
+  for (let f = L + 1; fresh.length < n && f <= 5; f++) fresh = fresh.concat(pool.filter((w) => w.floor === f && S.statusOf(w.id) === 'new' && !used.has(w.id)));
+  // prefer words at your level, then the easiest above it
+  fresh.sort((a, b) => Math.abs(a.floor - L) - Math.abs(b.floor - L));
+  return sample(fresh.slice(0, Math.max(n * 3, 12)), n);
+}
+
+/** kind: 'day' (today's five), 'more', 'words' (one category), 'scene' (one phrase scene). */
+function newPlan(kind = 'day', focus = null) {
   const st = S.state();
   const L = level();
-  const due = shuffle(S.dueIds()).map((id) => D.byId.get(id)).filter(Boolean).slice(0, extra ? 3 : 2);
-  const used = new Set(due.map((w) => w.id));
-
-  // one "upgrade the sentence" item, close to your level, not seen recently
-  st.doneUp = st.doneUp || [];
-  let ups = D.upgrades.map((u, i) => [u, i]).filter(([, i]) => !st.doneUp.includes(i));
-  if (!ups.length) { st.doneUp = []; ups = D.upgrades.map((u, i) => [u, i]); }
-  const lv = (u) => { const picks = u.parts.filter((p) => typeof p !== 'string').map((p) => D.byId.get(slug(p.pick))?.floor || 3); return picks.reduce((a, b) => a + Math.abs(b - L), 0) / picks.length; };
-  ups.sort((a, b) => lv(a[0]) - lv(b[0]));
-  const upI = sample(ups.slice(0, 6), 1)[0]?.[1];
-
-  // one "say it well" phrase moment
-  st.donePh = st.donePh || [];
-  let sits = D.phrases.filter((p) => !st.donePh.includes(p.id));
-  if (!sits.length) { st.donePh = []; sits = D.phrases; }
-  const phId = sample(sits, 1)[0]?.id;
-
-  const nNew = Math.max(1, SESSION_LEN - due.length - (upI != null ? 1 : 0) - (phId ? 1 : 0));
-  let pool = D.words.filter((w) => w.floor === L && S.statusOf(w.id) === 'new' && !used.has(w.id));
-  for (let f = L + 1; pool.length < nNew && f <= 5; f++) pool = pool.concat(D.words.filter((w) => w.floor === f && S.statusOf(w.id) === 'new'));
-  const fresh = sample(pool, nNew);
-
-  const words = [...fresh.map((w) => ({ t: 'w', id: w.id })), ...due.map((w) => ({ t: 'w', id: w.id, review: true }))];
-  const items = [];
-  if (words.length) items.push(words.shift());
-  if (upI != null) items.push({ t: 'u', i: upI });
-  if (words.length) items.push(words.shift());
-  if (phId) items.push({ t: 'p', id: phId });
-  items.push(...words);
-  const plan = { date: S.today(), items, idx: 0, right: 0, of: 0, learned: [] };
-  if (extra) st.extra = plan; else st.session = plan;
+  let items = [];
+  if (kind === 'scene') {
+    items = pickSwaps(5, focus).map((x) => ({ t: 's', key: x.key }));
+  } else {
+    const pool = kind === 'words' ? (D.byIntent.get(focus)?.list || []) : D.words;
+    const inPool = new Set(pool.map((w) => w.id));
+    const due = shuffle(S.dueIds().filter((id) => inPool.has(id))).map((id) => D.byId.get(id)).filter(Boolean).slice(0, kind === 'day' ? 2 : 1);
+    const used = new Set(due.map((w) => w.id));
+    let upI = null;
+    if (kind !== 'words') {
+      st.doneUp = st.doneUp || [];
+      let ups = D.upgrades.map((u, i) => [u, i]).filter(([, i]) => !st.doneUp.includes(i));
+      if (!ups.length) { st.doneUp = []; ups = D.upgrades.map((u, i) => [u, i]); }
+      const lv = (u) => { const picks = u.parts.filter((p) => typeof p !== 'string').map((p) => D.byId.get(slug(p.pick))?.floor || 3); return picks.reduce((a, b) => a + Math.abs(b - L), 0) / picks.length; };
+      ups.sort((a, b) => lv(a[0]) - lv(b[0]));
+      upI = sample(ups.slice(0, 8), 1)[0]?.[1] ?? null;
+    }
+    const sw = pickSwaps(1, kind === 'words' ? INTENT_SCENE[focus] : null)[0];
+    let ph = null;
+    if (kind === 'more') {
+      st.donePh = st.donePh || [];
+      let sits = D.phrases.filter((p) => !st.donePh.includes(p.id));
+      if (!sits.length) { st.donePh = []; sits = D.phrases; }
+      ph = sample(sits, 1)[0]?.id || null;
+    }
+    const nNew = Math.max(1, SESSION_LEN - due.length - (upI != null ? 1 : 0) - (sw ? 1 : 0) - (ph ? 1 : 0));
+    const fresh = pickWords(pool, nNew, L, used);
+    const ws = [...fresh.map((w) => ({ t: 'w', id: w.id })), ...due.map((w) => ({ t: 'w', id: w.id, review: true }))];
+    if (ws.length) items.push(ws.shift());
+    if (upI != null) items.push({ t: 'u', i: upI });
+    if (ws.length) items.push(ws.shift());
+    if (sw) items.push({ t: 's', key: sw.key });
+    if (ph) items.push({ t: 'p', id: ph });
+    items.push(...ws);
+  }
+  const plan = { date: S.today(), kind, focus, items, idx: 0, right: 0, of: 0, learned: [] };
+  if (kind === 'day') st.session = plan; else st.extra = plan;
   S.save();
   return plan;
 }
 function todayPlan() {
   const st = S.state();
-  return st.session?.date === S.today() ? st.session : newPlan(false);
+  return st.session?.date === S.today() && st.session.kind === 'day' ? st.session : newPlan('day');
 }
 
 // ================================================================ chrome
@@ -86,7 +114,7 @@ function render(html) {
   main.querySelectorAll('[data-speak]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); speak(b.dataset.speak); }));
 }
 function updateChrome(top) {
-  const on = { '': 'today', practice: 'today', find: 'find', group: 'find', word: 'find', phrases: 'find', me: 'me', about: 'me' }[top] ?? '';
+  const on = { '': 'today', practice: 'today', words: 'words', find: 'words', intent: 'words', group: 'words', word: 'words', phrases: 'phrases', scene: 'phrases', moment: 'phrases', me: 'me', about: 'me' }[top] ?? '';
   document.querySelectorAll('[data-nav]').forEach((a) => a.classList.toggle('on', a.dataset.nav === on));
 }
 
@@ -105,7 +133,8 @@ function searchAll(raw) {
   }
   const ladders = D.ladders.filter((L) => L.tired === q || qWords.includes(L.tired) || L.steps.some((s) => s.w === q));
   const sits = D.phrases.filter((s) => has(s.title) || has(s.when) || s.phrases.some((p) => has(p.p)));
-  return { better: better.slice(0, 10), words: words.slice(0, 6), ladders: ladders.slice(0, 2), sits: sits.slice(0, 3) };
+  const swaps = D.swaps.filter((x) => has(x.say) || has(x.situation) || has(x.better));
+  return { better: better.slice(0, 10), words: words.slice(0, 6), ladders: ladders.slice(0, 2), sits: sits.slice(0, 3), swaps: swaps.slice(0, 4) };
 }
 function resultsHTML(r) {
   if (!r) return '';
@@ -114,6 +143,7 @@ function resultsHTML(r) {
   if (r.ladders.length) h += `<div class="res-group"><h3>From mild to strong</h3>${r.ladders.map((L) => `<div class="res"><b>${esc(L.tired)}</b><span>${L.steps.map((s) => (s.w === L.tired ? `<u>${esc(s.w)}</u>` : esc(s.w))).join(' → ')}</span></div>`).join('')}</div>`;
   if (r.better.length) h += `<div class="res-group"><h3>Say it better</h3>${r.better.map((w) => row(w, true)).join('')}</div>`;
   if (r.sits.length) h += `<div class="res-group"><h3>Phrases</h3>${r.sits.map((s) => `<a class="res" href="#/phrases/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.phrases[0].p)}”</span></a>`).join('')}</div>`;
+  if (r.swaps?.length) h += `<div class="res-group"><h3>Say this, not that</h3>${r.swaps.map((x) => `<a class="res" href="#/scene/${x.scene}"><b>“${esc(x.better)}”</b><span>instead of <s>“${esc(x.say)}”</s></span></a>`).join('')}</div>`;
   if (r.words.length) h += `<div class="res-group"><h3>Words</h3>${r.words.map((w) => row(w)).join('')}</div>`;
   return h || '<p class="muted">Nothing for that yet. Try a word you use too often: good, bad, said, angry, small, very big.</p>';
 }
@@ -144,7 +174,7 @@ V.today = () => {
   <section class="hero">
     <p class="kicker">${new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
     <h1>${done ? 'Done for today.' : p.idx ? 'Pick up where you left off.' : 'Five sentences.<br>Say them better.'}</h1>
-    <p class="lead">${done ? 'Today’s new words come back over the next few days, until they are yours.' : 'Real sentences, said the flat way. Pick the exact word, hear it, then say it out loud. About four minutes.'}</p>
+    <p class="lead">${done ? 'Today’s new words come back over the next few days, until they are yours.' : 'Real sentences and everyday phrases, said the flat way. Pick the better one, hear it, then say it out loud. About four minutes.'}</p>
     <div class="row"><a class="btn main big" href="#/practice${done ? '/more' : ''}">${done ? 'Five more' : p.idx ? `Continue · ${p.idx} of ${p.items.length}` : 'Start'}</a></div>
     <div class="stats">
       <div><b>${c.laid}</b><span>words yours</span></div>
@@ -152,6 +182,10 @@ V.today = () => {
       <div><b>${st.streak?.n || 0}</b><span>day streak</span></div>
       <div><b>${L}</b><span>${esc(floorOf(L).tag)} level</span></div>
     </div>
+  </section>
+  <section class="block">
+    <h2>Or practise one thing</h2>
+    <div class="chips plain">${[['words', 'firm', 'Stand your ground'], ['words', 'read', 'Read what people mean'], ['words', 'disagree', 'Disagree and debate'], ['words', 'upset', 'Anger and discontent'], ['words', 'opinion', 'Say what you think'], ['scene', 'feelings', 'Say how you feel'], ['scene', 'work', 'Work phrases'], ['scene', 'love', 'Relationships']].map(([k, id, t]) => `<a class="chip" href="#/practice/${k}/${id}">${t}</a>`).join('')}</div>
   </section>
   <section class="block">
     <h2>Writing something?</h2>
@@ -162,21 +196,54 @@ V.today = () => {
 };
 
 // ---------------------------------------------------------------- practice
-V.practice = (more) => {
+V.practice = (kind, focus) => {
   const st = S.state();
-  let p = more === 'more' ? (st.extra && st.extra.idx < st.extra.items.length ? st.extra : newPlan(true)) : todayPlan();
-  if (!p.items.length) return render(`<div class="card"><h1>Nothing left at this level</h1><p class="lead">Move up a level in <a href="#/me">Your words</a>.</p></div>`);
+  kind = ['more', 'words', 'scene'].includes(kind) ? kind : 'day';
+  let p;
+  if (kind === 'day') p = todayPlan();
+  else p = st.extra && st.extra.kind === kind && (st.extra.focus || null) === (focus || null) && st.extra.idx < st.extra.items.length ? st.extra : newPlan(kind, focus || null);
+  if (!p.items.length) return render(`<div class="card"><h1>Nothing new here right now</h1><p class="lead">You have met every word in this set. Try another category, or move up a level in <a href="#/me">You</a>.</p></div>`);
   const next = () => { p.idx++; S.save(); step(); };
   const step = () => {
-    if (p.idx >= p.items.length) return finish(p, more === 'more');
+    if (p.idx >= p.items.length) return finish(p, kind !== 'day');
     const it = p.items[p.idx];
     if (it.t === 'w') wordItem(p, it, next);
     else if (it.t === 'u') upgradeItem(p, it, next);
+    else if (it.t === 's') swapItem(p, it, next);
     else phraseItem(p, it, next);
     window.scrollTo({ top: 0 });
   };
   step();
 };
+
+function swapItem(p, it, next) {
+  const x = D.swaps.find((s) => s.key === it.key);
+  if (!x) return next();
+  const scene = SCENES.find((s) => s.id === x.scene);
+  const opts = shuffle([{ p: x.better, good: true }, ...x.weak.map((w) => ({ p: w }))]);
+  render(frame(p, esc(scene?.title || 'Say this, not that'), `
+    <p class="moment">${esc(x.situation)}</p>
+    <p class="hint">People often say <s class="flat">“${esc(x.say)}”</s></p>
+    <p class="hint"><b>Which says it better?</b></p>
+    <div class="opts col">${opts.map((o, k) => `<button class="opt text" data-k="${k}">“${esc(o.p)}”</button>`).join('')}</div>
+    <div class="after" aria-live="polite"></div>`));
+  main.querySelectorAll('.opt').forEach((b) => b.addEventListener('click', () => {
+    const o = opts[+b.dataset.k], right = !!o.good;
+    main.querySelectorAll('.opt').forEach((y, k) => { y.disabled = true; if (opts[k].good) y.classList.add('right'); else if (y === b) y.classList.add('wrong'); });
+    p.of++; if (right) p.right++;
+    const st = S.state(); st.doneSw = st.doneSw || []; st.doneSw.push(x.key); S.save();
+    main.querySelector('.after').innerHTML = `
+      <div class="verdict ${right ? 'good' : 'bad'}">${right ? 'Yes — that works.' : 'Not quite. This works better:'}</div>
+      <div class="explain">
+        <div class="row" style="gap:12px">${speakBtn(x.better, 'Hear it')}<span class="also"><b>“${esc(x.better)}”</b> <span class="tone ${x.tone}">${esc(x.tone)}</span></span></div>
+        <p>${esc(x.why)}</p>
+        ${x.also?.length ? `<p class="label" style="margin-top:6px">Also good</p>${x.also.map((a) => `<p class="also">“${esc(a)}”</p>`).join('')}` : ''}
+      </div>
+      <div class="next-row"><a class="small" href="#/scene/${x.scene}">More: ${esc(scene?.title || '')}</a><button class="btn main" id="next">Next</button></div>`;
+    main.querySelectorAll('.after [data-speak]').forEach((y) => y.addEventListener('click', () => speak(y.dataset.speak)));
+    main.querySelector('#next').onclick = next; main.querySelector('#next').focus();
+  }));
+}
 
 function frame(p, kicker, body) {
   const dots = p.items.map((_, k) => `<i class="${k < p.idx ? 'done' : k === p.idx ? 'now' : ''}"></i>`).join('');
@@ -322,25 +389,68 @@ function finish(p, extra) {
 }
 
 // ---------------------------------------------------------------- find
-V.find = () => {
-  render(`<div class="head"><h1>Find the better word</h1><p class="lead">Search for the word you overuse, or browse by what you want to say.</p></div>
+const PARTS = ['Speak up', 'Understand people', 'Think clearly', 'Everyday life'];
+const progress = (ws) => { const c = S.counts(ws.map((w) => w.id)); return c.laid + c.learning ? `${c.laid + c.learning} of ${ws.length} started` : `${ws.length} words`; };
+
+V.words = () => {
+  render(`<div class="head"><h1>Words</h1><p class="lead">Organised by what you are trying to do when you speak. Plain, clear English: the words you need to think straight and say it straight.</p></div>
     ${searchBlock()}
-    <section class="block"><h2>What do you want to say?</h2>
-      <ul class="list">${ROOMS.map((r) => `<li><a href="#/group/${r.id}"><b>${esc(r.name)}</b><span>${esc(r.line)}</span></a></li>`).join('')}</ul></section>
-    <section class="block"><h2>Phrases for real moments</h2>
-      <ul class="list">${D.phrases.map((s) => `<li><a href="#/phrases/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.phrases[0].p)}”</span></a></li>`).join('')}</ul></section>`);
+    ${PARTS.map((part) => `<section class="block"><h2>${part}</h2>
+      <ul class="list cats">${D.intents.filter((it) => it.part === part).map((it) => `<li><a href="#/intent/${it.id}"><b>${esc(it.title)}</b><span>${esc(it.line)}</span><em class="count">${progress(it.list)}</em></a></li>`).join('')}</ul></section>`).join('')}`);
   wireSearch();
 };
 
 const stLabel = (id) => ({ new: '', learning: '<em class="tagl">learning</em>', laid: '<em class="tagy">yours</em>' })[S.statusOf(id)];
+function wordRows(ws) {
+  return FLOORS.map((f) => { const fw = ws.filter((w) => w.floor === f.n); return fw.length ? `<section class="block"><h2 class="lvl">${levelName(f.n)}</h2>
+    <ul class="list words">${fw.map((w) => `<li><a href="#/word/${w.id}"><b>${esc(w.w)} ${stLabel(w.id)}</b><span>${esc(w.mean)}${w.instead ? ` <i>· instead of “${esc(w.instead)}”</i>` : ''}</span></a></li>`).join('')}</ul></section>` : ''; }).join('');
+}
+V.intent = (id) => {
+  const it = D.byIntent.get(id);
+  if (!it) return V.words();
+  const sc = SCENES.find((s) => s.id === INTENT_SCENE[id]);
+  render(`<p class="crumbs"><a href="#/words">Words</a> / ${esc(it.part)}</p>
+    <div class="head"><h1>${esc(it.title)}</h1><p class="lead">${esc(it.line)}</p>
+      <div class="row" style="margin-top:20px"><a class="btn main" href="#/practice/words/${id}">Practise these words</a>${sc ? `<a class="btn" href="#/scene/${sc.id}">Phrases: ${esc(sc.title)}</a>` : ''}</div></div>
+    ${wordRows(it.list)}`);
+};
 V.group = (id) => {
   const r = roomOf(id);
-  if (!r) return V.notFound();
-  const ws = D.byRoom.get(id) || [];
-  render(`<p class="crumbs"><a href="#/find">Find</a> / ${esc(r.name)}</p>
-    <div class="head"><h1>${esc(r.name)}</h1><p class="lead">${esc(r.line)}</p></div>
-    ${FLOORS.map((f) => { const fw = ws.filter((w) => w.floor === f.n); return fw.length ? `<section class="block"><h2 class="lvl">${levelName(f.n)}</h2>
-      <ul class="list words">${fw.map((w) => `<li><a href="#/word/${w.id}"><b>${esc(w.w)} ${stLabel(w.id)}</b><span>${esc(w.mean)}${w.instead ? ` <i>· instead of “${esc(w.instead)}”</i>` : ''}</span></a></li>`).join('')}</ul></section>` : ''; }).join('')}`);
+  if (!r) return V.words();
+  render(`<p class="crumbs"><a href="#/words">Words</a> / ${esc(r.name)}</p>
+    <div class="head"><h1>${esc(r.name)}</h1><p class="lead">${esc(r.line)}</p></div>${wordRows(D.byRoom.get(id) || [])}`);
+};
+
+V.phrases = (id) => {
+  if (id) return V.moment(id);
+  render(`<div class="head"><h1>Phrases</h1><p class="lead">What people usually say, and better ways to say it: at work, at home, with friends, in arguments and online.</p></div>
+    <section class="block"><h2>Say this, not that</h2>
+      <ul class="list cats">${D.scenes.filter((s) => s.items.length).map((s) => { const x = s.items[0]; return `<li><a href="#/scene/${s.id}"><b>${esc(s.title)}</b><span><s class="flat">“${esc(x.say)}”</s> → “${esc(x.better)}”</span><em class="count">${s.items.length} phrases</em></a></li>`; }).join('')}</ul></section>
+    <section class="block"><h2>Ready phrases for conversation moments</h2>
+      <ul class="list">${D.phrases.map((s) => `<li><a href="#/moment/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.phrases[0].p)}”</span></a></li>`).join('')}</ul></section>`);
+};
+V.scene = (id) => {
+  const s = D.scenes.find((x) => x.id === id);
+  if (!s) return V.phrases();
+  render(`<p class="crumbs"><a href="#/phrases">Phrases</a> / ${esc(s.title)}</p>
+    <div class="head"><h1>${esc(s.title)}</h1><p class="lead">What people usually say, and what works better.</p>
+      <div class="row" style="margin-top:20px"><a class="btn main" href="#/practice/scene/${s.id}">Practise these</a></div></div>
+    <div class="swaps">${s.items.map((x) => `<article class="swap">
+      <p class="situ">${esc(x.situation)}</p>
+      <p class="said"><span class="lbl">People say</span><s class="flat">“${esc(x.say)}”</s></p>
+      <div class="said good"><span class="lbl">Better</span><span>“${esc(x.better)}” <span class="tone ${x.tone}">${esc(x.tone)}</span></span>${speakBtn(x.better)}</div>
+      ${x.also?.length ? `<p class="said"><span class="lbl">Also</span><span>${x.also.map((a) => `“${esc(a)}”`).join('<br>')}</span></p>` : ''}
+      <p class="why">${esc(x.why)}</p>
+    </article>`).join('')}</div>`);
+};
+V.moment = (id) => {
+  const s = D.phrases.find((x) => x.id === id);
+  if (!s) return V.phrases();
+  render(`<p class="crumbs"><a href="#/phrases">Phrases</a> / Conversation moments</p>
+    <div class="head"><h1>${esc(s.title)}</h1><p class="lead">${esc(s.when)}</p></div>
+    <ul class="list phrases">${s.phrases.map((x) => `<li><div><b>“${esc(x.p)}”</b> <span class="tone ${x.tone}">${x.tone}</span><span>${esc(x.ex)}</span></div>${speakBtn(x.p)}</li>`).join('')}</ul>
+    <section class="block"><h2>Avoid</h2>
+      ${s.avoid.map((a) => `<div class="avoid"><s>${esc(a.p)}</s><p>${esc(a.why)}</p><p><b>Try:</b> ${esc(a.better)}</p></div>`).join('')}</section>`);
 };
 
 V.word = (id) => {
@@ -348,7 +458,7 @@ V.word = (id) => {
   if (!w) return V.notFound();
   const r = roomOf(w.room);
   const st = S.statusOf(w.id);
-  render(`<p class="crumbs"><a href="#/find">Find</a> / <a href="#/group/${w.room}">${esc(r.name)}</a></p>
+  render(`<p class="crumbs"><a href="#/words">Words</a> / <a href="#/group/${w.room}">${esc(r.name)}</a></p>
     <article class="wordpage">
       <p class="kicker">${levelName(w.floor)} · ${esc(w.pos)}</p>
       <div class="row" style="gap:14px"><h1>${esc(w.w)}</h1>${speakBtn(w.w)}</div>
@@ -368,16 +478,6 @@ V.word = (id) => {
   main.querySelector('#know')?.addEventListener('click', () => { S.markKnown(w.id); toast(`${w.w} is yours`); V.word(id); });
   main.querySelector('#learn')?.addEventListener('click', () => { S.markLearning(w.id); toast(`${w.w} will come up in your practice`); V.word(id); });
   main.querySelector('#share').onclick = () => share(`${w.w} (${w.say}) — ${w.mean}\n“${w.ex}”`);
-};
-
-V.phrases = (id) => {
-  const s = D.phrases.find((x) => x.id === id);
-  if (!s) return V.find();
-  render(`<p class="crumbs"><a href="#/find">Find</a> / Phrases</p>
-    <div class="head"><h1>${esc(s.title)}</h1><p class="lead">${esc(s.when)}</p></div>
-    <ul class="list phrases">${s.phrases.map((x) => `<li><div><b>“${esc(x.p)}”</b> <span class="tone ${x.tone}">${x.tone}</span><span>${esc(x.ex)}</span></div>${speakBtn(x.p)}</li>`).join('')}</ul>
-    <section class="block"><h2>Avoid</h2>
-      ${s.avoid.map((a) => `<div class="avoid"><s>${esc(a.p)}</s><p>${esc(a.why)}</p><p><b>Try:</b> ${esc(a.better)}</p></div>`).join('')}</section>`);
 };
 
 // ---------------------------------------------------------------- your words
@@ -426,14 +526,14 @@ V.about = () => {
 V.notFound = () => render(`<div class="head"><h1>No page here</h1><p class="lead"><a href="#/">Go to today</a></p></div>`);
 
 // ================================================================ router
-const ROUTES = { '': V.today, practice: V.practice, find: V.find, group: V.group, word: V.word, phrases: V.phrases, me: V.me, about: V.about,
-  room: V.group, words: V.find, play: V.today, learn: V.practice, toolkit: V.find, why: V.about, settings: V.me };
+const ROUTES = { '': V.today, practice: V.practice, words: V.words, intent: V.intent, group: V.group, word: V.word, phrases: V.phrases, scene: V.scene, moment: V.moment,
+  me: V.me, about: V.about, find: V.words, room: V.group, play: V.today, learn: V.practice, toolkit: V.words, why: V.about, settings: V.me };
 function route() {
   cleanup?.(); cleanup = null;
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   const path = decodeURIComponent(location.hash.replace(/^#\/?/, ''));
-  const [a = '', b] = path.split('/');
-  (ROUTES[a] || V.notFound)(b);
+  const [a = '', b, c] = path.split('/');
+  (ROUTES[a] || V.notFound)(b, c);
   updateChrome(a);
   window.scrollTo({ top: 0 });
   main.focus({ preventScroll: true });

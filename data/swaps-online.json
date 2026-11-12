@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "You're starting a cooking reel and need people to stop scrolling.",
+    "say": "Hi guys, welcome back to my channel. So today...",
+    "better": "This 10-minute dal tastes like it cooked for hours. Here's the trick.",
+    "also": ["Stop adding water to your dal. Do this instead."],
+    "weak": ["Hello friends, please watch till the end, very important.", "Today's video is very interesting, so let's start."],
+    "why": "Lead with the payoff; greetings waste the first two seconds.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You're writing a caption for a photo from your mountain trip.",
+    "say": "Feeling blessed. #wanderlust #travel #mountains #nofilter",
+    "better": "Woke up to this in Spiti. Minus five degrees and worth every shiver.",
+    "also": ["Three buses, one flat tyre, and this view. Worth it."],
+    "weak": ["The mountains are calling and I must go.", "Nature is beautiful. Travel is life."],
+    "why": "A specific detail beats lines everyone has already used.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You loved a creator's money explainer and want to leave a comment.",
+    "say": "Nice video bro, keep it up.",
+    "better": "The SIP example finally made compounding click for me. Could you do one on tax next?",
+    "also": ["Saved this. The chart at 1:20 explained it better than my textbook."],
+    "weak": ["Superb, superb, superb.", "Nice. Check out my page also."],
+    "why": "Specific comments get noticed and start real conversations.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A troll leaves a rude comment about your looks on a recipe reel.",
+    "say": "Look at your own face first, then comment.",
+    "better": "Thanks for watching. The recipe's in the caption if you want to try it.",
+    "also": ["Appreciate the view. Moving on."],
+    "weak": ["Who asked you? Go get a life, loser.", "Why are you so jealous? Sad."],
+    "why": "Don't feed trolls; a calm line or silence takes away their fun.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A commenter points out a factual mistake in your video.",
+    "say": "Bro, everyone makes mistakes. Chill.",
+    "better": "You're right, I got that date wrong. Thanks for catching it. I've pinned a correction.",
+    "also": ["Good catch. Fixed it in the caption."],
+    "weak": ["If you know so much, make your own video.", "It's a small mistake, the point is the same."],
+    "why": "Owning a mistake in public builds trust with your audience.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want to DM a bigger creator about a collaboration.",
+    "say": "Hi sir/ma'am, big fan. Can we do collab? Pls reply.",
+    "better": "Hi Meera, I make budget travel videos (40k followers). I'd love to do a 'Goa on ₹5,000' collab with you. Interested?",
+    "also": ["Hi Meera, loved your Hampi reel. I have an idea for a joint video. Can I send a one-line pitch?"],
+    "weak": ["Hello dear, kindly collab with me for mutual growth.", "Hey, follow back and let's collab?"],
+    "why": "Say who you are, what you offer, and one clear idea.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want more likes and shares at the end of your reel.",
+    "say": "Please like, share, subscribe and press the bell icon, guys, please!",
+    "better": "If this helped, send it to the friend who always overspends.",
+    "also": ["Which tip will you try first? Tell me below."],
+    "weak": ["Like karo, share karo, support karo, please.", "If you don't follow, you'll regret it."],
+    "why": "Give people a reason or a question, not a plea.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your reel joked about a community, and people are rightly upset.",
+    "say": "Sorry if anyone's feelings got hurt. It was just a joke.",
+    "better": "My reel made fun of a community, and that was wrong. I've taken it down. I'm sorry, and I'll do better.",
+    "also": ["I got this wrong. No excuses. The video is down, and I'm listening."],
+    "weak": ["Sorry to those who can't take a joke.", "My team posted it without checking, sorry guys."],
+    "why": "A real apology names the harm, owns it and says what changes.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your small Instagram shop has delayed orders by a week.",
+    "say": "Due to unavoidable circumstances, delays happened. Inconvenience is regretted.",
+    "better": "Your orders are a week late because of a supplier problem. That's on us, and we're sorry. Everything ships by Friday.",
+    "also": ["Sorry for the wait. Here's exactly where your order is and when it will reach you."],
+    "weak": ["Delays are common in festive season, please be patient.", "Kindly bear with us, we are trying our level best."],
+    "why": "A specific reason, a real apology and a clear date.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You're opening a reel about a common English mistake.",
+    "say": "Today we will learn one important English grammar topic.",
+    "better": "Stop saying 'revert back'. Here's what to say instead.",
+    "also": ["Most of us write this wrong in office emails. Do you?"],
+    "weak": ["Very very important video for everyone, must watch.", "Grammar class part 47, let's start."],
+    "why": "Name the mistake upfront; curiosity keeps people watching.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone leaves an abusive comment attacking your religion.",
+    "say": "Your religion is worse. Go read your own books first.",
+    "better": "I won't argue with abuse. Comments that attack anyone's faith will be removed here.",
+    "also": ["Respectful disagreement is welcome. Abuse isn't."],
+    "weak": ["Typical. People like you are the problem.", "Reported, blocked, cry more."],
+    "why": "Set a clear rule for your space instead of fighting back.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Followers call you a 'sell-out' for a sponsored post.",
+    "say": "Bro, I also have bills to pay. What's your problem?",
+    "better": "Fair question. Yes, it's paid, and I only take brands I actually use. That's why it's tagged 'ad'.",
+    "also": ["It's sponsored, and I'll always say so. I won't push something I don't trust."],
+    "weak": ["Haters will hate, I don't care.", "It's not sponsored, I just like the product."],
+    "why": "Being open about paid content protects your credibility.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're announcing your new job on LinkedIn.",
+    "say": "I am humbled and honoured to share that I have joined...",
+    "better": "I've joined a Pune fintech startup as a product designer. Nervous, excited, and grateful to everyone who helped me get here.",
+    "also": ["New job: product designer at a Pune fintech. Big learning curve ahead, and I'm ready for it."],
+    "weak": ["With immense pleasure and gratitude to the almighty, I hereby announce my new role.", "New job. Finally escaped my old toxic company."],
+    "why": "Sound like a person, not a press release.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your dog is lost, and you want followers to share the post.",
+    "say": "Please share maximum, guys!!! Very urgent!!!",
+    "better": "Our dog Bruno went missing near Koramangala 5th Block on Sunday. Brown, red collar. Please share if you're in Bengaluru.",
+    "also": ["Lost near Koramangala: Bruno, brown, red collar. Any sighting helps, please DM me."],
+    "weak": ["Forward to all groups, it's our duty!!!", "Please share, God will bless you."],
+    "why": "Specific details make people act; exclamation marks don't.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You disagree with a creator's health advice and want to comment.",
+    "say": "Wrong information. Unfollow this fake doctor.",
+    "better": "The guidelines I've read say this isn't safe for diabetics. Could you share your source?",
+    "also": ["Interesting take, but doesn't this clash with what most doctors advise?"],
+    "weak": ["Mass report this page, guys.", "Lol, another expert from Instagram university."],
+    "why": "Disagree with evidence and a question, not a call to attack.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A brand offers you a paid post for a product you don't trust.",
+    "say": "Sir, sorry, currently very busy. Will see later.",
+    "better": "Thanks for thinking of me. This one isn't a fit for my audience, so I'll pass. Happy to hear about future campaigns.",
+    "also": ["Appreciate the offer, but I'll sit this one out."],
+    "weak": ["Your product looks like a scam, no thanks.", "Maybe later, let's see, will tell you."],
+    "why": "A clear, polite no keeps the door open without false hope.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A creator hasn't replied to your collab DM for a week.",
+    "say": "Hello?? Seen and no reply?",
+    "better": "Hi Arjun, just bumping this up in case it got buried. No worries if the timing isn't right.",
+    "also": ["Following up on my idea from last week. Happy to send a quick outline."],
+    "weak": ["Sir, please reply, I've messaged ten times.", "I guess big creators don't reply to small ones."],
+    "why": "A light, no-pressure nudge gets more replies than guilt.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone comments 'cringe' on your dance reel.",
+    "say": "Then why are you watching? Scroll ahead.",
+    "better": "Cringe or not, I had fun making it. Thanks for stopping by.",
+    "also": ["Fair, it's not for everyone."],
+    "weak": ["You're cringe. Look at your own profile first.", "Ok, I'll delete it then."],
+    "why": "Owning it with humour takes the sting out.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A viral post you shared yesterday turns out to be false.",
+    "say": "Whatever, it was forwarded to me. I didn't make it.",
+    "better": "Correction: the post I shared yesterday was false. I've deleted it. Here's the fact-check. I should have checked first.",
+    "also": ["I shared something untrue yesterday. Sorry, it's removed. Lesson learnt."],
+    "weak": ["Some say it's fake, some say it's real, who knows.", "Deleted. Don't send me screenshots, please."],
+    "why": "Correct it as loudly as you shared it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your page has just crossed 10,000 followers.",
+    "say": "Thank you for 10k fam!!! Love you all!!! Keep supporting!!!",
+    "better": "10k of you now. A year ago it was my mom and two friends. Thank you for every comment and share.",
+    "also": ["10k. I read every comment, even when I can't reply. Thank you."],
+    "weak": ["10k done, next target 100k, support karo!", "Thanks to all my fans for this success."],
+    "why": "A specific, personal thank-you feels real; '!!!' doesn't.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You're opening a reel with your view on hustle culture.",
+    "say": "Guys, today I am going to talk about a very important topic.",
+    "better": "Working 14 hours a day is not ambition. It's bad planning. Let me explain.",
+    "also": ["Unpopular opinion: rest is part of the work."],
+    "weak": ["You will be shocked after watching this video.", "Nobody is talking about this, so I will."],
+    "why": "Start with the claim itself; avoid clickbait you can't deliver.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want followers to tell you what to post next.",
+    "say": "Comment anything, guys, I need comments for the algorithm.",
+    "better": "What should I cover next: budget meals or meal prep? Vote below.",
+    "also": ["What confused you in this video? I'll answer it in the next one."],
+    "weak": ["If you love me, comment 'yes'.", "Drop suggestions, any suggestions, all welcome."],
+    "why": "Easy, specific questions get real answers.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your café gets a one-star review online saying the coffee was cold.",
+    "say": "Sir, our coffee is always hot. You must be mistaken.",
+    "better": "Sorry your coffee arrived cold; that's not our standard. Show this review on your next visit, and the cup's on us.",
+    "also": ["Thanks for telling us. We've spoken to the team about serving times."],
+    "weak": ["We have 500 happy customers, one bad review doesn't matter.", "Kindly remove this review, it is hurting our business."],
+    "why": "Apologise, fix it and invite them back, in public.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Another creator has copied your script almost word for word.",
+    "say": "Shameless copycat! Everyone report this account!",
+    "better": "Hi Kabir, your latest reel uses my script almost word for word. Please credit me or take it down.",
+    "also": ["I noticed my video reposted without credit. A tag would be great."],
+    "weak": ["Exposing this thief, full thread below.", "No problem, copy whatever you want, I don't care."],
+    "why": "Go to the person first, privately and clearly, before going public.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An argument with a stranger in your comments has run to twenty replies.",
+    "say": "Last reply from my side. You are just an idiot.",
+    "better": "We clearly see this differently. I've said my piece, so I'll leave it here. Take care.",
+    "also": ["We won't convince each other in the comments. All the best."],
+    "weak": ["Blocked. Go cry somewhere else.", "Ok, you win. Happy?"],
+    "why": "Leave the thread calmly; you don't need the last word.",
+    "tone": "neutral"
+  }
+]

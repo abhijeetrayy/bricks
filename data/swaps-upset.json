@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "Your new phone stopped working in a week and the shop says 'company's problem'.",
+    "say": "This is cheating! I'll never come to your shop again.",
+    "better": "The phone stopped working in seven days. I'd like a replacement under warranty. What's the process, and how long will it take?",
+    "also": ["I bought it here last week. Please raise the warranty claim for me today."],
+    "weak": ["Bhaiya, please, something do na, I'm a regular customer.", "Okay, no problem, I'll see what to do."],
+    "why": "States the facts and the exact remedy you want, calmly.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your landlord has not fixed a leaking bathroom pipe for three weeks.",
+    "say": "Uncle, kindly do the needful regarding the pipe at the earliest.",
+    "better": "Uncle, the bathroom pipe has leaked for three weeks and the wall is getting damp. Can a plumber come by Saturday?",
+    "also": ["If it's not fixed by Saturday, I'll call a plumber and deduct it from rent. Is that okay?"],
+    "weak": ["Uncle, no hurry, whenever you get time.", "Every month I pay rent and you do nothing."],
+    "why": "Specific problem, impact and deadline get action; vague requests get delays.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An online order arrived damaged, and the chatbot keeps looping.",
+    "say": "Worst service ever!!! Pathetic company, will post on Twitter.",
+    "better": "Order 4521 arrived with a cracked screen. Photos attached. I'd like a replacement or full refund within five days, please.",
+    "also": ["Please connect me to a human agent. The bot can't handle damaged-item claims."],
+    "weak": ["Hello? Anyone there? Reply fast.", "Sorry to disturb, but if possible can you please check?"],
+    "why": "Order number, evidence and a clear request make a complaint easy to resolve.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A restaurant got your order wrong for the second time.",
+    "say": "Kya bakwaas hai, can't you people even write one order?",
+    "better": "This isn't what I ordered. It's the second time today. Could you please replace it quickly?",
+    "also": ["I asked for no onion, and it has onion. I'd like it remade, please."],
+    "weak": ["It's okay, I'll just eat this.", "Forget it, I'll eat it, but zero tip."],
+    "why": "Firm and polite: the problem, then the fix you want.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend joked about your weight in front of others, and it hurt.",
+    "say": "Haha, okay, very funny.",
+    "better": "That comment about my weight hurt, especially in front of everyone. Please don't joke about that again.",
+    "also": ["I know you didn't mean harm, but it didn't feel like a joke to me."],
+    "weak": ["Whatever, I don't care what you think.", "No problem, I'm used to such jokes."],
+    "why": "Name the exact words and how they felt; avoid sulking or attacking.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner forgot an important plan you had made weeks ago.",
+    "say": "You never care about anything I say.",
+    "better": "I felt hurt when you forgot tonight's dinner. It mattered to me. Can we talk about what happened?",
+    "also": ["I was really looking forward to it, so I'm disappointed."],
+    "weak": ["Fine, it's okay, I'm used to being last.", "Every single time you do this, you're so selfish."],
+    "why": "'I felt' about one event, not 'you never', keeps the fight fair.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A colleague presented your idea as his own in a meeting.",
+    "say": "Wow, nice of you to steal my idea.",
+    "better": "Rahul, the pricing idea you presented was the one I shared with you on Monday. Next time I'd like to present my own work.",
+    "also": ["I'd like to be credited for that idea. Can we clear it up with the team?"],
+    "weak": ["Some people can only shine with others' work, na?", "It's fine, ideas belong to everyone."],
+    "why": "Calm facts and a clear request; no sarcasm, no gossip.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You were passed over for promotion without any explanation.",
+    "say": "Okay sir, as you wish. No issues.",
+    "better": "I was disappointed not to get the promotion. Could you tell me what I need to show to be ready next cycle?",
+    "also": ["I'd like honest feedback on why I wasn't picked this time."],
+    "weak": ["This is pure politics, everyone knows it.", "I'll start looking elsewhere, then you'll know."],
+    "why": "Shows discontent honestly and turns it into a clear next step.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your manager keeps messaging you late at night with non-urgent tasks.",
+    "say": "Sure sir, will do immediately.",
+    "better": "I've noticed many late-night messages lately. Unless it's urgent, I'll pick them up first thing at 9.",
+    "also": ["Could we keep after-hours messages for real emergencies?"],
+    "weak": ["Sir, I also have a life, you know.", "Sir, don't you sleep? Even I need rest."],
+    "why": "States the pattern and your plan, without accusing.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A neighbour plays loud music past midnight every weekend.",
+    "say": "Some people have no manners at all.",
+    "better": "Hi, I'm from flat 302. The music carries into our bedroom after midnight. Could you turn it down after eleven?",
+    "also": ["We have a small child who wakes up. Would eleven be okay as a cut-off?"],
+    "weak": ["Oye, turn it off! People are sleeping here!", "Sorry to disturb, if possible, maybe a little lower? Only if okay."],
+    "why": "Go to the person first, with the effect and a fair ask.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You are angry, and you feel you might say something harsh.",
+    "say": "Just leave me alone! I don't want to talk!",
+    "better": "I'm too angry to talk well right now. Give me twenty minutes, then let's sort it out.",
+    "also": ["I need a short break so I don't say something I regret."],
+    "weak": ["Say whatever you want, I'm done.", "I don't care anymore, do what you want."],
+    "why": "Calm anger: name it, pause, and promise to come back.",
+    "tone": "casual"
+  },
+  {
+    "situation": "The cab driver demands extra money above the app fare.",
+    "say": "Bhaiya, what is this loot? Are you mad?",
+    "better": "The app shows 340, so I'll pay 340. If there's a problem, I'm happy to raise it with the app's support.",
+    "also": ["I'll pay the fare on the app, not more."],
+    "weak": ["Okay, okay, take it, just let me go.", "Fine, but I'm giving you one star."],
+    "why": "Calm, firm and backed by facts, without insults.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A family member criticised your career choice at a family dinner.",
+    "say": "You all never support me, you only know how to taunt.",
+    "better": "It hurt to hear that in front of everyone. I've thought hard about this choice. I'd like your support, or at least your respect.",
+    "also": ["If you have concerns, talk to me privately, not at the dinner table."],
+    "weak": ["Fine, I'll leave this house then.", "Haan, I'm the failure of the family, happy now?"],
+    "why": "Says the hurt and what you need, without a counter-attack.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your internet has been down for four days and calls to support go nowhere.",
+    "say": "Sir, please, I'm requesting you, please do something.",
+    "better": "My connection has been down for four days. Complaint number 7781. I want a technician by tomorrow and a credit for the lost days.",
+    "also": ["Please escalate this to a supervisor. I've called three times already."],
+    "weak": ["Your company is useless, I'm cancelling right now.", "Okay, whenever possible, no problem."],
+    "why": "Facts, reference number and a clear remedy push a stuck complaint forward.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You feel your team lead treats one colleague's work more favourably.",
+    "say": "Obviously, she's your favourite, so she gets everything.",
+    "better": "I've noticed the good projects often go to the same person. Could you tell me how assignments are decided?",
+    "also": ["I'd like a shot at the next big project. What would I need to show?"],
+    "weak": ["Sir, I'm also working hard, no one sees.", "It doesn't matter, nobody cares here."],
+    "why": "Raise the pattern as a question, not an accusation.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend borrowed your bike and returned it scratched without saying anything.",
+    "say": "Accha, so this is how you return things.",
+    "better": "The bike has a new scratch on the side. Did something happen? I'd like us to share the repair cost.",
+    "also": ["I'm a bit upset you didn't mention it. Let's sort out the repair."],
+    "weak": ["Never mind, it's just a bike.", "You never take care of anything, typical."],
+    "why": "Names what happened and the fix, without sarcasm.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You have to write a formal complaint to a hospital about rude staff.",
+    "say": "Your staff is very rude and arrogant. Take strict action.",
+    "better": "On 12 March, at the billing desk, a staff member shouted at my mother. I request an inquiry and a written reply.",
+    "also": ["I've attached the bill and time of visit for reference."],
+    "weak": ["Respected sir, with due respect, I humbly beg to state that staff was rude.", "Your hospital is a disgrace, worst ever."],
+    "why": "Date, place and what happened make a complaint credible and actionable.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your sibling read your private messages without asking.",
+    "say": "You're such a cheap person, how dare you!",
+    "better": "You read my messages without asking. That's a line for me. Please don't do it again.",
+    "also": ["I feel my privacy was broken. I need you to respect it."],
+    "weak": ["Fine, now I'll read yours too.", "Okay, whatever, nothing is private in this house anyway."],
+    "why": "States the action and the boundary, calmly, without name-calling.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your appraisal rating seems unfair compared to your work this year.",
+    "say": "This rating is totally wrong. I'm very demotivated.",
+    "better": "I disagree with this rating. I delivered both launches on time. Can we go through the reasons and the evidence together?",
+    "also": ["I'd like to understand how this was decided, and request a review."],
+    "weak": ["Okay, fine, as you feel.", "Then why should I work hard next year?"],
+    "why": "Disagree with evidence and a request, not just a feeling.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A friend often cancels at the last minute, and you are fed up.",
+    "say": "Typical you. I knew you'd cancel.",
+    "better": "This is the third time you've cancelled last minute. It's frustrating, because I plan around it. What's going on?",
+    "also": ["I'd rather you said no early than cancelled on the day."],
+    "weak": ["No worries, it's totally fine!", "Forget it, I won't plan anything with you again."],
+    "why": "Count the pattern, say the effect, and ask, instead of sniping.",
+    "tone": "casual"
+  },
+  {
+    "situation": "The builder has delayed your flat's possession by over a year.",
+    "say": "You builders are all frauds. I'll go to the media.",
+    "better": "Possession was due in March last year. I need a written new date and the delay compensation in the agreement.",
+    "also": ["If I don't get a reply in fifteen days, I'll approach RERA."],
+    "weak": ["Please sir, at least give some idea, we're suffering a lot.", "Okay, we'll wait, what else can we do."],
+    "why": "Cite the agreement, ask for specifics, and name a fair next step.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A co-worker keeps interrupting you in meetings.",
+    "say": "Excuse me, can I please speak or should I just leave?",
+    "better": "Let me finish this point, then I'd like to hear your view.",
+    "also": ["Can I just complete this? I'm almost done."],
+    "weak": ["Sorry, sorry, you go ahead.", "You always do this, you never let anyone talk."],
+    "why": "Hold your turn calmly in the moment; no drama, no surrender.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You feel taken for granted because you always host family gatherings.",
+    "say": "Haan haan, I'll do it, who else will.",
+    "better": "I've hosted the last five gatherings, and I'm tired. Can someone else host Diwali this year?",
+    "also": ["I'm happy to help, but I'd like us to take turns hosting."],
+    "weak": ["Nobody in this family thinks about me.", "Fine, but this is the last time I'm doing anything."],
+    "why": "Replace martyr sighs with a fact and a fair request.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your manager criticised you harshly in front of the team.",
+    "say": "Sorry sir, my mistake, won't happen again.",
+    "better": "Can we talk for a minute? I'm open to feedback, but I'd prefer criticism one to one, not in front of the team.",
+    "also": ["I want to fix the issue. Could we discuss it privately?"],
+    "weak": ["Sir, you can't talk to me like that.", "Fine, I'll quietly start updating my CV."],
+    "why": "Accepts the feedback, but sets a respectful line on how it is given.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A bank charged you a fee you never agreed to.",
+    "say": "Why are you looting customers? Remove this charge now.",
+    "better": "There's a 590 rupee charge on my statement that I didn't authorise. Please explain it in writing and reverse it if it's an error.",
+    "also": ["If it isn't resolved in seven days, I'll take it to the banking ombudsman."],
+    "weak": ["Okay, maybe it's some rule, I'll pay.", "Please, I'm a poor customer, please help."],
+    "why": "Exact amount, clear ask and a fair next step get a proper response.",
+    "tone": "formal"
+  }
+]

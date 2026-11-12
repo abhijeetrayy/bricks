@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A relative at a family function asks, \"So, when are you getting married?\"",
+    "say": "Haha, see, uncle... let's see, whatever is written in destiny will happen.",
+    "better": "Not right now, uncle. I'm focusing on work this year. How's Rohan doing in Pune?",
+    "also": ["When it happens, you'll be the first to know. Tell me, how is your knee now?"],
+    "weak": ["Why do you people always ask this? It's my life.", "Uncle, please, not again, I'm going to cry."],
+    "why": "Answer briefly and kindly, then change the topic. No need to defend or explain.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your parents keep sending you marriage profiles after you have asked them to wait.",
+    "say": "Mummy, I told you na, don't send all this, I'm not interested only.",
+    "better": "Ma, I know you mean well. I'm not ready to look yet. Can we talk about it again after Diwali?",
+    "also": ["Please stop sending profiles for now. I'll tell you myself when I'm ready."],
+    "weak": ["Okay okay, send, I will see later.", "You never listen to me, so why should I listen to you?"],
+    "why": "Shows you understand their care, then sets a clear limit and a time to revisit.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your father compares you to your cousin who got a job abroad.",
+    "say": "Then go and adopt Ankit only, why do you need me?",
+    "better": "I'm happy for Ankit. I'm on a different path, and I'd like you to judge me on my own progress.",
+    "also": ["Comparing us hurts, Papa. Ask me how my work is going instead."],
+    "weak": ["Fine, I'm useless, happy now?", "Ankit is not that great also, you don't know the full story."],
+    "why": "Names the hurt without attacking anyone, and asks for what you actually want.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want to tell your parents you are leaving engineering to study design.",
+    "say": "Papa, actually, I was just thinking, maybe, if you don't mind, I may change my course...",
+    "better": "Papa, I've decided to switch to design. I've thought it through, and I'd like to show you my plan.",
+    "also": ["I want to talk about my course. I've made a plan and I'd like your support."],
+    "weak": ["I'm leaving engineering, end of discussion.", "Sorry, sorry, I know you'll be angry, I'm a failure."],
+    "why": "State the decision plainly and come prepared. Hedging invites them to talk you out of it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An aunt asks how much salary you get at your new job.",
+    "say": "Aunty, it's okay, not much, just adjusting somehow.",
+    "better": "It's a good package, aunty, I'm happy with it. The work is really interesting too.",
+    "also": ["I keep salary between me and my parents, aunty. But the job is going well."],
+    "weak": ["Why do you want to know, aunty?", "Fourteen lakh, plus bonus, plus ESOPs, plus health cover."],
+    "why": "You don't owe anyone a number. A warm, short answer closes the topic.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your mother asks you to come home every weekend, but you need rest.",
+    "say": "Mummy, I'll try, let's see, I'm very busy only.",
+    "better": "I can't come every weekend, Ma, I need some rest too. I'll come on the last weekend of every month.",
+    "also": ["Let's do a video call every Sunday, and I'll visit once a month."],
+    "weak": ["You don't understand how tiring my life is.", "Okay, I'll come, no problem. (and then doesn't go)"],
+    "why": "A clear, honest promise is kinder than a vague 'I'll try' that you break.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your parents criticise your partner, whom they have met only once.",
+    "say": "You people are always like this, you hate everyone I like.",
+    "better": "I know you've only met Kavya once. Give her a real chance. Let's have dinner together next week.",
+    "also": ["I'd like you to know her before deciding. What exactly worries you?"],
+    "weak": ["Fine, I'll marry whoever you want, happy?", "She's better than all of you anyway."],
+    "why": "Asks for fairness and a next step instead of turning it into a war.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A relative says you have put on weight since the last wedding.",
+    "say": "Haha, yes aunty, too much eating, what to do.",
+    "better": "I'd rather not talk about my weight, aunty. Tell me, how was your trip to Shirdi?",
+    "also": ["I'm feeling good, aunty, that's what matters to me."],
+    "weak": ["You've also become quite fat, aunty.", "Yes, I know, I hate how I look, I'm trying."],
+    "why": "Quietly declines the topic and moves on. No insult back, no self-blame.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your parents ask when you'll take a 'proper government job' instead of your startup.",
+    "say": "Government job is for boring people, I don't want to rot there.",
+    "better": "I understand you want me to be secure. Here's my savings plan if the startup doesn't work out.",
+    "also": ["Give me two years. If it isn't working by then, I'll look for a stable job."],
+    "weak": ["You won't understand startups, Papa.", "Yes, yes, I'll prepare for UPSC from next month."],
+    "why": "Speaks to their real fear, security, and gives a concrete plan and time limit.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your sibling borrowed your laptop and returned it with a cracked screen.",
+    "say": "You always spoil my things, you're so careless, I'm telling Mummy.",
+    "better": "The screen is cracked. The repair will cost about six thousand. Can you share the cost?",
+    "also": ["I'm upset about the screen. Next time, ask me before taking it out of the house."],
+    "weak": ["It's fine, leave it, I'll manage. (and sulks for a week)", "Never touch my things again in your life."],
+    "why": "Describe the problem and ask for a fix. Skip 'always' and blaming the person.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your parents want you to attend a long puja on the day of your exam.",
+    "say": "I can't come, I have exam, you people don't care about my studies.",
+    "better": "I have an exam that day, so I'll miss the puja. I'll come in the evening and touch everyone's feet.",
+    "also": ["Can I join for the aarti after my exam? I don't want to miss it fully."],
+    "weak": ["Puja is more important than my exam, is it?", "I'll see, maybe I'll come, maybe not."],
+    "why": "States the clash plainly and offers what you can do, so no one feels dismissed.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You need to tell your parents you are moving to another city for a job.",
+    "say": "Papa, so... there is one small thing... don't get angry, okay?",
+    "better": "Papa, I've got a job offer in Bengaluru and I've accepted it. Can we talk about how we'll stay in touch?",
+    "also": ["I have news: I'm moving to Bengaluru next month. I'd like your blessing."],
+    "weak": ["I'm going, whether you like it or not.", "Maybe I'll move, maybe not, nothing is final, chill."],
+    "why": "Lead with the news itself. A nervous build-up makes people expect bad news.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A relative gives unasked advice about how you should raise your child.",
+    "say": "Aunty, in our time things are different, you won't understand.",
+    "better": "Thanks, aunty. We've spoken to our doctor and we're happy with how we're doing it.",
+    "also": ["I'll keep that in mind. We've found what works for us."],
+    "weak": ["Please mind your own business.", "Oh, you're right, we're doing everything wrong."],
+    "why": "Thank them, then make clear the decision is yours. Polite and final.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your mother asks if you have eaten, for the fourth time today.",
+    "say": "Haan haan, I ate, why do you keep asking, so irritating.",
+    "better": "Yes, Ma, I had dal-chawal at two. I'm fine, don't worry.",
+    "also": ["I ate well, Ma. I'll send you a photo of dinner tonight."],
+    "weak": ["Stop treating me like a baby.", "Hmm."],
+    "why": "A specific answer calms worry faster than an annoyed one. It's love, not checking.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to apologise to your father after an angry argument last night.",
+    "say": "Papa, chai? (and act like nothing happened)",
+    "better": "Papa, I'm sorry I raised my voice last night. I still disagree, but I shouldn't have spoken like that.",
+    "also": ["I was rude yesterday, and I'm sorry. Can we talk calmly tonight?"],
+    "weak": ["Sorry if you felt bad.", "Okay sorry, but you also started it."],
+    "why": "Apologise for how you spoke without giving up your view. No 'if' or 'but'.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Relatives ask why you and your spouse don't have children yet.",
+    "say": "Haha, planning is going on, aunty, you'll get good news soon.",
+    "better": "That's something we keep between the two of us, aunty. Have you tried the gulab jamun?",
+    "also": ["We're happy as we are right now. Thanks for asking."],
+    "weak": ["That's none of your business.", "We're trying, but there are some medical issues, actually..."],
+    "why": "Private topics can stay private. A calm line and a topic change are enough.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your parents disapprove of you living with flatmates of the opposite gender.",
+    "say": "It's normal nowadays, you are so backward, everybody does it.",
+    "better": "I understand it feels new to you. They're colleagues, the flat is safe, and you're welcome to visit and meet them.",
+    "also": ["What worries you most? Let me answer that honestly."],
+    "weak": ["I'll lie to them, it's easier.", "It's my life, I don't have to explain anything."],
+    "why": "Calling parents 'backward' ends the talk. Inviting them in builds trust.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your brother asks you to lend him money again, though he hasn't repaid the last loan.",
+    "say": "Bhai, actually, my hand is a little tight this month, sorry yaar.",
+    "better": "I can't lend more until the last twenty thousand comes back. If you're in real trouble, let's sit and look at it together.",
+    "also": ["I won't lend this time. I'm happy to help you make a budget, though."],
+    "weak": ["Okay, how much? (and resents it)", "You're useless with money, everyone knows."],
+    "why": "An honest reason and a real offer of help is better than a fake excuse.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your parents keep asking about your job search, and you feel stressed.",
+    "say": "Stop asking every day! I'm trying na, what else do you want?",
+    "better": "I know you're worried. Daily questions make me more anxious. I'll update you every Sunday, I promise.",
+    "also": ["I've applied to twelve places and have two interviews. I'll tell you when there's news."],
+    "weak": ["Nothing is happening, I'm a failure, okay?", "Everything is fine, don't worry. (when it isn't)"],
+    "why": "Explains how the questions feel and gives them a regular update instead.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your in-laws visit and rearrange your kitchen without asking.",
+    "say": "Mummyji, it's okay, whatever you like. (and silently fumes)",
+    "better": "Thank you for helping, Mummyji. I've kept things this way so I can find them quickly, so I'll put them back.",
+    "also": ["I'd love your help with cooking tonight. Let's keep the kitchen setup as it is, though."],
+    "weak": ["Please don't touch my things in my house.", "Your son also never puts anything back, it runs in the family."],
+    "why": "Thanks the intent and keeps your limit. Being polite doesn't mean saying nothing.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your parents ask you to drop your partner because they are from another community.",
+    "say": "Then I'll run away and marry, you can't stop me.",
+    "better": "I love you both, and I love her. I'm asking you to meet her family once before you decide.",
+    "also": ["I know this is hard for you. I'm not changing my mind, but I want you with me."],
+    "weak": ["Okay, I'll leave her. (and doesn't)", "You are all bigots."],
+    "why": "Firm about your choice, gentle with them. Threats harden people; meeting softens them.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your grandmother asks you to explain UPI payments again.",
+    "say": "Dadi, I already told you three times, it's so simple only.",
+    "better": "Let's do it together, Dadi. You press the buttons and I'll guide you. I'll write the steps on a card too.",
+    "also": ["No problem, Dadi. Let's send ten rupees to me as practice."],
+    "weak": ["Leave it, give me the phone, I'll do it.", "Ask Bunty, I'm busy."],
+    "why": "Patience and doing it with her teaches better than repeating it louder.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your father says you wasted money on a trip with friends.",
+    "say": "It's my money, I earned it, I'll spend how I want.",
+    "better": "It was my savings, Papa, and I'd planned for it. I still put aside my monthly investment, so we're fine.",
+    "also": ["I needed the break. My budget is on track. Want to see it?"],
+    "weak": ["Sorry, I won't go anywhere again.", "You also waste money on your cricket kit."],
+    "why": "Calmly shows you were responsible. Facts answer worry better than defiance.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your cousin asks you to pretend she's at your house so she can go to a party.",
+    "say": "Okay fine, but if Chachi finds out I don't know anything.",
+    "better": "I'm not comfortable lying to Chachi. If you want, I'll help you ask her properly.",
+    "also": ["I won't cover for you, but I'll back you up when you tell her the truth."],
+    "weak": ["Are you mad? I'm telling Chachi right now.", "Hmm, let me think, I'll tell you later."],
+    "why": "Says no to the lie but stays on her side. Clear, not preachy.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your mother forwards a fake health message in the family WhatsApp group.",
+    "say": "Mummy, this is all fake, don't forward such nonsense.",
+    "better": "Ma, I checked this one and it isn't true. Doctors say the opposite. Here's a link from AIIMS.",
+    "also": ["Before forwarding health tips, send them to me first and I'll check them."],
+    "weak": ["Uncle, aunty, everyone please stop being so dumb.", "(leaves the group)"],
+    "why": "Correct the message, not the person, and show a trustworthy source.",
+    "tone": "casual"
+  }
+]

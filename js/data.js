@@ -17,6 +17,20 @@ export const ROOMS = [
   { id: 'cause',    name: 'Cause and effect',       c: '#00566E', code: 'CE', line: 'Why things happen and what follows.' },
   { id: 'world',    name: 'Paint a picture',        c: '#9E8F1E', code: 'PP', line: 'Places, weather, smells and sounds.' },
   { id: 'society',  name: 'Society and public life', c: '#6B2C1E', code: 'SP', line: 'Words for news, rights and power. No sides taken.' },
+  { id: 'firm',     name: 'Stand your ground',      line: 'Be firm without being rude.' },
+  { id: 'read',     name: 'Read what people mean',  line: 'Hints, spin, sarcasm and what is left unsaid.' },
+  { id: 'upset',    name: 'Anger and discontent',   line: 'Say how unhappy you are, and why.' },
+  { id: 'opinion',  name: 'Say what you think',     line: 'Give your view and make it land.' },
+];
+
+// "Say this, not that": everyday phrases and better ways to say them, by scene.
+export const SCENES = [
+  { id: 'work', title: 'Work and office' }, { id: 'lead', title: 'Leading a team' },
+  { id: 'love', title: 'Relationships' }, { id: 'family', title: 'Family' },
+  { id: 'friends', title: 'Friends' }, { id: 'social', title: 'Social life and small talk' },
+  { id: 'debate', title: 'Debates and arguments' }, { id: 'opinion', title: 'Sharing your opinion' },
+  { id: 'online', title: 'Online, reels and posts' }, { id: 'feelings', title: 'Saying how you feel' },
+  { id: 'upset', title: 'When you are angry or unhappy' }, { id: 'firm', title: 'Saying no and setting limits' },
 ];
 
 export const FLOORS = [
@@ -31,6 +45,7 @@ export const D = {
   words: [], byId: new Map(), byRoom: new Map(), byFloor: new Map(),
   ladders: [], roots: [], mixups: [], indian: [], say: [],
   phrases: [], upgrades: [], partners: [], talk: [],
+  intents: [], scenes: [],
 };
 const EXTRA = ['ladders', 'roots', 'mixups', 'indian', 'say', 'phrases', 'upgrades', 'partners', 'talk'];
 
@@ -65,6 +80,20 @@ export async function loadAll() {
   for (const f of FLOORS) D.byFloor.set(f.n, D.words.filter((w) => w.floor === f.n));
   EXTRA.forEach((n, i) => { D[n] = extra[i] || []; });
   D.upgrades = D.upgrades.filter((u) => u.parts?.every((p) => typeof p === 'string' || p.options?.includes(p.pick)));
+  // categories by intent: whole rooms plus hand-picked words from other rooms
+  const intents = await get('data/intents.json');
+  D.intents = intents.map((it) => {
+    const seen = new Set(), words = [];
+    const add = (w) => { if (w && !seen.has(w.id)) { seen.add(w.id); words.push(w); } };
+    for (const r of it.rooms || []) for (const w of D.byRoom.get(r) || []) add(w);
+    for (const name of it.words || []) add(D.byId.get(slug(name)));
+    words.sort((a, b) => a.floor - b.floor);
+    return { ...it, list: words };
+  });
+  D.byIntent = new Map(D.intents.map((it) => [it.id, it]));
+  const sceneFiles = await Promise.all(SCENES.map((sc) => get(`data/swaps-${sc.id}.json`)));
+  D.scenes = SCENES.map((sc, i) => ({ ...sc, items: (sceneFiles[i] || []).map((x, k) => ({ ...x, key: `${sc.id}:${k}`, scene: sc.id })) }));
+  D.swaps = D.scenes.flatMap((sc) => sc.items);
   return D;
 }
 

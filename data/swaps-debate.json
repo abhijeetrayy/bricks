@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A friend quotes a shocking statistic that you doubt.",
+    "say": "This is fake news, bro. Where did you even get this?",
+    "better": "That number surprises me. Where is it from? I'd like to check it.",
+    "also": ["Can you share the source? I've seen quite different figures."],
+    "weak": ["Totally wrong. Stop spreading WhatsApp forwards.", "Haha ok, whatever you say."],
+    "why": "Asks for evidence without calling the person a liar.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Mid-argument, you realise the other person has made a good point.",
+    "say": "Ya ya, ok fine, but still...",
+    "better": "Fair point. I hadn't thought of that, and it changes my view a bit.",
+    "also": ["You're right about that part. Where I still disagree is the cost."],
+    "weak": ["Ok whatever, you win.", "Fine, but that doesn't matter."],
+    "why": "Conceding openly makes you more believable, not weaker.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Someone keeps interrupting you before you can finish.",
+    "say": "Let me speak na! You're not letting me talk at all!",
+    "better": "Let me finish this point, and then I'll hear you out fully.",
+    "also": ["Hold on, I'm almost done. Then it's all yours."],
+    "weak": ["Can you please shut up for one minute?", "Arre, you always do this, yaar."],
+    "why": "Firm and fair: you claim your turn and promise them theirs.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An argument at a family dinner is getting heated.",
+    "say": "Chalo, leave it. You'll never understand anyway.",
+    "better": "We're both getting heated. Let's pause this and talk about it later.",
+    "also": ["I don't want this to spoil dinner. Can we agree to disagree for now?"],
+    "weak": ["Forget it, there's no point talking to you.", "Fine, you're right, happy now?"],
+    "why": "Ends the fight without a parting insult.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone attacks you personally instead of answering your point.",
+    "say": "Look who's talking! You also did the same thing.",
+    "better": "Let's keep this about the idea, not about me. What's wrong with the argument itself?",
+    "also": ["Even if that's true about me, it doesn't answer my point."],
+    "weak": ["At least I'm not as bad as you.", "Very mature, very mature."],
+    "why": "Pulls the debate back to the argument and away from people.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You don't understand what the other person is arguing.",
+    "say": "What are you even saying? It makes no sense.",
+    "better": "I'm not sure I follow. Can you give me an example?",
+    "also": ["So are you saying that rents will fall? Tell me if I've got it wrong."],
+    "weak": ["You're confusing everyone, including yourself.", "Ok, whatever, next point."],
+    "why": "Understand first, then disagree.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "On a college panel, you want to disagree with a senior speaker.",
+    "say": "With due respect sir, I humbly beg to differ completely.",
+    "better": "I see it differently, and here's why.",
+    "also": ["I partly agree, but I think the data points the other way."],
+    "weak": ["Sorry sir, but you are totally wrong.", "No offence, but that's very old-school thinking."],
+    "why": "Plain disagreement with a reason sounds more confident than ritual politeness.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A friend says a habit is safe because his uncle did it and lived to ninety.",
+    "say": "Your uncle is just lucky, bro. That proves nothing.",
+    "better": "One person's story is interesting, but it doesn't tell us what happens to most people.",
+    "also": ["Is there a bigger study on this? One case can mislead."],
+    "weak": ["Your uncle is an exception, so you're wrong.", "Ok, then everyone should start doing it, na?"],
+    "why": "Separates a single story from the bigger evidence, politely.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Mid-argument, you find out one of your facts was wrong.",
+    "say": "Ok, maybe, maybe. Anyway, the main point is...",
+    "better": "I was wrong about that, thanks for correcting me. Let me see if my main point still holds.",
+    "also": ["You're right, I mixed up the numbers. Let me rethink."],
+    "weak": ["That's just a small detail, it doesn't matter.", "Google can also be wrong, you know."],
+    "why": "Owning a mistake quickly protects your credibility.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Someone backs their claim by saying 'everyone knows this'.",
+    "say": "Who is this 'everyone'? Name them.",
+    "better": "I'm not sure everyone agrees. What makes you say that?",
+    "also": ["Has that actually been shown, or is it more of a common feeling?"],
+    "weak": ["Everyone knows nothing, ok?", "That's such a dumb way to argue."],
+    "why": "Questions the claim, not the person.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An uncle posts a false forward in the family WhatsApp group.",
+    "say": "Uncle, please don't forward such fake things.",
+    "better": "Uncle, I checked this one and it seems to be false. Here's the fact-check.",
+    "also": ["I found a fact-check on this. Worth a look before we share it further."],
+    "weak": ["Uncle, this is why WhatsApp university is famous.", "Seriously? Who believes this nonsense?"],
+    "why": "Shows the evidence and lets the other person save face.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Before disagreeing, you want to show you understood your colleague's view.",
+    "say": "I understood, I understood. But...",
+    "better": "So your point is that the cost is too high. Fair. My worry is a different one.",
+    "also": ["Let me check I've got you: you think speed matters more than quality?"],
+    "weak": ["Yes yes, I know what you mean, but no.", "Ok, noted. Anyway..."],
+    "why": "Summing up their view proves you listened and calms things down.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Someone asks you to back up something you said casually.",
+    "say": "I read it somewhere, I don't remember. Just trust me.",
+    "better": "Good question. I'm not sure of the source. Let me check and come back to you.",
+    "also": ["I may be wrong on that. I'll find the source before I repeat it."],
+    "weak": ["It's common sense, why do you need proof?", "Google it yourself, na."],
+    "why": "Be honest about what you don't know.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A debate with a friend keeps going in circles.",
+    "say": "Ok, same thing again and again. I'm done.",
+    "better": "I think we've both made our points. Shall we see where we actually agree?",
+    "also": ["We're repeating ourselves. Maybe we need more facts before we decide."],
+    "weak": ["You're not listening, so I'm stopping.", "Fine, believe what you want."],
+    "why": "Moves from fighting to finding common ground.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You criticise something, and someone replies, 'What about the others? They did it too.'",
+    "say": "Why are you bringing that up? We are talking about this.",
+    "better": "That may be wrong too, and we can discuss it. But it doesn't make this one right.",
+    "also": ["Both can be bad at the same time. Can we finish this one first?"],
+    "weak": ["Classic whataboutism, you're just dodging.", "Oh, so now you'll defend them?"],
+    "why": "Accepts the other point without letting it replace yours.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "In a meeting, someone wins the point by saying 'lots of customers are complaining'.",
+    "say": "Lots means how many? Don't exaggerate.",
+    "better": "Roughly how many complaints are we talking about? That will help us decide.",
+    "also": ["Do we have the actual numbers? I'd like to see the scale."],
+    "weak": ["I don't believe you, show me proof right now.", "Everybody says 'lots' when they have no data."],
+    "why": "Asks for a number without accusing anyone of exaggerating.",
+    "tone": "formal"
+  },
+  {
+    "situation": "In a college debate, your opponent claims one trend caused another because they rose together.",
+    "say": "This is a very illogical point, honestly.",
+    "better": "These two rose together, but that alone doesn't show one caused the other. What else could explain it?",
+    "also": ["Is there evidence of cause here, or only that they happened together?"],
+    "weak": ["My opponent clearly doesn't understand basic logic.", "This is just coincidence. Next point."],
+    "why": "Names the exact flaw instead of just calling it illogical.",
+    "tone": "formal"
+  },
+  {
+    "situation": "After a long talk, you still disagree with a close friend.",
+    "say": "Ok, you think your way, I'll think mine. Bye.",
+    "better": "We see this differently, and that's fine. Thanks for actually talking it through.",
+    "also": ["I still disagree, but I understand your side better now."],
+    "weak": ["Ok, let's just never talk about this again.", "You'll realise one day that I was right."],
+    "why": "Ends warmly; the friendship matters more than winning.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A relative starts shouting during an argument about your career choice.",
+    "say": "Why are you shouting? I'm not deaf!",
+    "better": "I want to hear you, but it's hard when we're shouting. Can we talk calmly?",
+    "also": ["Let's both lower our voices. I'll listen properly."],
+    "weak": ["If you shout, I'll shout louder.", "Ok, do whatever you want, I'm leaving."],
+    "why": "Names the problem and invites calm without matching their anger.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A colleague criticises your plan, and half of the criticism is right.",
+    "say": "No no, the plan is fine. You're overthinking.",
+    "better": "You're right about the timeline, I'll fix that. On the budget, I still think it works.",
+    "also": ["Good catch on the timeline. On the budget, I see it differently."],
+    "weak": ["Ok, everything you said is right, I'll redo it all.", "You only find problems in my work."],
+    "why": "Accept what's true and defend what isn't; both make you credible.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "In an argument, someone dismisses you with 'You're just being emotional.'",
+    "say": "I'm not emotional! You're the one being emotional!",
+    "better": "I do feel strongly about this. That doesn't make my point wrong. Here's my reason.",
+    "also": ["Yes, it matters to me. Can we look at the reasons anyway?"],
+    "weak": ["How dare you call me emotional?", "Fine, I'll stop talking then."],
+    "why": "Admit the feeling, then return to the reason.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Friends want you to pick a side in a debate you know little about.",
+    "say": "I don't know yaar, both are same only.",
+    "better": "I don't know enough to take a side yet. What's the strongest point on each side?",
+    "also": ["Honestly, I'm undecided. Convince me."],
+    "weak": ["Whatever you say, I'm with you.", "Both sides are stupid, frankly."],
+    "why": "Being honestly unsure beats faking a view.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone twists your words into something you never said.",
+    "say": "You always twist my words. This is your habit.",
+    "better": "That's not quite what I said. I meant we need more time, not that the idea is bad.",
+    "also": ["Let me be clearer: I said we should wait, not that we should drop it."],
+    "weak": ["You're lying, I never said that.", "Ok, believe whatever you heard."],
+    "why": "Correct the record calmly and restate your real point.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your manager says remote work kills productivity and asks if you agree.",
+    "say": "Sir, actually it's the opposite. Everyone works more from home.",
+    "better": "I've seen it go both ways. Do we have data from our own team? That would settle it.",
+    "also": ["Could we look at our own numbers before we decide?"],
+    "weak": ["Sorry sir, but that's a very outdated way of thinking.", "Yes sir, you are right, as always."],
+    "why": "Moves the debate from opinion to evidence, respectfully.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You lose a debate competition and walk up to the winner.",
+    "say": "Congrats, but honestly the judges were biased.",
+    "better": "Well argued. Your point on costs really landed. Congratulations.",
+    "also": ["You deserved it. I'd love to know how you prepared."],
+    "weak": ["Congrats, you got lucky with the topic.", "Ok, congrats, whatever."],
+    "why": "Losing gracefully earns respect; praise something specific.",
+    "tone": "neutral"
+  }
+]

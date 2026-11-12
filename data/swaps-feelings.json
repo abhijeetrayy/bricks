@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A close friend asks how you are after a hard week you have not talked about.",
+    "say": "I'm fine yaar, all good.",
+    "better": "Honestly, not great. This week has been heavy. Can I tell you about it?",
+    "also": ["I've been better, to be honest. Got time for a chai?"],
+    "weak": ["Fine fine, what to do, life is like this only.", "Chhodo, no point discussing."],
+    "why": "Honest and specific; it opens the door instead of closing it.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your mother keeps asking about your job search, and it is making you anxious.",
+    "say": "Mummy, tension mat lo, I'll manage.",
+    "better": "Ma, I know you worry. Right now the questions make me more anxious. I'll update you every Sunday.",
+    "also": ["I'm stressed about it too. Can we talk once a week instead of every day?"],
+    "weak": ["Why you keep asking same thing, I said I'll manage.", "Everything is under control, don't worry about me."],
+    "why": "Names the feeling and offers a plan, so worry has somewhere to go.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your manager asks if you can handle a new project on top of three others.",
+    "say": "Yes sir, no problem, I'll manage somehow.",
+    "better": "I'm stretched thin right now. If I take this on, one of the other three will slip. Which matters most?",
+    "also": ["I'm at capacity. Can we look at my list together and decide what to drop?"],
+    "weak": ["Okay, I'll adjust, no issues.", "Sir, already I'm dying with work, how can I take more?"],
+    "why": "Says you are overloaded calmly and asks for a decision, not sympathy.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A colleague covered your work when you were ill.",
+    "say": "Thanks for the help, bro.",
+    "better": "Thank you for covering for me last week. I could actually rest because of you. I owe you one.",
+    "also": ["I really appreciated you stepping in. It made a big difference."],
+    "weak": ["Thanks, thanks, adjust kar liya na, that's what friends are for.", "Ya thanks, I would have done the same."],
+    "why": "Specific thanks, saying what it changed, means far more than a quick 'thanks'.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You cleared an exam you had failed twice before, and a friend congratulates you.",
+    "say": "Arre, it was just luck, nothing big.",
+    "better": "Thank you! I'm really proud of this one. Third attempt, and I worked hard for it.",
+    "also": ["Thanks, I'm so happy. It took a lot to get here."],
+    "weak": ["Paper was easy this time, that's all.", "Haan, finally, God knows how it happened."],
+    "why": "Owning your pride is not boasting; brushing it off hides real effort.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You are sad after a friend moved to another city.",
+    "say": "It's okay, people come and go, that's life.",
+    "better": "I miss her more than I expected. The evenings feel empty without our walks.",
+    "also": ["I'm a bit low since she left. I didn't realise how much I relied on her."],
+    "weak": ["I'm totally fine, actually I'm enjoying the free time.", "Whatever, she'll forget me anyway."],
+    "why": "Naming the sadness and its reason helps you, and others, understand it.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your partner asks why you have been quiet all evening.",
+    "say": "Nothing. I'm just like that only.",
+    "better": "Sorry, I'm in my head. Work went badly today and I'm still upset about it.",
+    "also": ["I'm tired and a bit low. It's not about you. Can I tell you after dinner?"],
+    "weak": ["You won't understand, leave it.", "Kuch nahi, why are you asking so many questions?"],
+    "why": "Explains the mood so the other person does not guess, or blame themselves.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Before an interview, a relative asks if you are nervous.",
+    "say": "No no, I'm fully confident, cool hai.",
+    "better": "A little nervous, yes. But I've prepared well, so it's the good kind of nervous.",
+    "also": ["Bit jittery, honestly. That usually means I care about it."],
+    "weak": ["Very very tense, I think I'll mess it up.", "Nervous? Me? Never, I don't feel all that."],
+    "why": "Admitting a little fear is honest and calm; denial or panic are not.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You feel left out because friends planned a trip without you.",
+    "say": "Cool, enjoy, I anyway didn't want to come.",
+    "better": "I'll be honest, I felt a bit left out when I saw the trip plan. Was there a reason?",
+    "also": ["It stung a little not to be asked. I'd love to be included next time."],
+    "weak": ["Nice, so now I'm not part of the group, I see.", "No problem, I'm used to it."],
+    "why": "Say the hurt directly instead of hiding it in sarcasm.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A teacher who helped you years ago messages to congratulate you.",
+    "say": "Thank you ma'am, all because of your blessings.",
+    "better": "Thank you, ma'am. Your belief in me in Class 10 changed how I saw myself. I still remember it.",
+    "also": ["It means a lot to hear from you. You were the first person who pushed me."],
+    "weak": ["Thanks ma'am, by god's grace.", "Thank you ma'am, ok, take care."],
+    "why": "Gratitude lands when you name exactly what the person did.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your friend asks how you are after your grandfather's death.",
+    "say": "I'm okay. He was old, it was bound to happen.",
+    "better": "I'm sad. I knew it was coming, but I still miss him every day.",
+    "also": ["Some days are fine, some are hard. Thanks for asking."],
+    "weak": ["All okay, no need to discuss.", "What to do, everyone has to go one day."],
+    "why": "Grief does not need a reason or excuse; it is okay to say it plainly.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend says 'tension mat lo' when you share a worry, and it does not help.",
+    "say": "Haan, okay, I won't take tension.",
+    "better": "I know you mean well. I don't need a fix right now, I just need you to listen for a bit.",
+    "also": ["Thanks. It helps more if you just hear me out."],
+    "weak": ["Easy for you to say, you don't have problems.", "Okay fine, forget I said anything."],
+    "why": "Tells people what kind of support you want, kindly.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You feel overwhelmed planning a sibling's wedding with endless tasks.",
+    "say": "I'm going mad, everything is on my head only.",
+    "better": "I'm overwhelmed. I can handle the caterer and guests, but can someone else take the decoration and travel?",
+    "also": ["It's too much for one person. Can we split the list?"],
+    "weak": ["Nobody helps in this house, I do everything.", "Chalo, I'll do it all, as usual."],
+    "why": "Names the feeling and asks for specific help, not blame.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You have been feeling low for weeks and decide to tell a close friend.",
+    "say": "Nothing serious, just thoda mood off.",
+    "better": "I've been feeling low for a few weeks, and it's not lifting. I wanted someone to know.",
+    "also": ["I've not been myself lately. Can we talk? I might also see a counsellor."],
+    "weak": ["It's just overthinking, I'll be fine by tomorrow.", "Don't ask, I'm useless these days."],
+    "why": "Saying how long and how much lets people take it seriously and help.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your father did something kind, and your family rarely says such things aloud.",
+    "say": "Papa, thanks, haan.",
+    "better": "Papa, I noticed you drove two hours just to drop my books. Thank you. It meant a lot.",
+    "also": ["I don't say it much, but I'm grateful for what you do."],
+    "weak": ["Why you took so much trouble, no need.", "Okay, thank you, bye."],
+    "why": "Plain, specific thanks to family feels awkward once and warm for long.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You feel jealous of a friend's promotion and it is affecting your mood.",
+    "say": "Good for him, but he's just lucky and smooth-talking.",
+    "better": "I'm happy for him, and honestly also a bit jealous. I want that kind of growth too.",
+    "also": ["It's made me think about where I'm stuck. That's on me, not him."],
+    "weak": ["Promotions here only go to chamchas.", "I'm not jealous at all, why would I be?"],
+    "why": "Admitting envy honestly turns it into useful information about what you want.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your manager praises your work in a team meeting.",
+    "say": "No sir, it was nothing, team effort only.",
+    "better": "Thank you. I'm proud of how it turned out, and Priya's data work made a big difference too.",
+    "also": ["Thanks, I worked hard on it. Glad it helped."],
+    "weak": ["Sir, I just did my duty, nothing special.", "Haan, I did most of it actually."],
+    "why": "Accept praise, then share credit fairly; don't deny or grab it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You are anxious about results day and a cousin keeps joking about it.",
+    "say": "Haha, yes yes, I'll fail only.",
+    "better": "I'm really anxious about results, so the jokes are hard to hear today. Can we skip them?",
+    "also": ["I know you're joking, but I'm tense. Please go easy."],
+    "weak": ["Shut up, you're so irritating.", "Haha, good one, very funny."],
+    "why": "A clear, calm request works better than fake laughter or snapping.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your friend asks why you cancelled plans again.",
+    "say": "Something came up, sorry yaar.",
+    "better": "Honestly, I've been drained and needed a night alone. It's not you. Can we meet Saturday?",
+    "also": ["My social battery is empty this week. I'd still love to see you soon."],
+    "weak": ["Office work, you know how it is.", "Some family function, next time pakka."],
+    "why": "The true reason, said kindly, protects the friendship better than excuses.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A relative asks if you are happy living alone in Bengaluru.",
+    "say": "Super happy, best decision of my life.",
+    "better": "Mostly, yes. I love the freedom, though some evenings I do feel lonely.",
+    "also": ["It's a mix. Good for my career, harder on the heart."],
+    "weak": ["Very lonely, I don't know why I came.", "What happiness, just surviving."],
+    "why": "Mixed feelings are normal; saying both sides sounds honest and settled.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You feel embarrassed after a mistake in front of the whole class.",
+    "say": "I don't care, it doesn't matter to me.",
+    "better": "That was embarrassing. I froze. I'll laugh about it in a week, but right now it stings.",
+    "also": ["Okay, that wasn't my best moment. I'm a bit embarrassed."],
+    "weak": ["Everyone was laughing at me, I'm never speaking again.", "Whatever, they are all idiots."],
+    "why": "Owning a small embarrassment shrinks it; pretending makes it bigger.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your spouse planned a surprise birthday dinner for you.",
+    "say": "Why you wasted so much money?",
+    "better": "I'm so touched. Nobody has done this for me in years. Thank you.",
+    "also": ["This made my whole week. I feel really loved."],
+    "weak": ["Nice, but you shouldn't have.", "Okay, okay, very good."],
+    "why": "Receive kindness warmly; deflecting it can feel like rejecting the giver.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You are stressed about money and your partner asks what is wrong.",
+    "say": "Nothing, you won't understand these things.",
+    "better": "I'm worried about money this month. The EMI and rent hit together. Can we sit and plan it?",
+    "also": ["I'm stressed about our budget. I'd feel better if we looked at it together."],
+    "weak": ["Everything is costly, how will we survive?", "It's my headache, don't bother."],
+    "why": "Names the exact worry and invites teamwork instead of shutting out.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You are relieved after a parent's surgery went well, texting the family group.",
+    "say": "Surgery done. All ok.",
+    "better": "Papa's surgery went well. I'm so relieved I could cry. Thank you all for the calls and prayers.",
+    "also": ["Good news: surgery went fine. I can finally breathe again."],
+    "weak": ["Ok done.", "Surgery over, now let's see what happens."],
+    "why": "Sharing the relief lets people share it with you.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend asks for advice, but you are too exhausted to help well tonight.",
+    "say": "Haan bol, I'm free, tell me.",
+    "better": "I want to help properly, but I'm exhausted tonight. Can we talk tomorrow morning when I'm fresh?",
+    "also": ["I'm running on empty right now. Give me till tomorrow?"],
+    "weak": ["Hmm, hmm, okay, then what? Go on.", "Not now, I have my own problems."],
+    "why": "Honest about your limits, while still showing you care.",
+    "tone": "casual"
+  }
+]

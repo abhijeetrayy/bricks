@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A senior asks what you thought of her presentation.",
+    "say": "It was very nice, ma'am. Perfect.",
+    "better": "The data was strong. I'd cut a few slides in the middle so the main point comes sooner.",
+    "also": ["Clear and well researched. The ending could be punchier."],
+    "weak": ["Too long and boring, honestly.", "Superb, ma'am, no changes needed at all."],
+    "why": "Useful opinions are specific; 'very nice' tells her nothing.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You have an idea in a team meeting but feel too junior to share it.",
+    "say": "This may be a stupid question, but maybe we could possibly...",
+    "better": "I have a suggestion. What if we asked users before building this?",
+    "also": ["One idea: let's test this with ten users first."],
+    "weak": ["Sorry, sorry, small point, ignore if it's wrong...", "I don't know if this makes sense, but..."],
+    "why": "Don't shrink your idea before people even hear it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "At dinner, someone asks what you thought of a film everyone loved.",
+    "say": "Worst film ever made. Total waste of money.",
+    "better": "Honestly, it didn't work for me. The second half dragged. But I can see why people loved it.",
+    "also": ["Not my kind of film, but the music was great."],
+    "weak": ["Only fools liked that film.", "Ya, it was nice, nice."],
+    "why": "An honest view, a reason, and room for other tastes.",
+    "tone": "casual"
+  },
+  {
+    "situation": "In class, the teacher asks what you think a poem means.",
+    "say": "Ma'am, it is a very nice poem with a good message.",
+    "better": "I think the poem is really about loneliness. The empty house in the last lines shows it.",
+    "also": ["To me it feels more angry than sad, because the lines are short and sharp."],
+    "weak": ["Ma'am, whatever the guidebook says.", "It is very beautiful and meaningful, ma'am."],
+    "why": "A specific claim with evidence from the text beats general praise.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You're giving your view in a placement group discussion.",
+    "say": "In my personal opinion, I think that according to me...",
+    "better": "I think the company should hire locally first. Here's why.",
+    "also": ["My view is simple: hire locally first, then expand."],
+    "weak": ["According to me, as per my view, I feel...", "I would like to humbly put forth my opinion that..."],
+    "why": "Say 'I think' once, then get to the point.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Everyone in the meeting supports an idea, but you have doubts.",
+    "say": "Ya, ya, sounds good.",
+    "better": "I may be the odd one out, but I'm worried about the cost. Can we look at that first?",
+    "also": ["Before we decide, can I raise one concern?"],
+    "weak": ["This idea will fail, mark my words.", "Ok, majority wins, I'll keep quiet."],
+    "why": "Voice doubt early and politely; silence is not agreement.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A relative asks if working from home is 'real work'.",
+    "say": "Aunty, you won't understand. Times have changed.",
+    "better": "I think it is, if the work gets done. My office tracks results, not hours at a desk.",
+    "also": ["For me it works well, though I do miss people sometimes."],
+    "weak": ["Aunty, please, it's not the 1990s.", "Ya aunty, you're right, it's not real work."],
+    "why": "Explain your view with an example instead of dismissing them.",
+    "tone": "casual"
+  },
+  {
+    "situation": "In class, you're asked whether exams should be replaced by projects.",
+    "say": "Exams are useless. Projects are the best.",
+    "better": "Projects test real skills, so I lean towards them. But exams are harder to cheat in, so maybe a mix.",
+    "also": ["I'd keep both: projects for skills, a short exam for the basics."],
+    "weak": ["Both are good and both are bad, so it depends.", "Exams are best because that's how it's always been."],
+    "why": "Take a side, but show you weighed the other one.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend asks what you honestly think of his startup idea.",
+    "say": "No offence, but this idea is useless.",
+    "better": "I like that it solves a real problem. I'm less sure people will pay for it. Have you asked them?",
+    "also": ["The idea is strong; the pricing is what I'd test first."],
+    "weak": ["It's amazing, bro, you'll be the next unicorn!", "Startups fail anyway, just take a job."],
+    "why": "Honest feedback lands better when it starts with something true and good.",
+    "tone": "casual"
+  },
+  {
+    "situation": "New data makes you change the view you gave in last week's meeting.",
+    "say": "Actually, I was always a bit doubtful only.",
+    "better": "Last week I backed option A. With these numbers, I now think B is better.",
+    "also": ["I've changed my mind, and here's what changed it."],
+    "weak": ["I never really supported A, you misunderstood.", "Whatever the team decides, I'm fine."],
+    "why": "Changing your view openly, with a reason, shows good judgement.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An interviewer asks, 'What do you think about AI taking jobs?'",
+    "say": "Sir, it is a double-edged sword. It has pros and cons.",
+    "better": "I think it will change most jobs more than it removes them. People who learn to use it will gain.",
+    "also": ["Some jobs will go and new ones will come. The gap in between is the real problem."],
+    "weak": ["Sir, AI is the future, so it is good.", "Sir, it depends on many factors."],
+    "why": "Skip the cliché; give a clear claim you can defend.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You strongly believe in a decision, but your team is wavering.",
+    "say": "Trust me, I know. Just do it my way.",
+    "better": "I'm confident about this. We tried the other route last year and lost two clients. I'd stick with this.",
+    "also": ["I feel strongly here, and I'll own it if it goes wrong."],
+    "weak": ["If you don't agree, I'm not responsible.", "Fine, do whatever, I don't care."],
+    "why": "Conviction needs a reason and ownership, not just force.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "At dinner, someone asks if you'd move abroad for a better job.",
+    "say": "Obviously, bro. There's nothing for us here.",
+    "better": "I'd consider it for a few years, mainly for the experience. Long term, I'd like to come back.",
+    "also": ["Maybe. It depends on the role more than the country."],
+    "weak": ["Abroad is far better in every single way.", "Never. People who leave are selfish."],
+    "why": "A clear answer with your reasons, without judging other people's choices.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your father wants you to do an MBA, but you think differently.",
+    "say": "Papa, it's my life. Let me decide.",
+    "better": "I see why you think an MBA would help. I'd rather work for two years first and then decide.",
+    "also": ["Can I tell you why I'm leaning another way?"],
+    "weak": ["Papa, MBA is useless nowadays.", "Ok papa, whatever you say."],
+    "why": "Acknowledge their view, then state yours clearly and kindly.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "In class, you agree with a classmate and want to add something.",
+    "say": "Ma'am, same as what he said.",
+    "better": "I agree with Riya, and I'd add one thing: nobody has counted the cost of the scheme.",
+    "also": ["Building on Riya's point, there's also the question of who pays."],
+    "weak": ["Ma'am, my point is also the same only.", "Riya already said it, so nothing from my side."],
+    "why": "Agree, then add something new so your voice counts.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your manager wants a quick view on which of two vendors to choose.",
+    "say": "Both are good only, sir. Whatever you decide.",
+    "better": "I'd go with the second vendor. They cost a bit more, but they deliver on time.",
+    "also": ["Quick answer: vendor two, mainly for reliability."],
+    "weak": ["Let me think and get back to you in a few days.", "Both have their pros and cons, sir."],
+    "why": "A quick, clear pick with one reason saves everyone's time.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend says all influencers are fake and asks if you agree.",
+    "say": "Ya, totally. All of them are frauds.",
+    "better": "Some are, for sure. But a few teach really useful things. I'd judge them one by one.",
+    "also": ["Many are, but 'all' is too strong for me."],
+    "weak": ["You're just jealous of them.", "Whatever, I don't even watch reels."],
+    "why": "Avoid sweeping words like 'all'; they make a view easy to knock down.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to give your honest view on a colleague's proposal.",
+    "say": "Frankly speaking, honestly, to tell you the truth, it's not good.",
+    "better": "I don't think it will work as it is. The budget is too tight. Could we cut the scope?",
+    "also": ["My honest view: good idea, wrong timing."],
+    "weak": ["I'm a very straightforward person, so I'll say it's bad.", "Not bad, not bad, it's ok types."],
+    "why": "Just say the honest thing; you don't need to announce your honesty.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your professor says social media only harms students, and you see it differently.",
+    "say": "Sir, that's not true at all.",
+    "better": "I partly agree, sir. But I've learnt a lot from online lectures. Could the harm depend on how it's used?",
+    "also": ["Could I share a different experience, sir?"],
+    "weak": ["Sir, you're from another generation, so...", "Sir, you're right, it's very bad."],
+    "why": "Disagree with a teacher by sharing evidence, not by dismissing them.",
+    "tone": "formal"
+  },
+  {
+    "situation": "At a chai stall, someone asks your take on the latest team selection.",
+    "say": "Selectors are mad. Total politics.",
+    "better": "I'd have picked the younger bowler. His recent form is better, and we need pace in Australia.",
+    "also": ["Tough call, but I'd back form over reputation."],
+    "weak": ["Whatever, cricket is all fixed anyway.", "I don't know, they know better."],
+    "why": "A view with one fact sounds smarter than an angry label.",
+    "tone": "casual"
+  },
+  {
+    "situation": "In a meeting about a contract, someone asks you, a non-lawyer, what you think.",
+    "say": "I'm not a lawyer, so I can't say anything.",
+    "better": "I'm not a legal expert, but as a user, this clause looks confusing. Worth checking with legal.",
+    "also": ["Outside my area, but one thing stood out to me."],
+    "weak": ["It looks fine, just sign it.", "No idea, ask someone else."],
+    "why": "Mark your limit, then still offer what you can see.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Friends ask which phone they should buy.",
+    "say": "This phone is the best, full stop. Everything else is rubbish.",
+    "better": "For me this one is best, because the camera and battery suit how I use it. What's your budget?",
+    "also": ["I love mine, but what do you mostly use your phone for?"],
+    "weak": ["Just buy it, don't argue with me.", "All phones are the same, buy anything."],
+    "why": "Mark an opinion as yours, and fit it to their needs.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your project group must choose a topic, and you strongly prefer one.",
+    "say": "Guys, let's do my topic. It's the best. Final.",
+    "better": "I'd vote for water shortage. We can collect local data ourselves, which makes the project stronger.",
+    "also": ["Can I make the case for my topic in one minute?"],
+    "weak": ["If we don't do my topic, I'm not working.", "Anything is fine, guys, you decide."],
+    "why": "Persuade with a reason that helps the group, not with pressure.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend asks if a new diet will help her lose weight.",
+    "say": "Hundred percent it will work. My cousin lost ten kilos.",
+    "better": "It might help, but I'm not sure. A doctor or dietitian would know better than me.",
+    "also": ["It worked for my cousin, but bodies differ. Maybe check with a doctor."],
+    "weak": ["Diets are a scam, don't waste your time.", "Guaranteed results, just start tomorrow."],
+    "why": "Match your confidence to what you actually know.",
+    "tone": "casual"
+  },
+  {
+    "situation": "In a group discussion, you get thirty seconds to sum up your view.",
+    "say": "So, so, that's all, I think, ya. Thank you.",
+    "better": "To sum up: start small, measure the results, and expand only what works. Thank you.",
+    "also": ["My bottom line: test first, scale later."],
+    "weak": ["So, in conclusion, there are many points and all are important.", "That's it, nothing more from my side, I guess."],
+    "why": "End with one clear line people will remember.",
+    "tone": "formal"
+  }
+]

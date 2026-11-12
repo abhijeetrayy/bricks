@@ -1,0 +1,434 @@
+[
+  {
+    "w": "tone",
+    "room": "read",
+    "floor": 1,
+    "pos": "noun",
+    "say": "TOHN",
+    "mean": "the feeling a voice or message carries, like friendly, cold or angry",
+    "hi": "लहजा",
+    "ex": "Nobody minded what Meera said in the meeting; it was her sharp tone that hurt the team.",
+    "ex2": "On the family WhatsApp group, Dadi read Rahul's one-word reply and asked why his tone was so cold.",
+    "with": [
+      "tone of voice",
+      "a sharp tone",
+      "set the tone"
+    ],
+    "instead": "the way she said it",
+    "note": "Text messages lose tone easily; a short 'ok' can sound angry even when it is not meant that way."
+  },
+  {
+    "w": "sarcastic",
+    "room": "read",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "sar-KAS-tik",
+    "mean": "saying the opposite of what you mean, to mock or show annoyance",
+    "hi": "तंज़ भरा",
+    "ex": "When the train was two hours late, Arjun said 'Wonderful service!' in a sarcastic voice, and the platform laughed.",
+    "ex2": "After India lost the toss again, Fatima's sarcastic 'Great luck, as always' made her brother groan.",
+    "with": [
+      "a sarcastic remark",
+      "sarcastic tone",
+      "just being sarcastic"
+    ],
+    "instead": "joking but mean",
+    "note": "Sarcasm is hard to read in text; people often add an emoji so it is not taken literally."
+  },
+  {
+    "w": "motive",
+    "room": "read",
+    "floor": 1,
+    "pos": "noun",
+    "say": "MOH-tiv",
+    "mean": "the reason why someone does something",
+    "hi": "मक़सद",
+    "ex": "When the neighbour suddenly brought sweets, Lata guessed his motive: he wanted her parking spot.",
+    "ex2": "The police in Lucknow are still trying to understand the motive behind the bank fraud.",
+    "with": [
+      "the real motive",
+      "a hidden motive",
+      "motive behind"
+    ],
+    "instead": "the reason behind it",
+    "note": "Motive is the reason inside a person; 'motivation' is the drive to act. Police look for a 'motive' for a crime."
+  },
+  {
+    "w": "flatter",
+    "room": "read",
+    "floor": 1,
+    "pos": "verb",
+    "say": "FLAT-ur",
+    "mean": "to praise someone too much, often to get something from them",
+    "hi": "चापलूसी करना",
+    "ex": "Before asking for leave, Sunil likes to flatter his boss about her excellent presentation.",
+    "ex2": "The sari seller tried to flatter Aunty by saying she looked twenty-five, hoping she would buy two.",
+    "with": [
+      "flatter someone",
+      "try to flatter",
+      "feel flattered"
+    ],
+    "instead": "praise too much",
+    "note": "'I'm flattered' is a polite way to accept a compliment; to flatter someone usually means praise that is not fully sincere."
+  },
+  {
+    "w": "body language",
+    "room": "read",
+    "floor": 1,
+    "pos": "noun",
+    "say": "BOD-ee lang-gwij",
+    "mean": "what your face, hands and posture show about your feelings",
+    "hi": "हाव-भाव",
+    "ex": "Priya said she was fine, but her body language, arms crossed and eyes down, told a different story.",
+    "ex2": "In the interview, Karan's calm body language made the panel trust him before he had said much.",
+    "with": [
+      "read body language",
+      "positive body language",
+      "his body language"
+    ],
+    "instead": "the way they were standing",
+    "note": "Body language gives clues, not proof; crossed arms can also simply mean someone is cold."
+  },
+  {
+    "w": "defensive",
+    "room": "read",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "di-FEN-siv",
+    "mean": "quick to protect yourself, as if every question is an attack",
+    "hi": "बचाव की मुद्रा में",
+    "ex": "When the coach asked about the dropped catch, Vikram got defensive and blamed the floodlights.",
+    "ex2": "Ask Mama a simple question about the electricity bill and he becomes defensive about his spending.",
+    "with": [
+      "get defensive",
+      "defensive about",
+      "a defensive reply"
+    ],
+    "instead": "touchy when questioned",
+    "note": "Getting defensive often means a question touched a sore spot, but it can also mean someone feels unfairly blamed."
+  },
+  {
+    "w": "empathise",
+    "room": "read",
+    "floor": 2,
+    "pos": "verb",
+    "say": "EM-puh-thyz",
+    "mean": "to understand and share how another person feels",
+    "hi": "हमदर्दी रखना",
+    "ex": "Having failed her own first attempt, Anjali could empathise with students who cried after the NEET results.",
+    "ex2": "A good doctor will empathise with a scared patient before explaining the treatment.",
+    "with": [
+      "empathise with",
+      "try to empathise",
+      "hard to empathise"
+    ],
+    "instead": "feel what they feel",
+    "note": "Empathise means feeling with someone; sympathise means feeling sorry for them. Always 'empathise with'."
+  },
+  {
+    "w": "deflect",
+    "room": "read",
+    "floor": 2,
+    "pos": "verb",
+    "say": "di-FLEKT",
+    "mean": "to turn attention away from a question or blame onto something else",
+    "hi": "बात टालना",
+    "ex": "Asked about the delayed bridge, the official tried to deflect by talking about last year's rains.",
+    "ex2": "When Amma asked who broke the vase, Chintu tried to deflect by pointing at the cat.",
+    "with": [
+      "deflect blame",
+      "deflect criticism",
+      "deflect the question"
+    ],
+    "instead": "change the topic",
+    "note": "In debates, watch for answers that deflect: the speaker replies to a different question from the one asked."
+  },
+  {
+    "w": "read the room",
+    "room": "read",
+    "floor": 2,
+    "pos": "phrase",
+    "say": "reed thuh ROOM",
+    "mean": "to sense the mood of a group and act to suit it",
+    "hi": "माहौल भाँपना",
+    "ex": "At the condolence meeting, Naveen didn't read the room and started talking about his new car.",
+    "ex2": "Good stand-up comics in Bengaluru read the room and quickly drop jokes that are not landing.",
+    "with": [
+      "fail to read the room",
+      "learn to read the room",
+      "read the room first"
+    ],
+    "instead": "notice the mood",
+    "note": "Often used in the negative: 'He couldn't read the room' means he said something badly timed."
+  },
+  {
+    "w": "taunt",
+    "room": "read",
+    "floor": 2,
+    "pos": "verb",
+    "say": "TAWNT",
+    "mean": "to say hurtful things to provoke or mock someone",
+    "hi": "ताना मारना",
+    "ex": "The away fans kept trying to taunt the bowler, but he calmly took two wickets in the next over.",
+    "ex2": "Relatives at the wedding would taunt Sneha about her job, so she stayed near the food stall.",
+    "with": [
+      "taunt someone",
+      "a cruel taunt",
+      "taunt about"
+    ],
+    "instead": "make fun of",
+    "note": "In Indian English 'taunt' often means any sarcastic remark; in standard English it is more deliberately hurtful."
+  },
+  {
+    "w": "mixed signals",
+    "room": "read",
+    "floor": 2,
+    "pos": "noun",
+    "say": "mikst SIG-nulz",
+    "mean": "messages that seem to mean two opposite things",
+    "hi": "उलझे इशारे",
+    "ex": "My manager praises my work but never gives me bigger projects; I'm getting mixed signals.",
+    "ex2": "The weather office sent mixed signals, warning of heavy rain while saying schools could stay open.",
+    "with": [
+      "send mixed signals",
+      "give mixed signals",
+      "getting mixed signals"
+    ],
+    "instead": "confusing messages",
+    "note": "Usually plural: 'mixed signals', not 'a mixed signal'."
+  },
+  {
+    "w": "subtext",
+    "room": "read",
+    "floor": 3,
+    "pos": "noun",
+    "say": "SUB-tekst",
+    "mean": "the real meaning under the words, which is not said directly",
+    "hi": "छिपा मतलब",
+    "ex": "Neha's aunt said 'Your cooking is so modern', and the subtext was clear: she missed the old recipes.",
+    "ex2": "Read the subtext of the company memo: 'restructuring' probably means some people will lose their jobs.",
+    "with": [
+      "the subtext is",
+      "political subtext",
+      "read the subtext"
+    ],
+    "instead": "the hidden meaning",
+    "note": "Subtext is the meaning beneath the words; context is the situation around them. Do not mix them up."
+  },
+  {
+    "w": "passive-aggressive",
+    "room": "read",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "PAS-iv uh-gres-iv",
+    "mean": "showing anger indirectly, through hints, silence or sly remarks, not openly",
+    "hi": "छिपी नाराज़गी वाला",
+    "ex": "Instead of asking us to wash up, our flatmate left a passive-aggressive note: 'Hope you enjoyed MY clean plates.'",
+    "ex2": "Writing 'As per my last email' can sound passive-aggressive, even if Divya only meant to remind her colleague.",
+    "with": [
+      "a passive-aggressive comment",
+      "a passive-aggressive note",
+      "sound passive-aggressive"
+    ],
+    "instead": "angry but not saying it",
+    "note": "It describes behaviour, not a fixed type of person; most of us do it sometimes. Saying 'I'm upset that...' is clearer."
+  },
+  {
+    "w": "ulterior motive",
+    "room": "read",
+    "floor": 3,
+    "pos": "noun",
+    "say": "ul-TEER-ee-ur moh-tiv",
+    "mean": "a hidden reason for doing something, different from the one you show",
+    "hi": "छिपा हुआ मक़सद",
+    "ex": "Rakesh suddenly offered to help with my tax return, and I wondered if he had an ulterior motive.",
+    "ex2": "The panchayat suspected an ulterior motive when the builder offered a free school building near the lake.",
+    "with": [
+      "an ulterior motive",
+      "no ulterior motive",
+      "suspect an ulterior motive"
+    ],
+    "instead": "a secret reason",
+    "note": "Almost always negative: it suggests selfish plans behind kind actions."
+  },
+  {
+    "w": "backhanded compliment",
+    "room": "read",
+    "floor": 3,
+    "pos": "noun",
+    "say": "BAK-han-did kom-pli-ment",
+    "mean": "praise that hides an insult inside it",
+    "hi": "तारीफ़ में छिपा ताना",
+    "ex": "'You look nice today, for once,' said Sonia, a backhanded compliment that ruined Pooja's morning.",
+    "ex2": "Calling the new batsman 'surprisingly good for a small-town boy' was a backhanded compliment, and the commentator apologised.",
+    "with": [
+      "a backhanded compliment",
+      "pay a backhanded compliment",
+      "sounds like a backhanded compliment"
+    ],
+    "instead": "praise with a dig",
+    "note": "Watch for 'for a...': 'Not bad for a beginner' is a typical backhanded compliment."
+  },
+  {
+    "w": "loaded question",
+    "room": "read",
+    "floor": 3,
+    "pos": "noun",
+    "say": "LOH-did kwes-chun",
+    "mean": "a question that hides an unfair claim, so any answer seems to admit it",
+    "hi": "फँसाने वाला सवाल",
+    "ex": "The anchor asked a loaded question: 'Why does your department keep wasting public money?'",
+    "ex2": "'Have you stopped copying in exams?' is a loaded question, because yes or no both make Ravi look guilty.",
+    "with": [
+      "ask a loaded question",
+      "answer a loaded question",
+      "a loaded question about"
+    ],
+    "instead": "a trick question",
+    "note": "A trick question tests cleverness; a loaded question sneaks in an accusation. Answer by challenging the hidden claim."
+  },
+  {
+    "w": "manipulate",
+    "room": "read",
+    "floor": 3,
+    "pos": "verb",
+    "say": "muh-NIP-yoo-layt",
+    "mean": "to control or influence people unfairly, often without them noticing",
+    "hi": "चालाकी से चलाना",
+    "ex": "Some fake job agents manipulate young people by promising Gulf visas and then demanding huge fees.",
+    "ex2": "Ishaan's friend would manipulate him with guilt: 'After everything I've done, you can't lend me your bike?'",
+    "with": [
+      "manipulate someone",
+      "easy to manipulate",
+      "emotionally manipulate"
+    ],
+    "instead": "use people cleverly",
+    "note": "Persuading is open and leaves the choice to you; manipulating uses tricks, guilt or lies to steer you."
+  },
+  {
+    "w": "gaslight",
+    "room": "read",
+    "floor": 4,
+    "pos": "verb",
+    "say": "GAS-lyte",
+    "mean": "to make someone doubt their own memory or sense of reality, usually over time",
+    "hi": "ख़ुद पर शक कराना",
+    "ex": "Her manager would gaslight Nisha, denying instructions he had clearly given, until she started recording every meeting.",
+    "ex2": "A Pune counsellor explained that to gaslight someone is to deny the truth repeatedly until they stop trusting their own memory.",
+    "with": [
+      "gaslight someone",
+      "being gaslit",
+      "gaslighting behaviour"
+    ],
+    "instead": "make them doubt themselves",
+    "note": "It means a repeated pattern of making someone doubt reality. A single lie or an honest disagreement is not gaslighting."
+  },
+  {
+    "w": "spin",
+    "room": "read",
+    "floor": 4,
+    "pos": "noun",
+    "say": "SPIN",
+    "mean": "a way of describing facts that makes them look better than they are",
+    "hi": "बात को घुमाना",
+    "ex": "The company called the layoffs 'right-sizing', but the employees saw it as pure spin.",
+    "ex2": "After the heavy defeat, the captain's spin was that the young players had 'gained valuable experience'.",
+    "with": [
+      "put a positive spin on",
+      "media spin",
+      "pure spin"
+    ],
+    "instead": "twisting the facts",
+    "note": "In cricket, spin is a bowling style; in news and PR it means presenting facts in a favourable light."
+  },
+  {
+    "w": "guilt-trip",
+    "room": "read",
+    "floor": 4,
+    "pos": "verb",
+    "say": "GILT-trip",
+    "mean": "to make someone feel guilty so that they do what you want",
+    "hi": "एहसान जताकर मनवाना",
+    "ex": "Every Diwali, Bua tries to guilt-trip Aman: 'You never visit, so we must be unimportant to you.'",
+    "ex2": "Some shopping apps guilt-trip users with buttons like 'No thanks, I don't like saving money.'",
+    "with": [
+      "guilt-trip someone into",
+      "lay a guilt trip on",
+      "stop trying to guilt-trip me"
+    ],
+    "instead": "make them feel bad",
+    "note": "As a noun it is often written without a hyphen: 'Don't lay a guilt trip on me.'"
+  },
+  {
+    "w": "veiled",
+    "room": "read",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "VAYLD",
+    "mean": "expressed indirectly, but still clear enough to be understood",
+    "hi": "दबा-छिपा",
+    "ex": "The landlord's message, 'Many people want this flat', was a veiled threat to raise Rohit's rent.",
+    "ex2": "In his speech, the cricket board chief made a veiled reference to players who skip domestic matches.",
+    "with": [
+      "a veiled threat",
+      "thinly veiled",
+      "veiled criticism"
+    ],
+    "instead": "hidden but clear",
+    "note": "'Thinly veiled' means the hint is very easy to see: 'thinly veiled anger'."
+  },
+  {
+    "w": "pretext",
+    "room": "read",
+    "floor": 4,
+    "pos": "noun",
+    "say": "PREE-tekst",
+    "mean": "a false reason given to hide the real reason for doing something",
+    "hi": "बहाना",
+    "ex": "Using a fake office call as a pretext, Deepak left the wedding early to watch the match.",
+    "ex2": "The neighbour came to borrow sugar, but it was a pretext to find out why the police had visited.",
+    "with": [
+      "on the pretext of",
+      "under the pretext of",
+      "a pretext for"
+    ],
+    "instead": "fake excuse",
+    "note": "Use 'on/under the pretext of + -ing': 'He called on the pretext of asking about my health.'"
+  },
+  {
+    "w": "innuendo",
+    "room": "read",
+    "floor": 5,
+    "pos": "noun",
+    "say": "in-yoo-EN-doh",
+    "mean": "an indirect remark that suggests something bad, usually about someone",
+    "hi": "इशारों में आरोप",
+    "ex": "There was no proof against the treasurer, only innuendo spread through the housing society's WhatsApp group.",
+    "ex2": "The film was criticised for jokes full of innuendo that made families in the hall uncomfortable.",
+    "with": [
+      "rumour and innuendo",
+      "full of innuendo",
+      "political innuendo"
+    ],
+    "instead": "hinting at something bad",
+    "note": "It often hints at something improper or sexual. Innuendo is not proof; it works only by suggestion."
+  },
+  {
+    "w": "disarming",
+    "room": "read",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "dis-AHR-ming",
+    "mean": "so friendly or honest that people stop feeling suspicious or angry",
+    "hi": "दिल जीत लेने वाला",
+    "ex": "The angry customer calmed down at once because of the young waiter's disarming honesty about the mistake.",
+    "ex2": "Nanaji has a disarming smile that makes even grumpy shopkeepers in Chandni Chowk give him a discount.",
+    "with": [
+      "a disarming smile",
+      "disarming honesty",
+      "disarmingly frank"
+    ],
+    "instead": "so charming you relax",
+    "note": "Disarming charm can be genuine or a tactic; reading people means noticing which one it is."
+  }
+]

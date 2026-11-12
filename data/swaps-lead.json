@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A team member hands in a report full of errors.",
+    "say": "This is not acceptable. Redo the whole thing.",
+    "better": "The analysis is good, but five numbers are wrong. Can you fix them and add a source for each?",
+    "also": ["Let's go through the errors together, then you can take the fix from there."],
+    "weak": ["Good job, just small small changes.", "Who taught you to make reports like this?"],
+    "why": "Be specific about the problem and the fix. Criticise the work, not the person.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You must tell the team their project has been cancelled.",
+    "say": "Guys, management has decided, nothing we can do, project is scrapped.",
+    "better": "I have hard news: the Pune project is cancelled. I'll explain why, and what it means for each of you.",
+    "also": ["The project has been stopped. I know that's disappointing. Let's talk about what comes next."],
+    "weak": ["Don't worry, it's nothing big, some changes are happening.", "Top management messed up again, as usual."],
+    "why": "Say it plainly, own it as the leader, and move to what's next.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're handing a task to someone on your team.",
+    "say": "Do this ASAP and let me know.",
+    "better": "Can you own the vendor shortlist? I need three options with prices by Thursday. Ask me if you get stuck.",
+    "also": ["This one's yours: three vendor options by Thursday. Shout if you need help."],
+    "weak": ["Just see whatever you can do on the vendors.", "Do it, but check with me before every single step."],
+    "why": "A clear owner, a clear result and a clear deadline, with help on offer.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A team member calmed down an angry client really well.",
+    "say": "Good job, keep it up.",
+    "better": "Kavya, the way you handled that angry client was calm and clear. That's why we kept the account.",
+    "also": ["The client mentioned your follow-up, Kavya. Great work."],
+    "weak": ["Nice. Anyway, next thing.", "You are the best, the rest of the team should learn from you."],
+    "why": "Praise the exact action so they know what to repeat. Don't compare.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Someone on your team has missed three deadlines in a row.",
+    "say": "Why are you always late? This is the third time.",
+    "better": "Your last three deadlines slipped. What's getting in the way? I want to help fix it.",
+    "also": ["I've noticed a pattern with deadlines. Can we talk about what's happening?"],
+    "weak": ["It's okay, no problem, take your time.", "If this continues, think about your future here."],
+    "why": "Name the pattern, then ask before you judge.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "The same two people do all the talking in your team meetings.",
+    "say": "Anyone else? No? Okay, moving on.",
+    "better": "Before we decide, I'd like to hear from people who haven't spoken yet. Divya, what do you think?",
+    "also": ["Let's go round the table: one thought each."],
+    "weak": ["Why are you all so quiet? Say something.", "Okay, then I'll decide, as usual."],
+    "why": "Invite quiet voices by name. Silence isn't agreement.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You've made a decision that part of the team argued against.",
+    "say": "This is final. No more discussion.",
+    "better": "I've heard the concerns, and I've decided to go with the new tool. Here's why, and how we'll handle the risks.",
+    "also": ["Not everyone agrees, and that's okay. We're going ahead, and I'll own the outcome."],
+    "weak": ["Management wants it, so we have to do it.", "Let's try both and see, maybe, I don't know."],
+    "why": "Show you listened, give the reason, and own the decision.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A team member's mistake has caused the website to go down.",
+    "say": "Who did this? Such a silly mistake!",
+    "better": "Let's fix the outage first. Tomorrow we'll look at what went wrong, without blaming anyone.",
+    "also": ["First the fix, then the lessons. No finger-pointing."],
+    "weak": ["Rahul, this was your mistake, and everyone should know it.", "These things happen, let's just forget about it."],
+    "why": "Fix first, learn later. Blame teaches people to hide mistakes.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Someone asks for leave during launch week, and you can't spare them.",
+    "say": "Leave is not possible now, sorry.",
+    "better": "I can't approve next week because it's launch week. Could you take the week after? I'll make sure you get it.",
+    "also": ["Next week is tough with the launch. Would the 20th work instead?"],
+    "weak": ["Leave? Now? Are you serious?", "Okay fine, go, we'll manage somehow."],
+    "why": "Give the reason and offer another date.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're starting a one-to-one meeting with a team member.",
+    "say": "So, all good? Any issues?",
+    "better": "What's one thing that would make your work easier this month?",
+    "also": ["How are you finding the workload these days, honestly?"],
+    "weak": ["Everything is fine na? Okay, good.", "If there are any problems, tell HR."],
+    "why": "Open questions get real answers. 'All good?' just gets 'yes'.",
+    "tone": "casual"
+  },
+  {
+    "situation": "The team missed its sales target and spirits are low.",
+    "say": "We failed. Everyone needs to work harder.",
+    "better": "We missed the target by 12%. Let's look at what we can control and pick two things to change.",
+    "also": ["Missing it hurts. Let's learn from it, not beat ourselves up."],
+    "weak": ["It's okay, targets don't really matter.", "If we miss again, there will be consequences."],
+    "why": "Be honest about the miss and point to concrete next steps.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You gave the team the wrong deadline, and it caused a rush.",
+    "say": "Some miscommunication happened from somewhere.",
+    "better": "That was my mistake. I gave you the old deadline. I'm sorry, and here's how I'm fixing it.",
+    "also": ["I got this wrong. Thanks for flagging it so quickly."],
+    "weak": ["Mistakes were made, let's move on.", "Actually, the client confused all of us."],
+    "why": "When leaders own mistakes, it becomes safe for everyone else to own theirs.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Two people on your team keep clashing and the rest are noticing.",
+    "say": "You both are adults, sort it out yourselves.",
+    "better": "I'd like to hear each of you, one at a time, and then agree on how you'll work together.",
+    "also": ["Let's sit together. Each of you says what you need from the other."],
+    "weak": ["Whose fault is it? Tell me quickly.", "Just ignore each other and do your work."],
+    "why": "Stay neutral, hear both sides, and focus on working together.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your boss wants to give your already-busy team one more project.",
+    "say": "Okay sir, my team will manage.",
+    "better": "We can take this, but the app release would slip by two weeks. Is that okay?",
+    "also": ["My team is at full capacity. What should we drop to make room?"],
+    "weak": ["Yes sir, no problem, we'll do overtime.", "Impossible, my team is already dying."],
+    "why": "Protect your team by showing the cost, not by flatly refusing.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A senior team member keeps talking over the juniors.",
+    "say": "You are very dominating in meetings.",
+    "better": "In today's meeting you finished Anu's sentences twice. I'd like her to have room to speak. Can you watch for that?",
+    "also": ["I've noticed the juniors go quiet when you jump in. Could you give them more room?"],
+    "weak": ["Some people are feeling you are rude.", "From now on, please stay quiet in meetings."],
+    "why": "Describe what you saw them do, not a label like 'dominating'.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A team member didn't get the promotion they were hoping for.",
+    "say": "Management didn't approve, next time for sure.",
+    "better": "You didn't get the promotion this cycle. I want to be clear about why, and what would get you there next time.",
+    "also": ["It's a no this time. Let's agree on two goals that make your case for next round."],
+    "weak": ["Next time 100%, don't worry.", "Others were simply better than you."],
+    "why": "Be honest, give reasons, and show a path. Don't promise what you can't.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A new person has just joined your team.",
+    "say": "Just observe for some days, you'll understand.",
+    "better": "For your first two weeks, shadow Imran and read the docs. From week three, you'll own the small bug fixes.",
+    "also": ["Here's what success looks like in your first month."],
+    "weak": ["Do whatever, you'll pick it up.", "We expect you to deliver from day one, no excuses."],
+    "why": "Clear early goals help new people settle in and do well.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your team is worried by rumours of a company restructuring.",
+    "say": "I can't share anything, it's confidential.",
+    "better": "I don't have all the answers yet. I'll tell you what I know by Friday, and I won't hide bad news.",
+    "also": ["Honestly, nothing is decided. When it is, you'll hear it from me first."],
+    "weak": ["Don't listen to rumours, everything is perfect.", "Even I don't know what's going on in this place."],
+    "why": "Honest uncertainty builds more trust than false comfort.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A team member keeps arriving after the daily 10 o'clock stand-up.",
+    "say": "Office timing is 9:30, not 10:30. Be serious.",
+    "better": "You've been coming in after 10 most days. Is something going on? We need you at the stand-up.",
+    "also": ["Mornings seem hard lately. Can we find a fix that still gets you to the stand-up?"],
+    "weak": ["Late again? Very nice.", "Come whenever you want, just finish the work."],
+    "why": "Ask about the reason, but be clear about what you need.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You want ideas from the team on a stubborn problem.",
+    "say": "Any suggestions? Tell me if anything.",
+    "better": "We need to cut our response time by half. What's one idea you'd try first?",
+    "also": ["No idea is too small. Let's list everything, then pick."],
+    "weak": ["I've already decided, but any suggestions?", "Suggestions are welcome, but don't waste my time."],
+    "why": "A clear problem and a direct question bring out real ideas.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A team member tells you their workload has become too much.",
+    "say": "Everyone is busy, adjust a little.",
+    "better": "Thanks for telling me. Let's go through your list together and see what can move or be dropped.",
+    "also": ["That sounds like too much. What would help most right now?"],
+    "weak": ["In my time we worked 14 hours a day.", "Okay, I'll look into it sometime."],
+    "why": "Take the concern seriously and act on it together.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A team member suggests an idea you can't afford right now.",
+    "say": "This won't work. Next.",
+    "better": "I like the thinking, but we don't have the budget this quarter. Can you keep it ready for April?",
+    "also": ["Not now, because of the budget, but it's a good idea. Let's revisit it in April."],
+    "weak": ["Interesting. Let's see.", "And who will pay for all this?"],
+    "why": "Say no to the idea with a reason, and still value the person behind it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your team has just shipped a big launch on time.",
+    "say": "Thanks team for all the efforts.",
+    "better": "We shipped on time because of Sana's testing and Ravi's late-night fixes. Thank you, all of you.",
+    "also": ["Proud of this team. Lunch is on me on Friday."],
+    "weak": ["Good. Now let's focus on the next release.", "Thanks to all for your kind co-operation."],
+    "why": "Name what people did. Generic thanks feels like a formality.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A client has pulled the deadline four days earlier.",
+    "say": "Client has preponed the deadline, so adjust accordingly.",
+    "better": "The client moved the deadline to Monday. That's tight. Let's decide today what we can cut.",
+    "also": ["Bad news: we've lost four days. Here's my plan; tell me what I'm missing."],
+    "weak": ["Client has preponed, so everyone cancel your weekend plans.", "Don't panic, but this is a total disaster."],
+    "why": "Share the facts, admit it's hard, and lead with a plan.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A team member's work has stayed poor despite earlier talks.",
+    "say": "This is your last chance, otherwise HR will take action.",
+    "better": "Your work isn't at the level we need. Here are three things that must change in 60 days, and how I'll help.",
+    "also": ["I want you to succeed here, so I'm being direct: these three things need to change."],
+    "weak": ["Try to improve a little, okay?", "Honestly, I don't know why we hired you."],
+    "why": "Serious problems need clear goals and real support, not threats.",
+    "tone": "formal"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A colleague hasn't replied to your email from Monday, and you need the answer.",
+    "say": "Gentle reminder!! Please revert ASAP.",
+    "better": "Just checking in on my email from Monday. Could you reply by Friday so I can close the report?",
+    "also": ["Any update on this? I need it by Friday to finish the report."],
+    "weak": ["Kindly revert at the earliest, waiting for your response since long.", "Hello?? Any update??"],
+    "why": "A date and a reason get replies. 'Revert' means go back, not reply.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You are writing the first line of an email to a client.",
+    "say": "Respected Sir/Madam, I am writing this mail to inform you that...",
+    "better": "Hi Ms Rao, a quick update on the delivery date for your order.",
+    "also": ["Dear Ms Rao, I'm writing about the delivery date for your order."],
+    "weak": ["Respected Sir, PFA the details as discussed for your kind perusal.", "Dear Sir, this is to bring to your kind notice that..."],
+    "why": "Get to the point in the first line; drop old-fashioned formulas.",
+    "tone": "formal"
+  },
+  {
+    "situation": "You lost track of a point during a meeting.",
+    "say": "Sorry, I didn't get you. Come again?",
+    "better": "Sorry, I lost you at the pricing part. Could you go over that again?",
+    "also": ["Could you give me an example? I want to be sure I've understood."],
+    "weak": ["Okay okay, understood. (You haven't.)", "What are you saying? It's not clear at all."],
+    "why": "Name exactly which part lost you; pretending wastes everyone's time later.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You need Friday off for a cousin's wedding.",
+    "say": "Sir, I want leave tomorrow, my cousin's marriage is there.",
+    "better": "I'd like to take Friday off for a family wedding. Neha has agreed to cover my client call.",
+    "also": ["Can I take Friday off for a wedding? My work is covered."],
+    "weak": ["Sir, kindly grant me leave, it's very urgent, please sir.", "I'm taking tomorrow off, FYI."],
+    "why": "Ask early, give the date, and show your work is covered.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A job offer comes in lower than you expected.",
+    "say": "Sir, please do something about the package, it's too less.",
+    "better": "Thank you for the offer. Based on my experience and the market, I was expecting ₹18 lakh. Is there room to move?",
+    "also": ["I'm excited about the role. Could we get closer to ₹18 lakh?"],
+    "weak": ["Whatever you feel is right, sir, I'm okay with anything.", "This is too less. My friend is getting double somewhere else."],
+    "why": "Name a number and a reason. 'Too less' is vague, and wrong: say 'too low'.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "In your appraisal, you want to ask for a raise.",
+    "say": "I have worked very hard this year, so I deserve a good hike.",
+    "better": "This year I cut our delivery time by 20% and took over two accounts. I'd like a raise that reflects that.",
+    "also": ["Here are three results from this year. Can we talk about my pay?"],
+    "weak": ["Everyone else got a good hike, so why not me?", "Sir, I leave it to you, whatever you think is best."],
+    "why": "Results speak louder than 'hard work'. Bring numbers.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your manager criticises your work during the appraisal.",
+    "say": "But sir, that was not my fault, the other team delayed.",
+    "better": "That's fair. Can you give me an example, so I know what to do differently next quarter?",
+    "also": ["Thanks for being direct. What would good look like here?"],
+    "weak": ["Okay sir, sorry sir, it won't happen again sir.", "Everyone does the same thing, why only me?"],
+    "why": "Ask for specifics before defending yourself. It shows you can take feedback.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You disagree with your manager's plan in a team meeting.",
+    "say": "With due respect sir, you are wrong.",
+    "better": "I see it differently. Last month's numbers point the other way. Can I show you?",
+    "also": ["I have a concern about this plan. Can I explain?"],
+    "weak": ["Sir, whatever you say is correct, but... no, nothing.", "That idea won't work at all."],
+    "why": "Disagree with the idea using facts, not with the person.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "Your manager hands you new work when your week is already full.",
+    "say": "Sir, I have too much on my plate, I can't do.",
+    "better": "I can take this on, but then the vendor report will slip to next week. Which matters more?",
+    "also": ["My week is full. Could this wait till Monday, or should I drop something?"],
+    "weak": ["Okay sir, I'll manage somehow.", "Why always me? Give it to someone else."],
+    "why": "Show the trade-off and let your manager choose the priority.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You join a video call ten minutes late.",
+    "say": "Sorry sorry, I was stuck in another call, network issue also.",
+    "better": "Sorry I'm late. Please carry on; I'll catch up from the notes.",
+    "also": ["Apologies for the delay. Don't let me hold you up."],
+    "weak": ["Sorry, there was so much traffic, then my laptop also hung, then...", "Hi all, I'm here now, can you start from the beginning?"],
+    "why": "Apologise once, briefly, and don't make the meeting about you.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're stuck on an Excel formula and need a colleague's help.",
+    "say": "Can you do one thing? Just do this for me quickly.",
+    "better": "Do you have 15 minutes today to help me with this Excel formula? I'm stuck.",
+    "also": ["Could you look at this when you're free? I'm stuck on one formula."],
+    "weak": ["Just do the needful and send it to me.", "You know Excel na, just finish this for me."],
+    "why": "Say exactly what you need and how long it takes. Respect their time.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A client spots that you sent them the wrong invoice.",
+    "say": "Sorry for the inconvenience caused, it was a technical glitch.",
+    "better": "You're right, we sent the wrong invoice. The correct one is attached, and we've added a check so it won't happen again.",
+    "also": ["That was our mistake. Here's the corrected invoice."],
+    "weak": ["Inconvenience regretted. Kindly ignore the previous mail.", "It was not from our side, the system did it."],
+    "why": "Own the mistake, fix it, and say how you'll stop it happening again.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A meeting is running long and nothing is being decided.",
+    "say": "Okay, so we will connect offline and do the needful.",
+    "better": "Let's stop here. Arjun will send the action points by 5, and we'll meet again on Thursday.",
+    "also": ["We're out of time. Quick recap: Arjun owns pricing, Meena owns the timeline."],
+    "weak": ["Okay guys, let's take it offline, will discuss.", "Any other points? Anyone? No? Okay... anything else?"],
+    "why": "End with who does what by when, not a vague 'offline'.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You introduce yourself on your first day in a new team.",
+    "say": "Myself Rohit, from Kanpur, I have done my B.Tech from...",
+    "better": "Hi, I'm Rohit. I've joined as a data analyst, and I'll mostly work on the sales dashboards.",
+    "also": ["Hi everyone, I'm Rohit, the new analyst. Happy to help with any data questions."],
+    "weak": ["Myself Rohit, and I am very much excited to join this esteemed organisation.", "Hi, Rohit here. That's it."],
+    "why": "Say 'I'm Rohit', not 'myself Rohit', and tell people what you'll do here.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your boss messages at 10 pm about work that isn't urgent.",
+    "say": "Sure sir, will do it right now.",
+    "better": "Got it. I'll look at this first thing tomorrow morning.",
+    "also": ["Noted. You'll have it by 11 tomorrow."],
+    "weak": ["Sir, it's 10 pm, office hours are over.", "Okay sir, I'll stay up and finish it, no problem sir."],
+    "why": "Acknowledge it and give a clear time, without being rude or always available.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're telling your manager that you are resigning.",
+    "say": "Sir, I have got a better offer, so I am putting my papers.",
+    "better": "I wanted you to hear it from me first: I've accepted another role. My last day will be 30 June.",
+    "also": ["I've decided to move on. I'll make sure the handover is smooth."],
+    "weak": ["Sorry to say, but this place has no growth, so I'm resigning.", "I'm leaving. HR will tell you the details."],
+    "why": "Be clear and gracious. Don't criticise the place you're leaving.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Your travel claim from last month still hasn't been paid.",
+    "say": "Why my reimbursement is still not done? I am waiting since one month.",
+    "better": "My travel claim from 3 May is still pending. Could you tell me when it will be paid?",
+    "also": ["Could you check the status of my claim from 3 May?"],
+    "weak": ["This is very unprofessional, nobody in HR does any work.", "Hi, any update? Pls check."],
+    "why": "Give the date and ask one clear question. Say 'for a month', not 'since'.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You're opening a short presentation to senior managers.",
+    "say": "So basically, today I will be discussing about the project.",
+    "better": "I have one ask today: approval to hire two more testers. Here's why.",
+    "also": ["In short: we're two weeks behind, and here's how we catch up."],
+    "weak": ["Good morning everyone, so basically, actually, what I'm trying to say is...", "Okay so, umm, I'll just start. This is the slide."],
+    "why": "Open with your main point. And it's 'discuss the project', not 'discuss about'.",
+    "tone": "formal"
+  },
+  {
+    "situation": "A client wants everything by Monday, and you can't deliver all of it.",
+    "say": "Sure, no problem, we will try to manage.",
+    "better": "We can't do all of it by Monday. We can deliver the login page Monday and the rest by Friday. Does that work?",
+    "also": ["Monday is tight. Which part do you need first?"],
+    "weak": ["Okay done, it will be there by Monday, don't worry.", "That's impossible, you should have told us earlier."],
+    "why": "Promise only what you can deliver, and offer a real option.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "You notice a mistake in a colleague's sales figures.",
+    "say": "Your numbers are wrong. Please check before sending.",
+    "better": "Quick check: I think the March total should be ₹4.2 lakh, not ₹2.4. Could you confirm?",
+    "also": ["I might be wrong, but the March figure looks swapped. Can you take a look?"],
+    "weak": ["Very careless. Please be serious about your work.", "Sorry to say, but maybe, I'm not sure, something could be off somewhere..."],
+    "why": "Point to the exact error, gently, and let them fix it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A colleague keeps cutting you off while you're speaking in a meeting.",
+    "say": "Excuse me, let me complete na!",
+    "better": "Can I just finish this point? Then I'd like to hear yours.",
+    "also": ["One second, Vikram. Let me finish, then over to you."],
+    "weak": ["Please don't interrupt me, it's very rude.", "Oh sorry, you go ahead. (And you never finish.)"],
+    "why": "Hold your turn calmly and promise them theirs.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "An interviewer asks why you want to leave your current job.",
+    "say": "My current company has no growth and the manager is very bad.",
+    "better": "I've learnt a lot there, but I want to work on bigger products, and this role offers that.",
+    "also": ["I'm looking for more ownership, which I think I'd get here."],
+    "weak": ["Mainly for the salary hike, sir.", "Actually there is a lot of politics there, you know how it is."],
+    "why": "Talk about what you want next, not what you dislike now.",
+    "tone": "formal"
+  },
+  {
+    "situation": "Someone asks you a number in a meeting, and you don't know it.",
+    "say": "Yes, yes, I think it should be around 20%, roughly.",
+    "better": "I don't know offhand. I'll check and get back to you by 3 today.",
+    "also": ["Good question. Let me confirm the number and reply on the email thread."],
+    "weak": ["That's not my department, ask someone else.", "It should be fine, I'm almost sure."],
+    "why": "'I'll check' beats a guess. Give a time and keep it.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A colleague stayed late to fix a bug before your launch.",
+    "say": "Thanks a lot yaar, you are a life saver.",
+    "better": "Thanks, Fatima. Your quick fix on the payment bug saved the launch.",
+    "also": ["Big thanks to Fatima for staying late to fix the payment bug."],
+    "weak": ["Thanks to all for everything.", "Thanks dear, you are too good."],
+    "why": "Specific thanks mean more: say what they did and why it mattered.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to work from home tomorrow because a plumber is coming.",
+    "say": "Sir, can I take WFH tomorrow? Some personal work is there.",
+    "better": "Could I work from home tomorrow? A plumber is coming, and I'll be online all day.",
+    "also": ["I need to be home tomorrow morning. Can I work remotely and join calls as usual?"],
+    "weak": ["I'll be WFH tomorrow, some emergency, will be available on phone.", "Sir, please sir, just one day only, I'll be online, promise."],
+    "why": "Ask, give a simple reason, and show you'll still be reachable.",
+    "tone": "neutral"
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "situation": "A friend owes you three thousand rupees from a trip two months ago.",
+    "say": "Bro, no pressure, but if possible, whenever you get time, that small amount...",
+    "better": "Hey, can you send the three thousand from the Goa trip this week? I'm settling my accounts.",
+    "also": ["Just a reminder about the three thousand. Can you UPI it by Friday?"],
+    "weak": ["Some people don't return money, I'm just saying.", "Forget it, I'll never lend you anything again."],
+    "why": "Name the amount and a date. Vague hints are easy to ignore.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Friends plan an expensive dinner and you can't afford it this month.",
+    "say": "Guys, actually I have some work, I'll not be able to come, sorry.",
+    "better": "That place is out of my budget this month. Can we do the dhaba near college instead? I'm in for that.",
+    "also": ["I'll skip dinner but join you for dessert after."],
+    "weak": ["You rich people only go to fancy places.", "Okay, I'll come. (and borrows money)"],
+    "why": "Being honest about money is normal. Suggest something you can do.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend tells you their father is in hospital.",
+    "say": "Oh no, don't worry, everything will be fine, be positive.",
+    "better": "I'm so sorry. That sounds really scary. Do you want me to come to the hospital or bring you food?",
+    "also": ["I'm here. Call me anytime tonight, even late."],
+    "weak": ["My uncle also had the same thing, he was in ICU for a month...", "Take care bro. 👍"],
+    "why": "Name the feeling and offer a specific help. Don't promise what you can't know.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your friend keeps cancelling plans at the last minute.",
+    "say": "Haan, it's fine, no problem, as usual. 🙂",
+    "better": "This is the third time you've cancelled last minute, and it's frustrating. Is something going on?",
+    "also": ["I keep making time and then it falls through. Can we only plan when you're sure?"],
+    "weak": ["You're so unreliable, I'm done with you.", "Nothing, nothing, it's okay. (and stops calling)"],
+    "why": "State the pattern and how it feels, then ask. Sarcasm hides the real point.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Friends tease you about your accent, and it has started to hurt.",
+    "say": "Haha, very funny. (laughs along and feels bad)",
+    "better": "Okay, I've laughed at this enough. The accent jokes are getting to me, so can we drop them?",
+    "also": ["I don't mind jokes, but not this one anymore."],
+    "weak": ["At least I don't look like you.", "Why are all of you such jerks?"],
+    "why": "A calm, direct line ends teasing better than laughing along or hitting back.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You forgot your best friend's birthday.",
+    "say": "Sorry yaar, I was so busy, you know how my office is.",
+    "better": "I completely forgot your birthday, and I feel terrible. No excuse. Let me take you out this weekend.",
+    "also": ["I'm really sorry I missed it. Dinner's on me on Saturday."],
+    "weak": ["Birthdays are just a date anyway.", "You also forgot mine in 2021, remember?"],
+    "why": "Own it without excuses and make it up with a real plan.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend asks your honest opinion on their startup idea, and you have doubts.",
+    "say": "Superb idea bro, just go for it, it'll be a hit for sure.",
+    "better": "I like that you're solving a real problem. My worry is how you'll get the first hundred customers. What's the plan?",
+    "also": ["One thing I'd test first is whether people will actually pay for it."],
+    "weak": ["This will never work, trust me.", "Hmm, nice, nice."],
+    "why": "Honest and kind: say what's good, then one clear concern, framed as a question.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your group can't decide on weekend plans, and the chat has gone on for hours.",
+    "say": "Guys, anything is fine for me, you all decide.",
+    "better": "Let's settle this: Lonavala on Saturday, leave at 7 a.m., about 1,500 each. Reply yes by tonight.",
+    "also": ["I'll make a poll with two options. Whatever wins by 9 p.m., we do."],
+    "weak": ["This group is useless, nothing ever happens.", "Let's see, let's see, we'll decide later."],
+    "why": "A specific proposal with a deadline moves people. 'Anything is fine' adds nothing.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend asks you to help them move flats on your only free day.",
+    "say": "Ya, ya, I'll see, I'll try to come if possible.",
+    "better": "I can't do Sunday, it's my only rest day. I can come on Wednesday evening to help you pack.",
+    "also": ["I can't help with the move, but I'll lend you my car for the day."],
+    "weak": ["Hire movers, why are you asking me?", "Sure! (and doesn't turn up)"],
+    "why": "Say no clearly and offer what you can give. 'I'll try' often means no.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You feel a close friend has been distant for weeks.",
+    "say": "Hmm, you've become very big now, no time for us.",
+    "better": "I've missed you lately. Is everything okay? I'd love to catch up properly this week.",
+    "also": ["We haven't really talked in a while. Did I do something, or is life just busy?"],
+    "weak": ["Fine, don't talk, I also have other friends.", "(waits for them to text first, forever)"],
+    "why": "Reach out with warmth and a question, not a taunt.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend splits a restaurant bill equally, but you only had a soup.",
+    "say": "Okay, okay, no problem. (pays 1,200 for a soup)",
+    "better": "Can we split by what we ordered tonight? I just had the soup, so I'll pay 250 and a share of the tip.",
+    "also": ["I'll pay for mine separately. Splitwise makes it easy."],
+    "weak": ["You all always take advantage of me.", "I'm never coming out with you people again."],
+    "why": "It's fair and normal to ask. Say it simply, at the table, without drama.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your friend shares something they told you in confidence with others, and you found out.",
+    "say": "It's okay, whatever, I don't care anymore.",
+    "better": "I told you that in confidence, and I heard you shared it. That really hurt. Why did you do it?",
+    "also": ["I trusted you with that. I need you to keep private things private."],
+    "weak": ["You're a snake, everyone should know.", "I'll tell everyone your secrets now."],
+    "why": "Say what happened and how it felt. Then give them a chance to explain.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend asks you to lie to their girlfriend about where they were.",
+    "say": "Bro code, done. But don't drag me in later.",
+    "better": "I'm not going to lie to her for you. Whatever happened, it's better if you tell her yourself.",
+    "also": ["Keep me out of this one. I won't lie for you."],
+    "weak": ["Okay, okay, I'll say you were with me.", "I'm telling her everything right now."],
+    "why": "Refuses calmly without lecturing or betraying either person.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your friend just lost their job and is embarrassed to talk about it.",
+    "say": "Arre, don't take tension, chill, something will come.",
+    "better": "That's a hard hit. You're good at what you do. Want me to look at your CV or share it with my team?",
+    "also": ["Want to just get chai and not talk about it at all?"],
+    "weak": ["Layoffs happen to bad performers, no?", "I knew that company was bad, I told you."],
+    "why": "Respect their feelings, then offer real, practical help.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You need to say no to being a friend's guarantor for a big loan.",
+    "say": "Actually, my father doesn't allow me to sign such things.",
+    "better": "I can't be your guarantor. I have a rule never to sign for loans, and it's not about you.",
+    "also": ["I'm not comfortable with that risk, but I'll help you find other options."],
+    "weak": ["I don't trust you with money.", "Let me think, I'll tell you next month. (and avoids them)"],
+    "why": "Own the no as your decision. Blaming others invites them to 'convince' your father.",
+    "tone": "neutral"
+  },
+  {
+    "situation": "A friend teases you for not drinking at parties.",
+    "say": "No, no, actually, I have a stomach problem, that's why.",
+    "better": "I just don't drink. I'm having a great time with my nimbu soda, so don't worry about me.",
+    "also": ["Not for me, thanks. Pass the chakna though."],
+    "weak": ["Drinking is for losers anyway.", "Okay, just one small one. (doesn't want to)"],
+    "why": "You don't need a medical excuse. A relaxed, simple no is enough.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You hurt a friend with a joke at their expense in front of others.",
+    "say": "Arre, I was just joking, you're too sensitive yaar.",
+    "better": "I'm sorry about that joke yesterday. It wasn't funny, and I shouldn't have said it in front of everyone.",
+    "also": ["That came out mean. I'm sorry, it won't happen again."],
+    "weak": ["Sorry if you felt bad, but it was a joke.", "Everyone laughed, so it was fine."],
+    "why": "Apologise for what you did. Don't make their hurt the problem.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend constantly talks about their problems and never asks about you.",
+    "say": "Hmm, ya, ya, true. (silently, every week)",
+    "better": "I love being there for you. Lately I've had a lot going on too, and I'd like to talk about it.",
+    "also": ["Can I share something that's been on my mind?"],
+    "weak": ["You're so selfish, it's always about you.", "(stops picking up their calls)"],
+    "why": "Ask for space in the friendship directly, without accusing them.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your friend is getting married and wants you to plan the bachelor trip, but you're swamped.",
+    "say": "Bro, done, I'll handle everything, chill. (has no time at all)",
+    "better": "I'd love to be part of it, but I can't plan it all this month. Can Neha lead and I'll handle the bookings?",
+    "also": ["I'll take care of one part, like the stay. Who can do the rest?"],
+    "weak": ["Why me? Ask someone else.", "Yes, yes, I'll do it. (and leaves it to the last day)"],
+    "why": "Offer what you can really do. An honest limit beats a broken promise.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend asks if you like their new haircut, and you don't.",
+    "say": "Wow, superb, looking like a hero! (doesn't mean it)",
+    "better": "It's a big change! It suits your face shape. I liked the longer style too, honestly.",
+    "also": ["It's different. Do you like it? That's what counts."],
+    "weak": ["Honestly, it looks terrible.", "Who cut it? Get your money back."],
+    "why": "Be kind and honest at once: find something true to say.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend keeps sending you voice notes of five minutes each.",
+    "say": "Bro, I didn't hear, what did you say? Send text na.",
+    "better": "I'm in office most of the day, so I often can't play voice notes. Could you text the main point?",
+    "also": ["Long voice notes are hard for me to catch. A quick text works better."],
+    "weak": ["Nobody has time for your podcasts.", "(never replies to them)"],
+    "why": "Explain your situation and ask for what works. No mocking needed.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to check on a friend who has seemed low and quiet lately.",
+    "say": "What happened to you? Why are you so dull these days?",
+    "better": "You've seemed quieter lately. I'm not prying, but if something's going on, I'm here to listen.",
+    "also": ["How are you really doing? You can tell me."],
+    "weak": ["Come on, smile, life is short!", "Are you depressed or what?"],
+    "why": "Notice gently and open the door. Don't label or push.",
+    "tone": "casual"
+  },
+  {
+    "situation": "Your friend keeps borrowing your car and returning it with no petrol.",
+    "say": "No issue, take it. (and fills petrol every time, annoyed)",
+    "better": "Sure, take it. Just fill the tank back to where it was, the last few times it came back empty.",
+    "also": ["Happy to lend it, but please return it with petrol."],
+    "weak": ["Never ask for my car again.", "My car is not a free taxi, okay?"],
+    "why": "Say yes with a clear condition. Small fixes now stop big resentment later.",
+    "tone": "casual"
+  },
+  {
+    "situation": "A friend says something sexist about women drivers in the group chat.",
+    "say": "😂😂 (and says nothing)",
+    "better": "Not funny, man. My sister drives better than all of us.",
+    "also": ["Come on, that joke's old and unfair."],
+    "weak": ["You're a disgusting misogynist, I'm reporting you.", "Haha, but true though. (agrees to fit in)"],
+    "why": "A short, light pushback works. You don't need a lecture to make the point.",
+    "tone": "casual"
+  },
+  {
+    "situation": "You want to reconnect with a school friend you haven't spoken to in years.",
+    "say": "Hi. Remember me? 🙂",
+    "better": "Hi Farhan! I came across our Class 10 photo and thought of you. How have you been? Would love to catch up.",
+    "also": ["It's been too long! Are you still in Kochi? Coffee sometime?"],
+    "weak": ["Hi, long time. So, what's going on?", "Hi bro, can you refer me in your company?"],
+    "why": "Give a reason you thought of them and a warm, specific opener.",
+    "tone": "casual"
+  }
+]

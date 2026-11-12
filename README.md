@@ -11,21 +11,47 @@ words like "chaotic" or "ambivalent"; what we lack is the habit of reaching for 
 
 ## What it does
 
-The site has three parts and nothing else.
+The site has four parts: Today, Words, Phrases and You.
 
-**1. Today: five sentences, about four minutes.** Each item is a real sentence from Indian life, said the flat way.
-There are three kinds:
-- **Say it better:** a sentence with the tired phrase crossed out (~~sad and alone~~) and a blank. You pick the exact word from three that would all fit grammatically.
+**1. Today: five items, about four minutes.** Every item is a real moment from Indian life, said the flat way. There
+are four kinds:
+- **Say it better:** a sentence with the tired phrase crossed out and a blank. You pick the exact word.
 - **Upgrade the whole sentence:** two or three tired phrases in one sentence, replaced one by one.
-- **Say it well:** a real moment, like bringing a meeting back on track or saying no politely. You pick what to say, then see why the other two land badly and three more good options.
+- **Say this, not that:** a situation, plus what people usually say ("Gentle reminder!! Please revert ASAP"). You pick the better way to say it, then see why it works.
+- **Say it well:** in "five more" sessions, ready phrases for conversation moments.
 
-After each answer you see the better sentence, hear it, and get the meaning in plain English and Hindi. The day
-ends with 30 seconds of speaking out loud, using your new words.
+After each answer you see and hear the better version. The day ends with 30 seconds of speaking out loud. The
+home page also has quick links to practise one thing: stand your ground, read what people mean, disagree and
+debate, anger and discontent, say what you think, how you feel, work, and relationships.
 
-**2. Find.** Type the word you overuse ("very good", "said", "angry") and get the exact one, or browse words by what
-you want to say. Also lists 20 everyday moments, like disagreeing or ending a meeting, with phrases to use and what to avoid.
+**2. Words: organised by what you are trying to do when you speak.** There are 15 categories in four parts:
+- **Speak up:** Say what you think · Stand your ground · Disagree and debate · Anger and discontent
+- **Understand people:** Read what people really mean · Describe people fairly · Name your feelings
+- **Think clearly:** Think clearly · Say how sure you are · Explain causes and change · Connect your ideas
+- **Everyday life:** Work and leading · Describe things vividly · News and society · Sound natural
 
-**3. Your words.** The words you're learning and the words that are yours, your level, and settings.
+Each category lists its words from everyday to rare, and you can practise just that category. It aims for the plain
+English you need to think clearly and say it clearly, not show-off vocabulary.
+
+**3. Phrases: "say this, not that".** There are 300 everyday phrases across 12 scenes:
+- work;
+- leading a team;
+- relationships;
+- family;
+- friends;
+- social life;
+- debates;
+- opinions;
+- online and reels;
+- feelings;
+- anger;
+- saying no.
+
+Each one has the situation, what people usually say, a better version (with tone and a speaker button), other good
+options, and why the better version works. You can practise any scene, and there are also ready phrases for 20
+conversation moments.
+
+**4. You:** words you're learning and words that are yours, your level, and settings.
 
 ## How learning works
 
@@ -37,7 +63,7 @@ you want to say. Also lists 20 everyday moments, like disagreeing or ending a me
 
 ## Content
 
-- 671 words in 16 groups. Each has:
+- 767 words. Each has:
   - a plain meaning;
   - a Hindi hint;
   - pronunciation;
@@ -45,11 +71,13 @@ you want to say. Also lists 20 everyday moments, like disagreeing or ending a me
   - the tired phrase it replaces;
   - collocations;
   - a note.
-- 140 phrases for 20 situations, each with three "avoid" lines.
+- 300 "say this, not that" phrases in 12 scenes (data/swaps-<scene>.json).
+- 140 ready phrases for 20 conversation moments, each with three "avoid" lines.
+- 15 word categories by intent (data/intents.json), each pulling in whole groups plus hand-picked words.
 - 120 multi-slot "upgrade" sentences, spread across all five levels.
 - 40 speaking prompts.
 
-All the content lives in `data/`. The writing rules are in `data/BRIEF.md`, `data/BRIEF2.md` and `data/BRIEF3.md`. Every entry was proofread. Some data
+All the content lives in `data/`. The writing rules are in `data/BRIEF.md` to `data/BRIEF4.md`. Every entry was proofread. Some data
 (ladders, roots, mix-ups, partners, Indian-English notes) is kept for future use; only the ladders appear today, in search.
 
 ## Run it locally
