@@ -37,19 +37,19 @@ you want to say. Also lists 20 everyday moments, like disagreeing or ending a me
 
 ## Content
 
-- 415 words in 16 groups. Each has:
+- 671 words in 16 groups. Each has:
   - a plain meaning;
   - a Hindi hint;
   - pronunciation;
-  - an Indian-setting example;
+  - two Indian-setting example sentences, the second used when the word comes back for revision;
   - the tired phrase it replaces;
   - collocations;
   - a note.
 - 140 phrases for 20 situations, each with three "avoid" lines.
-- 30 multi-slot "upgrade" sentences.
+- 120 multi-slot "upgrade" sentences, spread across all five levels.
 - 40 speaking prompts.
 
-All the content lives in `data/`. The writing rules are in `data/BRIEF.md` and `data/BRIEF2.md`. Every entry was proofread. Some data
+All the content lives in `data/`. The writing rules are in `data/BRIEF.md`, `data/BRIEF2.md` and `data/BRIEF3.md`. Every entry was proofread. Some data
 (ladders, roots, mix-ups, partners, Indian-English notes) is kept for future use; only the ladders appear today, in search.
 
 ## Run it locally

@@ -8,6 +8,7 @@
     "mean": "completely sure, with no doubt",
     "hi": "पक्का",
     "ex": "Rekha was certain she had locked the door, but she still walked back from the bus stop to check.",
+    "ex2": "Are you certain the match starts at 7:30? The ticket in my hand says 7:00 in small print.",
     "with": [
       "absolutely certain",
       "almost certain",
@@ -25,6 +26,7 @@
     "mean": "probably going to happen or be true",
     "hi": "होने के आसार",
     "ex": "With dark clouds piling up over Marine Drive, heavy rain is likely by evening.",
+    "ex2": "If the queue at the Aadhaar centre is this long at nine, it is likely we will not get a token today.",
     "with": [
       "highly likely",
       "most likely",
@@ -42,6 +44,7 @@
     "mean": "easy to see or understand",
     "hi": "साफ़ ज़ाहिर",
     "ex": "It was obvious from his muddy shoes that Kabir had played football in the rain instead of going to tuition.",
+    "ex2": "From the crowd outside the Kolkata bakery, it was obvious that the Christmas plum cakes had just come out of the oven.",
     "with": [
       "obvious reason",
       "painfully obvious",
@@ -59,6 +62,7 @@
     "mean": "not easy to understand, or not yet known",
     "hi": "साफ़ नहीं",
     "ex": "It is still unclear whether the Ganesh procession will take its usual route through the market this year.",
+    "ex2": "After the meeting at the Bengaluru office, it was unclear who would actually send the report to the client.",
     "with": [
       "remain unclear",
       "it is unclear whether",
@@ -76,6 +80,7 @@
     "mean": "to say or show that something is definitely true or fixed",
     "hi": "पक्का करना",
     "ex": "Please confirm your seat by tonight, or the travel agent will give the Goa ticket to someone else.",
+    "ex2": "The hospital called to confirm Nani's cataract surgery for Monday morning at eight.",
     "with": [
       "confirm a booking",
       "confirm the news",
@@ -93,6 +98,7 @@
     "mean": "according to what you have heard, or what seems to be true",
     "hi": "सुना है, लगता है",
     "ex": "Apparently the new biryani place near Charminar has a two-hour wait on Friday nights.",
+    "ex2": "Apparently the panchayat has approved the new road, but nobody in the village has seen the official letter yet.",
     "with": [
       "apparently not",
       "apparently so",
@@ -110,6 +116,7 @@
     "mean": "having more than one possible meaning",
     "hi": "दोहरे मतलब वाला",
     "ex": "The sign 'No parking after 10' was ambiguous: nobody in the Chandigarh market knew if it meant morning or night.",
+    "ex2": "Ravi's WhatsApp reply 'ok fine' was so ambiguous that his wife could not tell if he was angry or agreeing.",
     "with": [
       "deliberately ambiguous",
       "ambiguous answer",
@@ -127,6 +134,7 @@
     "mean": "to make a careful guess about a number or amount",
     "hi": "अंदाज़ा लगाना",
     "ex": "The contractor could only estimate the cost of fixing the leaking roof after the first heavy rain in Kochi.",
+    "ex2": "The farmer could only estimate his wheat harvest until the crop was cut and weighed at the mandi.",
     "with": [
       "rough estimate",
       "estimate the cost",
@@ -144,6 +152,7 @@
     "mean": "to guess about something without having enough facts",
     "hi": "अटकलें लगाना",
     "ex": "Fans began to speculate about the captain's retirement when he skipped the post-match press conference.",
+    "ex2": "It is too early to speculate about the cause of the fire at the Surat textile market.",
     "with": [
       "speculate about",
       "widely speculate",
@@ -161,6 +170,7 @@
     "mean": "used to say you think something is probably true",
     "hi": "शायद",
     "ex": "The lights at the Kapoors' flat are off, so presumably they have left for the wedding in Jaipur.",
+    "ex2": "The results are already on the board's website, so presumably Tanvi knows her marks by now.",
     "with": [
       "presumably because",
       "presumably not",
@@ -178,6 +188,7 @@
     "mean": "not yet fixed or final; also done without full confidence",
     "hi": "कच्चा, तय नहीं",
     "ex": "The tentative date for Aditi's engagement is 14 February, but the pandit still has to check the muhurat.",
+    "ex2": "Our group made a tentative plan for a Coorg trip, depending on whether the monsoon eases by then.",
     "with": [
       "tentative plan",
       "tentative date",
@@ -195,6 +206,7 @@
     "mean": "to check that something is true or correct",
     "hi": "जाँचना",
     "ex": "Before forwarding the 'breaking news' to the family group, Salma decided to verify it on two news sites.",
+    "ex2": "The bank asked Mr Iyer to verify his new address with a recent electricity bill.",
     "with": [
       "verify the facts",
       "independently verify",
@@ -212,6 +224,7 @@
     "mean": "used to say a claim is reasonable, though some may disagree",
     "hi": "कहा जा सकता है",
     "ex": "Arguably, Sachin's 'Desert Storm' century in Sharjah was the finest one-day innings of the nineties.",
+    "ex2": "Kolkata's puchka is arguably the best street snack in India, though Mumbaikars will always defend their pani puri.",
     "with": [
       "arguably the best",
       "arguably the most",
@@ -229,6 +242,7 @@
     "mean": "in a way that is clear from what you can see",
     "hi": "ज़ाहिर है",
     "ex": "Evidently, the bride's family had not expected two hundred extra guests; the caterer ran out of jalebis by nine.",
+    "ex2": "Evidently the meeting had started early: by the time Neeraj logged in, everyone was already discussing the budget.",
     "with": [
       "evidently not",
       "quite evidently",
@@ -246,6 +260,7 @@
     "mean": "possibly; in a way you can imagine happening",
     "hi": "मुमकिन है",
     "ex": "If the Brahmaputra keeps rising, the ferry to Majuli could conceivably stop for a week.",
+    "ex2": "With two wickets left and forty runs needed, Kerala could conceivably still win the Ranji Trophy match.",
     "with": [
       "could conceivably",
       "might conceivably",
@@ -263,6 +278,7 @@
     "mean": "final and complete, accepted as the most reliable",
     "hi": "सबसे पक्का, प्रामाणिक",
     "ex": "Dida's old notebook is the definitive guide to making shorshe ilish in our family.",
+    "ex2": "Until the full report comes out, no one can give a definitive answer on what made the bridge collapse.",
     "with": [
       "definitive answer",
       "definitive guide",
@@ -280,6 +296,7 @@
     "mean": "proving something so clearly that no doubt is left",
     "hi": "पुख़्ता",
     "ex": "The blood test gave conclusive proof that Imran's fever was typhoid, not dengue.",
+    "ex2": "The CCTV footage from the ATM was not conclusive, because the thief had covered his face with a scarf.",
     "with": [
       "conclusive evidence",
       "conclusive proof",
@@ -297,6 +314,7 @@
     "mean": "doubting that something is true or will work",
     "hi": "शक करने वाला",
     "ex": "Many farmers in Vidarbha were sceptical of the new seed until they saw their neighbour's harvest.",
+    "ex2": "Ammi was sceptical of the TV advert that promised one cream would remove every wrinkle in a week.",
     "with": [
       "deeply sceptical",
       "sceptical of",
@@ -314,6 +332,7 @@
     "mean": "not giving a clear result or answer",
     "hi": "बेनतीजा",
     "ex": "Talks between the two housing societies over the shared park were inconclusive, so they will meet again on Sunday.",
+    "ex2": "The first round of tests was inconclusive, so the doctor at AIIMS asked Mohan to repeat them after a week.",
     "with": [
       "inconclusive results",
       "remain inconclusive",
@@ -331,6 +350,7 @@
     "mean": "completely clear, leaving no doubt at all",
     "hi": "दो-टूक",
     "ex": "The principal's message was unequivocal: no phones in the exam hall, not even switched off.",
+    "ex2": "The coach's support for the young spinner was unequivocal, even after he gave away twenty runs in his first over.",
     "with": [
       "unequivocal support",
       "unequivocal answer",
@@ -348,6 +368,7 @@
     "mean": "probably not true, honest or good; or feeling doubtful about something",
     "hi": "संदिग्ध",
     "ex": "The 'government job' offer that asked for fifty thousand rupees upfront looked dubious to Rahul's mother.",
+    "ex2": "Meera's excuse of 'urgent work' looked dubious when neighbours heard loud cricket commentary through her door during the society meeting.",
     "with": [
       "dubious claim",
       "highly dubious",
@@ -365,6 +386,7 @@
     "mean": "arranged for now, and likely to be changed or confirmed later",
     "hi": "अस्थायी",
     "ex": "Neha got provisional admission to the Delhi college, subject to her final marksheet arriving by August.",
+    "ex2": "The provisional voter list is pinned outside the panchayat office so people can point out mistakes before it is final.",
     "with": [
       "provisional admission",
       "provisional certificate",
@@ -382,6 +404,7 @@
     "mean": "as it seems or is claimed, though the real reason may be different",
     "hi": "कहने को",
     "ex": "Ostensibly Mamaji came to return the pressure cooker, but he really wanted to discuss a match for his son.",
+    "ex2": "Ostensibly the startup's founders went to Goa for a 'strategy offsite', but most of their photos were from the beach.",
     "with": [
       "ostensibly to",
       "ostensibly because",
@@ -399,6 +422,7 @@
     "mean": "unclear, often on purpose, so it can be read more than one way",
     "hi": "गोलमोल",
     "ex": "Asked whether fees would rise, the college trustee gave an equivocal reply about 'reviewing all options'.",
+    "ex2": "When her father asked if she would join the family business, Zoya gave an equivocal answer and quickly changed the subject.",
     "with": [
       "equivocal answer",
       "equivocal response",
@@ -416,6 +440,7 @@
     "mean": "at first look, before checking more deeply",
     "hi": "पहली नज़र में",
     "ex": "The magistrate said there was a prima facie case against the builder for using poor-quality cement.",
+    "ex2": "Prima facie, the cheaper flat in Thane looked like a good deal, until the broker mentioned the daily water shortage.",
     "with": [
       "prima facie case",
       "prima facie evidence",
@@ -423,5 +448,293 @@
     ],
     "instead": "at first sight",
     "note": "Legal Latin, very common in Indian court reports. Prima facie evidence can still be disproved later. No hyphen."
+  },
+  {
+    "w": "possible",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "POS-uh-bul",
+    "mean": "able to happen or be true, but not sure",
+    "hi": "मुमकिन",
+    "ex": "It is possible that the Rajdhani will be late because of the fog, so pack some extra food.",
+    "ex2": "Doctors said it was possible that Sunil's cough came from the dust at the building site next door.",
+    "with": [
+      "quite possible",
+      "if possible",
+      "as soon as possible"
+    ],
+    "instead": "might happen",
+    "note": "'Possible' = it may happen; 'probable' = it will most likely happen. Say 'more likely', not 'more possible'."
+  },
+  {
+    "w": "doubt",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "verb",
+    "say": "DOWT",
+    "mean": "to think something is probably not true or will not happen",
+    "hi": "शक करना",
+    "ex": "I doubt the plumber will come today; it's Holi and the whole street is shut.",
+    "ex2": "Coach Bhatia never let the girls doubt that they could beat the bigger school in the final.",
+    "with": [
+      "seriously doubt",
+      "no doubt",
+      "without a doubt"
+    ],
+    "instead": "don't think so",
+    "note": "Indian English says 'I have a doubt' for 'I have a question'; elsewhere 'doubt' means you think it is untrue. The b is silent."
+  },
+  {
+    "w": "definitely",
+    "room": "doubt",
+    "floor": 1,
+    "pos": "adverb",
+    "say": "DEF-uh-nit-lee",
+    "mean": "without any doubt; for sure",
+    "hi": "ज़रूर",
+    "ex": "Ma, I will definitely call you when the bus reaches Shimla.",
+    "ex2": "This is definitely the best dosa in Matunga; I have tried every stall on the street.",
+    "with": [
+      "definitely not",
+      "will definitely",
+      "most definitely"
+    ],
+    "instead": "for sure",
+    "note": "Spelt -ite-, not -ate-: 'definately' is one of the commonest spelling mistakes."
+  },
+  {
+    "w": "uncertain",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "un-SUR-tun",
+    "mean": "not sure, or not yet known",
+    "hi": "तय नहीं",
+    "ex": "With the cycle factory closing down, Bablu's future in Ludhiana looked uncertain.",
+    "ex2": "Sneha was uncertain whether to take science or commerce after Class 10, so she spoke to three teachers.",
+    "with": [
+      "uncertain future",
+      "remain uncertain",
+      "uncertain whether"
+    ],
+    "instead": "not sure",
+    "note": "'Unclear' is about facts nobody knows yet; 'uncertain' can also describe a person who cannot decide."
+  },
+  {
+    "w": "rumour",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "noun",
+    "say": "ROO-mur",
+    "mean": "a story people pass on that may not be true",
+    "hi": "अफ़वाह",
+    "ex": "A rumour spread on WhatsApp that schools would shut for a week, but the district office denied it.",
+    "ex2": "There is a rumour in the office that the whole Hyderabad team will move to the new building in March.",
+    "with": [
+      "spread a rumour",
+      "rumour has it",
+      "baseless rumour"
+    ],
+    "instead": "something people are saying",
+    "note": "British and Indian spelling is 'rumour'; American is 'rumor'. 'Rumour has it that...' is a common opening."
+  },
+  {
+    "w": "suspect",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "verb",
+    "say": "suh-SPEKT",
+    "mean": "to think something is probably true, without proof",
+    "hi": "शक होना",
+    "ex": "I suspect the milkman has been adding water; the tea has tasted thin all week.",
+    "ex2": "Doctors suspect the stomach bug came from the water tank at the hostel in Manipal.",
+    "with": [
+      "strongly suspect",
+      "suspect that",
+      "I suspect"
+    ],
+    "instead": "have a feeling",
+    "note": "Verb: suh-SPEKT. Noun, a person police think did a crime: SUS-pekt. 'I suspect' politely softens a guess."
+  },
+  {
+    "w": "hunch",
+    "room": "doubt",
+    "floor": 2,
+    "pos": "noun",
+    "say": "HUNCH",
+    "mean": "a feeling that something is true, without clear reasons",
+    "hi": "मन का अंदाज़ा",
+    "ex": "Ritu had a hunch her brother was planning a surprise party, because he kept hiding his phone.",
+    "ex2": "On a hunch, the old fisherman in Ratnagiri took his boat further south and came back with a full catch.",
+    "with": [
+      "have a hunch",
+      "follow a hunch",
+      "on a hunch"
+    ],
+    "instead": "just a feeling",
+    "note": "Informal. In a report, write 'I suspect' or 'my early guess is' instead."
+  },
+  {
+    "w": "allegedly",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adverb",
+    "say": "uh-LEJ-id-lee",
+    "mean": "said to be true, but not yet proved",
+    "hi": "कथित तौर पर",
+    "ex": "The chemist allegedly sold fake medicines, but the case is still in court.",
+    "ex2": "Our neighbour's dog allegedly ate the whole box of laddoos, though nobody actually saw it happen.",
+    "with": [
+      "allegedly involved",
+      "allegedly stolen",
+      "allegedly took"
+    ],
+    "instead": "people say that",
+    "note": "News reports use it to report a charge without calling someone guilty before a court decides."
+  },
+  {
+    "w": "far-fetched",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "far-FECHT",
+    "mean": "very hard to believe; unlikely to be true",
+    "hi": "दूर की कौड़ी",
+    "ex": "Mohan's excuse that a monkey ran off with his homework sounded far-fetched, even in Shimla.",
+    "ex2": "A metro line to our small town once seemed far-fetched, but the survey team arrived last month.",
+    "with": [
+      "sounds far-fetched",
+      "a far-fetched idea",
+      "not so far-fetched"
+    ],
+    "instead": "hard to believe",
+    "note": "Keep the hyphen. 'Not so far-fetched' is a useful way to say an odd idea may be right."
+  },
+  {
+    "w": "debatable",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "di-BAY-tuh-bul",
+    "mean": "not certain; people can fairly disagree about it",
+    "hi": "बहस का मुद्दा",
+    "ex": "Whether Kapil Dev or Dhoni was the better captain is debatable, and our hostel argued about it till 2 a.m.",
+    "ex2": "It is debatable whether the costly coaching classes helped Arpit more than his own self-study did.",
+    "with": [
+      "highly debatable",
+      "it is debatable whether",
+      "a debatable point"
+    ],
+    "instead": "open to argument",
+    "note": "Calling a claim debatable is a polite way to say you doubt it."
+  },
+  {
+    "w": "unverified",
+    "room": "doubt",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "un-VER-i-fyde",
+    "mean": "not yet checked or proved to be true",
+    "hi": "बिना जाँचा",
+    "ex": "The channel showed an unverified video of the flood, and later admitted it was from another state.",
+    "ex2": "Grandpa forwards every unverified health tip to the family group, like raw garlic curing diabetes.",
+    "with": [
+      "unverified claims",
+      "unverified reports",
+      "remain unverified"
+    ],
+    "instead": "not checked",
+    "note": "Not the same as false: an unverified story may be true, but nobody has checked it yet."
+  },
+  {
+    "w": "categorical",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "kat-uh-GOR-i-kul",
+    "mean": "very clear and firm, leaving no doubt at all",
+    "hi": "दो टूक",
+    "ex": "The hospital gave a categorical assurance that no patient would be turned away for lack of money.",
+    "ex2": "Ishaan gave a categorical denial about the broken window, though his cricket ball lay on the floor.",
+    "with": [
+      "categorical denial",
+      "categorical assurance",
+      "categorically deny"
+    ],
+    "instead": "very firm",
+    "note": "Often used as 'categorically': 'The company categorically denied the report.' Stronger than 'clearly'."
+  },
+  {
+    "w": "tenuous",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "TEN-yoo-us",
+    "mean": "very weak; hardly enough to convince anyone",
+    "hi": "बहुत कमज़ोर",
+    "ex": "The case against the young clerk was tenuous: one blurry photo and some office gossip.",
+    "ex2": "The link between the cricket captain's lucky socks and the team's wins is tenuous at best.",
+    "with": [
+      "tenuous link",
+      "tenuous connection",
+      "tenuous at best"
+    ],
+    "instead": "weak",
+    "note": "Used for links, claims and holds, as in 'a tenuous grip'. Not used for a physically weak person."
+  },
+  {
+    "w": "purported",
+    "room": "doubt",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "pur-POR-tid",
+    "mean": "claimed to be true or real, though it may not be",
+    "hi": "कथित",
+    "ex": "A purported letter from the university announcing a holiday turned out to be fake.",
+    "ex2": "The purported cure for baldness sold at the Sunday market in Pune was just coconut oil with perfume.",
+    "with": [
+      "purported video",
+      "purported letter",
+      "purportedly shows"
+    ],
+    "instead": "so-called",
+    "note": "News uses it for clips or papers not yet confirmed: 'a purported audio clip'. 'Alleged' is used more for crimes."
+  },
+  {
+    "w": "apocryphal",
+    "room": "doubt",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "uh-POK-ri-ful",
+    "mean": "(of a story) told by many people but probably not true",
+    "hi": "मनगढ़ंत",
+    "ex": "The family story that great-grandfather once chased off a tiger with a lathi is almost certainly apocryphal.",
+    "ex2": "Every hostel has an apocryphal legend, like the senior who topped his finals after sleeping through the paper.",
+    "with": [
+      "apocryphal story",
+      "probably apocryphal",
+      "an apocryphal tale"
+    ],
+    "instead": "made up but popular",
+    "note": "Use it for stories, quotes and anecdotes. Many 'quotes' from Gandhi or Einstein on WhatsApp are apocryphal."
+  },
+  {
+    "w": "veracity",
+    "room": "doubt",
+    "floor": 5,
+    "pos": "noun",
+    "say": "vuh-RAS-i-tee",
+    "mean": "how true or accurate something is",
+    "hi": "सच्चाई",
+    "ex": "Before printing the story, the editor asked a reporter in Patna to check the veracity of the leaked papers.",
+    "ex2": "The judge questioned the veracity of the witness, who had changed his story twice.",
+    "with": [
+      "check the veracity",
+      "doubt the veracity",
+      "veracity of the claim"
+    ],
+    "instead": "whether it is true",
+    "note": "Formal. Do not confuse it with 'voracity', which means a huge hunger."
   }
 ]

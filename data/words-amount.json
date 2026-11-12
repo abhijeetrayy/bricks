@@ -8,6 +8,7 @@
     "mean": "extremely big in size or amount",
     "hi": "बहुत बड़ा, भारी",
     "ex": "An enormous crowd gathered outside Wankhede Stadium to welcome the team home.",
+    "ex2": "Ravi's grandmother cooked an enormous pot of sambar, enough for the whole street during Pongal.",
     "with": ["an enormous amount", "enormous pressure", "an enormous crowd"],
     "instead": "very big",
     "note": "It already means 'very big', so never say 'very enormous'. The same goes for huge, immense and tiny."
@@ -21,6 +22,7 @@
     "mean": "extremely small",
     "hi": "नन्हा-सा, बहुत छोटा",
     "ex": "Five students share a tiny room in a Kota hostel, with one ceiling fan between them.",
+    "ex2": "Meera's tiny tea stall near Howrah station sells more than five hundred cups of chai every morning.",
     "with": ["a tiny room", "a tiny bit", "tiny details"],
     "instead": "very small",
     "note": "Don't say 'very tiny'. 'A tiny bit' is a friendly, informal way to say 'slightly'."
@@ -34,6 +36,7 @@
     "mean": "as much as you need, or more",
     "hi": "भरपूर, काफ़ी",
     "ex": "Don't worry about the extra guests; there is plenty of biryani for everyone.",
+    "ex2": "After a good monsoon, the farmers near Nashik have plenty of water for the winter crop.",
     "with": ["plenty of time", "plenty more", "plenty to do"],
     "instead": "a lot of",
     "note": "Use 'plenty of' + noun. Alone it works too: 'Take some, we have plenty.' Not 'plenty many' or 'plenty much'."
@@ -47,6 +50,7 @@
     "mean": "not happening or found very often",
     "hi": "कम ही मिलने वाला, दुर्लभ",
     "ex": "A clear, starry night sky over Mumbai is rare these days.",
+    "ex2": "A century by a number eleven batsman is so rare that the commentators could hardly believe it.",
     "with": ["a rare chance", "extremely rare", "a rare disease"],
     "instead": "not common",
     "note": "Rare means few exist or it seldom happens; scarce means less than we need. Tigers are rare; water in May is scarce."
@@ -60,6 +64,7 @@
     "mean": "usual or normal; neither high nor low",
     "hi": "औसत",
     "ex": "On an average weekday, the Delhi Metro carries lakhs of passengers.",
+    "ex2": "An average family in Lucknow spends a large share of its monthly budget on school fees.",
     "with": ["on average", "above average", "the average person"],
     "instead": "normal, usual",
     "note": "Also a maths noun: add up and divide. Calling someone's work 'average' is mild criticism: not bad, but not good."
@@ -73,6 +78,7 @@
     "mean": "large enough to be important or noticed",
     "hi": "काफ़ी, अच्छा-ख़ासा",
     "ex": "Building a house in Kochi costs a considerable amount, so Thomas took a home loan.",
+    "ex2": "Organising the neighbourhood Durga Puja takes considerable effort, so the youth club starts planning in June.",
     "with": ["a considerable amount", "considerable effort", "at considerable cost"],
     "instead": "quite a lot of",
     "note": "Don't confuse with 'considerate', which means thoughtful about others. Considerable = large; considerate = kind."
@@ -86,6 +92,7 @@
     "mean": "small and not very important",
     "hi": "हल्का, थोड़ा-सा",
     "ex": "There is a slight delay on the Western line, so the 8:10 Borivali local is running late.",
+    "ex2": "Dadi has a slight fever, so she will skip the wedding and rest at home today.",
     "with": ["a slight change", "a slight fever", "not the slightest idea"],
     "instead": "very small",
     "note": "'Not in the slightest' means not at all. The adverb 'slightly' is a neat upgrade from 'a little bit'."
@@ -99,6 +106,7 @@
     "mean": "not enough for what people need; hard to find",
     "hi": "कम, जिसकी किल्लत हो",
     "ex": "In May, water is so scarce in parts of Marathwada that tankers come only once a week.",
+    "ex2": "During the lockdown, masks and sanitiser were scarce in every chemist shop in Pune.",
     "with": ["scarce resources", "water is scarce", "jobs are scarce"],
     "instead": "not enough",
     "note": "Usually comes after the noun: 'Jobs are scarce.' Noun: scarcity. 'Scarcely' means 'hardly': 'I could scarcely breathe.'"
@@ -112,6 +120,7 @@
     "mean": "more than enough; present in large amounts",
     "hi": "भरपूर, प्रचुर",
     "ex": "Kerala's abundant rainfall keeps its backwaters and paddy fields green for most of the year.",
+    "ex2": "Mangoes are abundant in May, so prices at Crawford Market drop sharply every evening.",
     "with": ["abundant rainfall", "abundant evidence", "abundant supply"],
     "instead": "a lot of",
     "note": "Noun: abundance, as in 'mangoes in abundance'. Opposite: scarce."
@@ -125,6 +134,7 @@
     "mean": "more than is needed, sensible or fair",
     "hi": "ज़रूरत से ज़्यादा",
     "ex": "The DJ's excessive volume at the sangeet left the elderly guests covering their ears.",
+    "ex2": "Doctors warn that excessive screen time can hurt a child's sleep and eyesight.",
     "with": ["excessive force", "excessive use", "excessive heat"],
     "instead": "too much",
     "note": "Always a complaint, never praise. 'Too excessive' is wrong, because 'excessive' already means 'too much'."
@@ -138,6 +148,7 @@
     "mean": "not too much and not too little; medium",
     "hi": "मध्यम, ठीक-ठाक",
     "ex": "The weather office has forecast moderate rain in Bhopal, so carry an umbrella but don't cancel the trip.",
+    "ex2": "Mr Rao's doctor said moderate exercise, like a brisk evening walk, is enough to help his heart.",
     "with": ["moderate rain", "moderate exercise", "moderate success"],
     "instead": "medium",
     "note": "The verb is said MOD-uh-rayt and means control or chair: 'moderate a debate'. A 'moderate' person avoids extreme views."
@@ -151,6 +162,7 @@
     "mean": "enough for the need, but not more",
     "hi": "पर्याप्त, काफ़ी",
     "ex": "The panchayat promised adequate drinking water for every household before summer.",
+    "ex2": "The hostel warden checked that every room had adequate light and air before the new term began.",
     "with": ["adequate supply", "adequate time", "more than adequate"],
     "instead": "enough",
     "note": "It means 'just enough', so calling an essay 'adequate' is faint praise. The ending sounds like 'kwut', not 'kwait'."
@@ -164,6 +176,7 @@
     "mean": "large in amount, size or importance",
     "hi": "अच्छा-ख़ासा, बड़ा",
     "ex": "Priya got a substantial raise after leading her Bengaluru team through a tough product launch.",
+    "ex2": "Farmers in Punjab lost a substantial part of their wheat crop to the unseasonal hailstorm.",
     "with": ["a substantial amount", "substantial evidence", "a substantial increase"],
     "instead": "quite big",
     "note": "Also means solid and real: a 'substantial meal' fills you up. Different from 'substantive', which means dealing with the real issue."
@@ -177,6 +190,7 @@
     "mean": "so small that it does not matter",
     "hi": "न के बराबर",
     "ex": "The extra cost of the solar panels was negligible compared with what Gurpreet saved on electricity.",
+    "ex2": "The difference in price between the two phones was negligible, so Imran chose the one with the better camera.",
     "with": ["negligible risk", "a negligible amount", "negligible effect"],
     "instead": "very little",
     "note": "Don't confuse with 'negligent', which means careless, as in a negligent driver."
@@ -190,6 +204,7 @@
     "mean": "very small; also, at the edge rather than the centre",
     "hi": "मामूली",
     "ex": "Despite the new flyover, the improvement in traffic near Hebbal was only marginal.",
+    "ex2": "Onion prices saw only a marginal drop after the new crop reached the Lasalgaon market.",
     "with": ["a marginal increase", "marginal farmers", "a marginal difference"],
     "instead": "very small",
     "note": "In India, a 'marginal farmer' owns less than one hectare of land. 'Marginalised' means pushed to the edge of society."
@@ -203,6 +218,7 @@
     "mean": "sudden, severe and having a big effect",
     "hi": "सख़्त, भारी",
     "ex": "Facing heavy losses, the textile mill in Surat took drastic steps and shut two units overnight.",
+    "ex2": "After his heart scare, Mr Iyer made drastic changes to his diet: no sweets, no fried snacks, no late dinners.",
     "with": ["drastic measures", "a drastic change", "a drastic cut"],
     "instead": "very big and sudden",
     "note": "Used for actions and changes, not for amounts of things: 'a drastic cut in prices', not 'drastic money'."
@@ -216,6 +232,7 @@
     "mean": "thinly spread; only a few here and there",
     "hi": "छितरा हुआ, विरल",
     "ex": "Beyond Jaisalmer the vegetation is sparse: a few thorny bushes and miles of sand.",
+    "ex2": "Attendance at the 8 a.m. lecture was sparse; only twelve of sixty students turned up.",
     "with": ["sparse population", "sparse vegetation", "a sparse crowd"],
     "instead": "very few, spread out",
     "note": "It is about how things are spread, not only how many. A sparse crowd has gaps everywhere."
@@ -229,6 +246,7 @@
     "mean": "enough, or more than enough",
     "hi": "भरपूर, काफ़ी से ज़्यादा",
     "ex": "The exam starts at ten, so leave by eight and you'll have ample time even if the bus is late.",
+    "ex2": "The new flat in Pune has ample parking, so the family's two scooters and car fit easily.",
     "with": ["ample time", "ample evidence", "ample opportunity"],
     "instead": "more than enough",
     "note": "Goes before the noun: 'ample space', not 'space is very ample'. 'Amply clear' means more than clear enough."
@@ -242,6 +260,7 @@
     "mean": "extremely large or great",
     "hi": "बेहद, बहुत भारी",
     "ex": "Board exam season puts immense pressure on students, and on their parents too.",
+    "ex2": "Winning gold at the Asian Games brought immense joy to the wrestler's small village in Haryana.",
     "with": ["immense pressure", "immense pleasure", "immensely grateful"],
     "instead": "very big, huge",
     "note": "Fits feelings and forces you can't measure (immense joy, immense pressure); 'enormous' suits physical size better. Never 'very immense'."
@@ -255,6 +274,7 @@
     "mean": "growing faster and faster, as when something keeps doubling",
     "hi": "कई गुना तेज़ी से बढ़ता",
     "ex": "The forwarded video saw exponential growth: ten shares in a minute, a thousand in an hour, a million by night.",
+    "ex2": "UPI payments have seen exponential growth, reaching street vendors, auto drivers and even temple donation boxes.",
     "with": ["exponential growth", "an exponential rise", "grow exponentially"],
     "instead": "faster and faster",
     "note": "Often misused to mean just 'a lot' or 'fast'. Strictly, it means growth that keeps multiplying: 2, 4, 8, 16. Steady growth is not exponential."
@@ -268,6 +288,7 @@
     "mean": "too large or too small compared with something else",
     "hi": "हिसाब से ज़्यादा, बेमेल",
     "ex": "Grounding Arjun for a whole month over one late night felt like a disproportionate punishment.",
+    "ex2": "A fine of two thousand rupees for a torn forty-rupee library book seemed disproportionate to Kiran.",
     "with": ["a disproportionate share", "disproportionate punishment", "disproportionate assets"],
     "instead": "too much for the situation",
     "note": "In Indian news, a 'disproportionate assets case' means someone owns far more wealth than their known income can explain."
@@ -281,6 +302,7 @@
     "mean": "too small in amount; barely enough",
     "hi": "बहुत कम, मामूली",
     "ex": "On a meagre pension, Lakshmi Amma still manages to send money to her grandson in college.",
+    "ex2": "The farmer's meagre harvest this year barely covered the cost of seeds and fertiliser.",
     "with": ["a meagre income", "meagre savings", "meagre resources"],
     "instead": "very little",
     "note": "British and Indian spelling is 'meagre'; American is 'meager'. It suggests hardship: a meagre salary barely pays the rent."
@@ -294,6 +316,7 @@
     "mean": "very many, and of many different kinds",
     "hi": "अनगिनत, बेशुमार",
     "ex": "Old Delhi's lanes are full of myriad smells: frying jalebis, attar, diesel and wet earth.",
+    "ex2": "In their first year, the startup's founders juggled myriad problems: hiring, funding and an app that kept crashing.",
     "with": ["myriad ways", "myriad problems", "a myriad of"],
     "instead": "a lot of different",
     "note": "Both 'myriad problems' and 'a myriad of problems' are correct; the first is shorter and neater."
@@ -307,6 +330,7 @@
     "mean": "so small that it feels insulting",
     "hi": "नाम-मात्र का, मामूली-सा",
     "ex": "After a whole season of work, the farmers were offered a paltry two rupees a kilo for their tomatoes.",
+    "ex2": "After twelve years of service, the company gave Suresh a paltry farewell gift: a pen and a card.",
     "with": ["a paltry sum", "a paltry amount", "paltry wages"],
     "instead": "insultingly small",
     "note": "Carries anger: you are saying the amount is unfairly low. 'Meagre' sounds sad; 'paltry' sounds offended."
@@ -320,6 +344,7 @@
     "mean": "in very large amounts",
     "hi": "ढेर सारा, भरपूर",
     "ex": "Ananya took copious notes in every lecture, so the whole hostel borrowed them before exams.",
+    "ex2": "Rukhsana Aunty served copious helpings of sheer khurma on Eid, and nobody refused a second bowl.",
     "with": ["copious notes", "copious amounts", "copious tears"],
     "instead": "a lot of",
     "note": "Mostly for things that flow or pile up: notes, tears, rain, food. It sounds formal; in chat, 'loads of' works."
@@ -333,8 +358,233 @@
     "mean": "a small amount of something good, such as sense or respect",
     "hi": "थोड़ा-सा",
     "ex": "With a modicum of planning, the wedding caterers would not have run out of rotis by nine.",
+    "ex2": "Even a modicum of courtesy from the bank clerk would have made Mr Das's long wait easier.",
     "with": ["a modicum of sense", "a modicum of respect", "a modicum of truth"],
     "instead": "a little bit of",
     "note": "Nearly always 'a modicum of' + a good quality. Often used to complain: 'not even a modicum of courtesy'."
+  },
+  {
+    "w": "huge",
+    "room": "amount",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "HYOOJ",
+    "mean": "very large in size, amount or importance",
+    "hi": "बहुत बड़ा, विशाल",
+    "ex": "There was a huge queue outside the passport office in Ghaziabad by seven in the morning.",
+    "ex2": "Winning the inter-school quiz was a huge deal for the small government school in Dumka.",
+    "with": ["a huge amount", "a huge difference", "a huge success"],
+    "instead": "really big",
+    "note": "Huge already means very big, so say 'huge', not 'very huge'. In speech it is far more common than 'enormous'."
+  },
+  {
+    "w": "handful",
+    "room": "amount",
+    "floor": 1,
+    "pos": "noun",
+    "say": "HAND-fool",
+    "mean": "a small number of people or things",
+    "hi": "मुट्ठी भर",
+    "ex": "Only a handful of students stayed back for the extra class on Saturday afternoon.",
+    "ex2": "Despite the rain, a handful of loyal fans waited outside Eden Gardens for autographs.",
+    "with": ["a handful of people", "only a handful", "just a handful"],
+    "instead": "only a few",
+    "note": "Use 'a handful of' + plural noun. Informally it also means a hard-to-control child: 'Their son is a real handful.'"
+  },
+  {
+    "w": "limited",
+    "room": "amount",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "LIM-ih-tid",
+    "mean": "small in amount or number; not as much as you would like",
+    "hi": "सीमित, थोड़ा",
+    "ex": "Seats on the Diwali special train are limited, so book your ticket the day booking opens.",
+    "ex2": "With limited English, Raju's mother still managed to explain her symptoms to the doctor in Chennai.",
+    "with": ["limited time", "a limited budget", "limited seats"],
+    "instead": "not much",
+    "note": "It means there is a fixed, small amount. 'For a limited period' and 'limited stock' are common in shop ads."
+  },
+  {
+    "w": "countless",
+    "room": "amount",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "KOWNT-lis",
+    "mean": "too many to count",
+    "hi": "अनगिनत, बेशुमार",
+    "ex": "Countless pilgrims walk barefoot to Pandharpur every year for the Wari.",
+    "ex2": "Ishaan rewrote his college essay countless times before he finally pressed submit.",
+    "with": ["countless times", "countless people", "countless hours"],
+    "instead": "so many",
+    "note": "Use it with plural nouns: 'countless times'. For things you cannot count, like water, say 'a great deal of'."
+  },
+  {
+    "w": "sufficient",
+    "room": "amount",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "suh-FISH-unt",
+    "mean": "enough for a particular need",
+    "hi": "पर्याप्त, काफ़ी",
+    "ex": "The court gave the builder sufficient time to finish the flats, but work never started.",
+    "ex2": "Eight hours of sleep is sufficient for most teenagers, the school counsellor told the parents.",
+    "with": ["sufficient time", "sufficient evidence", "sufficient funds"],
+    "instead": "enough",
+    "note": "More formal than 'enough'; common in rules and letters. 'Insufficient funds' is the message you get when a payment fails."
+  },
+  {
+    "w": "minimal",
+    "room": "amount",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "MIN-ih-mul",
+    "mean": "very small; as little as possible",
+    "hi": "बहुत कम, न्यूनतम",
+    "ex": "The new hospital ward was built with minimal damage to the old neem trees in the compound.",
+    "ex2": "Asha packed minimal clothes for the Ladakh trip but carried plenty of sunscreen.",
+    "with": ["minimal cost", "minimal effort", "minimal risk"],
+    "instead": "very little",
+    "note": "'Minimal' means as little as possible; 'minimum' is the lowest limit allowed. Minimal damage, but minimum age 18."
+  },
+  {
+    "w": "shortage",
+    "room": "amount",
+    "floor": 2,
+    "pos": "noun",
+    "say": "SHOR-tij",
+    "mean": "a situation where there is not enough of something",
+    "hi": "कमी, किल्लत",
+    "ex": "A shortage of teachers means one teacher handles three classes at the village school near Bastar.",
+    "ex2": "Every summer, a shortage of tomatoes sends prices shooting up at Azadpur mandi.",
+    "with": ["a shortage of", "water shortage", "an acute shortage"],
+    "instead": "not enough",
+    "note": "Say 'a shortage of water', not 'shortage in water'. 'Acute shortage' is a very common news phrase."
+  },
+  {
+    "w": "surplus",
+    "room": "amount",
+    "floor": 3,
+    "pos": "noun",
+    "say": "SUR-plus",
+    "mean": "an extra amount, more than is needed",
+    "hi": "ज़रूरत से ज़्यादा",
+    "ex": "After a bumper harvest, Punjab had a surplus of wheat that the godowns could not store.",
+    "ex2": "The housing society used last year's surplus to repaint the building and fix the lift.",
+    "with": ["a surplus of", "a budget surplus", "a trade surplus"],
+    "instead": "extra amount",
+    "note": "The opposite is 'deficit'. It also works as an adjective: 'surplus food from the wedding went to a shelter'."
+  },
+  {
+    "w": "hefty",
+    "room": "amount",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "HEF-tee",
+    "mean": "large and heavy, or (of money) bigger than you would like",
+    "hi": "भारी-भरकम",
+    "ex": "Parking in the no-parking zone at Connaught Place earned Kunal a hefty fine.",
+    "ex2": "Two porters struggled to lift Nani's hefty steel trunk onto the train at Lucknow station.",
+    "with": ["a hefty fine", "a hefty price", "a hefty bill"],
+    "instead": "very heavy",
+    "note": "Slightly informal but very common in news for money: 'a hefty fine', 'a hefty salary hike'."
+  },
+  {
+    "w": "staggering",
+    "room": "amount",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "STAG-uh-ring",
+    "mean": "so large or surprising that it shocks you",
+    "hi": "हैरान कर देने वाला",
+    "ex": "The wedding cost a staggering forty lakh rupees, and the family is still paying off the loan.",
+    "ex2": "Mumbai's dabbawalas deliver a staggering two lakh lunch boxes a day with almost no mistakes.",
+    "with": ["a staggering amount", "a staggering number", "staggering cost"],
+    "instead": "shockingly big",
+    "note": "Used for numbers and amounts that amaze you. It comes from 'stagger', to walk unsteadily, as if the news knocked you sideways."
+  },
+  {
+    "w": "bulk",
+    "room": "amount",
+    "floor": 3,
+    "pos": "noun",
+    "say": "BULK",
+    "mean": "the main or largest part of something",
+    "hi": "ज़्यादातर हिस्सा",
+    "ex": "The bulk of the household budget goes on rent and the children's school fees.",
+    "ex2": "The opener scored the bulk of the team's runs while the middle order collapsed in Chennai.",
+    "with": ["the bulk of", "buy in bulk", "bulk orders"],
+    "instead": "most of",
+    "note": "'The bulk of' means most of. 'Buy in bulk' means buy a large amount at once, often cheaper, like a year's rice."
+  },
+  {
+    "w": "dearth",
+    "room": "amount",
+    "floor": 4,
+    "pos": "noun",
+    "say": "DURTH",
+    "mean": "a lack of something; far too little of it",
+    "hi": "कमी, अभाव",
+    "ex": "The district hospital faces a dearth of specialists, so patients travel four hours to Ranchi.",
+    "ex2": "There is no dearth of opinions on the family WhatsApp group, only a dearth of facts.",
+    "with": ["a dearth of", "no dearth of", "a dearth of talent"],
+    "instead": "lack of",
+    "note": "Indian newspapers love 'there is no dearth of...', meaning there is plenty. It rhymes with 'earth'."
+  },
+  {
+    "w": "inordinate",
+    "room": "amount",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "in-OR-dih-nut",
+    "mean": "much more than is normal or reasonable",
+    "hi": "हद से ज़्यादा",
+    "ex": "The judge criticised the inordinate delay in a land case that had dragged on for twenty years.",
+    "ex2": "Simran spends an inordinate amount of time choosing a filter before posting any photo.",
+    "with": ["inordinate delay", "an inordinate amount", "inordinate time"],
+    "instead": "way too much",
+    "note": "Very common in Indian court reports: 'inordinate delay'. Stronger and more formal than 'too much'."
+  },
+  {
+    "w": "nominal",
+    "room": "amount",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "NOM-ih-nul",
+    "mean": "very small in amount, especially money; far less than the real value",
+    "hi": "नाममात्र का",
+    "ex": "The library charges a nominal fee of ten rupees a month, so even daily-wage workers can join.",
+    "ex2": "On the last day of the Kolkata Book Fair, volunteers sold the leftover books at a nominal price.",
+    "with": ["a nominal fee", "a nominal charge", "a nominal amount"],
+    "instead": "very small",
+    "note": "It also means 'in name only': a nominal head has little real power. Hindi 'नाममात्र' carries both senses."
+  },
+  {
+    "w": "smattering",
+    "room": "amount",
+    "floor": 5,
+    "pos": "noun",
+    "say": "SMAT-uh-ring",
+    "mean": "a small amount, especially a little knowledge of a language",
+    "hi": "थोड़ी-बहुत जानकारी",
+    "ex": "After a year in Chennai, Neha picked up a smattering of Tamil, enough to bargain at the market.",
+    "ex2": "Only a smattering of spectators turned up for the Ranji Trophy match on a rainy Monday.",
+    "with": ["a smattering of", "a smattering of Tamil", "a smattering of people"],
+    "instead": "a little bit of",
+    "note": "Most often used for languages: 'a smattering of French'. It sounds light and modest, never insulting."
+  },
+  {
+    "w": "glut",
+    "room": "amount",
+    "floor": 5,
+    "pos": "noun",
+    "say": "GLUT",
+    "mean": "far more of something than people need or will buy",
+    "hi": "भरमार",
+    "ex": "A glut of onions in the Nashik mandis pushed prices so low that farmers dumped their crop on the road.",
+    "ex2": "A glut of engineering graduates means even good students struggle to find their first job.",
+    "with": ["a glut of", "a market glut", "an oil glut"],
+    "instead": "too much supply",
+    "note": "A business and news word. A surplus is a neutral extra; a glut is a harmful excess that makes prices crash."
   }
 ]

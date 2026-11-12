@@ -14,6 +14,8 @@ for (const r of ROOMS) {
     if (!(x.floor >= 1 && x.floor <= 5)) fail(r, x.w, 'floor', x.floor);
     if (!Array.isArray(x.with) || x.with.length < 2) fail(r, x.w, 'needs 2+ partners');
     if (!wre(x.w).test(x.ex)) fail(r, x.w, 'example lacks the word');
+    if (x.ex2 !== undefined && !wre(x.w).test(x.ex2)) fail(r, x.w, 'ex2 lacks the word');
+    if (x.ex2 && x.ex2 === x.ex) fail(r, x.w, 'ex2 repeats ex');
     if (x.instead && wre(x.w).test(x.instead)) fail(r, x.w, 'instead contains the word');
     if (!/[ऀ-ॿ]/.test(x.hi)) fail(r, x.w, 'hi is not Devanagari');
     if ((x.say.match(/[A-Z]{2,}/g) || []).length > 1) fail(r, x.w, 'more than one stress', x.say);
@@ -39,10 +41,12 @@ const U = read('upgrades.json');
 for (const [i, u] of U.entries()) for (const p of u.parts) if (typeof p !== 'string') {
   if (!p.options.includes(p.pick) || p.options.length !== 3 || new Set(p.options).size !== 3) fail('upgrade', i, 'options', p.pick);
   if (!seen.has(p.pick.toLowerCase())) fail('upgrade', i, 'pick is not a headword', p.pick); }
+const ups = new Set(); for (const [i, u] of U.entries()) { const k = u.parts.map((p) => (typeof p === 'string' ? p : p.pick)).join(''); if (ups.has(k)) fail('upgrade', i, 'duplicate sentence'); ups.add(k); }
 const PA = read('partners.json');
 for (const p of PA) { if ((p.s.match(/_{2,}/g) || []).length !== 1) fail('partner', p.s, 'blank'); if (p.wrong.includes(p.a) || p.wrong.length < 1) fail('partner', p.s, 'options'); }
 const T = read('talk.json'); for (const t of T) for (const r of t.rooms) if (!ROOMS.includes(r)) fail('talk', t.t, 'room', r);
 const I = read('indian.json'); const SA = read('say.json');
-console.log(`${n} words · floors ${floors.slice(1).join('/')} · ${P.length} situations (${allP.size} phrases) · ${U.length} upgrades · ${PA.length} partners · ${T.length} talk prompts · ${L.length} ladders · ${R.length} roots · ${M.length} mix-ups · ${I.length} Indian notes · ${SA.length} say-it-right`);
+const nEx2 = ROOMS.reduce((t, r) => t + read(`words-${r}.json`).filter((x) => x.ex2).length, 0);
+console.log(`${n} words (${nEx2} with a second sentence) · floors ${floors.slice(1).join('/')} · ${P.length} situations (${allP.size} phrases) · ${U.length} upgrades · ${PA.length} partners · ${T.length} talk prompts · ${L.length} ladders · ${R.length} roots · ${M.length} mix-ups · ${I.length} Indian notes · ${SA.length} say-it-right`);
 console.log(bad ? `${bad} problem(s)` : 'All checks pass.');
 process.exit(bad ? 1 : 0);

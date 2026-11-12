@@ -8,6 +8,7 @@
     "mean": "to move a planned event to a later time",
     "hi": "टालना, आगे खिसकाना",
     "ex": "Ma'am, could we postpone tomorrow's review to Friday? The client's data hasn't reached us yet.",
+    "ex2": "Because of the heavy rain in Chennai, the school has decided to postpone its annual sports day.",
     "with": [
       "postpone a meeting",
       "postpone until",
@@ -25,6 +26,7 @@
     "mean": "to fix a new time for something that was already planned",
     "hi": "नया समय तय करना",
     "ex": "The dentist's clinic called to reschedule my Tuesday appointment because the doctor is away at a wedding.",
+    "ex2": "The airline offered to reschedule our flight to Srinagar at no extra charge because of the snowfall.",
     "with": [
       "reschedule a meeting",
       "reschedule for",
@@ -42,6 +44,7 @@
     "mean": "easy for you, because it suits your time or plans",
     "hi": "सुविधाजनक, मुनासिब",
     "ex": "Uncle, please let me know a convenient time to come and collect the house papers.",
+    "ex2": "The new metro station is so convenient that Meera now reaches her Noida office in twenty minutes.",
     "with": [
       "a convenient time",
       "at your convenience",
@@ -59,6 +62,7 @@
     "mean": "to be thankful for something, or to understand its value",
     "hi": "क़द्र करना, आभारी होना",
     "ex": "I would appreciate it if you could send the rent receipt by the fifth, as my office needs it for HRA.",
+    "ex2": "We really appreciate the hostel cooks staying back to serve hot dinner after the late match.",
     "with": [
       "really appreciate",
       "I'd appreciate it if",
@@ -76,6 +80,7 @@
     "mean": "free to meet or talk; or ready to be used or bought",
     "hi": "उपलब्ध, ख़ाली",
     "ex": "Are you available for a quick call after lunch? I need ten minutes to go over the invoice.",
+    "ex2": "Bhaiya, is this blue kurta available in a medium, or only in large?",
     "with": [
       "available for",
       "readily available",
@@ -93,6 +98,7 @@
     "mean": "trouble or difficulty that disturbs your comfort or plans",
     "hi": "असुविधा, परेशानी",
     "ex": "The society notice read: 'We regret the inconvenience caused by Sunday's water cut in Block C.'",
+    "ex2": "Indian Railways apologised for the inconvenience after the Rajdhani reached Howrah six hours late.",
     "with": [
       "sorry for the inconvenience",
       "cause inconvenience",
@@ -110,6 +116,7 @@
     "mean": "to ask for something politely or formally",
     "hi": "गुज़ारिश करना",
     "ex": "I would like to request two days' leave next week for my sister's engagement in Patna.",
+    "ex2": "The bride's family made a polite request that guests avoid plastic gift-wrap at the wedding.",
     "with": [
       "request a refund",
       "a request for",
@@ -127,6 +134,7 @@
     "mean": "to check again later on something you asked or discussed earlier",
     "hi": "दोबारा पूछना",
     "ex": "If the bank doesn't reply by Thursday, I'll follow up with the branch manager in person.",
+    "ex2": "The doctor asked Babuji to follow up in two weeks so she could check his sugar levels again.",
     "with": [
       "follow up on",
       "follow up with",
@@ -144,6 +152,7 @@
     "mean": "arriving or doing things at the agreed time, not late",
     "hi": "समय का पाबंद",
     "ex": "Mr D'Souza is so punctual that the whole staff room could set its clocks by his 8:55 arrival.",
+    "ex2": "Our milkman is punctual: the doorbell rings at 6:10 every morning, rain or shine.",
     "with": [
       "always punctual",
       "punctual payment",
@@ -161,6 +170,7 @@
     "mean": "thinking about other people's feelings and needs",
     "hi": "दूसरों का ख़याल रखने वाला",
     "ex": "It was considerate of our neighbour to warn us before the drilling started for his new kitchen.",
+    "ex2": "It's considerate to lower your phone's volume in a crowded Delhi metro coach.",
     "with": [
       "considerate of",
       "kind and considerate",
@@ -178,6 +188,7 @@
     "mean": "to pause before acting because you feel unsure or shy",
     "hi": "झिझकना",
     "ex": "Please don't hesitate to call me if the plumber doesn't turn up on Saturday.",
+    "ex2": "At the interview, Nisha did not hesitate when asked why she wanted to leave her old job.",
     "with": [
       "don't hesitate to",
       "hesitate before",
@@ -195,6 +206,7 @@
     "mean": "done quickly, without delay",
     "hi": "तुरंत, फ़ौरन",
     "ex": "Thank you for your prompt reply; the courier reached our Guwahati office the very next day.",
+    "ex2": "The ambulance's prompt arrival after the crash on the Pune expressway saved the driver's life.",
     "with": [
       "a prompt reply",
       "prompt action",
@@ -212,6 +224,7 @@
     "mean": "polite and respectful in the way you speak and behave",
     "hi": "शिष्ट, विनम्र",
     "ex": "Even when the customer shouted about the late delivery, the call-centre agent in Noida stayed courteous.",
+    "ex2": "The courteous ticket checker on the Shatabdi helped an elderly couple find their seats and lift their bags.",
     "with": [
       "courteous staff",
       "a courteous reply",
@@ -229,6 +242,7 @@
     "mean": "careful not to share private things or cause embarrassment",
     "hi": "राज़ रखने वाला, सावधान",
     "ex": "Please be discreet about Mohan's surgery; he hasn't told the rest of the team yet.",
+    "ex2": "The jeweller in Jaipur was discreet and never told anyone how much the family spent on the necklace.",
     "with": [
       "be discreet",
       "a discreet word",
@@ -246,6 +260,7 @@
     "mean": "not wanting to do something, so slow or unwilling to do it",
     "hi": "अनमना, अनिच्छुक",
     "ex": "The landlord was reluctant to return the full deposit, but agreed after seeing photos of the clean flat.",
+    "ex2": "Six-year-old Aryan was reluctant to share his new cricket bat with his younger cousin.",
     "with": [
       "reluctant to",
       "a reluctant agreement",
@@ -263,6 +278,7 @@
     "mean": "friendly and generous towards guests and visitors",
     "hi": "मेहमाननवाज़",
     "ex": "Our hosts in Amritsar were so hospitable that we couldn't leave without a second round of parathas.",
+    "ex2": "The homestay family in Coorg was hospitable, serving us fresh coffee and akki roti every morning.",
     "with": [
       "warm and hospitable",
       "hospitable to",
@@ -280,6 +296,7 @@
     "mean": "kind, polite and generous, even when you don't have to be",
     "hi": "शालीन, मेहरबान",
     "ex": "Even after losing the final, the Kerala captain was gracious and praised the winners' bowling.",
+    "ex2": "Our gracious host in Lucknow insisted we take the last kebab, though she hadn't eaten yet herself.",
     "with": [
       "a gracious host",
       "gracious in defeat",
@@ -297,6 +314,7 @@
     "mean": "careful to spend little and waste nothing",
     "hi": "किफ़ायती",
     "ex": "My frugal grandmother reuses every gift-wrapper and still carries the steel tiffin she bought in 1975.",
+    "ex2": "As a first-year student in Delhi, Kabir lived a frugal life of Maggi, metro rides and library books.",
     "with": [
       "a frugal lifestyle",
       "a frugal meal",
@@ -314,6 +332,7 @@
     "mean": "to keep delaying something you should do now",
     "hi": "टालमटोल करना",
     "ex": "I procrastinate on my income tax return every year until the last week of July, then panic.",
+    "ex2": "Students who procrastinate until the week before the board exams end up memorising instead of understanding.",
     "with": [
       "stop procrastinating",
       "a tendency to procrastinate",
@@ -331,6 +350,7 @@
     "mean": "willing to accept or agree to a suggestion",
     "hi": "राज़ी",
     "ex": "If the landlord is amenable, we would like to paint the bedroom ourselves and deduct the cost from the rent.",
+    "ex2": "The coach was amenable to shifting practice to the evening during Ramzan, so the fasting players could join.",
     "with": [
       "amenable to",
       "amenable to change",
@@ -348,6 +368,7 @@
     "mean": "friendly and polite, but in a slightly formal way",
     "hi": "दोस्ताना, सौहार्दपूर्ण",
     "ex": "The two families had a cordial meeting over chai and samosas before discussing the wedding dates.",
+    "ex2": "Even after the boundary-wall dispute, the two neighbours stay cordial and greet each other every morning.",
     "with": [
       "cordial relations",
       "a cordial meeting",
@@ -365,6 +386,7 @@
     "mean": "to give or do something in return for what you received",
     "hi": "बदले में लौटाना",
     "ex": "The Rahmans invited us for Eid lunch, so we'd like to reciprocate by hosting them for Onam sadya.",
+    "ex2": "If a colleague covers your shift during Pongal, reciprocate by covering theirs at Christmas.",
     "with": [
       "reciprocate the gesture",
       "reciprocate kindness",
@@ -382,6 +404,7 @@
     "mean": "entering someone's private life or space in an unwelcome way",
     "hi": "दख़लअंदाज़",
     "ex": "Relatives asking 'When is the good news coming?' at every function can feel intrusive to newly married couples.",
+    "ex2": "The calculator app asked for access to my contacts and photos, which felt intrusive for such a simple tool.",
     "with": [
       "intrusive questions",
       "an intrusive neighbour",
@@ -399,6 +422,7 @@
     "mean": "to make room for someone, or adjust to meet their needs",
     "hi": "जगह देना, ध्यान रखना",
     "ex": "The hotel can accommodate your request for a ground-floor room, since your mother uses a wheelchair.",
+    "ex2": "The small Kolkata flat could accommodate only four guests, so the cousins slept at Mashi's place.",
     "with": [
       "accommodate a request",
       "accommodate guests",
@@ -416,6 +440,7 @@
     "mean": "an embarrassing social mistake, like saying the wrong thing",
     "hi": "शर्मनाक चूक",
     "ex": "Asking my aunt her age at the kitty party was a faux pas I will never repeat.",
+    "ex2": "Wearing shoes into the gurdwara was a faux pas the tourist quickly fixed when a sevadar gently pointed it out.",
     "with": [
       "commit a faux pas",
       "a social faux pas",
@@ -433,6 +458,7 @@
     "mean": "perfect, with no mistakes or faults at all",
     "hi": "बेदाग़, बेमिसाल",
     "ex": "The wedding planner's arrangements in Udaipur were impeccable, right down to the name cards on every table.",
+    "ex2": "Ramesh's English is impeccable, but at the Kochi fish market he switches to Malayalam to bargain.",
     "with": [
       "impeccable manners",
       "impeccable timing",
@@ -440,5 +466,293 @@
     ],
     "instead": "perfect",
     "note": "Usually for manners, timing, taste, service or a record. Stronger than 'very good': it means nothing at all can be faulted."
+  },
+  {
+    "w": "remind",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "verb",
+    "say": "ri-MYND",
+    "mean": "to help someone remember something they need to do",
+    "hi": "याद दिलाना",
+    "ex": "Can you remind me to pay the electricity bill before the fifteenth?",
+    "ex2": "Pooja set an alarm on Dadaji's phone to remind him about his evening tablets.",
+    "with": [
+      "remind me to",
+      "remind someone about",
+      "a gentle reminder"
+    ],
+    "instead": "tell again",
+    "note": "Say 'remind me about the meeting' or 'remind me to call', not 'remind me the meeting'."
+  },
+  {
+    "w": "apologise",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "verb",
+    "say": "uh-POL-uh-jyze",
+    "mean": "to say you are sorry for something you did wrong",
+    "hi": "माफ़ी माँगना",
+    "ex": "Rahul called the client to apologise for the late shipment and offered free delivery next time.",
+    "ex2": "Siddharth's mother made him apologise to the neighbour for breaking the window with his cricket ball.",
+    "with": [
+      "apologise for",
+      "apologise to",
+      "sincerely apologise"
+    ],
+    "instead": "say sorry",
+    "note": "Apologise TO a person FOR a mistake. 'Please accept my apologies' is formal; 'sorry' is everyday."
+  },
+  {
+    "w": "arrange",
+    "room": "everyday",
+    "floor": 1,
+    "pos": "verb",
+    "say": "uh-RAYNJ",
+    "mean": "to plan and prepare something so that it happens",
+    "hi": "इंतज़ाम करना",
+    "ex": "Could you arrange a cab to the airport for our guests from Kolkata?",
+    "ex2": "Meenu's aunt helped arrange the flowers and diyas on the stage for the school's annual day.",
+    "with": [
+      "arrange a meeting",
+      "arrange for",
+      "neatly arranged"
+    ],
+    "instead": "fix up",
+    "note": "Arrange FOR someone to do something: 'I'll arrange for a driver to pick you up.'"
+  },
+  {
+    "w": "refrain",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ri-FRAYN",
+    "mean": "to stop yourself from doing something",
+    "hi": "परहेज़ करना",
+    "ex": "Guests are requested to refrain from smoking anywhere inside the hotel, including the balconies.",
+    "ex2": "Nikita tried hard to refrain from checking her phone during the family dinner.",
+    "with": [
+      "refrain from",
+      "kindly refrain",
+      "refrain from comment"
+    ],
+    "instead": "avoid",
+    "note": "Always 'refrain FROM + -ing': 'refrain from talking'. As a noun, a refrain is the repeated line of a song."
+  },
+  {
+    "w": "cooperate",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "verb",
+    "say": "koh-OP-uh-rayt",
+    "mean": "to work together, or help willingly when asked",
+    "hi": "सहयोग करना",
+    "ex": "Passengers are requested to cooperate with security staff during baggage checks at the airport.",
+    "ex2": "If all the flats cooperate and separate their waste, the society can set up its own compost pit.",
+    "with": [
+      "cooperate with",
+      "fully cooperate",
+      "refuse to cooperate"
+    ],
+    "instead": "help out",
+    "note": "Cooperate = willingly go along and help; collaborate = actively build something together."
+  },
+  {
+    "w": "reimburse",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "verb",
+    "say": "ree-im-BURS",
+    "mean": "to pay back money someone spent for you or for work",
+    "hi": "पैसे लौटाना",
+    "ex": "The company will reimburse your auto fares for client visits if you submit the receipts by Friday.",
+    "ex2": "After months of calls, the insurance firm agreed to reimburse Mr Gill for his knee surgery in Ludhiana.",
+    "with": [
+      "reimburse the cost",
+      "fully reimbursed",
+      "reimburse expenses"
+    ],
+    "instead": "pay back",
+    "note": "You reimburse a PERSON or reimburse the COST. 'Reimburse back' repeats itself; the 're' already means back."
+  },
+  {
+    "w": "enquire",
+    "room": "everyday",
+    "floor": 2,
+    "pos": "verb",
+    "say": "in-KWYRE",
+    "mean": "to ask for information about something",
+    "hi": "पूछताछ करना",
+    "ex": "I am writing to enquire about the fees for your weekend Kannada classes.",
+    "ex2": "At the station, Farida went to the counter to enquire whether the Howrah Mail was running late.",
+    "with": [
+      "enquire about",
+      "enquire after",
+      "enquire whether"
+    ],
+    "instead": "ask about",
+    "note": "'Enquire after someone' means ask how they are. 'Inquire' is often used for official investigations."
+  },
+  {
+    "w": "obliging",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "uh-BLY-jing",
+    "mean": "happy to help others, even when it means extra trouble",
+    "hi": "मददगार",
+    "ex": "The obliging shopkeeper let us charge our phones while we waited out the downpour.",
+    "ex2": "Our obliging neighbour in Chandigarh waters our plants every time we go out of town.",
+    "with": [
+      "very obliging",
+      "an obliging nature",
+      "an obliging host"
+    ],
+    "instead": "happy to help",
+    "note": "'Much obliged' is an old-fashioned thank-you; 'obliging' describes the helpful person."
+  },
+  {
+    "w": "diplomatic",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "dip-luh-MAT-ik",
+    "mean": "careful to handle people without upsetting or offending them",
+    "hi": "सलीक़े से बात करने वाला",
+    "ex": "When asked whose biryani was better, Dadi gave a diplomatic answer and praised both her daughters-in-law.",
+    "ex2": "In her email, Maya was diplomatic: she called the client's design 'bold' instead of 'messy'.",
+    "with": [
+      "a diplomatic answer",
+      "be diplomatic",
+      "diplomatic about"
+    ],
+    "instead": "careful with words",
+    "note": "Close to 'tactful'. It also means relating to embassies, as in a 'diplomatic passport'."
+  },
+  {
+    "w": "grievance",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "noun",
+    "say": "GREE-vuns",
+    "mean": "a complaint about something you feel is unfair",
+    "hi": "शिकायत",
+    "ex": "Residents can raise any grievance about the water supply at the ward office every Monday.",
+    "ex2": "Before meeting HR, Lata wrote down her grievance about unpaid overtime so she would not forget anything.",
+    "with": [
+      "raise a grievance",
+      "a grievance cell",
+      "air a grievance"
+    ],
+    "instead": "complaint",
+    "note": "Indian offices and colleges often have a 'grievance cell' or 'grievance redressal' system for formal complaints."
+  },
+  {
+    "w": "inadvertently",
+    "room": "everyday",
+    "floor": 3,
+    "pos": "adverb",
+    "say": "in-ud-VUR-tunt-lee",
+    "mean": "by mistake, without meaning to",
+    "hi": "अनजाने में",
+    "ex": "I inadvertently hit 'Reply All' and sent my leave request to the entire Bengaluru office.",
+    "ex2": "The bride's uncle inadvertently locked the car keys inside, delaying the baraat by half an hour.",
+    "with": [
+      "inadvertently deleted",
+      "inadvertently left out",
+      "inadvertently caused"
+    ],
+    "instead": "by mistake",
+    "note": "Useful in polite apologies: 'I inadvertently left your name off the list' sounds better than 'I forgot'."
+  },
+  {
+    "w": "expedite",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "verb",
+    "say": "EK-spuh-dyte",
+    "mean": "to make a process happen faster",
+    "hi": "जल्दी करवाना",
+    "ex": "Could you please expedite my refund? It has been three weeks since I returned the phone.",
+    "ex2": "The hospital helped expedite the visa papers so the patient's family could fly in from Dhaka.",
+    "with": [
+      "expedite the process",
+      "expedite delivery",
+      "expedite a request"
+    ],
+    "instead": "speed up",
+    "note": "Formal and common in office emails. Soften it with 'could you please', since you are asking someone to hurry."
+  },
+  {
+    "w": "commendable",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "kuh-MEN-duh-bul",
+    "mean": "deserving praise",
+    "hi": "तारीफ़ के क़ाबिल",
+    "ex": "Anita's effort to run a free tuition class in her village while doing her MSc is truly commendable.",
+    "ex2": "The ground staff did a commendable job, drying the Eden Gardens outfield in time for the evening match.",
+    "with": [
+      "a commendable effort",
+      "highly commendable",
+      "a commendable job"
+    ],
+    "instead": "very good",
+    "note": "Formal and warm; ideal for reviews, speeches and thank-you notes. A notch below 'outstanding'."
+  },
+  {
+    "w": "unobtrusive",
+    "room": "everyday",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "un-ub-TROO-siv",
+    "mean": "quiet and not drawing attention, so it does not disturb anyone",
+    "hi": "बिना ध्यान खींचे",
+    "ex": "The waiters at the reception were unobtrusive, refilling glasses without interrupting a single conversation.",
+    "ex2": "The new CCTV cameras in the library are small and unobtrusive, tucked above the bookshelves.",
+    "with": [
+      "unobtrusive service",
+      "quiet and unobtrusive",
+      "an unobtrusive design"
+    ],
+    "instead": "not in the way",
+    "note": "The opposite of 'intrusive'. A compliment for service, design and good house guests."
+  },
+  {
+    "w": "bonhomie",
+    "room": "everyday",
+    "floor": 5,
+    "pos": "noun",
+    "say": "BON-uh-mee",
+    "mean": "a cheerful, friendly feeling among people",
+    "hi": "दोस्ताना माहौल",
+    "ex": "The bonhomie at the office Holi party made even the strict finance head laugh.",
+    "ex2": "There was easy bonhomie between the two captains at the toss, despite the fierce rivalry.",
+    "with": [
+      "easy bonhomie",
+      "a sense of bonhomie",
+      "festive bonhomie"
+    ],
+    "instead": "friendly mood",
+    "note": "French for 'good-natured'. Indian newspapers love it for photo-ops. Say BON-uh-mee, not 'bon-HO-mee'."
+  },
+  {
+    "w": "punctilious",
+    "room": "everyday",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "pungk-TIL-ee-us",
+    "mean": "very careful to follow rules, manners and small details correctly",
+    "hi": "हर बात में पाबंद",
+    "ex": "Our punctilious landlord notes every nail hole in the walls before returning the deposit.",
+    "ex2": "The punctilious host at the Lucknow dinner made sure every guest was served before he took a bite.",
+    "with": [
+      "punctilious about",
+      "punctilious attention",
+      "punctilious manners"
+    ],
+    "instead": "very proper",
+    "note": "Not the same as 'punctual' (on time). Punctilious is about details and correct behaviour."
   }
 ]

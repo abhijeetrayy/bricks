@@ -8,6 +8,7 @@
     "mean": "the last time or date by which a job must be finished",
     "hi": "आख़िरी तारीख़",
     "ex": "The GST filing deadline is the 20th, so Meenakshi's accounts team in Chennai is working through the weekend.",
+    "ex2": "The college fee deadline was Friday, so Baba stood in the bank queue in Bhopal from nine in the morning.",
     "with": [
       "meet a deadline",
       "miss the deadline",
@@ -25,6 +26,7 @@
     "mean": "the thing that matters most and must be dealt with first",
     "hi": "प्राथमिकता",
     "ex": "With the monsoon two weeks away, the panchayat's first priority is clearing the village drains.",
+    "ex2": "For Anjali, a mother of two in Thane, a full night's sleep has quietly become a bigger priority than weekend parties.",
     "with": [
       "top priority",
       "set priorities",
@@ -42,6 +44,7 @@
     "mean": "having the duty to deal with something, and the blame if it fails",
     "hi": "ज़िम्मेदार",
     "ex": "Arjun is responsible for vendor payments, so ask him why the wedding caterer still hasn't been paid.",
+    "ex2": "At the Ranji match, the twelfth man was responsible for carrying drinks and spare gloves out to the batters.",
     "with": [
       "responsible for",
       "hold someone responsible",
@@ -59,6 +62,7 @@
     "mean": "comments on someone's work about what is good and what to improve",
     "hi": "राय और सुझाव",
     "ex": "After her first client demo at the Pune office, Sneha asked her manager for honest feedback on the slides.",
+    "ex2": "The chai stall owner near Dadar station asks his regulars for feedback whenever he tries a new masala mix.",
     "with": [
       "give feedback",
       "honest feedback",
@@ -76,6 +80,7 @@
     "mean": "to plan and arrange something so that it happens smoothly",
     "hi": "इंतज़ाम करना",
     "ex": "Farhan offered to organise the hostel farewell, from booking the hall to ordering forty plates of biryani.",
+    "ex2": "Every Durga Puja, the residents of our Kolkata para organise a blood donation camp beside the pandal.",
     "with": [
       "organise an event",
       "well organised",
@@ -93,6 +98,7 @@
     "mean": "to give part of your work or power to someone else to do",
     "hi": "काम सौंपना",
     "ex": "As the new branch head in Lucknow, Kavya had to learn to delegate instead of checking every loan file herself.",
+    "ex2": "At home, Amma has finally learnt to delegate: the children now buy the vegetables and Appa washes the dishes.",
     "with": [
       "delegate tasks",
       "delegate responsibility",
@@ -110,6 +116,7 @@
     "mean": "the ability to act on your own without being told; also a new plan",
     "hi": "पहल",
     "ex": "Nobody asked Priya to fix the messy shared drive; she took the initiative and sorted every folder by client.",
+    "ex2": "When the village handpump broke, a Class 10 girl took the initiative and wrote to the block office herself.",
     "with": [
       "take the initiative",
       "show initiative",
@@ -127,6 +134,7 @@
     "mean": "expected to explain your actions and accept the results, good or bad",
     "hi": "जवाबदेह",
     "ex": "The housing society committee is accountable to residents, so it must show exactly where the maintenance money went.",
+    "ex2": "Fans want the selectors to be accountable for picking an unfit fast bowler for the World Cup squad.",
     "with": [
       "hold someone accountable",
       "accountable to",
@@ -144,6 +152,7 @@
     "mean": "general agreement among most of the people in a group",
     "hi": "आम सहमति",
     "ex": "After two hours of argument at the Kolkata adda, the only consensus was that the tea had gone cold.",
+    "ex2": "The family WhatsApp group finally reached a consensus: Nani's eightieth birthday will be celebrated in Shimla.",
     "with": [
       "reach a consensus",
       "broad consensus",
@@ -161,6 +170,7 @@
     "mean": "possible to actually do, given the time, money and people you have",
     "hi": "मुमकिन, व्यावहारिक",
     "ex": "Is it really feasible to launch the app before Diwali with only three developers?",
+    "ex2": "With only one weekend free, a road trip from Delhi to Ladakh just isn't feasible.",
     "with": [
       "technically feasible",
       "feasibility study",
@@ -178,6 +188,7 @@
     "mean": "to work with other people on a shared task",
     "hi": "मिलकर काम करना",
     "ex": "Two Bengaluru startups agreed to collaborate on a Kannada voice assistant for farmers.",
+    "ex2": "For the school science fair, Ishaan and Zoya decided to collaborate on a model of rainwater harvesting.",
     "with": [
       "collaborate with",
       "collaborate on",
@@ -195,6 +206,7 @@
     "mean": "to discuss with someone until you reach an agreement both can accept",
     "hi": "बातचीत से तय करना",
     "ex": "Before joining, Ankit tried to negotiate a higher salary and one work-from-home day each week.",
+    "ex2": "At Sarojini Nagar market, Tanvi can negotiate a five-hundred-rupee kurta down to two hundred.",
     "with": [
       "negotiate a deal",
       "negotiate with",
@@ -212,6 +224,7 @@
     "mean": "to make something bad less serious or less harmful",
     "hi": "असर कम करना",
     "ex": "Mumbai's civic body desilts the nullahs before June to mitigate flooding during the heaviest rain.",
+    "ex2": "Farmers in Vidarbha use drip irrigation to mitigate the damage when the monsoon arrives late.",
     "with": [
       "mitigate the risk",
       "mitigate the impact",
@@ -229,6 +242,7 @@
     "mean": "the freedom to make your own decisions without being controlled",
     "hi": "स्वायत्तता, आज़ादी",
     "ex": "The startup gives each team the autonomy to choose its own tools, as long as it hits its quarterly targets.",
+    "ex2": "After moving into a PG in Pune, Riya enjoyed the autonomy of choosing her own meals and hours.",
     "with": [
       "full autonomy",
       "autonomy over",
@@ -246,6 +260,7 @@
     "mean": "helpful and meant to improve something, not just to find fault",
     "hi": "रचनात्मक",
     "ex": "Instead of just calling the report weak, Leela gave constructive suggestions for each section.",
+    "ex2": "The coach's talk after the loss was constructive: he showed each bowler one mistake on video and one fix.",
     "with": [
       "constructive criticism",
       "constructive feedback",
@@ -263,6 +278,7 @@
     "mean": "one slow point that holds up the whole process",
     "hi": "अड़चन",
     "ex": "The single baggage scanner at the metro gate became a bottleneck during the morning rush.",
+    "ex2": "In Patna, the old narrow bridge over the canal is a bottleneck that jams traffic every evening.",
     "with": [
       "create a bottleneck",
       "the main bottleneck",
@@ -280,6 +296,7 @@
     "mean": "to repeat a process again and again, improving it each time",
     "hi": "बार-बार सुधारना",
     "ex": "The design team will iterate on the payment screen after watching how kirana owners in Indore actually use it.",
+    "ex2": "Nani kept trying to iterate on her mango pickle recipe, changing the salt or mustard a little each summer.",
     "with": [
       "iterate on",
       "iterate quickly",
@@ -297,6 +314,7 @@
     "mean": "the official power or order given to someone to do a particular job",
     "hi": "आदेश, अधिकार",
     "ex": "The committee's mandate is only to suggest a new canteen menu, not to change the office timings.",
+    "ex2": "The RBI's mandate is to keep inflation within a set range, not to decide how the government spends.",
     "with": [
       "a clear mandate",
       "a mandate to",
@@ -314,6 +332,7 @@
     "mean": "able to grow much bigger without breaking or costing much more",
     "hi": "बढ़ाने लायक",
     "ex": "Her tiffin service works for fifty homes, but is it scalable to five thousand across Hyderabad?",
+    "ex2": "The reading programme worked in ten Rajasthan villages; now donors want to know if it is scalable across the state.",
     "with": [
       "highly scalable",
       "a scalable model",
@@ -331,6 +350,7 @@
     "mean": "anyone affected by a decision or interested in its result",
     "hi": "हितधारक",
     "ex": "Before redrawing the bus routes, the city consulted every stakeholder: drivers, shopkeepers, schoolchildren and daily commuters.",
+    "ex2": "In a joint family, every cousin feels like a stakeholder when the old ancestral house is up for sale.",
     "with": [
       "key stakeholders",
       "stakeholder meeting",
@@ -348,6 +368,7 @@
     "mean": "something, often a reward, that encourages you to do something",
     "hi": "प्रोत्साहन",
     "ex": "The dairy cooperative gives farmers an incentive of two rupees extra per litre for cleaner milk.",
+    "ex2": "Mrs Bose gives her son an incentive to read: one comic book for every novel he finishes.",
     "with": [
       "financial incentive",
       "an incentive to",
@@ -365,6 +386,7 @@
     "mean": "giving up some of one thing to get more of another",
     "hi": "एक के बदले दूसरा",
     "ex": "The Gurugram job paid more, but the trade-off was a two-hour commute every day.",
+    "ex2": "Choosing the cheaper flat in Bengaluru was a trade-off: more money saved, but no lift and no power backup.",
     "with": [
       "a trade-off between",
       "make a trade-off",
@@ -382,6 +404,7 @@
     "mean": "the ability to see what may happen and plan for it",
     "hi": "दूर की सोच",
     "ex": "Thanks to her father's foresight, the family had savings ready when the shop shut during the lockdown.",
+    "ex2": "The selectors showed foresight by giving young pacers matches long before the senior bowlers retired.",
     "with": [
       "have the foresight to",
       "show foresight",
@@ -399,6 +422,7 @@
     "mean": "able to make choices quickly and firmly; or settling a result clearly",
     "hi": "निर्णायक",
     "ex": "When the site crashed during the sale, Imran was decisive: he rolled back the update within minutes.",
+    "ex2": "In the final over, the captain's decisive call to bring on the spinner won the match.",
     "with": [
       "decisive action",
       "a decisive leader",
@@ -416,6 +440,7 @@
     "mean": "when a group agrees too easily and nobody questions a bad idea",
     "hi": "भेड़चाल",
     "ex": "The board fell into groupthink; nobody questioned the expansion plan until the losses began.",
+    "ex2": "In our hostel, groupthink decided we would all skip the lecture; only Deepak asked whether attendance mattered.",
     "with": [
       "avoid groupthink",
       "fall into groupthink",
@@ -433,6 +458,7 @@
     "mean": "money or effort already spent that you can never get back",
     "hi": "डूबी हुई लागत",
     "ex": "The half-built godown is a sunk cost; spending more on a bad location will only lose more money.",
+    "ex2": "The ticket money is a sunk cost, Ravi, so leave the boring film at the interval and come for chai.",
     "with": [
       "sunk cost fallacy",
       "treat it as a sunk cost",
@@ -440,5 +466,293 @@
     ],
     "instead": "money already gone",
     "note": "The 'sunk cost fallacy' is carrying on with something bad only because you've already invested in it, like sitting through a terrible film because you paid."
+  },
+  {
+    "w": "target",
+    "room": "lead",
+    "floor": 1,
+    "pos": "noun",
+    "say": "TAR-git",
+    "mean": "a result or number you are trying to reach",
+    "hi": "लक्ष्य",
+    "ex": "The sales team in Indore must hit a target of two hundred new accounts before March.",
+    "ex2": "Kiran set herself a target of ten thousand steps a day on her walks along Marine Drive.",
+    "with": [
+      "hit the target",
+      "set a target",
+      "miss the target"
+    ],
+    "instead": "aim",
+    "note": "You 'meet', 'hit' or 'achieve' a target. As a verb it means aim at: 'ads that target teenagers'."
+  },
+  {
+    "w": "budget",
+    "room": "lead",
+    "floor": 1,
+    "pos": "noun",
+    "say": "BUJ-it",
+    "mean": "a plan of how much money can be spent, and on what",
+    "hi": "ख़र्च का हिसाब",
+    "ex": "The project is already over budget, so the Chennai office has stopped all travel until April.",
+    "ex2": "Our wedding budget had no room for a drone camera, but Chachu still booked one.",
+    "with": [
+      "over budget",
+      "a tight budget",
+      "set a budget"
+    ],
+    "instead": "money we can spend",
+    "note": "'Over budget' means spending more than planned; 'on a tight budget' means with little money. Say BUJ-it, not 'bud-JET'."
+  },
+  {
+    "w": "assign",
+    "room": "lead",
+    "floor": 1,
+    "pos": "verb",
+    "say": "uh-SYNE",
+    "mean": "to give someone a job or task to do",
+    "hi": "सौंपना",
+    "ex": "The manager will assign each new joiner a buddy for their first week in the Hyderabad office.",
+    "ex2": "Our maths teacher likes to assign twenty sums every Friday, which ruins the whole weekend.",
+    "with": [
+      "assign a task",
+      "assign to",
+      "assign responsibility"
+    ],
+    "instead": "give work",
+    "note": "The g is silent: uh-SYNE. The noun 'assignment' means a task or a piece of homework."
+  },
+  {
+    "w": "coordinate",
+    "room": "lead",
+    "floor": 2,
+    "pos": "verb",
+    "say": "koh-OR-di-nayt",
+    "mean": "to organise people or things so they work well together",
+    "hi": "तालमेल बिठाना",
+    "ex": "Shalini's job is to coordinate between the Pune developers and the client in London.",
+    "ex2": "The three sisters had to coordinate over the phone to decide who would bring which dish for Eid.",
+    "with": [
+      "coordinate with",
+      "closely coordinate",
+      "coordinate efforts"
+    ],
+    "instead": "keep everyone in sync",
+    "note": "Coordinate WITH someone. The noun is common in complaints: 'poor coordination between departments'."
+  },
+  {
+    "w": "milestone",
+    "room": "lead",
+    "floor": 2,
+    "pos": "noun",
+    "say": "MYLE-stohn",
+    "mean": "an important stage reached in a project or in life",
+    "hi": "अहम पड़ाव",
+    "ex": "Launching the app in Tamil and Marathi was a big milestone for the Bengaluru startup.",
+    "ex2": "For Dadi, her grandson's first day at school was a milestone worth a box of laddoos for the whole street.",
+    "with": [
+      "reach a milestone",
+      "a major milestone",
+      "a key milestone"
+    ],
+    "instead": "important step",
+    "note": "Literally the stones beside highways that mark distance. In project plans, milestones are the checkpoints."
+  },
+  {
+    "w": "oversee",
+    "room": "lead",
+    "floor": 2,
+    "pos": "verb",
+    "say": "oh-ver-SEE",
+    "mean": "to watch over work and make sure it is done properly",
+    "hi": "निगरानी करना",
+    "ex": "A senior engineer will oversee the building of the new flyover at Silk Board junction.",
+    "ex2": "Every Diwali, Nanaji likes to oversee the rangoli, telling the grandchildren which colour goes where.",
+    "with": [
+      "oversee the work",
+      "oversee a project",
+      "oversee operations"
+    ],
+    "instead": "keep an eye on",
+    "note": "Don't confuse with 'overlook', which means to miss or ignore something. Past forms: oversaw, overseen."
+  },
+  {
+    "w": "efficient",
+    "room": "lead",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "i-FISH-unt",
+    "mean": "doing a job well without wasting time, money or effort",
+    "hi": "कुशल",
+    "ex": "The new billing software is so efficient that the clinic's morning queue is half as long.",
+    "ex2": "Mumbai's dabbawalas run one of the most efficient delivery systems in the world, with very few mistakes.",
+    "with": [
+      "highly efficient",
+      "energy-efficient",
+      "efficient use of"
+    ],
+    "instead": "quick and no waste",
+    "note": "Efficient = no waste; effective = it works. A meeting can be efficient (short) but not effective (nothing decided)."
+  },
+  {
+    "w": "streamline",
+    "room": "lead",
+    "floor": 3,
+    "pos": "verb",
+    "say": "STREEM-lyne",
+    "mean": "to make a process simpler and faster by removing needless steps",
+    "hi": "आसान और तेज़ बनाना",
+    "ex": "The passport office wants to streamline renewals so that people don't need three visits.",
+    "ex2": "Ammi decided to streamline the morning rush by packing every tiffin the night before.",
+    "with": [
+      "streamline the process",
+      "streamline operations",
+      "a streamlined approach"
+    ],
+    "instead": "make simpler",
+    "note": "Common in office emails. Don't stop at the word; say which steps you actually removed."
+  },
+  {
+    "w": "allocate",
+    "room": "lead",
+    "floor": 3,
+    "pos": "verb",
+    "say": "AL-uh-kayt",
+    "mean": "to decide how much of something each person or job gets",
+    "hi": "बाँटना",
+    "ex": "The panchayat must allocate the new funds between the school roof and the village road.",
+    "ex2": "The hostel warden will allocate rooms by lottery, so nobody can complain about favourites.",
+    "with": [
+      "allocate funds",
+      "allocate resources",
+      "allocate time"
+    ],
+    "instead": "give out",
+    "note": "The noun is 'allocation'. 'Allot' is close and very common in India: 'allotted seats', 'allotted flats'."
+  },
+  {
+    "w": "proactive",
+    "room": "lead",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "proh-AK-tiv",
+    "mean": "acting early to stop a problem, instead of waiting for it",
+    "hi": "पहल करने वाला",
+    "ex": "Instead of waiting for complaints, Nikhil was proactive and called every client after the server crash.",
+    "ex2": "Be proactive about your health, Papa: get the blood test done before the doctor has to ask.",
+    "with": [
+      "a proactive approach",
+      "take proactive steps",
+      "be proactive about"
+    ],
+    "instead": "acting in advance",
+    "note": "The opposite is 'reactive': responding only after something has gone wrong."
+  },
+  {
+    "w": "morale",
+    "room": "lead",
+    "floor": 3,
+    "pos": "noun",
+    "say": "muh-RAHL",
+    "mean": "how confident and keen a group feels about its work",
+    "hi": "हौसला",
+    "ex": "After three rounds of layoffs, morale in the Gurugram office was at an all-time low.",
+    "ex2": "One early wicket lifted the team's morale, and soon every fielder was diving for the ball.",
+    "with": [
+      "boost morale",
+      "low morale",
+      "team morale"
+    ],
+    "instead": "team spirit",
+    "note": "Morale (muh-RAHL) is spirit; moral (MOR-ul) is about right and wrong. 'Boost morale', never 'boost moral'."
+  },
+  {
+    "w": "contingency",
+    "room": "lead",
+    "floor": 4,
+    "pos": "noun",
+    "say": "kun-TIN-jun-see",
+    "mean": "a possible future problem, or a plan kept ready for it",
+    "hi": "आपात स्थिति",
+    "ex": "The event company had a contingency plan: if the monsoon hit, the sangeet would move into the banquet hall.",
+    "ex2": "Keep some money aside for every contingency, beta; hostel life in a new city always brings surprises.",
+    "with": [
+      "a contingency plan",
+      "a contingency fund",
+      "prepare for every contingency"
+    ],
+    "instead": "backup plan",
+    "note": "Most often heard as 'contingency plan' (a Plan B) or 'contingency fund' (money kept aside for surprises)."
+  },
+  {
+    "w": "spearhead",
+    "room": "lead",
+    "floor": 4,
+    "pos": "verb",
+    "say": "SPEER-hed",
+    "mean": "to lead a big effort or campaign from the front",
+    "hi": "अगुवाई करना",
+    "ex": "Dr Fernandes will spearhead the hospital's drive to cut waiting times in the emergency ward.",
+    "ex2": "Two Class 12 students in Shillong decided to spearhead a clean-up of the lake after the festival.",
+    "with": [
+      "spearhead a campaign",
+      "spearhead the effort",
+      "spearhead a drive"
+    ],
+    "instead": "lead from the front",
+    "note": "Use it for big, bold efforts. For small jobs 'lead' is enough; 'spearhead a meeting' sounds odd."
+  },
+  {
+    "w": "micromanage",
+    "room": "lead",
+    "floor": 4,
+    "pos": "verb",
+    "say": "MY-kroh-man-ij",
+    "mean": "to control every small detail of other people's work, too closely",
+    "hi": "हर बात में दख़ल",
+    "ex": "Good managers set the goal and step back; they don't micromanage the font on every slide.",
+    "ex2": "My uncle tends to micromanage every family trip, down to which dhaba we stop at for lunch.",
+    "with": [
+      "micromanage the team",
+      "a micromanaging boss",
+      "stop micromanaging"
+    ],
+    "instead": "interfere in every small thing",
+    "note": "Always negative. Such a person is a 'micromanager'. Trusting people with the result is the opposite."
+  },
+  {
+    "w": "laissez-faire",
+    "room": "lead",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "les-ay-FAIR",
+    "mean": "letting people do as they like, with very little control or guidance",
+    "hi": "खुली छूट वाला",
+    "ex": "Her laissez-faire style works with senior engineers but leaves new interns completely lost.",
+    "ex2": "The hostel warden was so laissez-faire that students played carrom in the corridor until two in the morning.",
+    "with": [
+      "a laissez-faire approach",
+      "a laissez-faire attitude",
+      "laissez-faire leadership"
+    ],
+    "instead": "hands-off",
+    "note": "French for 'let do'. In economics it means the government staying out of business. Keep the hyphen."
+  },
+  {
+    "w": "Parkinson's law",
+    "room": "lead",
+    "floor": 5,
+    "pos": "phrase",
+    "say": "PAR-kin-sunz law",
+    "mean": "the idea that work grows to fill all the time you give it",
+    "hi": "काम खिंचने का नियम",
+    "ex": "Give the team a month for a two-day task and Parkinson's law kicks in: it will take the whole month.",
+    "ex2": "With the whole Sunday free, Parkinson's law took over, and cleaning one cupboard somehow filled the entire day.",
+    "with": [
+      "Parkinson's law kicks in",
+      "a case of Parkinson's law",
+      "beat Parkinson's law"
+    ],
+    "instead": "work dragging on",
+    "note": "Named after the writer C. Northcote Parkinson (1955). The cure is a short, firm deadline."
   }
 ]

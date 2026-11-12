@@ -8,6 +8,7 @@
     "mean": "freedoms and fair treatment that every person can claim by law",
     "hi": "अधिकार, हक़",
     "ex": "Knowing her rights as a consumer, Meena refused to pay more than the MRP printed on the bottle.",
+    "ex2": "The workers' union in Surat held a meeting to explain their rights about overtime pay and weekly leave.",
     "with": ["human rights", "basic rights", "stand up for your rights"],
     "instead": "",
     "note": "India's Constitution lists the Fundamental Rights in Part III. Do not confuse with 'rites' (religious ceremonies)."
@@ -21,6 +22,7 @@
     "mean": "a person who legally belongs to a country",
     "hi": "नागरिक",
     "ex": "Every citizen over eighteen can vote, whether they live in Ladakh or Lakshadweep.",
+    "ex2": "As a citizen, Joseph felt he should report the broken traffic signal instead of just complaining about it.",
     "with": ["an Indian citizen", "an ordinary citizen", "senior citizen"],
     "instead": "",
     "note": "'Senior citizen' is very common in India for people over 60; 'older people' is also widely used abroad."
@@ -34,6 +36,7 @@
     "mean": "dishonest use of power, such as taking bribes",
     "hi": "भ्रष्टाचार",
     "ex": "When the clerk asked for cash to move her file, Farzana reported the corruption to the vigilance office.",
+    "ex2": "The state cricket association promised an inquiry after a news report exposed corruption in the sale of match tickets.",
     "with": ["fight corruption", "widespread corruption", "a corruption case"],
     "instead": "taking bribes",
     "note": ""
@@ -47,6 +50,7 @@
     "mean": "a public act that shows strong disagreement with something",
     "hi": "विरोध प्रदर्शन",
     "ex": "Students held a silent protest outside the college gate against the sudden fee hike.",
+    "ex2": "Fishermen in Kochi held a protest at the harbour against the sudden rise in diesel prices.",
     "with": ["a peaceful protest", "a protest march", "in protest"],
     "instead": "",
     "note": "Noun: PROH-test. Verb: pruh-TEST. In British English you 'protest against' something; Americans often drop 'against'."
@@ -60,6 +64,7 @@
     "mean": "a group of people who live together or share something in common",
     "hi": "समुदाय",
     "ex": "After the Chennai floods, the whole community cooked together for families who had lost their homes.",
+    "ex2": "Before the fishing season, the whole community of the coastal village repaired the boats and nets together.",
     "with": ["the local community", "a community kitchen", "a sense of community"],
     "instead": "",
     "note": "In Indian usage 'community' often means a religious or social group; elsewhere it usually means a neighbourhood or shared interest."
@@ -73,6 +78,7 @@
     "mean": "openness, so people can see how decisions are made and money spent",
     "hi": "पारदर्शिता",
     "ex": "For transparency, the gram panchayat painted its yearly spending on the wall outside its office.",
+    "ex2": "Parents demanded transparency about the school fee hike and asked exactly where the extra money would go.",
     "with": ["full transparency", "a lack of transparency", "transparency in funding"],
     "instead": "being open",
     "note": "India's Right to Information Act (2005) lets citizens ask for government records; it is a key transparency tool."
@@ -86,6 +92,7 @@
     "mean": "people's health and well-being, and the help given to protect it",
     "hi": "कल्याण, भलाई",
     "ex": "The mid-day meal is one of India's largest welfare schemes, feeding millions of schoolchildren every day.",
+    "ex2": "An animal welfare group in Jaipur feeds stray dogs and runs a free clinic for injured cows.",
     "with": ["a welfare scheme", "social welfare", "animal welfare"],
     "instead": "",
     "note": "One l: welfare, not 'wellfare'. A 'welfare state' gives citizens health care, pensions and support."
@@ -99,6 +106,7 @@
     "mean": "one-sided information spread to push people towards a belief",
     "hi": "एकतरफ़ा प्रचार",
     "ex": "Our history teacher showed propaganda posters printed by both sides during the Second World War.",
+    "ex2": "Before the election, the family WhatsApp group filled up with propaganda from every side, and Babu Mama forwarded all of it.",
     "with": ["wartime propaganda", "spread propaganda", "a propaganda machine"],
     "instead": "",
     "note": "Every system produces it: governments, parties, companies, activists. Persuasion becomes propaganda when it hides or twists facts."
@@ -112,6 +120,7 @@
     "mean": "the officials and rules that run a government or big organisation",
     "hi": "अफ़सरशाही, नौकरशाही",
     "ex": "Getting a new ration card meant weeks of bureaucracy: four forms, three offices and one missing stamp.",
+    "ex2": "The startup founder said his real enemy was bureaucracy: one licence needed signatures from seven departments.",
     "with": ["government bureaucracy", "layers of bureaucracy", "cut through the bureaucracy"],
     "instead": "red tape",
     "note": "Neutral meaning: the system of officials. Often used negatively for slow rules. Spelling: bureau + cracy."
@@ -125,6 +134,7 @@
     "mean": "officially stopping books, films or news that authorities find unacceptable",
     "hi": "सेंसरशिप, पाबंदी",
     "ex": "The film board's cut of a single scene started a long debate on censorship at our Kolkata adda.",
+    "ex2": "When the warden banned certain magazines from the hostel common room, students called it censorship and wrote to the principal.",
     "with": ["film censorship", "press censorship", "self-censorship"],
     "instead": "banning content",
     "note": "Self-censorship means staying silent out of fear. Not the same as 'censure', which means strong official criticism."
@@ -138,6 +148,7 @@
     "mean": "strong disagreement with an official or majority view",
     "hi": "असहमति",
     "ex": "At the housing society meeting, Mrs Iyer recorded her dissent over the plan to cut down the old banyan tree.",
+    "ex2": "In a healthy dressing room, a junior cricketer's dissent is heard by the captain, not punished.",
     "with": ["voice dissent", "a note of dissent", "the right to dissent"],
     "instead": "disagreement",
     "note": "Judges write a 'dissent' when they disagree with the majority ruling. Do not confuse with 'descent' (going down)."
@@ -151,6 +162,7 @@
     "mean": "treating someone unfairly because of their group, such as gender or religion",
     "hi": "भेदभाव",
     "ex": "Ananya filed a complaint when she learned male colleagues were paid more for the same work, calling it discrimination.",
+    "ex2": "Refusing to rent a flat to someone because of their surname or food habits is discrimination, yet many tenants still face it.",
     "with": ["gender discrimination", "face discrimination", "discrimination against"],
     "instead": "unfair treatment",
     "note": "Say 'discrimination against women', not 'discrimination on women'. The verb is 'discriminate against'."
@@ -164,6 +176,7 @@
     "mean": "split into two opposite groups that strongly disagree",
     "hi": "दो खेमों में बँटा",
     "ex": "The family WhatsApp group became so polarised over the new flyover that cousins stopped replying to each other.",
+    "ex2": "The hostel was polarised over the new mess menu: half loved the millet rotis, half wanted the old food back.",
     "with": ["deeply polarised", "a polarised debate", "a polarised society"],
     "instead": "divided",
     "note": "British and Indian spelling: polarised; American: polarized. The word describes the split, not who caused it."
@@ -177,6 +190,7 @@
     "mean": "pushed to the edge of society, with little power or voice",
     "hi": "हाशिये पर धकेला गया",
     "ex": "The NGO in Odisha runs evening classes for children from marginalised fishing families.",
+    "ex2": "The community radio station in Bundelkhand gives marginalised women farmers a voice on local issues.",
     "with": ["marginalised groups", "marginalised communities", "feel marginalised"],
     "instead": "left out",
     "note": "'Marginal' means small or minor; 'marginalised' means pushed aside by others."
@@ -190,6 +204,7 @@
     "mean": "an advantage some people have and others do not, often from birth",
     "hi": "विशेषाधिकार, ख़ास सुविधा",
     "ex": "English-medium schooling and a laptop were a privilege that most students in Rohit's village never had.",
+    "ex2": "A quiet room to study in is a privilege that many board exam students in crowded homes do not have.",
     "with": ["a rare privilege", "social privilege", "check your privilege"],
     "instead": "special advantage",
     "note": "Spelt without a d, not 'priviledge'. Also an honour: 'It is a privilege to speak here.'"
@@ -203,6 +218,7 @@
     "mean": "fairness that gives each person what they need to reach a fair result",
     "hi": "समता, ज़रूरत-मुताबिक़ बराबरी",
     "ex": "Under its equity plan, the school gave extra coaching to first-generation learners instead of equal hours to everyone.",
+    "ex2": "Health equity means a mother in a remote Assam village should get the same care as one in a city hospital.",
     "with": ["equity and inclusion", "health equity", "promote equity"],
     "instead": "fairness",
     "note": "Equality gives everyone the same; equity adjusts for need. People reasonably debate which fits each case. In finance, equity means shares."
@@ -216,6 +232,7 @@
     "mean": "giving jobs or favours to relatives instead of the most able person",
     "hi": "भाई-भतीजावाद",
     "ex": "When the owner's nephew became manager over senior staff, the Pune office quietly grumbled about nepotism.",
+    "ex2": "Film fans complained of nepotism when yet another star's son landed a big role in his very first film.",
     "with": ["accused of nepotism", "blatant nepotism", "a nepotism debate"],
     "instead": "favouring family",
     "note": "Nepotism favours relatives; favouring friends and allies is 'cronyism'."
@@ -229,6 +246,7 @@
     "mean": "politics that claims to speak for ordinary people against a powerful elite",
     "hi": "लोकलुभावन राजनीति",
     "ex": "On the news debate, one economist called pre-election loan waivers populism while another called them needed relief.",
+    "ex2": "In the college debate, Imran argued that populism grows when people feel ignored by experts and officials.",
     "with": ["the rise of populism", "economic populism", "a wave of populism"],
     "instead": "",
     "note": "Found on both left and right. Critics use it as an insult; supporters say it means listening to ordinary people."
@@ -242,6 +260,7 @@
     "mean": "not tied to any religion; in India, treating all religions equally",
     "hi": "धर्मनिरपेक्ष",
     "ex": "The Preamble describes India as a secular republic; the word was added to it in 1976.",
+    "ex2": "Our school follows a secular calendar, with holidays for Diwali, Eid, Christmas, Guru Nanak Jayanti and Buddha Purnima.",
     "with": ["a secular state", "secular values", "secular education"],
     "instead": "",
     "note": "In India it usually means equal respect for all religions; in the West, separating religion from the state. Also just 'non-religious'."
@@ -255,6 +274,7 @@
     "mean": "serious public talk and writing about a subject",
     "hi": "विमर्श, चर्चा",
     "ex": "A speaker at the Jaipur Literature Festival said ten-second clips now shape public discourse more than long articles do.",
+    "ex2": "Doctors worry that health discourse on social media is driven by home remedies, not by research.",
     "with": ["public discourse", "political discourse", "civil discourse"],
     "instead": "public talk",
     "note": "Formal. 'Discourse' is the whole conversation a society has on a topic, not one chat."
@@ -268,6 +288,7 @@
     "mean": "a leader who wins support by stirring anger and fear, not reason",
     "hi": "भीड़ भड़काने वाला नेता",
     "ex": "Our civics teacher said a demagogue offers crowds a simple enemy instead of a real solution.",
+    "ex2": "In history class, we read how a demagogue in 1930s Europe blamed one community for every problem the country had.",
     "with": ["a dangerous demagogue", "a populist demagogue", "a rabble-rousing demagogue"],
     "instead": "crowd-stirring leader",
     "note": "Always critical. Calling someone a demagogue is itself a strong claim that needs evidence."
@@ -281,6 +302,7 @@
     "mean": "to take away someone's right to vote or to have a say",
     "hi": "मताधिकार छीनना",
     "ex": "Holding the vote on harvest day could disenfranchise farmers who cannot leave their fields.",
+    "ex2": "Moving the polling booth ten kilometres away would disenfranchise elderly villagers who cannot travel that far.",
     "with": ["disenfranchise voters", "disenfranchised groups", "feel disenfranchised"],
     "instead": "take away the vote",
     "note": "Also used loosely: feeling disenfranchised means feeling you have no say. The opposite is 'enfranchise'."
@@ -294,6 +316,7 @@
     "mean": "support from a powerful person, often jobs or favours in return for loyalty",
     "hi": "सरपरस्ती, संरक्षण",
     "ex": "Under royal patronage, Thanjavur painters and Carnatic musicians flourished for generations.",
+    "ex2": "For decades, the textile mill owner's patronage kept the town's cricket club and its library alive.",
     "with": ["royal patronage", "political patronage", "under the patronage of"],
     "instead": "support from the powerful",
     "note": "Positive for the arts; negative in politics, where jobs go to loyal supporters instead of the most able."
@@ -307,6 +330,7 @@
     "mean": "freedom from punishment, even after doing wrong",
     "hi": "सज़ा से छूट, बेख़ौफ़ी",
     "ex": "The builder dumped debris into the lake with impunity, sure that no inspector would ever come.",
+    "ex2": "Bikers in the colony jumped red lights with impunity until the traffic police put up cameras.",
     "with": ["with impunity", "a culture of impunity", "act with impunity"],
     "instead": "without punishment",
     "note": "Almost always in 'with impunity'. Not 'immunity', which means legal protection or resistance to disease."
@@ -320,6 +344,7 @@
     "mean": "strong control or influence of one group or country over others",
     "hi": "वर्चस्व, दबदबा",
     "ex": "For years, Australia's hegemony over world cricket made every other team look ordinary.",
+    "ex2": "Small Indian apps struggle against the hegemony of a few global tech giants that decide what we see online.",
     "with": ["cultural hegemony", "global hegemony", "challenge the hegemony"],
     "instead": "total domination",
     "note": "Also said heh-GEM-uh-nee. 'Cultural hegemony' means one group's ideas come to seem natural to everyone."
@@ -333,8 +358,233 @@
     "mean": "answering criticism by pointing to someone else's wrongs instead",
     "hi": "'तुम भी तो' वाली दलील",
     "ex": "Asked about potholes, the city spokesperson used whataboutism, listing the rival city's potholes instead.",
+    "ex2": "When Riya said her brother hadn't washed the dishes, he answered with whataboutism: 'What about your unmade bed?'",
     "with": ["pure whataboutism", "resort to whataboutism", "classic whataboutism"],
     "instead": "changing the subject",
     "note": "Every side uses it. Pointing out a double standard can be fair; whataboutism dodges the original question."
+  },
+  {
+    "w": "equality",
+    "room": "society",
+    "floor": 1,
+    "pos": "noun",
+    "say": "ih-KWOL-uh-tee",
+    "mean": "being equal in rights, chances and treatment",
+    "hi": "बराबरी, समानता",
+    "ex": "The Constitution promises equality before the law, whether you are a minister's son or a mill worker's.",
+    "ex2": "At the gurdwara langar, everyone sits on the floor together, which Harpreet calls equality in practice.",
+    "with": ["gender equality", "equality before the law", "fight for equality"],
+    "instead": "same treatment for all",
+    "note": "Equality gives everyone the same; 'equity' gives each person what they need to reach a fair result."
+  },
+  {
+    "w": "poverty",
+    "room": "society",
+    "floor": 1,
+    "pos": "noun",
+    "say": "POV-ur-tee",
+    "mean": "the state of being very poor",
+    "hi": "ग़रीबी",
+    "ex": "Free school meals stopped many children in Jharkhand from dropping out because of poverty.",
+    "ex2": "Raised in poverty in a one-room chawl, Salim saved for years to open his own tailoring shop.",
+    "with": ["live in poverty", "extreme poverty", "the poverty line"],
+    "instead": "being very poor",
+    "note": "Indian news often says 'below the poverty line' (BPL), the official term for the poorest families."
+  },
+  {
+    "w": "volunteer",
+    "room": "society",
+    "floor": 1,
+    "pos": "verb",
+    "say": "vol-un-TEER",
+    "mean": "to offer to do a job without being paid or forced",
+    "hi": "अपनी मर्ज़ी से सेवा करना",
+    "ex": "During the Kerala floods, fishermen from Kollam came to volunteer, rescuing families in their own boats.",
+    "ex2": "Every Sunday, Neha and her college friends volunteer at an old age home in Dehradun.",
+    "with": ["volunteer to help", "volunteer at a shelter", "volunteer your time"],
+    "instead": "help for free",
+    "note": "Also a noun: 'a volunteer'. The stress is at the end: vol-un-TEER."
+  },
+  {
+    "w": "petition",
+    "room": "society",
+    "floor": 2,
+    "pos": "noun",
+    "say": "puh-TISH-un",
+    "mean": "a written request, signed by many people, asking officials to act",
+    "hi": "याचिका, अर्ज़ी",
+    "ex": "Over two thousand residents signed a petition asking the corporation to fix the dead streetlights on their road.",
+    "ex2": "After the cyclone, parents sent a petition to the school board asking for the exams to be moved.",
+    "with": ["sign a petition", "file a petition", "an online petition"],
+    "instead": "signed request",
+    "note": "In court news, a petition is a formal request to a judge, as in a PIL (public interest litigation)."
+  },
+  {
+    "w": "inequality",
+    "room": "society",
+    "floor": 2,
+    "pos": "noun",
+    "say": "in-ih-KWOL-uh-tee",
+    "mean": "an unfair gap between groups in money, chances or rights",
+    "hi": "असमानता, ग़ैर-बराबरी",
+    "ex": "In Gurugram, glass towers standing beside workers' tin sheds show the city's sharp inequality.",
+    "ex2": "The report on girls' schooling showed inequality between districts: some schools had libraries, others had no toilets.",
+    "with": ["income inequality", "growing inequality", "gender inequality"],
+    "instead": "gap between rich and poor",
+    "note": ""
+  },
+  {
+    "w": "activist",
+    "room": "society",
+    "floor": 2,
+    "pos": "noun",
+    "say": "AK-tih-vist",
+    "mean": "a person who campaigns hard to change laws, rules or opinions",
+    "hi": "कार्यकर्ता",
+    "ex": "A young activist from Ladakh cycled from school to school, teaching children how to save glacier water.",
+    "ex2": "Ramesh became an activist after builders dumped debris into the lake behind his Bengaluru colony.",
+    "with": ["a social activist", "an environmental activist", "a rights activist"],
+    "instead": "social worker",
+    "note": "A social worker gives help directly; an activist campaigns to change laws or public opinion."
+  },
+  {
+    "w": "stereotype",
+    "room": "society",
+    "floor": 2,
+    "pos": "noun",
+    "say": "STER-ee-uh-type",
+    "mean": "a fixed, too-simple idea about what a whole group is like",
+    "hi": "बनी-बनाई धारणा",
+    "ex": "The film breaks the stereotype that people from small towns cannot speak confident English.",
+    "ex2": "By topping the state in maths, Priya broke the stereotype that girls are weaker with numbers.",
+    "with": ["a common stereotype", "break a stereotype", "gender stereotypes"],
+    "instead": "fixed idea about a group",
+    "note": ""
+  },
+  {
+    "w": "inclusive",
+    "room": "society",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "in-KLOO-siv",
+    "mean": "open to and welcoming everyone, leaving no group out",
+    "hi": "सबको साथ लेने वाला",
+    "ex": "The new metro stations are more inclusive, with ramps, lifts and Braille signs for disabled travellers.",
+    "ex2": "The college fest became more inclusive once it added sign-language interpreters and events in Hindi and Tamil.",
+    "with": ["an inclusive society", "inclusive growth", "inclusive of all taxes"],
+    "instead": "open to everyone",
+    "note": "'Inclusive of' also means 'including': Rs 500, inclusive of GST."
+  },
+  {
+    "w": "grassroots",
+    "room": "society",
+    "floor": 3,
+    "pos": "noun",
+    "say": "GRAHS-roots",
+    "mean": "ordinary people at the local level, not the leaders",
+    "hi": "ज़मीनी स्तर",
+    "ex": "The women's self-help group started at the grassroots, with ten members saving fifty rupees a week.",
+    "ex2": "The cricket academy looks for talent at the grassroots, watching tennis-ball matches on village maidans.",
+    "with": ["grassroots level", "a grassroots movement", "grassroots workers"],
+    "instead": "local, ordinary people",
+    "note": "Often used like an adjective: a grassroots campaign. Write it as one word."
+  },
+  {
+    "w": "civic",
+    "room": "society",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "SIV-ik",
+    "mean": "about a town or city and the duties of the people living there",
+    "hi": "नागरिक, शहरी",
+    "ex": "A poster at Howrah station reminded passengers that civic sense means not spitting paan on the walls.",
+    "ex2": "Voting in the ward election is a civic duty, so Ammi went to the booth before cooking lunch.",
+    "with": ["civic sense", "civic duty", "civic body"],
+    "instead": "public duty",
+    "note": "'Civic sense' is common Indian English for good public behaviour; a 'civic body' is the city corporation."
+  },
+  {
+    "w": "stigma",
+    "room": "society",
+    "floor": 3,
+    "pos": "noun",
+    "say": "STIG-muh",
+    "mean": "shame or disapproval that society attaches to something",
+    "hi": "कलंक, बदनामी",
+    "ex": "Talking openly about therapy helps remove the stigma around mental health in Indian families.",
+    "ex2": "Health workers in Bihar are fighting the stigma around leprosy so that patients come forward early.",
+    "with": ["social stigma", "remove the stigma", "the stigma attached to"],
+    "instead": "shame attached",
+    "note": "Usually 'the stigma of', 'the stigma around' or 'the stigma attached to' something."
+  },
+  {
+    "w": "disparity",
+    "room": "society",
+    "floor": 4,
+    "pos": "noun",
+    "say": "dih-SPA-ruh-tee",
+    "mean": "a big, unfair difference between two things or groups",
+    "hi": "बड़ा फ़र्क, असमानता",
+    "ex": "There is a huge disparity between the hospitals of Mumbai and those in rural Vidarbha.",
+    "ex2": "The pay disparity between men and women cricketers was debated for years before match fees were made equal.",
+    "with": ["a wide disparity", "pay disparity", "regional disparity"],
+    "instead": "big gap",
+    "note": "More formal than 'gap'; common in news about income, health and regions."
+  },
+  {
+    "w": "partisan",
+    "room": "society",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "PAH-tih-zan",
+    "mean": "strongly supporting one side, without being fair",
+    "hi": "पक्षपाती, एकतरफ़ा",
+    "ex": "Viewers complained that the news anchor was openly partisan, cutting off one panellist and praising the other.",
+    "ex2": "As umpire in the colony match, Joshi Uncle was so partisan that even his own team felt embarrassed.",
+    "with": ["partisan politics", "a partisan view", "deeply partisan"],
+    "instead": "one-sided",
+    "note": "Also a noun for a strong supporter. In wartime history, partisans were fighters against an occupying army."
+  },
+  {
+    "w": "solidarity",
+    "room": "society",
+    "floor": 4,
+    "pos": "noun",
+    "say": "sol-ih-DA-ruh-tee",
+    "mean": "unity and support between people who share an aim",
+    "hi": "एकजुटता",
+    "ex": "Auto drivers across Pune switched off their engines for an hour in solidarity with a colleague who was attacked.",
+    "ex2": "Students wore black bands in solidarity with the hostel cooks, who had not been paid for three months.",
+    "with": ["in solidarity with", "show solidarity", "a sense of solidarity"],
+    "instead": "standing together",
+    "note": ""
+  },
+  {
+    "w": "tokenism",
+    "room": "society",
+    "floor": 5,
+    "pos": "noun",
+    "say": "TOH-kuh-niz-um",
+    "mean": "doing a small thing only to look fair, without real change",
+    "hi": "दिखावटी कदम",
+    "ex": "The company put one woman on its board for the annual report photo, but critics called it tokenism.",
+    "ex2": "Students called it tokenism when the Pune college planted ten saplings on Environment Day and cut fifty trees for a car park.",
+    "with": ["mere tokenism", "accused of tokenism", "an act of tokenism"],
+    "instead": "just for show",
+    "note": ""
+  },
+  {
+    "w": "jingoism",
+    "room": "society",
+    "floor": 5,
+    "pos": "noun",
+    "say": "JING-goh-iz-um",
+    "mean": "loud, aggressive pride in your country that is eager for a fight",
+    "hi": "अंधराष्ट्रवाद",
+    "ex": "Before every big cricket match, some TV channels mix sport with jingoism, as if a game were a war.",
+    "ex2": "Our history teacher showed how jingoism in European newspapers helped crowds cheer the start of the First World War.",
+    "with": ["blind jingoism", "media jingoism", "whip up jingoism"],
+    "instead": "aggressive patriotism",
+    "note": "Patriotism is love of your country; jingoism shows it by wanting to fight or insult others."
   }
 ]

@@ -187,7 +187,9 @@ function frame(p, kicker, body) {
 
 function wordItem(p, it, next) {
   const w = D.byId.get(it.id);
-  const g = gapWord(w.ex, w.w);
+  // Revision shows the word in a new situation (ex2), so it is recalled, not just recognised.
+  const ex = it.review && w.ex2 && gapWord(w.ex2, w.w) ? w.ex2 : w.ex;
+  const g = gapWord(ex, w.w);
   const opts = shuffle([w, ...distract(w)]);
   render(frame(p, it.review ? 'Remember this one?' : 'Say it better', `
     <p class="sent">${esc(g.before)}${w.instead ? `<s class="flat">${esc(w.instead)}</s> ` : ''}<span class="blank"></span>${esc(g.after)}</p>
@@ -200,7 +202,7 @@ function wordItem(p, it, next) {
     if (it.review) S.answer(w.id, right); else { S.markLearning(w.id); p.learned.push(w.id); }
     p.of++; if (right) p.right++;
     S.save();
-    const full = w.ex;
+    const full = ex;
     main.querySelector('.sent').innerHTML = markWord(full, w.w);
     main.querySelector('.hint')?.remove();
     main.querySelector('.after').innerHTML = `
@@ -354,6 +356,7 @@ V.word = (id) => {
       <p class="meaning">${esc(w.mean)}</p>
       ${hindiOn() && w.hi ? `<p class="hi" lang="hi">${esc(w.hi)}</p>` : ''}
       <p class="sent small-sent">${markWord(w.ex, w.w)} ${speakBtn(w.ex, 'Hear the sentence')}</p>
+      ${w.ex2 ? `<p class="sent small-sent">${markWord(w.ex2, w.w)} ${speakBtn(w.ex2, 'Hear the sentence')}</p>` : ''}
       ${w.instead ? `<p class="swap"><s class="flat">${esc(w.instead)}</s> → <b>${esc(w.w)}</b></p>` : ''}
       ${w.with?.length ? `<p class="label">Goes with</p><p class="partners">${w.with.map((x) => `<span>${esc(x)}</span>`).join('')}</p>` : ''}
       ${w.note ? `<p class="note">${esc(w.note)}</p>` : ''}

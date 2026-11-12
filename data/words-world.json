@@ -8,6 +8,7 @@
     "mean": "full of too many people",
     "hi": "भीड़ भरा",
     "ex": "The Dadar platform was so crowded at nine that Rohan let two locals leave without him.",
+    "ex2": "Grandpa refused to go to the crowded Sunday market, so Kavya ordered the vegetables on her phone instead.",
     "with": ["a crowded street", "a crowded market", "overcrowded"],
     "instead": "full of people",
     "note": "Say 'The bus was crowded', not 'There was rush'. 'Rush' for a crowd is Indian English; elsewhere 'rush' means hurry."
@@ -21,6 +22,7 @@
     "mean": "calm and quiet, with no noise or trouble",
     "hi": "शांत",
     "ex": "After the noise of the Varanasi ghats, the early morning boat ride felt strangely peaceful.",
+    "ex2": "Once the wedding guests had left, the Ludhiana house felt peaceful for the first time in a week.",
     "with": ["a peaceful morning", "a peaceful village", "peaceful protest"],
     "instead": "quiet and nice",
     "note": ""
@@ -34,6 +36,7 @@
     "mean": "a little wet, in an unpleasant way",
     "hi": "सीला, नम",
     "ex": "By August the walls of our Kochi flat were damp, and every leather bag grew green mould.",
+    "ex2": "Sanjay's cricket whites were still damp after a rainy day at the nets, so he hung them under the fan.",
     "with": ["damp walls", "damp clothes", "a damp patch"],
     "instead": "a little wet",
     "note": "Damp is usually unpleasant; 'moist' is neutral or pleasant, as in a moist cake."
@@ -47,6 +50,7 @@
     "mean": "weak and hard to see, hear or smell",
     "hi": "हल्का, धुँधला",
     "ex": "From the hostel terrace we heard the faint sound of a shehnai from a wedding three lanes away.",
+    "ex2": "There was a faint smell of gas in the Pune kitchen, so Aditi opened every window and called the agency.",
     "with": ["a faint smell", "a faint sound", "a faint hope"],
     "instead": "very light",
     "note": "Also a verb: to faint is to fall unconscious. 'I haven't the faintest idea' means no idea at all."
@@ -60,6 +64,7 @@
     "mean": "small from side to side; not wide",
     "hi": "सँकरा, तंग",
     "ex": "In the narrow lanes of Chandni Chowk, a cycle rickshaw and a cow cannot pass each other.",
+    "ex2": "The road to the Himachal village was so narrow that our driver had to reverse whenever a truck came down.",
     "with": ["a narrow lane", "a narrow escape", "a narrow margin"],
     "instead": "not wide",
     "note": "'A narrow escape' means you only just escaped; 'narrow-minded' means not open to new ideas."
@@ -73,6 +78,7 @@
     "mean": "busy and full of people moving about",
     "hi": "चहल-पहल भरा",
     "ex": "Crawford Market is bustling by seven, with porters shouting and mango sellers calling out prices.",
+    "ex2": "By Diwali week, the tiny Indore sweet shop is bustling, with three extra counters and a queue on the pavement.",
     "with": ["a bustling market", "a bustling city", "bustling with activity"],
     "instead": "very busy",
     "note": "The t is silent: BUS-ling. Bustling sounds lively and positive; 'crowded' can sound uncomfortable."
@@ -86,6 +92,7 @@
     "mean": "calm, peaceful and untroubled",
     "hi": "शांत, पुरसुकून",
     "ex": "As our houseboat drifted through the Kerala backwaters at dawn, the water lay serene and still.",
+    "ex2": "The marble walkway around the Golden Temple's pool feels serene at four in the morning, before the crowds arrive.",
     "with": ["a serene lake", "a serene smile", "a serene setting"],
     "instead": "very calm",
     "note": "Works for people too: 'She stayed serene while the wedding guests argued.'"
@@ -99,6 +106,7 @@
     "mean": "too small for the people or things inside it",
     "hi": "तंग, बहुत छोटा",
     "ex": "Six of us shared one cramped room in a Mukherjee Nagar PG while preparing for the civil services exam.",
+    "ex2": "Our cramped Bengaluru office had twelve desks in a room meant for six, so we took our calls on the stairs.",
     "with": ["a cramped room", "cramped conditions", "feel cramped"],
     "instead": "too small",
     "note": "Cramped describes a space; crowded describes too many people. A room for two can feel cramped."
@@ -112,6 +120,7 @@
     "mean": "dark and dull, or sad and without hope",
     "hi": "उदास, अँधेरा-सा",
     "ex": "The sky over Shillong stayed gloomy for a week, and even the market sellers seemed low.",
+    "ex2": "The hospital corridor in Patna was long and gloomy, lit by a single flickering tube light.",
     "with": ["gloomy weather", "a gloomy mood", "a gloomy forecast"],
     "instead": "dark and sad",
     "note": "Works for weather, rooms and moods: a gloomy sky, a gloomy corridor, a gloomy prediction."
@@ -125,6 +134,7 @@
     "mean": "having a sweet, pleasant smell",
     "hi": "ख़ुशबूदार",
     "ex": "Flower sellers outside Madurai's Meenakshi temple string fragrant jasmine into thick garlands.",
+    "ex2": "Nani's kitchen in Lucknow is fragrant with saffron and cardamom whenever she cooks biryani for Eid.",
     "with": ["fragrant flowers", "fragrant rice", "fragrant spices"],
     "instead": "nice smelling",
     "note": "Only for pleasant smells. For strong smells use 'pungent'; for bad ones, 'foul'."
@@ -138,6 +148,7 @@
     "mean": "with a lot of water in the air, so you feel hot and sticky",
     "hi": "उमस भरा",
     "ex": "Mumbai in June is so humid that a fresh shirt sticks to your back before you reach the station.",
+    "ex2": "The dressing room at the Chennai stadium was so humid that the players' kits never dried between sessions.",
     "with": ["hot and humid", "humid weather", "humid air"],
     "instead": "hot and sticky",
     "note": "The noun is 'humidity', not 'humidness'. Delhi's May heat is dry; Chennai's is humid."
@@ -151,6 +162,7 @@
     "mean": "completely confused, with no order at all",
     "hi": "अफ़रा-तफ़री भरा",
     "ex": "The Kashmere Gate bus stand was chaotic: conductors shouting, buses reversing, and nobody sure which queue was which.",
+    "ex2": "The kitchen was chaotic on the morning of the wedding, with three cooks, two aunts and one tiny stove.",
     "with": ["chaotic traffic", "a chaotic scene", "utterly chaotic"],
     "instead": "very messy",
     "note": "The 'ch' is a k sound, as in chemistry: KAY-oss, kay-OT-ik."
@@ -164,6 +176,7 @@
     "mean": "very bright and strong, or very clear in the mind",
     "hi": "चटक, साफ़-साफ़",
     "ex": "Ammamma still has vivid memories of the snake-boat races she watched as a girl in Alappuzha.",
+    "ex2": "The back of the truck was painted in vivid pinks and greens, with 'Horn OK Please' in big yellow letters.",
     "with": ["vivid colours", "a vivid memory", "a vivid description"],
     "instead": "very clear",
     "note": "Used for colours, dreams and memories. A 'vivid imagination' easily pictures things that are not there."
@@ -177,6 +190,7 @@
     "mean": "dark and dirty, hard to see through; or unclear and dishonest",
     "hi": "गंदला, धुँधला",
     "ex": "After the floods the Yamuna ran murky brown, carrying plastic and broken branches past the ghats.",
+    "ex2": "Nobody wanted to swim in the murky village pond after the buffaloes had spent the whole afternoon in it.",
     "with": ["murky water", "a murky past", "a murky deal"],
     "instead": "dirty and dark",
     "note": "Also figurative: 'the murky world of land deals' means hidden and probably dishonest."
@@ -190,6 +204,7 @@
     "mean": "having a very strong, sharp smell or taste",
     "hi": "तीखी, तेज़ (गंध)",
     "ex": "The pungent smell of mustard oil smoking in the kadhai made everyone in the Kolkata kitchen sneeze.",
+    "ex2": "At the Bhubaneswar fish market, the pungent smell of dried fish reached us before we even saw the stalls.",
     "with": ["a pungent smell", "a pungent odour", "pungent spices"],
     "instead": "very strong smell",
     "note": "Not always bad: garlic, hing and mustard are pungent. For a bad smell, use 'foul' or 'stinking'."
@@ -203,6 +218,7 @@
     "mean": "thick, green and full of healthy plants",
     "hi": "हरा-भरा",
     "ex": "After the first monsoon showers, the tea gardens of Munnar turn lush and almost glow.",
+    "ex2": "The cricket ground in Dharamshala has a lush outfield, with snowy peaks rising behind the stands.",
     "with": ["lush green", "a lush forest", "lush gardens"],
     "instead": "very green",
     "note": "Lush suggests thick, rich growth; 'green' alone only names the colour."
@@ -216,6 +232,7 @@
     "mean": "old, broken and in very bad condition because nobody cared for it",
     "hi": "जर्जर, ख़स्ताहाल",
     "ex": "The dilapidated haveli in Jaipur still had painted ceilings, though pigeons nested in its broken jharokhas.",
+    "ex2": "The dilapidated village school building was finally repaired after the parents wrote to the district collector.",
     "with": ["a dilapidated building", "dilapidated condition", "a dilapidated old house"],
     "instead": "old and broken",
     "note": "For buildings, vehicles and furniture, not people."
@@ -229,6 +246,7 @@
     "mean": "so hot that you feel uncomfortable and sweaty",
     "hi": "तपता, पसीना छुड़ाने वाला",
     "ex": "On the sweltering May afternoon, the whole Nagpur colony hid indoors with the coolers running.",
+    "ex2": "After a sweltering day of Test cricket in Chennai, the bowlers went straight into ice baths.",
     "with": ["sweltering heat", "a sweltering afternoon", "a sweltering summer"],
     "instead": "very hot",
     "note": "Sweltering suggests heavy, sweaty heat; 'scorching' suggests a burning sun."
@@ -242,6 +260,7 @@
     "mean": "empty, lonely and without life or comfort",
     "hi": "वीरान, सुनसान",
     "ex": "Beyond the last village, the white salt flats of the Rann of Kutch stretch silent and desolate for miles.",
+    "ex2": "After the last train left, the small Rajasthan station looked desolate, with one dog asleep on the platform.",
     "with": ["a desolate landscape", "a desolate road", "feel desolate"],
     "instead": "empty and lonely",
     "note": "Can describe a person too: feeling desolate means feeling deeply alone and sad."
@@ -255,6 +274,7 @@
     "mean": "perfectly clean and untouched, as if new",
     "hi": "बेदाग़, अछूता",
     "ex": "The beach on Havelock Island was pristine: no plastic, no hawkers, only turtle tracks in the sand.",
+    "ex2": "Dadi's Kanjeevaram saree, wrapped in muslin for forty years, was still in pristine condition.",
     "with": ["pristine condition", "a pristine beach", "pristine white"],
     "instead": "very clean",
     "note": "A pristine forest is untouched by people; a pristine shirt is spotless."
@@ -268,6 +288,7 @@
     "mean": "showing great wealth; very rich and grand",
     "hi": "आलीशान, शाही",
     "ex": "The wedding hall in Hyderabad was opulent, with crystal chandeliers, silver thalis and walls of fresh roses.",
+    "ex2": "The Mysore Palace is opulent, with gold-painted pillars, carved doors and enormous chandeliers.",
     "with": ["an opulent palace", "an opulent lifestyle", "opulent decor"],
     "instead": "very rich-looking",
     "note": "Can sound admiring or slightly critical, hinting at too much display of money."
@@ -281,6 +302,7 @@
     "mean": "badly made and looking ready to fall apart",
     "hi": "टूटा-फूटा, खटारा",
     "ex": "A ramshackle bus with a cracked windscreen carried us up the mountain road to Tawang.",
+    "ex2": "Behind the stadium, a ramshackle tea stall of tin sheets and bamboo served the best cutting chai in Guwahati.",
     "with": ["a ramshackle hut", "a ramshackle bus", "a ramshackle shed"],
     "instead": "falling apart",
     "note": "Ramshackle means badly built; dilapidated means once fine, now ruined by neglect."
@@ -294,6 +316,7 @@
     "mean": "a loud mix of harsh, clashing sounds",
     "hi": "कानफोड़ू शोर",
     "ex": "Horns, temple bells and a loudspeaker selling onions made a cacophony at the Lucknow crossing.",
+    "ex2": "When the power came back, the hostel woke to a cacophony of fans, ringing phones and twenty alarms.",
     "with": ["a cacophony of horns", "a cacophony of voices", "sheer cacophony"],
     "instead": "lots of noise",
     "note": "Stress the second syllable: kuh-KOF. Its opposite is 'harmony'."
@@ -307,6 +330,7 @@
     "mean": "peaceful and beautiful, like a perfect picture",
     "hi": "मनोरम, सपनों जैसा",
     "ex": "Their idyllic Coorg homestay had coffee bushes, a little stream and no mobile signal at all.",
+    "ex2": "For Simran, growing up among the apple orchards of a Himachal village felt idyllic, until she needed fast internet for college.",
     "with": ["an idyllic setting", "an idyllic village", "an idyllic childhood"],
     "instead": "perfect and peaceful",
     "note": "Also said eye-DIL-ik. Often hints that real life is less perfect than the picture."
@@ -320,6 +344,7 @@
     "mean": "green and covered with grass and plants",
     "hi": "हरा-भरा",
     "ex": "The train wound through the verdant hills of the Western Ghats, with a waterfall on every slope.",
+    "ex2": "After a good monsoon, the verdant paddy fields of Thanjavur stretched all the way to the horizon.",
     "with": ["verdant hills", "a verdant valley", "verdant fields"],
     "instead": "very green",
     "note": "A literary word for writing; in speech, 'green' or 'lush' sounds more natural."
@@ -333,8 +358,233 @@
     "mean": "the earthy smell when rain falls on dry ground",
     "hi": "मिट्टी की सोंधी ख़ुशबू",
     "ex": "When the first monsoon rain hit the dusty Jodhpur courtyard, the petrichor drew the whole family outside.",
+    "ex2": "Sitting in her Bengaluru office, Neha smelt the petrichor through the open window and knew the rain had come.",
     "with": ["the smell of petrichor", "the scent of petrichor"],
     "instead": "smell of rain",
     "note": "Scientists coined it in 1964. Kannauj perfumers bottle the same smell as 'mitti attar'."
+  },
+  {
+    "w": "noisy",
+    "room": "world",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "NOY-zee",
+    "mean": "making a lot of loud sound",
+    "hi": "शोर भरा",
+    "ex": "Our flat faces a noisy main road, so Papa sleeps with cotton in his ears.",
+    "ex2": "The school canteen gets so noisy at lunch that Ms D'Souza has to blow a whistle.",
+    "with": ["a noisy street", "noisy neighbours", "a noisy classroom"],
+    "instead": "very loud",
+    "note": "Noisy describes the place or source; loud describes the sound: a loud horn, a noisy road."
+  },
+  {
+    "w": "dusty",
+    "room": "world",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "DUS-tee",
+    "mean": "covered with or full of dust",
+    "hi": "धूल भरा",
+    "ex": "After the long bus ride through Rajasthan, our bags and shoes were dusty and brown.",
+    "ex2": "Dadi found her old wedding album on a dusty shelf at the back of the storeroom.",
+    "with": ["a dusty road", "dusty shelves", "hot and dusty"],
+    "instead": "full of dirt",
+    "note": ""
+  },
+  {
+    "w": "chilly",
+    "room": "world",
+    "floor": 1,
+    "pos": "adjective",
+    "say": "CHIL-ee",
+    "mean": "cold in an unpleasant way, but not freezing",
+    "hi": "ठंडा, सर्द",
+    "ex": "Delhi mornings get chilly in December, so the newspaper boy wears a monkey cap and gloves.",
+    "ex2": "The air-conditioned hall was so chilly that guests at the reception wrapped shawls round their shoulders.",
+    "with": ["a chilly morning", "a chilly wind", "feel chilly"],
+    "instead": "a bit cold",
+    "note": "Do not confuse with 'chilli', the hot pepper. 'A chilly welcome' means an unfriendly one."
+  },
+  {
+    "w": "spacious",
+    "room": "world",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "SPAY-shus",
+    "mean": "having lots of room inside; large",
+    "hi": "खुला और बड़ा",
+    "ex": "The new flat in Noida is spacious enough for Nani to have her own room with a balcony.",
+    "ex2": "The spacious new waiting hall at Bhopal station has fans, clean benches and room for hundreds.",
+    "with": ["a spacious room", "a spacious flat", "spacious and airy"],
+    "instead": "very big",
+    "note": "Use it for rooms, homes and cars, not for open land or people."
+  },
+  {
+    "w": "scenic",
+    "room": "world",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "SEE-nik",
+    "mean": "having beautiful views of nature",
+    "hi": "सुंदर नज़ारों वाला",
+    "ex": "We took the scenic route to Goa along the Konkan coast, with the sea beside us all day.",
+    "ex2": "The scenic toy train to Darjeeling moves so slowly that boys jump off and climb back on.",
+    "with": ["the scenic route", "a scenic drive", "scenic beauty"],
+    "instead": "nice to look at",
+    "note": "Say 'scenic beauty', not 'scenery beauty'. Scenery is the noun; scenic describes it."
+  },
+  {
+    "w": "deserted",
+    "room": "world",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "dih-ZUR-tid",
+    "mean": "empty, with no people at all",
+    "hi": "सुनसान, वीरान",
+    "ex": "During the World Cup final, the streets of Kolkata were deserted because everyone was watching the match.",
+    "ex2": "By eleven at night the Chandigarh market was deserted, and only one dhaba was still frying parathas.",
+    "with": ["a deserted street", "a deserted beach", "completely deserted"],
+    "instead": "totally empty",
+    "note": "Deserted simply means no people are there; 'desolate' adds a feeling of sadness and loneliness."
+  },
+  {
+    "w": "cosy",
+    "room": "world",
+    "floor": 2,
+    "pos": "adjective",
+    "say": "KOH-zee",
+    "mean": "small, warm and comfortable",
+    "hi": "गरम और आरामदेह",
+    "ex": "Our cosy hostel room in Shimla had two quilts, a heater and a window full of pine trees.",
+    "ex2": "On rainy evenings the tiny Park Street café feels cosy, with warm lights and fish cutlets on every table.",
+    "with": ["a cosy room", "a cosy corner", "warm and cosy"],
+    "instead": "small and warm",
+    "note": "British and Indian spelling is 'cosy'; Americans write 'cozy'."
+  },
+  {
+    "w": "sprawling",
+    "room": "world",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "SPRAW-ling",
+    "mean": "spreading out widely, often in an untidy way",
+    "hi": "दूर तक फैला हुआ",
+    "ex": "Bengaluru's sprawling suburbs now cover villages that were growing ragi only twenty years ago.",
+    "ex2": "The sprawling wedding venue had three lawns, two kitchens and a car park bigger than our whole colony.",
+    "with": ["a sprawling city", "a sprawling campus", "a sprawling estate"],
+    "instead": "spread out",
+    "note": ""
+  },
+  {
+    "w": "dingy",
+    "room": "world",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "DIN-jee",
+    "mean": "dark, dirty and depressing to be in",
+    "hi": "अँधेरा और गंदा",
+    "ex": "The coaching centre ran from a dingy basement in Kota with one window and a buzzing tube light.",
+    "ex2": "After the match we ate at a dingy dhaba near Mohali that served the best rajma chawal in Punjab.",
+    "with": ["a dingy room", "a dingy basement", "a dingy little hotel"],
+    "instead": "dark and shabby",
+    "note": "Say DIN-jee, with a soft 'j'. 'Dinghy', a small boat, is said DING-ee."
+  },
+  {
+    "w": "parched",
+    "room": "world",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "PAHCHT",
+    "mean": "very dry because there has been no rain",
+    "hi": "सूखा हुआ, प्यासा",
+    "ex": "After two weak monsoons, the parched fields of Marathwada cracked open like a broken plate.",
+    "ex2": "After fielding in the Nagpur heat, the parched players emptied ten bottles of water in minutes.",
+    "with": ["parched land", "parched earth", "a parched throat"],
+    "instead": "very dry",
+    "note": "Also used for people: 'I'm parched' means very thirsty."
+  },
+  {
+    "w": "torrential",
+    "room": "world",
+    "floor": 3,
+    "pos": "adjective",
+    "say": "tuh-REN-shul",
+    "mean": "very heavy and fast (used for rain)",
+    "hi": "मूसलाधार",
+    "ex": "Torrential rain flooded the Andheri subway, and schools across Mumbai closed by noon.",
+    "ex2": "A torrential downpour stopped the Test match at Eden Gardens just when India needed two more wickets.",
+    "with": ["torrential rain", "a torrential downpour", "torrential showers"],
+    "instead": "very heavy rain",
+    "note": "Used almost only for rain; you cannot say 'torrential traffic'."
+  },
+  {
+    "w": "secluded",
+    "room": "world",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "sih-KLOO-did",
+    "mean": "quiet and hidden, far away from other people",
+    "hi": "एकांत, अलग-थलग",
+    "ex": "Near Gokarna, the friends found a secluded beach where the only footprints in the sand were crabs'.",
+    "ex2": "Nanaji built his reading room in a secluded corner of the orchard, far from the noise of the house.",
+    "with": ["a secluded spot", "a secluded beach", "a secluded village"],
+    "instead": "far from everyone",
+    "note": "Secluded is usually pleasant (private, peaceful); 'isolated' can sound lonely or cut off."
+  },
+  {
+    "w": "teeming",
+    "room": "world",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "TEE-ming",
+    "mean": "full of people, animals or things moving about",
+    "hi": "खचाखच भरा",
+    "ex": "In winter, Chilika Lake is teeming with birds that fly in from Siberia and Central Asia.",
+    "ex2": "Howrah station was teeming with travellers on the night before Durga Puja began.",
+    "with": ["teeming with life", "teeming with people", "teeming crowds"],
+    "instead": "full of",
+    "note": "Usually 'teeming with': the river was teeming with fish."
+  },
+  {
+    "w": "stifling",
+    "room": "world",
+    "floor": 4,
+    "pos": "adjective",
+    "say": "STY-fling",
+    "mean": "so hot and airless that it is hard to breathe",
+    "hi": "दमघोंटू",
+    "ex": "The general compartment was stifling, with forty people breathing the same hot air and no fan working.",
+    "ex2": "Power cuts in a Patna summer make the bedrooms stifling, so the whole family sleeps on the roof.",
+    "with": ["stifling heat", "a stifling room", "stifling air"],
+    "instead": "hot and airless",
+    "note": "Also used for rules or families that stop you from growing: a stifling atmosphere."
+  },
+  {
+    "w": "labyrinthine",
+    "room": "world",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "lab-uh-RIN-thyn",
+    "mean": "full of twisting paths, like a maze",
+    "hi": "भूलभुलैया जैसा",
+    "ex": "Without a guide, we got lost in the labyrinthine lanes of old Varanasi between the ghats.",
+    "ex2": "The labyrinthine corridors of the district court confused Shabana, who asked four lawyers for Room 12.",
+    "with": ["labyrinthine lanes", "labyrinthine corridors", "labyrinthine rules"],
+    "instead": "like a maze",
+    "note": "From the labyrinth of Greek myth. Lucknow's Bhool Bhulaiya is a real one."
+  },
+  {
+    "w": "ethereal",
+    "room": "world",
+    "floor": 5,
+    "pos": "adjective",
+    "say": "ih-THEER-ee-ul",
+    "mean": "so light and delicate that it seems not of this world",
+    "hi": "अलौकिक",
+    "ex": "At dawn, mist rose off the Dal Lake and the shikaras looked ethereal, as if floating on nothing.",
+    "ex2": "Under the full moon, the white marble of the Taj Mahal looks ethereal, almost ready to float away.",
+    "with": ["an ethereal glow", "ethereal beauty", "ethereal light"],
+    "instead": "dreamlike",
+    "note": "Used for light, music and beauty. It sounds poetic, so keep it mostly for writing."
   }
 ]

@@ -808,5 +808,2446 @@
       },
       " proof that phones cause it."
     ]
+  },
+  {
+    "parts": [
+      "Kavya was ",
+      {
+        "tired": "a bit scared",
+        "pick": "nervous",
+        "options": [
+          "nervous",
+          "generous",
+          "humid"
+        ],
+        "why": "Nervous names the fear you feel before a test or performance."
+      },
+      " before her first viva, but the examiner was ",
+      {
+        "tired": "calm and kind",
+        "pick": "patient",
+        "options": [
+          "patient",
+          "rapid",
+          "narrow"
+        ],
+        "why": "Patient means calm while someone takes their time."
+      },
+      " with every answer."
+    ]
+  },
+  {
+    "parts": [
+      "The lane behind our building is so ",
+      {
+        "tired": "not wide",
+        "pick": "narrow",
+        "options": [
+          "narrow",
+          "faint",
+          "gradual"
+        ],
+        "why": "Narrow is the exact word for a lane with little width."
+      },
+      " that the tanker cannot enter, and residents ",
+      {
+        "tired": "keep cribbing",
+        "pick": "complain",
+        "options": [
+          "complain",
+          "decrease",
+          "assume"
+        ],
+        "why": "Complain is the clear verb for saying you are unhappy."
+      },
+      " every summer."
+    ]
+  },
+  {
+    "parts": [
+      "Sana felt ",
+      {
+        "tired": "sad and alone",
+        "pick": "lonely",
+        "options": [
+          "lonely",
+          "damp",
+          "reliable"
+        ],
+        "why": "Lonely names the sadness of having no one around."
+      },
+      " in her first month at the Pune hostel, so she was ",
+      {
+        "tired": "very thankful",
+        "pick": "grateful",
+        "options": [
+          "grateful",
+          "stubborn",
+          "tiny"
+        ],
+        "why": "Grateful means thankful for a kindness you received."
+      },
+      " when her roommate invited her home for Eid."
+    ]
+  },
+  {
+    "parts": [
+      "The coach wants the bowlers to ",
+      {
+        "tired": "get better",
+        "pick": "improve",
+        "options": [
+          "improve",
+          "decrease",
+          "postpone"
+        ],
+        "why": "Improve means to make something better."
+      },
+      " their fitness, because the team's ",
+      {
+        "tired": "most important thing",
+        "pick": "priority",
+        "options": [
+          "priority",
+          "debate",
+          "factor"
+        ],
+        "why": "Priority is the one thing that comes first."
+      },
+      " this year is the World Cup."
+    ]
+  },
+  {
+    "parts": [
+      "Ramesh is a ",
+      {
+        "tired": "trustworthy",
+        "pick": "reliable",
+        "options": [
+          "reliable",
+          "selfish",
+          "humid"
+        ],
+        "why": "Reliable means you can count on him every time."
+      },
+      " electrician; he is always ",
+      {
+        "tired": "on time",
+        "pick": "punctual",
+        "options": [
+          "punctual",
+          "enormous",
+          "scarce"
+        ],
+        "why": "Punctual means arriving exactly when expected."
+      },
+      " and never leaves a job half done."
+    ]
+  },
+  {
+    "parts": [
+      "Car use will ",
+      {
+        "tired": "go down",
+        "pick": "decrease",
+        "options": [
+          "decrease",
+          "confirm",
+          "admit"
+        ],
+        "why": "Decrease means become smaller in number or amount."
+      },
+      " only if the city makes buses ",
+      {
+        "tired": "easy to use",
+        "pick": "convenient",
+        "options": [
+          "convenient",
+          "ashamed",
+          "faint"
+        ],
+        "why": "Convenient means easy and suitable for your daily needs."
+      },
+      " for office workers."
+    ]
+  },
+  {
+    "parts": [
+      "The ",
+      {
+        "tired": "slow, step by step",
+        "pick": "gradual",
+        "options": [
+          "gradual",
+          "generous",
+          "lonely"
+        ],
+        "why": "Gradual describes change that happens little by little."
+      },
+      " rise in the river did not worry the villagers until a ",
+      {
+        "tired": "quick and unexpected",
+        "pick": "sudden",
+        "options": [
+          "sudden",
+          "humble",
+          "patient"
+        ],
+        "why": "Sudden means it happened without warning."
+      },
+      " cloudburst flooded the fields."
+    ]
+  },
+  {
+    "parts": [
+      "Please do not ",
+      {
+        "tired": "feel shy",
+        "pick": "hesitate",
+        "options": [
+          "hesitate",
+          "decline",
+          "revive"
+        ],
+        "why": "Hesitate to means pause because you feel unsure or shy."
+      },
+      " to call us if the gas cylinder is not ",
+      {
+        "tired": "in stock",
+        "pick": "available",
+        "options": [
+          "available",
+          "considerate",
+          "punctual"
+        ],
+        "why": "Available means ready to be bought or used."
+      },
+      " on Saturday."
+    ]
+  },
+  {
+    "parts": [
+      "Neha was ",
+      {
+        "tired": "a little awkward",
+        "pick": "embarrassed",
+        "options": [
+          "embarrassed",
+          "generous",
+          "bustling"
+        ],
+        "why": "Embarrassed is the awkward feeling when others notice your mistake."
+      },
+      " when her phone rang loudly in the library, and she felt ",
+      {
+        "tired": "bad",
+        "pick": "guilty",
+        "options": [
+          "guilty",
+          "humid",
+          "rapid"
+        ],
+        "why": "Guilty means you know you did something wrong."
+      },
+      " for disturbing everyone."
+    ]
+  },
+  {
+    "parts": [
+      "The inquiry found that ",
+      {
+        "tired": "taking bribes",
+        "pick": "corruption",
+        "options": [
+          "corruption",
+          "welfare",
+          "consensus"
+        ],
+        "why": "Corruption is the misuse of power for money or favours."
+      },
+      " in the licence office caused ",
+      {
+        "tired": "quite a lot of",
+        "pick": "considerable",
+        "options": [
+          "considerable",
+          "faint",
+          "humble"
+        ],
+        "why": "Considerable means large enough to matter."
+      },
+      " delay for small shop owners."
+    ]
+  },
+  {
+    "parts": [
+      "Every Sunday Amma will ",
+      {
+        "tired": "keep saying",
+        "pick": "insist",
+        "options": [
+          "insist",
+          "decrease",
+          "hesitate"
+        ],
+        "why": "Insist means say firmly and refuse to accept no."
+      },
+      " that I eat a second dosa, and Appa will ",
+      {
+        "tired": "say maybe we should take",
+        "pick": "suggest",
+        "options": [
+          "suggest",
+          "revive",
+          "decrease"
+        ],
+        "why": "Suggest means put forward an idea gently."
+      },
+      " a walk afterwards."
+    ]
+  },
+  {
+    "parts": [
+      "The new metro line has had a big ",
+      {
+        "tired": "effect",
+        "pick": "impact",
+        "options": [
+          "impact",
+          "rumour",
+          "deadline"
+        ],
+        "why": "Impact is the strong effect something has."
+      },
+      " on travel time, but the fares are ",
+      {
+        "tired": "too high",
+        "pick": "excessive",
+        "options": [
+          "excessive",
+          "faint",
+          "loyal"
+        ],
+        "why": "Excessive means more than is reasonable."
+      },
+      " for students."
+    ]
+  },
+  {
+    "parts": [
+      "The interviewer wanted a ",
+      {
+        "tired": "sure of herself",
+        "pick": "confident",
+        "options": [
+          "confident",
+          "damp",
+          "narrow"
+        ],
+        "why": "Confident means sure of your own ability."
+      },
+      " candidate, but also someone ",
+      {
+        "tired": "not a show-off",
+        "pick": "humble",
+        "options": [
+          "humble",
+          "rapid",
+          "humid"
+        ],
+        "why": "Humble means not proud, open to learning."
+      },
+      " enough to accept feedback."
+    ]
+  },
+  {
+    "parts": [
+      "Water is ",
+      {
+        "tired": "not enough",
+        "pick": "scarce",
+        "options": [
+          "scarce",
+          "generous",
+          "sincere"
+        ],
+        "why": "Scarce means there is too little for everyone."
+      },
+      " in Bundelkhand every May, so the panchayat must ",
+      {
+        "tired": "talk and settle",
+        "pick": "negotiate",
+        "options": [
+          "negotiate",
+          "decrease",
+          "evolve"
+        ],
+        "why": "Negotiate means discuss to reach an agreement."
+      },
+      " with tanker owners."
+    ]
+  },
+  {
+    "parts": [
+      "Our professor gives ",
+      {
+        "tired": "comments",
+        "pick": "feedback",
+        "options": [
+          "feedback",
+          "bias",
+          "welfare"
+        ],
+        "why": "Feedback is advice on what was good and what to fix."
+      },
+      " within a week, which is ",
+      {
+        "tired": "not common",
+        "pick": "rare",
+        "options": [
+          "rare",
+          "crowded",
+          "stubborn"
+        ],
+        "why": "Rare means it does not happen often."
+      },
+      " in a big university."
+    ]
+  },
+  {
+    "parts": [
+      "The plumber was ",
+      {
+        "tired": "had no manners",
+        "pick": "rude",
+        "options": [
+          "rude",
+          "rapid",
+          "slight"
+        ],
+        "why": "Rude means impolite and disrespectful."
+      },
+      " on the phone, but his work was ",
+      {
+        "tired": "good enough",
+        "pick": "adequate",
+        "options": [
+          "adequate",
+          "anxious",
+          "lonely"
+        ],
+        "why": "Adequate means enough for the need, though not excellent."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "If the monsoon is ",
+      {
+        "tired": "normal",
+        "pick": "average",
+        "options": [
+          "average",
+          "selfish",
+          "bored"
+        ],
+        "why": "Average means typical, neither high nor low."
+      },
+      " this year, farmers in Vidarbha expect a ",
+      {
+        "tired": "medium",
+        "pick": "moderate",
+        "options": [
+          "moderate",
+          "gloomy",
+          "homesick"
+        ],
+        "why": "Moderate means neither large nor small."
+      },
+      " rise in cotton output."
+    ]
+  },
+  {
+    "parts": [
+      "Lata is ",
+      {
+        "tired": "says what she thinks",
+        "pick": "outspoken",
+        "options": [
+          "outspoken",
+          "homesick",
+          "tiny"
+        ],
+        "why": "Outspoken means she states her views openly."
+      },
+      " in society meetings, yet she stays ",
+      {
+        "tired": "faithful",
+        "pick": "loyal",
+        "options": [
+          "loyal",
+          "humid",
+          "rapid"
+        ],
+        "why": "Loyal means she keeps supporting people over time."
+      },
+      " to her old neighbours."
+    ]
+  },
+  {
+    "parts": [
+      "Before the surgery, Dr Iyer took time to ",
+      {
+        "tired": "tell about",
+        "pick": "explain",
+        "options": [
+          "explain",
+          "decline",
+          "oppose"
+        ],
+        "why": "Explain means make something clear so people understand."
+      },
+      " the risks and to ",
+      {
+        "tired": "calm down",
+        "pick": "reassure",
+        "options": [
+          "reassure",
+          "contradict",
+          "postpone"
+        ],
+        "why": "Reassure means remove someone's worry."
+      },
+      " Nani's worried children."
+    ]
+  },
+  {
+    "parts": [
+      "Our team lost the final ",
+      {
+        "tired": "even with",
+        "pick": "despite",
+        "options": [
+          "despite",
+          "unless",
+          "whereas"
+        ],
+        "why": "Despite plus a noun shows a surprising contrast."
+      },
+      " a ",
+      {
+        "tired": "very fast",
+        "pick": "rapid",
+        "options": [
+          "rapid",
+          "sincere",
+          "damp"
+        ],
+        "why": "Rapid means happening at great speed."
+      },
+      " start from the openers."
+    ]
+  },
+  {
+    "parts": [
+      "Ankit wanted to study abroad; ",
+      {
+        "tired": "but",
+        "pick": "however",
+        "options": [
+          "however",
+          "unless",
+          "whereas"
+        ],
+        "why": "However, after a semicolon, joins two contrasting sentences."
+      },
+      ", the fees were ",
+      {
+        "tired": "very big",
+        "pick": "enormous",
+        "options": [
+          "enormous",
+          "nervous",
+          "punctual"
+        ],
+        "why": "Enormous means extremely large."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "It is still ",
+      {
+        "tired": "nobody knows yet",
+        "pick": "unclear",
+        "options": [
+          "unclear",
+          "generous",
+          "humble"
+        ],
+        "why": "Unclear means not yet known or decided."
+      },
+      " whether the exam will be held on time, so students are ",
+      {
+        "tired": "very worried",
+        "pick": "anxious",
+        "options": [
+          "anxious",
+          "abundant",
+          "narrow"
+        ],
+        "why": "Anxious means worried about what may happen."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The software update was meant to ",
+      {
+        "tired": "stop",
+        "pick": "prevent",
+        "options": [
+          "prevent",
+          "admit",
+          "postpone"
+        ],
+        "why": "Prevent means stop something before it happens."
+      },
+      " crashes, but it may ",
+      {
+        "tired": "set off",
+        "pick": "trigger",
+        "options": [
+          "trigger",
+          "assure",
+          "reschedule"
+        ],
+        "why": "Trigger means cause something to start suddenly."
+      },
+      " new ones on old phones."
+    ]
+  },
+  {
+    "parts": [
+      "The two colleges will ",
+      {
+        "tired": "work together",
+        "pick": "collaborate",
+        "options": [
+          "collaborate",
+          "decrease",
+          "speculate"
+        ],
+        "why": "Collaborate means work jointly on one project."
+      },
+      " on the science fair, and each student will be ",
+      {
+        "tired": "answerable",
+        "pick": "accountable",
+        "options": [
+          "accountable",
+          "abundant",
+          "nostalgic"
+        ],
+        "why": "Accountable means you must answer for the result."
+      },
+      " for one stall."
+    ]
+  },
+  {
+    "parts": [
+      "Rohan was ",
+      {
+        "tired": "missing home",
+        "pick": "homesick",
+        "options": [
+          "homesick",
+          "punctual",
+          "scarce"
+        ],
+        "why": "Homesick names the ache of missing home."
+      },
+      " in Toronto, and old Doordarshan clips made him ",
+      {
+        "tired": "miss the old days",
+        "pick": "nostalgic",
+        "options": [
+          "nostalgic",
+          "rapid",
+          "reliable"
+        ],
+        "why": "Nostalgic means fondly longing for the past."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The new manager was ",
+      {
+        "tired": "polite and careful",
+        "pick": "tactful",
+        "options": [
+          "tactful",
+          "pungent",
+          "sparse"
+        ],
+        "why": "Tactful means saying hard things without hurting people."
+      },
+      " when she announced the budget cuts, and ",
+      {
+        "tired": "very honest",
+        "pick": "candid",
+        "options": [
+          "candid",
+          "murky",
+          "transient"
+        ],
+        "why": "Candid means open and frank, hiding nothing."
+      },
+      " about what would come next."
+    ]
+  },
+  {
+    "parts": [
+      "Sunil tried to ",
+      {
+        "tired": "make it seem small",
+        "pick": "play down",
+        "options": [
+          "play down",
+          "catch on",
+          "carry on"
+        ],
+        "why": "Play down means make a problem seem less serious."
+      },
+      " the dent in Papa's car, but the repair bill was ",
+      {
+        "tired": "quite big",
+        "pick": "substantial",
+        "options": [
+          "substantial",
+          "negligible",
+          "lush"
+        ],
+        "why": "Substantial means large in amount or value."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The witness gave a ",
+      {
+        "tired": "clear, sensible",
+        "pick": "coherent",
+        "options": [
+          "coherent",
+          "pungent",
+          "frugal"
+        ],
+        "why": "Coherent means the parts fit together logically."
+      },
+      " account, but the defence argued that his story was not ",
+      {
+        "tired": "believable",
+        "pick": "credible",
+        "options": [
+          "credible",
+          "lush",
+          "transient"
+        ],
+        "why": "Credible means people can reasonably believe it."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Engineers hope the new embankment will ",
+      {
+        "tired": "reduce",
+        "pick": "mitigate",
+        "options": [
+          "mitigate",
+          "procrastinate",
+          "articulate"
+        ],
+        "why": "Mitigate means make harm less severe."
+      },
+      " flood damage in Assam, though the evidence so far is ",
+      {
+        "tired": "not clear yet",
+        "pick": "inconclusive",
+        "options": [
+          "inconclusive",
+          "hospitable",
+          "resentful"
+        ],
+        "why": "Inconclusive means it does not settle the question."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Ayaan felt ",
+      {
+        "tired": "still angry",
+        "pick": "resentful",
+        "options": [
+          "resentful",
+          "lush",
+          "pristine"
+        ],
+        "why": "Resentful means bitter about something unfair done to you."
+      },
+      " when his younger brother got the new phone, and he would ",
+      {
+        "tired": "grumble softly",
+        "pick": "mutter",
+        "options": [
+          "mutter",
+          "iterate",
+          "deter"
+        ],
+        "why": "Mutter means speak low and unhappily, half to yourself."
+      },
+      " at dinner."
+    ]
+  },
+  {
+    "parts": [
+      "The startup had to ",
+      {
+        "tired": "keep improving",
+        "pick": "iterate",
+        "options": [
+          "iterate",
+          "concede",
+          "deter"
+        ],
+        "why": "Iterate means repeat and improve step by step."
+      },
+      " its app many times before the idea began to ",
+      {
+        "tired": "become popular",
+        "pick": "catch on",
+        "options": [
+          "catch on",
+          "rule out",
+          "look into"
+        ],
+        "why": "Catch on means become popular with many people."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Grandma is ",
+      {
+        "tired": "happy enough",
+        "pick": "content",
+        "options": [
+          "content",
+          "murky",
+          "drastic"
+        ],
+        "why": "Content means quietly satisfied with what you have."
+      },
+      " with her small garden in Kochi and is ",
+      {
+        "tired": "not very willing",
+        "pick": "reluctant",
+        "options": [
+          "reluctant",
+          "lush",
+          "prompt"
+        ],
+        "why": "Reluctant means unwilling and slow to agree."
+      },
+      " to move to the city with us."
+    ]
+  },
+  {
+    "parts": [
+      "The researchers' ",
+      {
+        "tired": "educated guess",
+        "pick": "hypothesis",
+        "options": [
+          "hypothesis",
+          "bottleneck",
+          "euphemism"
+        ],
+        "why": "A hypothesis is an idea you test with evidence."
+      },
+      " was that longer school hours raise marks, but the data seemed to ",
+      {
+        "tired": "say the opposite of",
+        "pick": "contradict",
+        "options": [
+          "contradict",
+          "reassure",
+          "organise"
+        ],
+        "why": "Contradict means show or say the opposite."
+      },
+      " it."
+    ]
+  },
+  {
+    "parts": [
+      "Watching the Chandrayaan landing was the ",
+      {
+        "tired": "spark",
+        "pick": "catalyst",
+        "options": [
+          "catalyst",
+          "nuance",
+          "mandate"
+        ],
+        "why": "A catalyst is the event that starts a big change."
+      },
+      " that made Ishita choose physics, and she has been ",
+      {
+        "tired": "hard-working",
+        "pick": "diligent",
+        "options": [
+          "diligent",
+          "pungent",
+          "sparse"
+        ],
+        "why": "Diligent means steady, careful hard work."
+      },
+      " ever since."
+    ]
+  },
+  {
+    "parts": [
+      "The paper gave the cricket win ",
+      {
+        "tired": "more than enough",
+        "pick": "ample",
+        "options": [
+          "ample",
+          "transient",
+          "vivid"
+        ],
+        "why": "Ample means plenty, more than needed."
+      },
+      " space, but the water crisis got ",
+      {
+        "tired": "almost no",
+        "pick": "negligible",
+        "options": [
+          "negligible",
+          "eccentric",
+          "lush"
+        ],
+        "why": "Negligible means so small it hardly counts."
+      },
+      " coverage."
+    ]
+  },
+  {
+    "parts": [
+      "Bhavna was ",
+      {
+        "tired": "all confused",
+        "pick": "flustered",
+        "options": [
+          "flustered",
+          "frugal",
+          "pristine"
+        ],
+        "why": "Flustered means nervous and confused under sudden pressure."
+      },
+      " when the projector failed, but she managed to ",
+      {
+        "tired": "sum up",
+        "pick": "summarise",
+        "options": [
+          "summarise",
+          "deter",
+          "stagnate"
+        ],
+        "why": "Summarise means give the main points briefly."
+      },
+      " her slides in two minutes."
+    ]
+  },
+  {
+    "parts": [
+      "Experts ",
+      {
+        "tired": "give the reason as",
+        "pick": "attribute",
+        "options": [
+          "attribute",
+          "rebut",
+          "iterate"
+        ],
+        "why": "Attribute X to Y means say Y caused X."
+      },
+      " the bridge collapse to poor welding, and the victims' families are ",
+      {
+        "tired": "angry at the unfairness",
+        "pick": "indignant",
+        "options": [
+          "indignant",
+          "pristine",
+          "frugal"
+        ],
+        "why": "Indignant means angry because something is unjust."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Moving the exam centre so far away will ",
+      {
+        "tired": "scare off",
+        "pick": "deter",
+        "options": [
+          "deter",
+          "elaborate",
+          "iterate"
+        ],
+        "why": "Deter means discourage someone from doing something."
+      },
+      " many village girls, and the board should ",
+      {
+        "tired": "admit",
+        "pick": "acknowledge",
+        "options": [
+          "acknowledge",
+          "stagnate",
+          "deteriorate"
+        ],
+        "why": "Acknowledge means accept openly that something is true."
+      },
+      " the problem."
+    ]
+  },
+  {
+    "parts": [
+      "The pond behind the temple has turned ",
+      {
+        "tired": "dirty and dark",
+        "pick": "murky",
+        "options": [
+          "murky",
+          "candid",
+          "frugal"
+        ],
+        "why": "Murky describes water you cannot see through."
+      },
+      ", and the smell from the drain is ",
+      {
+        "tired": "very strong",
+        "pick": "pungent",
+        "options": [
+          "pungent",
+          "tactful",
+          "coherent"
+        ],
+        "why": "Pungent describes a sharp, strong smell."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Ravi was ",
+      {
+        "tired": "easily fooled",
+        "pick": "gullible",
+        "options": [
+          "gullible",
+          "resilient",
+          "lush"
+        ],
+        "why": "Gullible means too ready to believe what people say."
+      },
+      " enough to pay for a fake job offer, and now he is ",
+      {
+        "tired": "very sad",
+        "pick": "dejected",
+        "options": [
+          "dejected",
+          "pristine",
+          "scalable"
+        ],
+        "why": "Dejected means low and disappointed after a setback."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The coach was ",
+      {
+        "tired": "not convinced",
+        "pick": "sceptical",
+        "options": [
+          "sceptical",
+          "lush",
+          "frugal"
+        ],
+        "why": "Sceptical means doubtful until you see proof."
+      },
+      " about the young spinner, but three wickets in the Ranji final changed his ",
+      {
+        "tired": "way of seeing it",
+        "pick": "perspective",
+        "options": [
+          "perspective",
+          "bottleneck",
+          "nepotism"
+        ],
+        "why": "Perspective is your way of looking at something."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "I ",
+      {
+        "tired": "keep putting things off",
+        "pick": "procrastinate",
+        "options": [
+          "procrastinate",
+          "reciprocate",
+          "digress"
+        ],
+        "why": "Procrastinate means delay a task you should do now."
+      },
+      " when a task feels big, so my mentor taught me a simple ",
+      {
+        "tired": "rule of thumb",
+        "pick": "heuristic",
+        "options": [
+          "heuristic",
+          "hegemony",
+          "tautology"
+        ],
+        "why": "A heuristic is a quick, practical rule for deciding."
+      },
+      ": do the first five minutes now."
+    ]
+  },
+  {
+    "parts": [
+      "The panchayat now puts every bill on the noticeboard for ",
+      {
+        "tired": "being open",
+        "pick": "transparency",
+        "options": [
+          "transparency",
+          "propaganda",
+          "censorship"
+        ],
+        "why": "Transparency means letting people see how decisions are made."
+      },
+      ", and complaints of ",
+      {
+        "tired": "favouring family",
+        "pick": "nepotism",
+        "options": [
+          "nepotism",
+          "equity",
+          "welfare"
+        ],
+        "why": "Nepotism means giving jobs to your own relatives."
+      },
+      " in hiring have dropped."
+    ]
+  },
+  {
+    "parts": [
+      "Imran gave a ",
+      {
+        "tired": "short and to the point",
+        "pick": "concise",
+        "options": [
+          "concise",
+          "humid",
+          "gloomy"
+        ],
+        "why": "Concise means brief but complete."
+      },
+      " answer in the interview and did not ",
+      {
+        "tired": "go on and on",
+        "pick": "ramble",
+        "options": [
+          "ramble",
+          "iterate",
+          "erode"
+        ],
+        "why": "Ramble means talk for long without a clear point."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Dev felt ",
+      {
+        "tired": "a bit silly",
+        "pick": "sheepish",
+        "options": [
+          "sheepish",
+          "verdant",
+          "scalable"
+        ],
+        "why": "Sheepish means embarrassed after a small mistake."
+      },
+      " after shouting at the umpire, especially when the replay showed the decision was ",
+      {
+        "tired": "fair",
+        "pick": "valid",
+        "options": [
+          "valid",
+          "humid",
+          "sparse"
+        ],
+        "why": "Valid means correct according to the rules."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The new law aims to protect ",
+      {
+        "tired": "left-out",
+        "pick": "marginalised",
+        "options": [
+          "marginalised",
+          "polarised",
+          "pristine"
+        ],
+        "why": "Marginalised means pushed to the edge of society."
+      },
+      " communities, but activists say its wording is ",
+      {
+        "tired": "could mean two things",
+        "pick": "ambiguous",
+        "options": [
+          "ambiguous",
+          "hospitable",
+          "frugal"
+        ],
+        "why": "Ambiguous means it can be read in more than one way."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "A ",
+      {
+        "tired": "never-say-die",
+        "pick": "resilient",
+        "options": [
+          "resilient",
+          "pungent",
+          "murky"
+        ],
+        "why": "Resilient means able to recover after a blow."
+      },
+      " farmer in Marathwada replanted after the hailstorm, and his ",
+      {
+        "tired": "acting on his own",
+        "pick": "initiative",
+        "options": [
+          "initiative",
+          "nepotism",
+          "bottleneck"
+        ],
+        "why": "Initiative means acting without waiting to be told."
+      },
+      " to share seeds helped the whole village."
+    ]
+  },
+  {
+    "parts": [
+      "Ananya's ",
+      {
+        "tired": "very clear",
+        "pick": "vivid",
+        "options": [
+          "vivid",
+          "reluctant",
+          "cynical"
+        ],
+        "why": "Vivid means so detailed you can almost see it."
+      },
+      " description of the Sundarbans made us feel the ",
+      {
+        "tired": "hot and sticky",
+        "pick": "humid",
+        "options": [
+          "humid",
+          "punctual",
+          "sincere"
+        ],
+        "why": "Humid means hot with a lot of moisture in the air."
+      },
+      " air of the mangroves."
+    ]
+  },
+  {
+    "parts": [
+      "After the mill shut, the old market began to ",
+      {
+        "tired": "stay stuck",
+        "pick": "stagnate",
+        "options": [
+          "stagnate",
+          "iterate",
+          "reassure"
+        ],
+        "why": "Stagnate means stop growing or moving forward."
+      },
+      ", and the ",
+      {
+        "tired": "result",
+        "pick": "consequence",
+        "options": [
+          "consequence",
+          "mandate",
+          "nuance"
+        ],
+        "why": "A consequence is what follows from an event."
+      },
+      " was that young people left for Delhi."
+    ]
+  },
+  {
+    "parts": [
+      "The cab driver was ",
+      {
+        "tired": "distrustful",
+        "pick": "cynical",
+        "options": [
+          "cynical",
+          "lush",
+          "scalable"
+        ],
+        "why": "Cynical means expecting the worst from people and rules."
+      },
+      " about the new traffic rules and was sure nothing would ",
+      {
+        "tired": "get better",
+        "pick": "improve",
+        "options": [
+          "improve",
+          "digress",
+          "mutter"
+        ],
+        "why": "Improve means become better."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The audit found the delay did not ",
+      {
+        "tired": "come from",
+        "pick": "stem from",
+        "options": [
+          "stem from",
+          "carry on",
+          "give up"
+        ],
+        "why": "Stem from means grow out of a cause."
+      },
+      " the contractor; the real ",
+      {
+        "tired": "hold-up",
+        "pick": "bottleneck",
+        "options": [
+          "bottleneck",
+          "autonomy",
+          "premise"
+        ],
+        "why": "A bottleneck is the narrow point that slows everything."
+      },
+      " was the permit office."
+    ]
+  },
+  {
+    "parts": [
+      "Our new principal is ",
+      {
+        "tired": "stands up for herself",
+        "pick": "assertive",
+        "options": [
+          "assertive",
+          "sweltering",
+          "transient"
+        ],
+        "why": "Assertive means confident and firm, not aggressive."
+      },
+      " with the trustees but ",
+      {
+        "tired": "understands feelings",
+        "pick": "empathetic",
+        "options": [
+          "empathetic",
+          "murky",
+          "obsolete"
+        ],
+        "why": "Empathetic means able to feel what others feel."
+      },
+      " with students."
+    ]
+  },
+  {
+    "parts": [
+      "The selectors have a ",
+      {
+        "tired": "official order",
+        "pick": "mandate",
+        "options": [
+          "mandate",
+          "nuance",
+          "petrichor"
+        ],
+        "why": "A mandate is the official authority to do a job."
+      },
+      " to pick teams on merit, but critics say junior selections show clear ",
+      {
+        "tired": "one-sided thinking",
+        "pick": "bias",
+        "options": [
+          "bias",
+          "equity",
+          "welfare"
+        ],
+        "why": "Bias means unfairly favouring one side."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "In the debate, Tanvi could ",
+      {
+        "tired": "put into words",
+        "pick": "articulate",
+        "options": [
+          "articulate",
+          "procrastinate",
+          "erode"
+        ],
+        "why": "Articulate means express ideas clearly."
+      },
+      " the farmers' view clearly, and her closing argument was ",
+      {
+        "tired": "clear and convincing",
+        "pick": "cogent",
+        "options": [
+          "cogent",
+          "ramshackle",
+          "verdant"
+        ],
+        "why": "Cogent means logical and persuasive."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The doctor said the link between the new pills and the rash was ",
+      {
+        "tired": "could be true",
+        "pick": "plausible",
+        "options": [
+          "plausible",
+          "pungent",
+          "aloof"
+        ],
+        "why": "Plausible means it seems reasonable, though unproven."
+      },
+      " but still ",
+      {
+        "tired": "not checked",
+        "pick": "unverified",
+        "options": [
+          "unverified",
+          "idyllic",
+          "scalable"
+        ],
+        "why": "Unverified means nobody has confirmed it yet."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The CEO's speech was full of ",
+      {
+        "tired": "big talk",
+        "pick": "rhetoric",
+        "options": [
+          "rhetoric",
+          "impunity",
+          "foresight"
+        ],
+        "why": "Rhetoric is impressive language that may lack substance."
+      },
+      ", but the layoff figures were ",
+      {
+        "tired": "impossible to argue with",
+        "pick": "irrefutable",
+        "options": [
+          "irrefutable",
+          "idyllic",
+          "aloof"
+        ],
+        "why": "Irrefutable means no one can prove it wrong."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The new flyover may ",
+      {
+        "tired": "suddenly cause",
+        "pick": "precipitate",
+        "options": [
+          "precipitate",
+          "reciprocate",
+          "allude"
+        ],
+        "why": "Precipitate means make something bad happen suddenly."
+      },
+      " a jam at the next junction, and residents fear a ",
+      {
+        "tired": "chain",
+        "pick": "cascade",
+        "options": [
+          "cascade",
+          "modicum",
+          "paradox"
+        ],
+        "why": "A cascade is a series of events, each causing the next."
+      },
+      " of delays."
+    ]
+  },
+  {
+    "parts": [
+      "The ad's claim that one tonic cures diabetes is ",
+      {
+        "tired": "sounds right but isn't",
+        "pick": "specious",
+        "options": [
+          "specious",
+          "verdant",
+          "laconic"
+        ],
+        "why": "Specious means seemingly true but actually false."
+      },
+      ", and its ",
+      {
+        "tired": "so-called",
+        "pick": "purported",
+        "options": [
+          "purported",
+          "opulent",
+          "aloof"
+        ],
+        "why": "Purported means claimed to be, but doubtful."
+      },
+      " doctor turned out to be an actor."
+    ]
+  },
+  {
+    "parts": [
+      "Mrs Kapoor is ",
+      {
+        "tired": "very fussy",
+        "pick": "fastidious",
+        "options": [
+          "fastidious",
+          "laconic",
+          "ramshackle"
+        ],
+        "why": "Fastidious means very particular about cleanliness and detail."
+      },
+      " about her kitchen; every steel tumbler must be ",
+      {
+        "tired": "spotless",
+        "pick": "pristine",
+        "options": [
+          "pristine",
+          "paltry",
+          "equivocal"
+        ],
+        "why": "Pristine means perfectly clean, as if new."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The actor's apology sounded ",
+      {
+        "tired": "really sorry",
+        "pick": "contrite",
+        "options": [
+          "contrite",
+          "opulent",
+          "causal"
+        ],
+        "why": "Contrite means truly sorry for doing wrong."
+      },
+      ", but fans who had heard many such apologies felt ",
+      {
+        "tired": "tired of it all",
+        "pick": "jaded",
+        "options": [
+          "jaded",
+          "empirical",
+          "idyllic"
+        ],
+        "why": "Jaded means tired and unimpressed after too much of something."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The village fair was ",
+      {
+        "tired": "perfect and peaceful",
+        "pick": "idyllic",
+        "options": [
+          "idyllic",
+          "abrasive",
+          "specious"
+        ],
+        "why": "Idyllic means peaceful and lovely, like a picture."
+      },
+      ", with ",
+      {
+        "tired": "very green",
+        "pick": "verdant",
+        "options": [
+          "verdant",
+          "paltry",
+          "equivocal"
+        ],
+        "why": "Verdant means green with fresh plants."
+      },
+      " fields, a slow river and children on bullock carts."
+    ]
+  },
+  {
+    "parts": [
+      "The company offered a ",
+      {
+        "tired": "tiny, insulting",
+        "pick": "paltry",
+        "options": [
+          "paltry",
+          "opulent",
+          "causal"
+        ],
+        "why": "Paltry means so small it is insulting."
+      },
+      " raise, and workers called the phrase 'salary realignment' a ",
+      {
+        "tired": "soft word",
+        "pick": "euphemism",
+        "options": [
+          "euphemism",
+          "hegemony",
+          "sycophant"
+        ],
+        "why": "A euphemism is a mild word hiding a harsh fact."
+      },
+      " for a pay cut."
+    ]
+  },
+  {
+    "parts": [
+      "Our manager is ",
+      {
+        "tired": "quick to decide",
+        "pick": "decisive",
+        "options": [
+          "decisive",
+          "verbose",
+          "idyllic"
+        ],
+        "why": "Decisive means making firm choices quickly."
+      },
+      " in a crisis, and she had the ",
+      {
+        "tired": "planning ahead",
+        "pick": "foresight",
+        "options": [
+          "foresight",
+          "impunity",
+          "rhetoric"
+        ],
+        "why": "Foresight is the ability to plan for future problems."
+      },
+      " to stock spare parts before the monsoon."
+    ]
+  },
+  {
+    "parts": [
+      "Raghav is a ",
+      {
+        "tired": "yes-man",
+        "pick": "sycophant",
+        "options": [
+          "sycophant",
+          "heuristic",
+          "cascade"
+        ],
+        "why": "A sycophant flatters powerful people to please them."
+      },
+      " who agrees with every boss, and his team suffers from ",
+      {
+        "tired": "everyone just agreeing",
+        "pick": "groupthink",
+        "options": [
+          "groupthink",
+          "autonomy",
+          "petrichor"
+        ],
+        "why": "Groupthink is when a group agrees without real thinking."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "We have spent ten lakh on the old software, but that is a ",
+      {
+        "tired": "money already gone",
+        "pick": "sunk cost",
+        "options": [
+          "sunk cost",
+          "straw man",
+          "faux pas"
+        ],
+        "why": "A sunk cost is spent money you cannot recover."
+      },
+      ", and the ",
+      {
+        "tired": "price we pay",
+        "pick": "trade-off",
+        "options": [
+          "trade-off",
+          "ripple effect",
+          "euphemism"
+        ],
+        "why": "A trade-off is what you give up to gain something."
+      },
+      " of switching now is only two weeks of training."
+    ]
+  },
+  {
+    "parts": [
+      "The court said there was a ",
+      {
+        "tired": "first-look",
+        "pick": "prima facie",
+        "options": [
+          "prima facie",
+          "vis-à-vis",
+          "faux pas"
+        ],
+        "why": "Prima facie means accepted as true until proved otherwise."
+      },
+      " case against the builder, and the flat owners felt ",
+      {
+        "tired": "proved right",
+        "pick": "vindicated",
+        "options": [
+          "vindicated",
+          "verbose",
+          "opulent"
+        ],
+        "why": "Vindicated means shown to have been right all along."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The haveli's owners live in ",
+      {
+        "tired": "very rich-looking",
+        "pick": "opulent",
+        "options": [
+          "opulent",
+          "laconic",
+          "causal"
+        ],
+        "why": "Opulent means grand and expensively decorated."
+      },
+      " rooms, while the servants' quarters are ",
+      {
+        "tired": "falling apart",
+        "pick": "ramshackle",
+        "options": [
+          "ramshackle",
+          "cogent",
+          "verbose"
+        ],
+        "why": "Ramshackle means badly built and about to collapse."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The bridge was declared unsafe; ",
+      {
+        "tired": "in spite of",
+        "pick": "notwithstanding",
+        "options": [
+          "notwithstanding",
+          "hitherto",
+          "whereby"
+        ],
+        "why": "Notwithstanding means in spite of; formal, used before a noun."
+      },
+      " the warnings, buses still crossed it, ",
+      {
+        "tired": "and by doing this",
+        "pick": "thereby",
+        "options": [
+          "thereby",
+          "whereby",
+          "insofar as"
+        ],
+        "why": "Thereby means as a result of this action."
+      },
+      " putting hundreds of lives at risk."
+    ]
+  },
+  {
+    "parts": [
+      "In the family WhatsApp group, Mama answered every point with ",
+      {
+        "tired": "changing the subject",
+        "pick": "whataboutism",
+        "options": [
+          "whataboutism",
+          "hegemony",
+          "petrichor"
+        ],
+        "why": "Whataboutism dodges criticism by pointing at someone else's faults."
+      },
+      ", so his arguments grew ",
+      {
+        "tired": "weaker",
+        "pick": "tenuous",
+        "options": [
+          "tenuous",
+          "opulent",
+          "verdant"
+        ],
+        "why": "Tenuous means weak and hard to defend."
+      },
+      " with every message."
+    ]
+  },
+  {
+    "parts": [
+      "Freshers face ",
+      {
+        "tired": "a no-win situation",
+        "pick": "a catch-22",
+        "options": [
+          "a catch-22",
+          "a red herring",
+          "Occam's razor"
+        ],
+        "why": "A catch-22 is a trap where each option blocks the other."
+      },
+      ": no job without experience, and no experience without a job, so many feel ",
+      {
+        "tired": "hopeless",
+        "pick": "despondent",
+        "options": [
+          "despondent",
+          "opulent",
+          "cogent"
+        ],
+        "why": "Despondent means without hope after repeated failure."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Beating Australia but losing two fast bowlers to injury was ",
+      {
+        "tired": "a costly win",
+        "pick": "a pyrrhic victory",
+        "options": [
+          "a pyrrhic victory",
+          "a grey area",
+          "the bottom line"
+        ],
+        "why": "A pyrrhic victory costs so much it feels like a loss."
+      },
+      ", yet the captain was ",
+      {
+        "tired": "big-hearted",
+        "pick": "magnanimous",
+        "options": [
+          "magnanimous",
+          "ramshackle",
+          "causal"
+        ],
+        "why": "Magnanimous means generous to a rival, especially after winning."
+      },
+      " in praising the losing side."
+    ]
+  },
+  {
+    "parts": [
+      "After Divya topped the district, her teacher said: don't ",
+      {
+        "tired": "relax after one success",
+        "pick": "rest on your laurels",
+        "options": [
+          "rest on your laurels",
+          "break the ice",
+          "read between the lines"
+        ],
+        "why": "Rest on your laurels means stop trying after one success."
+      },
+      "; the state exam will be far more ",
+      {
+        "tired": "thorough and strict",
+        "pick": "rigorous",
+        "options": [
+          "rigorous",
+          "idyllic",
+          "laconic"
+        ],
+        "why": "Rigorous means demanding, careful and strict."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Two big builders took ",
+      {
+        "tired": "most",
+        "pick": "the lion's share",
+        "options": [
+          "the lion's share",
+          "the tip of the iceberg",
+          "the bottom line"
+        ],
+        "why": "The lion's share means the largest part."
+      },
+      " of the city contracts, and smaller firms could not get even a ",
+      {
+        "tired": "little bit",
+        "pick": "modicum",
+        "options": [
+          "modicum",
+          "paradox",
+          "cascade"
+        ],
+        "why": "A modicum is a small but real amount."
+      },
+      " of work."
+    ]
+  },
+  {
+    "parts": [
+      "With no other flat near the hospital, Joseph had ",
+      {
+        "tired": "no real choice",
+        "pick": "Hobson's choice",
+        "options": [
+          "Hobson's choice",
+          "Occam's razor",
+          "devil's advocate"
+        ],
+        "why": "Hobson's choice is a choice with only one real option."
+      },
+      ", so he paid a deposit ",
+      {
+        "tired": "far too big",
+        "pick": "disproportionate",
+        "options": [
+          "disproportionate",
+          "laconic",
+          "idyllic"
+        ],
+        "why": "Disproportionate means too large compared with something else."
+      },
+      " to the size of the flat."
+    ]
+  },
+  {
+    "parts": [
+      "Before you ",
+      {
+        "tired": "guess",
+        "pick": "speculate",
+        "options": [
+          "speculate",
+          "reciprocate",
+          "culminate"
+        ],
+        "why": "Speculate means guess without full facts."
+      },
+      " about hackers, apply ",
+      {
+        "tired": "the simplest explanation",
+        "pick": "Occam's razor",
+        "options": [
+          "Occam's razor",
+          "Hobson's choice",
+          "a red herring"
+        ],
+        "why": "Occam's razor says prefer the simplest explanation."
+      },
+      ": maybe someone just forgot to renew the domain."
+    ]
+  },
+  {
+    "parts": [
+      "In the society meeting, the fight over paint colours was ",
+      {
+        "tired": "a distraction",
+        "pick": "a red herring",
+        "options": [
+          "a red herring",
+          "a catch-22",
+          "Hobson's choice"
+        ],
+        "why": "A red herring pulls attention away from the real issue."
+      },
+      "; nobody wanted to discuss ",
+      {
+        "tired": "the obvious problem",
+        "pick": "the elephant in the room",
+        "options": [
+          "the elephant in the room",
+          "a blessing in disguise",
+          "food for thought"
+        ],
+        "why": "The elephant in the room is a big problem everyone avoids."
+      },
+      ": the money missing from the repair fund."
+    ]
+  },
+  {
+    "parts": [
+      "The startup's growth was ",
+      {
+        "tired": "faster and faster",
+        "pick": "exponential",
+        "options": [
+          "exponential",
+          "meagre",
+          "laconic"
+        ],
+        "why": "Exponential growth speeds up as it goes."
+      },
+      " in 2021, but the boom proved ",
+      {
+        "tired": "short-lived",
+        "pick": "ephemeral",
+        "options": [
+          "ephemeral",
+          "opulent",
+          "cogent"
+        ],
+        "why": "Ephemeral means lasting a very short time."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The defence will ",
+      {
+        "tired": "claim",
+        "pick": "contend",
+        "options": [
+          "contend",
+          "allude",
+          "reciprocate"
+        ],
+        "why": "Contend means argue firmly that something is true."
+      },
+      " that the CCTV footage is ",
+      {
+        "tired": "fishy",
+        "pick": "dubious",
+        "options": [
+          "dubious",
+          "unassuming",
+          "idyllic"
+        ],
+        "why": "Dubious means doubtful and possibly dishonest."
+      },
+      ", so the prosecution must ",
+      {
+        "tired": "back up",
+        "pick": "substantiate",
+        "options": [
+          "substantiate",
+          "disenfranchise",
+          "digress"
+        ],
+        "why": "Substantiate means support a claim with evidence."
+      },
+      " every claim."
+    ]
+  },
+  {
+    "parts": [
+      "In her speech, the principal did ",
+      {
+        "tired": "hint",
+        "pick": "allude",
+        "options": [
+          "allude",
+          "culminate",
+          "erode"
+        ],
+        "why": "Allude to means mention indirectly."
+      },
+      " to the cheating case, but she chose to ",
+      {
+        "tired": "skip quickly over",
+        "pick": "gloss over",
+        "options": [
+          "gloss over",
+          "live up to",
+          "fall through"
+        ],
+        "why": "Gloss over means treat a problem too briefly."
+      },
+      " the details."
+    ]
+  },
+  {
+    "parts": [
+      "A quiet ",
+      {
+        "tired": "sad mood",
+        "pick": "melancholy",
+        "options": [
+          "melancholy",
+          "hegemony",
+          "foresight"
+        ],
+        "why": "Melancholy is a deep, lasting sadness."
+      },
+      " filled the old Lucknow house after Nani died, and Abbu grew ",
+      {
+        "tired": "a little sad and longing",
+        "pick": "wistful",
+        "options": [
+          "wistful",
+          "abrasive",
+          "verbose"
+        ],
+        "why": "Wistful means gently sad while longing for something."
+      },
+      " whenever he saw her shawl."
+    ]
+  },
+  {
+    "parts": [
+      "Waterlogging at Hindmata is a ",
+      {
+        "tired": "never-ending",
+        "pick": "perennial",
+        "options": [
+          "perennial",
+          "laconic",
+          "opulent"
+        ],
+        "why": "Perennial means returning year after year."
+      },
+      " problem, and each year's quick fixes only ",
+      {
+        "tired": "slowly weaken",
+        "pick": "erode",
+        "options": [
+          "erode",
+          "allude",
+          "reciprocate"
+        ],
+        "why": "Erode means wear away slowly over time."
+      },
+      " public trust."
+    ]
+  },
+  {
+    "parts": [
+      "Cutting the mangroves could do ",
+      {
+        "tired": "cannot be undone",
+        "pick": "irreversible",
+        "options": [
+          "irreversible",
+          "opulent",
+          "aloof"
+        ],
+        "why": "Irreversible means it can never be undone."
+      },
+      " damage to the coast, as the report warned in ",
+      {
+        "tired": "very clear",
+        "pick": "unequivocal",
+        "options": [
+          "unequivocal",
+          "ramshackle",
+          "mercurial"
+        ],
+        "why": "Unequivocal means leaving no room for doubt."
+      },
+      " terms."
+    ]
+  },
+  {
+    "parts": [
+      "Our civics teacher explained how a ",
+      {
+        "tired": "crowd-stirring leader",
+        "pick": "demagogue",
+        "options": [
+          "demagogue",
+          "heuristic",
+          "euphemism"
+        ],
+        "why": "A demagogue wins support by stirring fear and anger."
+      },
+      " uses fear, while a healthy democracy relies on reasoned ",
+      {
+        "tired": "public talk",
+        "pick": "discourse",
+        "options": [
+          "discourse",
+          "hegemony",
+          "impunity"
+        ],
+        "why": "Discourse is serious public discussion of ideas."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "Akash is ",
+      {
+        "tired": "moody and unpredictable",
+        "pick": "mercurial",
+        "options": [
+          "mercurial",
+          "unassuming",
+          "pristine"
+        ],
+        "why": "Mercurial means changing mood suddenly and often."
+      },
+      ": one day he is ",
+      {
+        "tired": "wildly happy",
+        "pick": "euphoric",
+        "options": [
+          "euphoric",
+          "verbose",
+          "causal"
+        ],
+        "why": "Euphoric means intensely excited and happy."
+      },
+      " about the startup, and the next he wants to quit."
+    ]
+  },
+  {
+    "parts": [
+      "Vikram's email was ",
+      {
+        "tired": "too wordy",
+        "pick": "verbose",
+        "options": [
+          "verbose",
+          "idyllic",
+          "irrefutable"
+        ],
+        "why": "Verbose means using far more words than needed."
+      },
+      " and full of ",
+      {
+        "tired": "difficult technical words",
+        "pick": "jargon",
+        "options": [
+          "jargon",
+          "impunity",
+          "foresight"
+        ],
+        "why": "Jargon is specialist language outsiders cannot follow."
+      },
+      ", so the client asked for a phone call."
+    ]
+  },
+  {
+    "parts": [
+      "Our new neighbour seems ",
+      {
+        "tired": "keeps to himself",
+        "pick": "aloof",
+        "options": [
+          "aloof",
+          "opulent",
+          "causal"
+        ],
+        "why": "Aloof means distant and unfriendly-seeming."
+      },
+      ", but Amma says he is just ",
+      {
+        "tired": "simple and quiet",
+        "pick": "unassuming",
+        "options": [
+          "unassuming",
+          "ramshackle",
+          "irrefutable"
+        ],
+        "why": "Unassuming means modest, not seeking attention."
+      },
+      " and does not like attention."
+    ]
+  },
+  {
+    "parts": [
+      "The viral post claims a ",
+      {
+        "tired": "cause-and-effect",
+        "pick": "causal",
+        "options": [
+          "causal",
+          "opulent",
+          "laconic"
+        ],
+        "why": "Causal means one thing directly causes the other."
+      },
+      " link between phone towers and headaches, but its ",
+      {
+        "tired": "truth",
+        "pick": "veracity",
+        "options": [
+          "veracity",
+          "inertia",
+          "hegemony"
+        ],
+        "why": "Veracity means truthfulness, whether something is accurate."
+      },
+      " is doubtful."
+    ]
+  },
+  {
+    "parts": [
+      "When the class topper's scooter broke down on results day, Kunal felt a flash of ",
+      {
+        "tired": "secret joy at his bad luck",
+        "pick": "schadenfreude",
+        "options": [
+          "schadenfreude",
+          "foresight",
+          "impunity"
+        ],
+        "why": "Schadenfreude is pleasure at someone else's misfortune."
+      },
+      ", and then felt ",
+      {
+        "tired": "bad",
+        "pick": "guilty",
+        "options": [
+          "guilty",
+          "verdant",
+          "causal"
+        ],
+        "why": "Guilty means you know you did something wrong."
+      },
+      " about it."
+    ]
+  },
+  {
+    "parts": [
+      "Activists fear the strict ID rule could ",
+      {
+        "tired": "take away the vote of",
+        "pick": "disenfranchise",
+        "options": [
+          "disenfranchise",
+          "reciprocate",
+          "substantiate"
+        ],
+        "why": "Disenfranchise means take away someone's right to vote."
+      },
+      " migrant workers, though officials call that fear ",
+      {
+        "tired": "hard to believe",
+        "pick": "far-fetched",
+        "options": [
+          "far-fetched",
+          "idyllic",
+          "unassuming"
+        ],
+        "why": "Far-fetched means very unlikely to be true."
+      },
+      "."
+    ]
+  },
+  {
+    "parts": [
+      "The chief guest's speech was one ",
+      {
+        "tired": "empty line",
+        "pick": "platitude",
+        "options": [
+          "platitude",
+          "paradox",
+          "catalyst"
+        ],
+        "why": "A platitude is a dull remark said too often to mean anything."
+      },
+      " after another, and his claim that our town would 'lead the world in a year' was pure ",
+      {
+        "tired": "over-the-top talk",
+        "pick": "hyperbole",
+        "options": [
+          "hyperbole",
+          "inertia",
+          "patronage"
+        ],
+        "why": "Hyperbole is deliberate exaggeration, not meant literally."
+      },
+      "."
+    ]
   }
 ]

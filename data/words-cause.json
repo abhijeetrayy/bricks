@@ -8,6 +8,7 @@
     "mean": "one of the things that causes or shapes a result",
     "hi": "वजह, पहलू",
     "ex": "Cheap mobile data was a big factor in the rise of short-video apps in small-town India.",
+    "ex2": "Price was the deciding factor when the Joshis chose a second-hand Alto over a new car.",
     "with": ["a key factor", "a major factor", "risk factor"],
     "instead": "one of the reasons",
     "note": "Say 'a factor in' something: 'Price was a factor in my decision.' The verb 'factor in' means include in your plan: 'factor in traffic'."
@@ -21,6 +22,7 @@
     "mean": "caused by; because of",
     "hi": "की वजह से",
     "ex": "The delay in the Rajdhani Express was due to thick fog near Kanpur.",
+    "ex2": "The India-Australia match in Bengaluru was called off due to rain.",
     "with": ["due to rain", "largely due to", "due to a shortage"],
     "instead": "because of",
     "note": "Formally, 'due to' follows a noun or 'be' (The delay was due to fog); after a verb, use 'because of' (We left because of fog)."
@@ -34,6 +36,7 @@
     "mean": "to cause something to happen later",
     "hi": "का कारण बनना",
     "ex": "Skipping meals during exam week can lead to headaches and poor sleep.",
+    "ex2": "A small leak in the roof can lead to damp walls by the end of the monsoon.",
     "with": ["lead to problems", "could lead to", "eventually lead to"],
     "instead": "cause",
     "note": "The past tense is 'led to', not 'lead to': 'The rumour led to a fight.' A very common spelling mistake."
@@ -47,6 +50,7 @@
     "mean": "to cause a particular result",
     "hi": "नतीजा निकलना, अंजाम होना",
     "ex": "One careless forward on the society WhatsApp group can result in a week of arguments.",
+    "ex2": "Driving on the wrong side of the highway can result in a heavy fine and a suspended licence.",
     "with": ["result in delays", "result in a loss", "could result in"],
     "instead": "end up causing",
     "note": "'Result in' goes from cause to effect; 'result from' goes from effect back to cause. Rain results in floods; floods result from rain."
@@ -60,6 +64,7 @@
     "mean": "to stop something from happening",
     "hi": "रोकना, होने न देना",
     "ex": "Washing hands with soap can prevent many stomach infections during the monsoon.",
+    "ex2": "A good helmet can prevent serious head injuries in a scooter accident.",
     "with": ["prevent accidents", "prevent someone from", "help prevent"],
     "instead": "stop",
     "note": "Say 'prevent him from going', not 'prevent him to go'. Noun: prevention, as in 'prevention is better than cure'."
@@ -73,6 +78,7 @@
     "mean": "a result of an action, often a bad one",
     "hi": "नतीजा, अंजाम",
     "ex": "As a consequence of the transport strike, Kolkata's buses and trams stood still all day.",
+    "ex2": "Missing the scholarship deadline had one painful consequence: Divya had to take a loan for college.",
     "with": ["face the consequences", "as a consequence", "serious consequences"],
     "instead": "result",
     "note": "Usually for bad results: 'face the consequences'. 'Of no consequence' means unimportant. 'Consequently' is a connector meaning 'so'."
@@ -86,6 +92,7 @@
     "mean": "to make something start suddenly",
     "hi": "भड़काना, शुरू कर देना",
     "ex": "Dust from the construction site can trigger an asthma attack in Zoya's grandfather.",
+    "ex2": "One careless remark about the Indian team can trigger a shouting match at a Kolkata adda.",
     "with": ["trigger an attack", "trigger a debate", "trigger panic"],
     "instead": "set off",
     "note": "Also a noun: 'Dust is a trigger for asthma.' The slang 'triggered' (meaning upset) is informal; avoid it in serious writing."
@@ -99,6 +106,7 @@
     "mean": "to be one of the causes of something; also, to give money or help",
     "hi": "योगदान देना, हाथ होना",
     "ex": "Late-night scrolling and endless cups of chai contribute to poor sleep among hostel students.",
+    "ex2": "Rising numbers of cars and two-wheelers contribute to the haze that hangs over Patna every winter.",
     "with": ["contribute to", "contribute towards", "contribute significantly"],
     "instead": "help cause",
     "note": "Stress the second syllable: kun-TRIB-yoot, not KON-tri-byoot. It works for bad things too: smoking contributes to heart disease."
@@ -112,6 +120,7 @@
     "mean": "a strong effect that something has on someone or something",
     "hi": "असर",
     "ex": "The new metro line had a huge impact on rents in Thane.",
+    "ex2": "The coach's half-time talk had a clear impact on how the team played in the second half.",
     "with": ["have an impact on", "a major impact", "long-term impact"],
     "instead": "effect",
     "note": "As a verb ('This will impact sales'), it is common in offices but informal; in careful writing, 'affect' is better."
@@ -125,6 +134,7 @@
     "mean": "the power to change how someone thinks or acts",
     "hi": "असर, प्रभाव",
     "ex": "Her grandmother's stories had a deep influence on Fatima's decision to study history.",
+    "ex2": "Bollywood songs have a strong influence on how young people in small towns dress for weddings.",
     "with": ["a strong influence", "influence on", "under the influence"],
     "instead": "effect on someone",
     "note": "Stress the first syllable: IN-floo-uns. As a verb, no 'on': 'Ads influence children', not 'influence on children'."
@@ -138,6 +148,7 @@
     "mean": "to come from or be caused by something",
     "hi": "से पैदा होना, से उपजना",
     "ex": "Most fights in joint families stem from small misunderstandings, not big betrayals.",
+    "ex2": "Many of the city's traffic jams stem from poor road planning, not just from too many cars.",
     "with": ["stem from fear", "largely stem from", "problems stem from"],
     "instead": "come from",
     "note": "It points back to the cause: 'His anger stems from insecurity.' Past: 'stemmed from'."
@@ -151,6 +162,7 @@
     "mean": "an extra, unplanned effect, often bad, especially of a medicine",
     "hi": "साइड इफ़ेक्ट, बुरा असर",
     "ex": "The doctor warned that drowsiness is a common side effect of the cough syrup.",
+    "ex2": "One happy side effect of working from home was that Arjun finally got to know his neighbours.",
     "with": ["a common side effect", "serious side effects", "an unintended side effect"],
     "instead": "unwanted result",
     "note": "Not only medicines: rules and apps have side effects too. Usually written as two words; 'side-effect' is also seen."
@@ -164,6 +176,7 @@
     "mean": "to say that something was caused or done by someone or something",
     "hi": "श्रेय देना, वजह मानना",
     "ex": "Coach Sandhu likes to attribute every win to the 5 a.m. practice sessions in Mohali.",
+    "ex2": "Shabnam's grandmother likes to attribute her long life to daily walks and no sugar in her tea.",
     "with": ["attribute success to", "widely attributed to", "attribute the delay to"],
     "instead": "give credit for",
     "note": "Verb stress: uh-TRIB-yoot. The noun, meaning a quality ('Patience is a good attribute'), is AT-rih-byoot."
@@ -177,6 +190,7 @@
     "mean": "something that makes a change happen, or happen faster",
     "hi": "उत्प्रेरक, चिंगारी",
     "ex": "A viral video of the broken bridge became the catalyst for repairs the village had wanted for ten years.",
+    "ex2": "Winning the 1983 World Cup was a catalyst for cricket's huge popularity across India.",
     "with": ["a catalyst for change", "act as a catalyst", "the main catalyst"],
     "instead": "spark",
     "note": "From chemistry: a substance that speeds up a reaction without being used up. Usually 'a catalyst for' something."
@@ -190,6 +204,7 @@
     "mean": "real but hidden beneath what you can see",
     "hi": "असली, जड़ में छिपा",
     "ex": "The fever came down, but the doctor at AIIMS wanted to find the underlying cause.",
+    "ex2": "The underlying reason for the brothers' quarrel was an old dispute over the family land.",
     "with": ["the underlying cause", "an underlying problem", "underlying condition"],
     "instead": "real, hidden",
     "note": "An 'underlying condition' is an existing illness, like diabetes, that makes a new illness more dangerous."
@@ -203,6 +218,7 @@
     "mean": "to have the opposite result from what you planned",
     "hi": "उल्टा पड़ना",
     "ex": "Banning phones at home can backfire if teenagers simply start hiding them.",
+    "ex2": "The shop's plan to raise prices during Diwali may backfire if customers simply order online.",
     "with": ["backfire badly", "the plan backfired", "could backfire"],
     "instead": "go wrong",
     "note": "Stronger than 'fail': the plan hurts the person who made it. Comes from the bang of a car engine misfiring."
@@ -216,6 +232,7 @@
     "mean": "one event causing other effects that keep spreading outward",
     "hi": "दूर तक फैलता असर",
     "ex": "A failed monsoon has a ripple effect: farmers earn less, tractor sales fall, and village shops suffer.",
+    "ex2": "When the IT company shut its Pune office, the ripple effect hit nearby canteens, PGs and auto drivers.",
     "with": ["have a ripple effect", "a ripple effect on", "the ripple effect of"],
     "instead": "spreading effect",
     "note": "Picture a stone dropped in a pond. A 'domino effect' is narrower: one thing knocks over the next, in a line."
@@ -229,6 +246,7 @@
     "mean": "to stop someone from doing something by making them afraid or unsure",
     "hi": "डराकर रोकना",
     "ex": "The new CCTV cameras in the lane are meant to deter chain-snatchers.",
+    "ex2": "The steep fine is meant to deter people from spitting paan on the station walls.",
     "with": ["deter crime", "deter someone from", "deter attacks"],
     "instead": "scare off",
     "note": "Prevent stops something by any means; deter works through fear or doubt. Noun: deterrent. Past tense doubles the r: deterred."
@@ -242,6 +260,7 @@
     "mean": "to make a bad situation even worse",
     "hi": "मुश्किल और बढ़ाना",
     "ex": "Heavy rain will only compound the misery of commuters already stuck on the Western Express Highway.",
+    "ex2": "Skipping physiotherapy will only compound the problem with Vikram's injured knee.",
     "with": ["compound the problem", "compound the misery", "compounded by"],
     "instead": "make worse",
     "note": "Verb stress: kum-POWND. The noun KOM-pownd is a walled area (the school compound) or a chemical mix."
@@ -255,6 +274,7 @@
     "mean": "to make a bad event happen suddenly or sooner than expected",
     "hi": "अचानक ला देना",
     "ex": "A sharp diesel price hike threatened to precipitate a truckers' strike across Tamil Nadu.",
+    "ex2": "The captain's sudden injury could precipitate a crisis in the batting order just before the final.",
     "with": ["precipitate a crisis", "precipitate a collapse", "precipitate a fall"],
     "instead": "suddenly cause",
     "note": "In chemistry, a precipitate is a solid that forms in a liquid. 'Precipitation' in weather reports means rain or snow."
@@ -268,6 +288,7 @@
     "mean": "to make a problem, pain or bad feeling worse",
     "hi": "और बिगाड़ देना",
     "ex": "Burning crop stubble can exacerbate the smog that already chokes Delhi every November.",
+    "ex2": "Shouting at a crying toddler will only exacerbate the tantrum, the paediatrician told the new parents.",
     "with": ["exacerbate the problem", "exacerbate tensions", "further exacerbate"],
     "instead": "make worse",
     "note": "Don't mix it up with 'exasperate', which means annoy greatly. Problems get exacerbated; people get exasperated."
@@ -281,6 +302,7 @@
     "mean": "to end in an important event after a long build-up",
     "hi": "चरम पर पहुँचना, समापन होना",
     "ex": "The ten days of Ganeshotsav culminate in the immersion processions on Anant Chaturdashi.",
+    "ex2": "Months of rehearsals will culminate in the school's annual day show at the town hall.",
     "with": ["culminate in", "culminate with", "the culmination of"],
     "instead": "finally end in",
     "note": "Usually 'culminate in' + the final event. Use it for a high point after a long process, not for any ending."
@@ -294,6 +316,7 @@
     "mean": "a bad effect that follows an action, often later and unexpected",
     "hi": "बुरा नतीजा, दूरगामी असर",
     "ex": "One repercussion of the bank fraud was that every customer in the town had to redo their KYC.",
+    "ex2": "The biggest repercussion of the leaked exam paper was a retest for two lakh students.",
     "with": ["serious repercussions", "face repercussions", "far-reaching repercussions"],
     "instead": "bad results",
     "note": "Mostly used in the plural: 'face repercussions'. More formal than 'consequences', and it suggests effects that spread and last."
@@ -307,6 +330,7 @@
     "mean": "showing that one thing directly causes another",
     "hi": "कार्य-कारण वाला",
     "ex": "A Chennai survey found that filter-coffee drinkers lived longer, but it could not prove a causal link.",
+    "ex2": "Doctors have long established a causal link between smoking and lung cancer.",
     "with": ["a causal link", "a causal relationship", "causal connection"],
     "instead": "cause-and-effect",
     "note": "Not 'casual'! Swapping two letters changes everything. Two things moving together (correlation) does not prove a causal link."
@@ -320,6 +344,7 @@
     "mean": "the idea that a tiny event can lead to huge results later",
     "hi": "छोटी बात का बड़ा असर",
     "ex": "Missing the 7:42 local led to a chance meeting, then a job, then a marriage: the butterfly effect, Mumbai style.",
+    "ex2": "Gautam calls it the butterfly effect: one extra coaching class led to a new friend, a startup and a move to Bengaluru.",
     "with": ["the butterfly effect", "a classic butterfly effect", "call it the butterfly effect"],
     "instead": "small thing, big result",
     "note": "From chaos theory: a butterfly's wings could, in theory, help set off a far-away storm. Unlike a ripple effect, the outcome is unpredictable."
@@ -333,8 +358,233 @@
     "mean": "a series of things happening quickly, each one causing the next",
     "hi": "एक के बाद एक, सिलसिला",
     "ex": "One tripped power line set off a cascade of failures that left half of North India in darkness.",
+    "ex2": "The collapse of one big wholesaler set off a cascade of unpaid bills among the small traders of Surat.",
     "with": ["a cascade of", "cascading failures", "cascade effect"],
     "instead": "chain of events",
     "note": "Literally a small waterfall. In offices, the verb 'cascade the message' means pass it down from bosses to teams."
+  },
+  {
+    "w": "affect",
+    "room": "cause",
+    "floor": 1,
+    "pos": "verb",
+    "say": "uh-FEKT",
+    "mean": "to change something or someone in some way",
+    "hi": "असर डालना",
+    "ex": "Heavy fog in January can affect flights at Delhi airport for hours.",
+    "ex2": "Too much screen time before bed can affect how well a child sleeps.",
+    "with": ["badly affect", "directly affect", "affect people's lives"],
+    "instead": "make a difference to",
+    "note": "Affect is usually the verb; effect is usually the noun. 'The rain affected the match; the effect was a draw.'"
+  },
+  {
+    "w": "outcome",
+    "room": "cause",
+    "floor": 1,
+    "pos": "noun",
+    "say": "OWT-kum",
+    "mean": "the final result of an action or event",
+    "hi": "नतीजा",
+    "ex": "The outcome of the panchayat election was announced late at night in the school hall.",
+    "ex2": "Whatever the outcome of the surgery, Dr Menon promised to call the family straight away.",
+    "with": ["the final outcome", "a positive outcome", "the outcome of the match"],
+    "instead": "final result",
+    "note": "Outcome is the end result; output is what a machine or worker produces. Don't mix them up."
+  },
+  {
+    "w": "thanks to",
+    "room": "cause",
+    "floor": 1,
+    "pos": "phrase",
+    "say": "THANKS-too",
+    "mean": "because of; usually said about a good cause",
+    "hi": "की बदौलत",
+    "ex": "Thanks to the new bridge, children from the island village no longer cross the river by boat.",
+    "ex2": "Thanks to one leaking pipe, the whole building in Andheri had no water for two days.",
+    "with": ["thanks to you", "largely thanks to", "partly thanks to"],
+    "instead": "because of",
+    "note": "Usually for good causes; used for a bad one it sounds ironic. 'Due to' is more neutral and formal."
+  },
+  {
+    "w": "spark",
+    "room": "cause",
+    "floor": 2,
+    "pos": "verb",
+    "say": "SPAHRK",
+    "mean": "to make something start suddenly, like a fire from a small flame",
+    "hi": "शुरू कर देना, छेड़ना",
+    "ex": "The umpire's decision was enough to spark a heated debate at every chai stall in town.",
+    "ex2": "A school trip to the planetarium can spark a lifelong love of science in a child.",
+    "with": ["spark a debate", "spark interest", "spark protests"],
+    "instead": "start",
+    "note": "Used for reactions: debates, protests, interest, ideas. 'Trigger' is close but more often for something bad."
+  },
+  {
+    "w": "provoke",
+    "room": "cause",
+    "floor": 2,
+    "pos": "verb",
+    "say": "pruh-VOHK",
+    "mean": "to cause a strong reaction, especially anger",
+    "hi": "भड़काना, उकसाना",
+    "ex": "Don't provoke the stray dogs near the hostel gate; just walk past calmly.",
+    "ex2": "The film has an open ending that is meant to provoke discussion, and it did, at every Kolkata adda.",
+    "with": ["provoke a reaction", "provoke anger", "deliberately provoke"],
+    "instead": "make angry",
+    "note": "You do something, someone reacts. 'Thought-provoking' means something makes you think hard."
+  },
+  {
+    "w": "fuel",
+    "room": "cause",
+    "floor": 2,
+    "pos": "verb",
+    "say": "FYOO-ul",
+    "mean": "to make a feeling or situation stronger or bigger",
+    "hi": "हवा देना, बढ़ाना",
+    "ex": "Rumours on social media can fuel panic buying, as people rush to stock up on salt.",
+    "ex2": "Every defeat seemed to fuel Lalita's determination to train harder in the boxing ring.",
+    "with": ["fuel anger", "fuel rumours", "fuel inflation"],
+    "instead": "add to",
+    "note": "Like pouring petrol on a fire: it makes something that already exists grow bigger."
+  },
+  {
+    "w": "aftermath",
+    "room": "cause",
+    "floor": 2,
+    "pos": "noun",
+    "say": "AHF-tur-math",
+    "mean": "the time after a bad event, and the effects it leaves behind",
+    "hi": "बाद के हालात",
+    "ex": "In the aftermath of the Chennai floods, neighbours shared food, water and phone chargers for days.",
+    "ex2": "In the aftermath of the final defeat, the dressing room stayed silent for an hour.",
+    "with": ["in the aftermath of", "the immediate aftermath", "the aftermath of the war"],
+    "instead": "what came after",
+    "note": "Used after bad events: floods, wars, defeats. Don't use it for a wedding or a party."
+  },
+  {
+    "w": "root cause",
+    "room": "cause",
+    "floor": 3,
+    "pos": "noun",
+    "say": "ROOT-kawz",
+    "mean": "the deepest, main reason a problem happens",
+    "hi": "असली वजह, जड़",
+    "ex": "Engineers found that the root cause of the daily power cuts was one old, overloaded transformer.",
+    "ex2": "Good teachers look for the root cause when a bright student suddenly stops doing homework.",
+    "with": ["the root cause of", "find the root cause", "address the root cause"],
+    "instead": "main reason",
+    "note": "Fix the root cause, not just the symptoms. 'Root cause analysis' is a common phrase in offices and factories."
+  },
+  {
+    "w": "by-product",
+    "room": "cause",
+    "floor": 3,
+    "pos": "noun",
+    "say": "BY-prod-ukt",
+    "mean": "something extra that comes out of making or doing something else",
+    "hi": "उप-उत्पाद",
+    "ex": "Molasses is a by-product of the sugar mills in western Uttar Pradesh.",
+    "ex2": "Better English was a happy by-product of Farhan's habit of reading the newspaper every morning.",
+    "with": ["a by-product of", "a useful by-product", "an unexpected by-product"],
+    "instead": "extra result",
+    "note": "Also spelt 'byproduct'. A by-product is unplanned but often useful; a side effect is usually unwanted."
+  },
+  {
+    "w": "foster",
+    "room": "cause",
+    "floor": 3,
+    "pos": "verb",
+    "say": "FOS-tur",
+    "mean": "to help something grow or develop over time",
+    "hi": "बढ़ावा देना, पनपाना",
+    "ex": "Weekly reading circles foster a love of books among children at the village library.",
+    "ex2": "Good managers foster trust by admitting their own mistakes in team meetings.",
+    "with": ["foster growth", "foster trust", "foster a sense of"],
+    "instead": "help grow",
+    "note": "It also means caring for a child who is not your own: a foster parent. Both meanings are about care and growth."
+  },
+  {
+    "w": "hinder",
+    "room": "cause",
+    "floor": 3,
+    "pos": "verb",
+    "say": "HIN-dur",
+    "mean": "to make something slower or harder to do",
+    "hi": "रुकावट डालना",
+    "ex": "Potholes and waterlogging hinder rescue teams trying to reach flooded parts of Guwahati.",
+    "ex2": "Constant phone notifications hinder Tanvi's concentration when she studies for the CAT.",
+    "with": ["hinder progress", "seriously hinder", "hinder growth"],
+    "instead": "get in the way of",
+    "note": "Hinder slows something down; prevent stops it completely. Say HIN-dur, not HYN-dur."
+  },
+  {
+    "w": "ramification",
+    "room": "cause",
+    "floor": 4,
+    "pos": "noun",
+    "say": "ram-ih-fih-KAY-shun",
+    "mean": "a possible result of an action, often complicated or unexpected",
+    "hi": "दूरगामी असर",
+    "ex": "One ramification of the new data law is that small shops must now keep customer phone numbers safe.",
+    "ex2": "The biggest ramification of the bank merger was that two thousand staff were moved to new cities.",
+    "with": ["serious ramifications", "legal ramifications", "consider the ramifications"],
+    "instead": "far-reaching results",
+    "note": "Mostly plural: 'the ramifications of a decision'. Like branches from a tree, one choice spreads into many results."
+  },
+  {
+    "w": "spur",
+    "room": "cause",
+    "floor": 4,
+    "pos": "verb",
+    "say": "SPUR",
+    "mean": "to encourage something to happen faster or more",
+    "hi": "तेज़ी लाना, प्रेरित करना",
+    "ex": "Lower interest rates could spur demand for new flats in Hyderabad.",
+    "ex2": "Her brother's success in the civil services exam helped spur Pooja to start preparing seriously.",
+    "with": ["spur growth", "spur demand", "spur someone on"],
+    "instead": "push forward",
+    "note": "A spur is a push that speeds things up. 'On the spur of the moment' means suddenly, without planning."
+  },
+  {
+    "w": "instigate",
+    "room": "cause",
+    "floor": 4,
+    "pos": "verb",
+    "say": "IN-stih-gayt",
+    "mean": "to start something on purpose, often trouble",
+    "hi": "शुरू करवाना, भड़काना",
+    "ex": "The police are trying to find out who helped instigate the fight between the two college groups.",
+    "ex2": "After the food-poisoning case, the hostel committee decided to instigate a full inspection of the mess kitchen.",
+    "with": ["instigate a fight", "instigate an inquiry", "instigate violence"],
+    "instead": "stir up",
+    "note": "Usually negative: you instigate a fight or a riot. In formal use, a committee can also instigate an inquiry."
+  },
+  {
+    "w": "vicious circle",
+    "room": "cause",
+    "floor": 5,
+    "pos": "noun",
+    "say": "VISH-us sur-kul",
+    "mean": "a bad situation where each problem causes another that makes the first worse",
+    "hi": "दुष्चक्र",
+    "ex": "Poor sleep makes Arnav anxious, and anxiety keeps him awake: a vicious circle he cannot break.",
+    "ex2": "Many small farmers are stuck in a vicious circle of borrowing to repay old loans before the next crop.",
+    "with": ["a vicious circle of", "break the vicious circle", "trapped in a vicious circle"],
+    "instead": "endless cycle",
+    "note": "'Vicious cycle' is also common. The happy opposite is a 'virtuous circle', where good results feed each other."
+  },
+  {
+    "w": "self-fulfilling prophecy",
+    "room": "cause",
+    "floor": 5,
+    "pos": "noun",
+    "say": "self-fool-fil-ing PROF-uh-see",
+    "mean": "a belief that comes true because people act as if it is true",
+    "hi": "ख़ुद पूरी होने वाली भविष्यवाणी",
+    "ex": "Telling Kabir he was bad at maths became a self-fulfilling prophecy: he stopped trying and failed.",
+    "ex2": "When rumours said the small bank would fail, everyone rushed to withdraw money: a self-fulfilling prophecy.",
+    "with": ["become a self-fulfilling prophecy", "a classic self-fulfilling prophecy", "turn into a self-fulfilling prophecy"],
+    "instead": "made it come true",
+    "note": "Common in talk about exams, markets and parenting: expecting failure can cause it."
   }
 ]
