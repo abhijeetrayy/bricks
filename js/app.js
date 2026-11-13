@@ -134,20 +134,40 @@ function wireSearch() {
 
 // ================================================================ shared pieces
 const started = (ws) => { const c = S.counts(ws.map((w) => w.id)); return c.laid + c.learning; };
-function catCard(c) {
+const partColor = (catId) => partOf(catOf(catId)?.part)?.color || '#1C1D1F';
+const brickCls = (id) => ({ new: 'empty', learning: 'half', laid: '' })[S.statusOf(id)];
+let justLaid = new Set();
+
+/** The wall: one brick per word you have started, coloured by part, laid in running bond from the bottom up. */
+function wallHTML(per = 24, minRows = 3) {
+  const st = S.state();
+  const log = st.laidLog || [];
+  const rank = (id) => { const i = log.indexOf(id); return i < 0 ? 1e6 : i; };
+  const owned = D.words.filter((w) => S.statusOf(w.id) !== 'new')
+    .sort((a, b) => (S.statusOf(a.id) === 'laid' ? 0 : 1) - (S.statusOf(b.id) === 'laid' ? 0 : 1) || rank(a.id) - rank(b.id));
+  const slots = Math.max(minRows * per, Math.ceil((owned.length + per) / per) * per);
+  const bricks = [];
+  for (let k = 0; k < slots; k++) {
+    const w = owned[k];
+    bricks.push(w ? `<i class="p-${catOf(w.cat).part}${S.statusOf(w.id) === 'learning' ? ' learning' : ''}${justLaid.has(w.id) ? ' new-brick' : ''}" title="${esc(w.w)}"></i>` : '<i></i>');
+  }
+  const courses = [];
+  for (let r = 0; r < slots / per; r++) courses.push(`<div class="course ${r % 2 ? 'off' : ''}" style="--n:${per}">${bricks.slice(r * per, (r + 1) * per).join('')}</div>`);
+  justLaid = new Set();
+  return `<div class="wall" aria-label="${owned.length} words in your wall">${courses.reverse().join('')}</div>`;
+}
+
+function areaRow(c) {
   const ws = D.byCat.get(c.id) || [];
   const n = started(ws);
-  const samples = ws.filter((w) => w.floor <= 3 && !w.w.includes(' ')).slice(0, 12);
+  const samples = ws.filter((w) => w.floor <= 3 && !w.w.includes(' '));
   const pick3 = [samples[1], samples[5], samples[9]].filter(Boolean).map((w) => esc(w.w)).join(' · ');
-  return `<a class="catcard ${tintOf(c.id)}" href="#/cat/${c.id}">
-    <b>${esc(c.name)}</b><span class="samples">${pick3}</span>
-    <div><small>${n ? `${n} of ${ws.length} started` : `${ws.length} words`}</small><div class="bar"><i style="width:${Math.round((n / Math.max(1, ws.length)) * 100)}%"></i></div></div></a>`;
+  return `<li><a href="#/cat/${c.id}"><b>${esc(c.name)}</b><span class="samples">${pick3}</span>
+    <span class="meter"><span class="brick ${n ? '' : 'empty'}" style="--c:${partColor(c.id)}"></span>${n}/${ws.length}</span></a></li>`;
 }
-const stTag = (id) => ({ new: '', learning: '<em class="tagl">learning</em>', laid: '<em class="tagy">yours</em>' })[S.statusOf(id)];
 
 // ================================================================ views
 const V = {};
-const hello = () => { const h = new Date().getHours(); return h < 12 ? 'Good morning.' : h < 17 ? 'Good afternoon.' : 'Good evening.'; };
 
 V.today = () => {
   const p = todayPlan();
@@ -155,31 +175,23 @@ V.today = () => {
   const st = S.state();
   const c = S.counts(D.words.map((w) => w.id));
   const L = level();
-  const streak = st.streak?.n || 0;
   render(`
-  <div class="greet"><h1>${hello()}<br>${done ? 'Done for today.' : 'Five sentences today.'}</h1>
-    <p>${streak > 1 ? `${streak} days in a row. Keep it going.` : 'Each one is said the flat way. You find the exact word.'}</p></div>
   <div class="home">
-    <div>
-      <a class="today" href="#/practice${done ? '/more' : ''}">
-        <small>TODAY · LEVEL ${L} · ${esc(floorOf(L).tag.toUpperCase())}</small>
-        <h2>${done ? 'All five done' : 'Say them better'}</h2>
-        <p>${done ? 'Your new words come back over the next few days, until they are yours.' : 'Pick the exact word, hear the sentence, say it out loud. About four minutes.'}</p>
-        <div class="segs">${p.items.map((_, k) => `<i class="${k < p.idx ? 'on' : ''}"></i>`).join('')}</div>
-        <span class="go">${done ? 'Five more' : p.idx ? `Continue · ${p.idx} of ${p.items.length}` : 'Start'}</span>
-      </a>
-      <div class="stats"><div><b>${c.laid}</b><span>words yours</span></div><div><b>${c.learning}</b><span>learning</span></div><div><b>${S.dueIds().length}</b><span>due today</span></div></div>
+    <div class="today">
+      <p class="kicker">Today · ${levelName(L)}</p>
+      <h1>${done ? 'Done for today.' : p.idx ? 'Pick up where you left off.' : 'Five sentences today.'}</h1>
+      <p class="lead">${done ? 'Your new words come back over the next few days, until they are yours.' : 'Each one is said the flat way. You find the exact word, hear it, and say it out loud. About four minutes.'}</p>
+      <div class="row"><a class="btn main" href="#/practice${done ? '/more' : ''}">${done ? 'Five more' : p.idx ? `Continue · ${p.idx} of ${p.items.length}` : 'Start'}</a></div>
+      <div class="stats"><div><b>${c.laid}</b><span>words yours</span></div><div><b>${c.learning}</b><span>learning</span></div><div><b>${st.streak?.n || 0}</b><span>day streak</span></div></div>
+      <div class="parts">${PARTS.map((pt) => { const ws = D.words.filter((w) => catOf(w.cat).part === pt.id); return `<a href="#/words" style="--c:${pt.color}"><span class="sq"></span>${esc(pt.title)}<span>${started(ws)} / ${ws.length}</span></a>`; }).join('')}</div>
     </div>
-    <div class="idea">
-      <p class="idea-q">“With fewer bricks, you can only build a small house.”</p>
-      <p class="idea-a">— the idea from Javed Akhtar's talk <a href="https://www.ted.com/talks/javed_akhtar_the_gift_of_words" target="_blank" rel="noopener">The gift of words</a> (paraphrased)</p>
-      <p class="idea-t">${IDEA} Every word you make your own is one more brick.</p>
-      <a class="btn" href="#/words">Explore all ${D.words.length} words</a>
+    <div>
+      ${wallHTML(20, 6)}
+      <p class="wall-note">${c.laid + c.learning ? `<b>${c.laid + c.learning} bricks</b> in your wall. Every word you learn lays one more.` : 'Your wall is empty. Every word you learn lays one brick.'}</p>
+      <p class="quote">“With fewer bricks, you can only build a small house.”<small>After Javed Akhtar, <a href="https://www.ted.com/talks/javed_akhtar_the_gift_of_words" target="_blank" rel="noopener">The gift of words</a>. ${IDEA}</small></p>
     </div>
   </div>
-  <div class="h"><h2>Practise one area</h2><a href="#/words">All areas</a></div>
-  <div class="cats">${['reason', 'opinion', 'argue', 'feel', 'certainty', 'degree'].map((id) => catCard(catOf(id))).join('')}</div>
-  <div class="card" style="margin-top:26px"><h2>Writing something?</h2><p class="sub">Type the word you always end up using. Get the exact one.</p>${searchBlock()}</div>`);
+  <div class="block"><h2>Writing something?</h2><p class="sub">Type the word you always end up using. Get the exact one.</p>${searchBlock()}</div>`);
   wireSearch();
 };
 
@@ -224,12 +236,13 @@ function wordItem(p, it, next) {
     const chosen = opts[+b.dataset.k], right = chosen === w;
     main.querySelectorAll('.opt').forEach((x, k) => { x.disabled = true; if (opts[k] === w) x.classList.add('right'); else if (x === b) x.classList.add('wrong'); });
     if (it.review) S.answer(w.id, right); else { S.markLearning(w.id); p.learned.push(w.id); }
+    if (right) justLaid.add(w.id);
     p.of++; if (right) p.right++;
     S.save();
     main.querySelector('.sent').innerHTML = markWord(ex, w.w);
     main.querySelector('.hint')?.remove();
     main.querySelector('.after').innerHTML = `
-      <div class="verdict ${right ? 'good' : 'bad'}">${right ? 'Exactly.' : `Better: <b>${esc(w.w)}</b>`}</div>
+      <div class="verdict ${right ? 'good' : 'bad'}">${right ? `<span class="brick" style="--c:${partColor(w.cat)}"></span>Exactly. One more brick: ${esc(w.w)}` : `Better: <b>${esc(w.w)}</b>`}</div>
       <div class="explain">
         <div class="row" style="gap:12px">${speakBtn(ex, 'Hear the sentence')}<span class="muted small">Hear it, then say it out loud once.</span></div>
         <p class="mean"><b>${esc(w.w)}</b> <span class="say">${esc(w.say)}</span> — ${esc(w.mean)}</p>
@@ -292,14 +305,15 @@ function finish(p, extra) {
   render(`<div class="practice"><div class="card done">
     <p class="kicker">${extra ? 'Five more, done' : 'Done for today'}</p>
     <h1>${p.right} of ${p.of} right</h1>
-    ${learned.length ? `<p class="label">NEW BRICKS TODAY</p><div class="chips">${learned.map((w) => `<a class="chip" href="#/word/${w.id}">${esc(w.w)}</a>`).join('')}</div>` : ''}
+    ${learned.length ? `<p class="label">New bricks today</p><div class="chips">${learned.map((w) => `<a class="chip" href="#/word/${w.id}" style="--c:${partColor(w.cat)}"><span class="brick"></span>${esc(w.w)}</a>`).join('')}</div>` : ''}
     ${learned.length && topic ? `<div class="aloud">
       <h2>Last step: use them out loud</h2>
       <p>${esc(topic.t)}</p>
       <p class="small muted">Talk for 30 seconds, alone is fine. Try to use ${learned.slice(0, 3).map((w) => `<b>${esc(w.w)}</b>`).join(', ')}. A word becomes yours when you use it.</p>
       <div class="row" style="margin-top:12px"><button class="btn" id="go30">Start 30 seconds</button><span class="clock" id="clock"></span></div>
     </div>` : ''}
-    <div class="row" style="margin-top:22px"><a class="btn main" href="#/">Done</a><a class="btn" href="#/practice/more">Five more</a><button class="btn quiet" id="sh">Share</button></div>
+    <div style="margin-top:22px">${wallHTML(24, 2)}</div>
+    <div class="row" style="margin-top:22px"><a class="btn main" href="#/">See your wall</a><a class="btn" href="#/practice/more">Five more</a><button class="btn quiet" id="sh">Share</button></div>
   </div></div>`);
   main.querySelector('#sh').onclick = () => share(`New words I practised today: ${learned.map((w) => w.w).join(', ') || 'five sentences'}.`);
   const go = main.querySelector('#go30');
@@ -313,15 +327,14 @@ function finish(p, extra) {
 
 // ---------------------------------------------------------------- words
 V.words = () => {
-  const c = S.counts(D.words.map((w) => w.id));
   render(`<div class="wordshead">
       <div><h1>Words</h1><p class="lead">${IDEA}</p></div>
-      <div class="bricks"><b>${c.laid + c.learning}</b><span>of ${D.words.length} words started</span></div>
+      <div class="wallmini">${wallHTML(24, 2)}</div>
     </div>
     ${searchBlock()}
-    ${PARTS.map((part) => `<section class="part">
-      <div class="part-h"><h2>${esc(part.title)}</h2><p>${esc(part.line)}</p></div>
-      <div class="cats">${CATS.filter((cat) => cat.part === part.id).map(catCard).join('')}</div></section>`).join('')}`);
+    ${PARTS.map((part) => `<section class="part" style="--c:${part.color}">
+      <div class="part-h"><span class="sq"></span><h2>${esc(part.title)}</h2></div><p>${esc(part.line)}</p>
+      <ul class="areas">${CATS.filter((cat) => cat.part === part.id).map(areaRow).join('')}</ul></section>`).join('')}`);
   wireSearch();
 };
 
@@ -331,27 +344,22 @@ V.cat = (id, lvl) => {
   if (c.id !== id) { location.replace(`#/cat/${c.id}`); return; }
   const part = partOf(c.part);
   const ws = D.byCat.get(c.id) || [];
-  const n = started(ws);
   const L = FLOORS.some((f) => String(f.n) === lvl) ? +lvl : 0;
   const shown = L ? ws.filter((w) => w.floor === L) : ws;
-  const idx = CATS.filter((x) => x.part === c.part);
-  render(`<p class="crumbs"><a href="#/words">Words</a> / ${esc(part.title)}</p>
-    <div class="cathead ${part.tint}">
-      <div><h1>${esc(c.name)}</h1><p class="lead">${esc(c.line)}</p></div>
-      <div class="cathead-side"><b>${n}<small>/${ws.length}</small></b><span>started</span>
-        <a class="btn main" href="#/practice/cat/${c.id}">Practise these</a></div>
+  render(`<div style="--c:${part.color}">
+    <p class="crumbs"><a href="#/words">Words</a> / ${esc(part.title)}</p>
+    <div class="areahead">
+      <p class="part-tag"><span class="brick"></span>${esc(part.title)}</p>
+      <h1>${esc(c.name)}</h1><p class="lead">${esc(c.line)}</p>
+      <div class="row"><a class="btn main" href="#/practice/cat/${c.id}">Practise these</a><span class="muted small">${started(ws)} of ${ws.length} in your wall</span></div>
     </div>
-    <div class="levels-bar" role="tablist" aria-label="Filter by level">
-      <a class="${L ? '' : 'on'}" href="#/cat/${c.id}">All <i>${ws.length}</i></a>
-      ${FLOORS.map((f) => { const k = ws.filter((w) => w.floor === f.n).length; return k ? `<a class="${L === f.n ? 'on' : ''}" href="#/cat/${c.id}/${f.n}">${f.n} · ${f.tag} <i>${k}</i></a>` : ''; }).join('')}
+    <div class="levels-bar" aria-label="Filter by level">
+      <a class="${L ? '' : 'on'}" href="#/cat/${c.id}">All<i>${ws.length}</i></a>
+      ${FLOORS.map((f) => { const k = ws.filter((w) => w.floor === f.n).length; return k ? `<a class="${L === f.n ? 'on' : ''}" href="#/cat/${c.id}/${f.n}">${f.tag}<i>${k}</i></a>` : ''; }).join('')}
     </div>
-    <div class="wgrid">${shown.map((w) => `<a class="wc" href="#/word/${w.id}">
-      <div class="wc-top"><b>${esc(w.w)}</b>${stTag(w.id)}</div>
-      <p class="wc-mean">${esc(w.mean)}</p>
-      ${w.instead ? `<p class="wc-inst">instead of <s>${esc(w.instead)}</s></p>` : ''}
-      <span class="wc-lv">L${w.floor}</span></a>`).join('')}</div>
-    <div class="h"><h2>More in ${esc(part.title)}</h2></div>
-    <div class="cats">${idx.filter((x) => x.id !== c.id).map(catCard).join('')}</div>`);
+    <ul class="wlist">${shown.map((w) => `<li><a href="#/word/${w.id}"><span class="brick ${brickCls(w.id)}"></span><b>${esc(w.w)}</b><span>${esc(w.mean)}</span>${w.instead ? `<em>instead of <s>${esc(w.instead)}</s></em>` : ''}</a></li>`).join('')}</ul>
+    <div class="more-areas"><div class="h"><h2>More in ${esc(part.title)}</h2></div><ul class="areas">${CATS.filter((x) => x.part === c.part && x.id !== c.id).map(areaRow).join('')}</ul></div>
+  </div>`);
 };
 
 V.word = (id) => {
@@ -361,32 +369,26 @@ V.word = (id) => {
   const ws = D.byCat.get(c.id);
   const i = ws.indexOf(w), prev = ws[i - 1], nxt = ws[i + 1];
   const st = S.statusOf(w.id);
-  render(`<div class="wordpage"><p class="crumbs"><a href="#/words">Words</a> / <a href="#/cat/${c.id}">${esc(c.name)}</a></p>
-    <article class="wordhero ${part.tint}">
-      <p class="kicker">${esc(c.name)} · ${levelName(w.floor)} · ${esc(w.pos)}</p>
-      <div class="row" style="gap:14px"><h1>${esc(w.w)}</h1>${speakBtn(w.w)}</div>
-      <p class="say">${esc(w.say)}</p>
-      <p class="meaning">${esc(w.mean)}</p>
-      ${hindiOn() && w.hi ? `<p class="hi" lang="hi">${esc(w.hi)}</p>` : ''}
-      ${stTag(w.id) ? `<p style="margin-top:12px">${stTag(w.id)}</p>` : ''}
-    </article>
-    ${w.instead ? `<div class="card upgrade-line"><span class="label">INSTEAD OF SAYING</span><p><s class="flat">${esc(w.instead)}</s><span class="arrow">→</span><b>${esc(w.w)}</b></p></div>` : ''}
-    <div class="card">
-      <p class="label">IN A SENTENCE</p>
-      <div class="ex-row"><p class="sent small-sent">${markWord(w.ex, w.w)}</p>${speakBtn(w.ex, 'Hear the sentence')}</div>
-      ${w.ex2 ? `<div class="ex-row"><p class="sent small-sent">${markWord(w.ex2, w.w)}</p>${speakBtn(w.ex2, 'Hear the sentence')}</div>` : ''}
-    </div>
-    ${w.with?.length || w.note ? `<div class="card">
-      ${w.with?.length ? `<p class="label">WORDS THAT GO WITH IT</p><p class="partners">${w.with.map((x) => `<span>${esc(x)}</span>`).join('')}</p>` : ''}
-      ${w.note ? `<p class="note" style="${w.with?.length ? 'margin-top:14px' : ''}">${esc(w.note)}</p>` : ''}
-    </div>` : ''}
-    <div class="row" style="margin-top:16px">
+  render(`<div class="wordpage" style="--c:${part.color}">
+    <p class="crumbs"><a href="#/words">Words</a> / <a href="#/cat/${c.id}">${esc(c.name)}</a></p>
+    <p class="part-tag"><span class="brick"></span>${esc(c.name)} · ${levelName(w.floor)} · ${esc(w.pos)}</p>
+    <h1>${esc(w.w)}</h1>
+    <div class="sayrow">${speakBtn(w.w)}<span>${esc(w.say)}</span></div>
+    <p class="meaning">${esc(w.mean)}</p>
+    ${hindiOn() && w.hi ? `<p class="hi" lang="hi">${esc(w.hi)}</p>` : ''}
+    <p class="status"><span class="brick ${brickCls(w.id)}"></span>${st === 'laid' ? 'In your wall' : st === 'learning' ? 'Learning: it comes back for practice' : 'Not in your wall yet'}</p>
+    ${w.instead ? `<div class="wsec"><p class="label">Instead of saying</p><p class="swap-line"><s>${esc(w.instead)}</s><span class="muted">→</span><b>${esc(w.w)}</b></p></div>` : ''}
+    <div class="wsec"><p class="label">In a sentence</p>
+      <div class="ex-row"><p class="sent">${markWord(w.ex, w.w)}</p>${speakBtn(w.ex, 'Hear the sentence')}</div>
+      ${w.ex2 ? `<div class="ex-row"><p class="sent">${markWord(w.ex2, w.w)}</p>${speakBtn(w.ex2, 'Hear the sentence')}</div>` : ''}</div>
+    ${w.with?.length || w.note ? `<div class="wsec">${w.with?.length ? `<p class="label">Words that go with it</p><p class="partners">${w.with.map((x) => `<span>${esc(x)}</span>`).join('')}</p>` : ''}${w.note ? `<p class="note">${esc(w.note)}</p>` : ''}</div>` : ''}
+    <div class="row" style="margin-top:28px">
       ${st === 'laid' ? '' : `<button class="btn main" id="know">I already use this word</button>`}
       ${st === 'new' ? '<button class="btn" id="learn">Add to my practice</button>' : ''}
       <button class="btn quiet" id="share">Share</button></div>
     <div class="pager">${prev ? `<a href="#/word/${prev.id}"><small>Previous</small>${esc(prev.w)}</a>` : '<span></span>'}${nxt ? `<a href="#/word/${nxt.id}" class="r"><small>Next</small>${esc(nxt.w)}</a>` : '<span></span>'}</div>
   </div>`);
-  main.querySelector('#know')?.addEventListener('click', () => { S.markKnown(w.id); toast(`${w.w} is yours`); V.word(id); });
+  main.querySelector('#know')?.addEventListener('click', () => { S.markKnown(w.id); justLaid.add(w.id); toast(`One more brick: ${w.w}`); V.word(id); });
   main.querySelector('#learn')?.addEventListener('click', () => { S.markLearning(w.id); toast(`${w.w} will come up in your practice`); V.word(id); });
   main.querySelector('#share').onclick = () => share(`${w.w} (${w.say}) — ${w.mean}\n“${w.ex}”`);
 };
@@ -397,16 +399,17 @@ V.me = () => {
   const yours = D.words.filter((w) => S.statusOf(w.id) === 'laid');
   const learning = D.words.filter((w) => S.statusOf(w.id) === 'learning');
   const L = level();
-  const chips = (ws) => ws.length ? `<div class="chips">${ws.map((w) => `<a class="chip" href="#/word/${w.id}">${esc(w.w)}</a>`).join('')}</div>` : '<p class="muted">None yet. They appear as you practise.</p>';
-  render(`<div class="narrow"><div class="pagehead"><h1>You</h1><p class="lead">A word becomes yours once you have got it right on a few different days.</p></div>
+  const chips = (ws) => ws.length ? `<div class="chips">${ws.map((w) => `<a class="chip" href="#/word/${w.id}" style="--c:${partColor(w.cat)}"><span class="brick ${brickCls(w.id)}"></span>${esc(w.w)}</a>`).join('')}</div>` : '<p class="muted">None yet. They appear as you practise.</p>';
+  render(`<div class="narrow"><div class="pagehead"><h1>Your wall</h1><p class="lead">A word becomes yours once you have got it right on a few different days.</p></div>
+    ${wallHTML(24, 4)}
     <div class="stats four"><div><b>${yours.length}</b><span>yours</span></div><div><b>${learning.length}</b><span>learning</span></div><div><b>${S.dueIds().length}</b><span>due today</span></div><div><b>${st.streak?.n || 0}</b><span>day streak</span></div></div>
-    <div class="h"><h2>Yours</h2></div><div class="card">${chips(yours)}</div>
-    <div class="h"><h2>Learning</h2></div><div class="card">${chips(learning)}</div>
+    <div class="h"><h2>Yours</h2></div>${chips(yours)}
+    <div class="h"><h2>Learning</h2></div>${chips(learning)}
     <div class="h"><h2>Your level</h2></div>
-    <div class="card"><p class="sub" style="margin-top:0">You are on ${levelName(L)}. Too easy or too hard? Choose where practice starts.</p>
-      <div class="levels">${FLOORS.map((f) => `<button class="btn ${f.n === (st.floor || 1) ? 'main' : ''} sm" data-lvl="${f.n}">${f.n} · ${f.tag}</button>`).join('')}</div></div>
+    <p class="sub" style="margin-top:0">You are on ${levelName(L)}. Too easy or too hard? Choose where practice starts.</p>
+    <div class="levels">${FLOORS.map((f) => `<button class="btn ${f.n === (st.floor || 1) ? 'main' : ''} sm" data-lvl="${f.n}">${f.n} · ${f.tag}</button>`).join('')}</div>
     <div class="h"><h2>Settings</h2></div>
-    <div class="card" style="padding:0">
+    <div class="settings">
       <label class="toggle"><span>Hindi hints</span><input type="checkbox" id="hindi" ${st.settings.hindi !== false ? 'checked' : ''}></label>
       <label class="toggle"><span>Speaker buttons</span><input type="checkbox" id="voice" ${st.settings.voice !== false ? 'checked' : ''}></label>
       <details class="more"><summary>Move your progress to another device</summary>

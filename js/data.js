@@ -2,10 +2,10 @@
 // "The more words you have, the bigger the house you can build." — after Javed Akhtar
 
 export const PARTS = [
-  { id: 'think', title: 'Think clearly', line: 'Words to reason with. Clear words make clear thoughts.', tint: 't5' },
-  { id: 'express', title: 'Express yourself', line: 'Words to say what you mean, and hold your ground.', tint: 't3' },
-  { id: 'people', title: 'Understand people', line: 'Words for what people feel, who they are, and what they really mean.', tint: 't2' },
-  { id: 'world', title: 'Describe the world', line: 'Words for places, work and public life, beyond “very good” and “very bad”.', tint: 't1' },
+  { id: 'think', title: 'Think clearly', line: 'Words to reason with. Clear words make clear thoughts.', tint: 't5', color: '#5B6CB8' },
+  { id: 'express', title: 'Express yourself', line: 'Words to say what you mean, and hold your ground.', tint: 't3', color: '#3E7C6B' },
+  { id: 'people', title: 'Understand people', line: 'Words for what people feel, who they are, and what they really mean.', tint: 't2', color: '#C86B4A' },
+  { id: 'world', title: 'Describe the world', line: 'Words for places, work and public life, beyond “very good” and “very bad”.', tint: 't1', color: '#C9A23A' },
 ];
 
 // Each category is one or more word files. Every word belongs to exactly one category.
