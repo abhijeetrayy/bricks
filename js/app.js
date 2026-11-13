@@ -164,34 +164,43 @@ function wireSearch() {
 // ================================================================ views
 const V = {};
 
+const hello = () => { const h = new Date().getHours(); return h < 12 ? 'Good morning.' : h < 17 ? 'Good afternoon.' : 'Good evening.'; };
+const tint = (i) => `t${(i % 6) + 1}`;
+function intentTile(it, i) {
+  const c = S.counts(it.list.map((w) => w.id)), started = c.laid + c.learning;
+  return `<a class="tile ${tint(i)}" href="#/intent/${it.id}"><b>${esc(it.title)}</b><div><small>${started ? `${started} of ${it.list.length} started` : `${it.list.length} words`}</small><div class="bar"><i style="width:${Math.round((started / Math.max(1, it.list.length)) * 100)}%"></i></div></div></a>`;
+}
+
 V.today = () => {
   const p = todayPlan();
   const done = p.idx >= p.items.length;
   const st = S.state();
   const c = S.counts(D.words.map((w) => w.id));
   const L = level();
+  const streak = st.streak?.n || 0;
+  const focus = ['firm', 'read', 'opinion', 'upset', 'disagree', 'feel'].map((id) => D.byIntent.get(id)).filter(Boolean);
   render(`
-  <section class="hero">
-    <p class="kicker">${new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
-    <h1>${done ? 'Done for today.' : p.idx ? 'Pick up where you left off.' : 'Five sentences.<br>Say them better.'}</h1>
-    <p class="lead">${done ? 'Today’s new words come back over the next few days, until they are yours.' : 'Real sentences and everyday phrases, said the flat way. Pick the better one, hear it, then say it out loud. About four minutes.'}</p>
-    <div class="row"><a class="btn main big" href="#/practice${done ? '/more' : ''}">${done ? 'Five more' : p.idx ? `Continue · ${p.idx} of ${p.items.length}` : 'Start'}</a></div>
-    <div class="stats">
-      <div><b>${c.laid}</b><span>words yours</span></div>
-      <div><b>${c.learning}</b><span>learning</span></div>
-      <div><b>${st.streak?.n || 0}</b><span>day streak</span></div>
-      <div><b>${L}</b><span>${esc(floorOf(L).tag)} level</span></div>
+  <div class="greet"><h1>${hello()}<br>${done ? 'Done for today.' : 'Five to practise today.'}</h1>
+    <p>${streak > 1 ? `${streak} days in a row. Keep it going.` : 'Real sentences and everyday phrases, said the flat way. You pick the better one.'}</p></div>
+  <div class="home">
+    <div>
+      <a class="today" href="#/practice${done ? '/more' : ''}">
+        <small>TODAY · LEVEL ${L} · ${esc(floorOf(L).tag.toUpperCase())}</small>
+        <h2>${done ? 'All five done' : 'Say them better'}</h2>
+        <p>${done ? 'Your new words come back over the next few days.' : 'Words, one sentence to upgrade, one real situation. About four minutes.'}</p>
+        <div class="segs">${p.items.map((_, k) => `<i class="${k < p.idx ? 'on' : ''}"></i>`).join('')}</div>
+        <span class="go">${done ? 'Five more' : p.idx ? `Continue · ${p.idx} of ${p.items.length}` : 'Start'}</span>
+      </a>
+      <div class="stats"><div><b>${c.laid}</b><span>words yours</span></div><div><b>${c.learning}</b><span>learning</span></div><div><b>${S.dueIds().length}</b><span>due today</span></div></div>
     </div>
-  </section>
-  <section class="block">
-    <h2>Or practise one thing</h2>
-    <div class="chips plain">${[['words', 'firm', 'Stand your ground'], ['words', 'read', 'Read what people mean'], ['words', 'disagree', 'Disagree and debate'], ['words', 'upset', 'Anger and discontent'], ['words', 'opinion', 'Say what you think'], ['scene', 'feelings', 'Say how you feel'], ['scene', 'work', 'Work phrases'], ['scene', 'love', 'Relationships']].map(([k, id, t]) => `<a class="chip" href="#/practice/${k}/${id}">${t}</a>`).join('')}</div>
-  </section>
-  <section class="block">
-    <h2>Writing something?</h2>
-    <p class="sub">Type the word you always end up using. Get the exact one.</p>
-    ${searchBlock()}
-  </section>`);
+    <div>
+      <div class="h" style="margin-top:4px"><h2>Practise one thing</h2><a href="#/words">All topics</a></div>
+      <div class="tiles">${focus.map(intentTile).join('')}</div>
+    </div>
+  </div>
+  <div class="h"><h2>Phrases for real life</h2><a href="#/phrases">All scenes</a></div>
+  <div class="tiles three">${D.scenes.filter((s) => ['work', 'love', 'family', 'friends', 'debate', 'online'].includes(s.id)).map((s, i) => `<a class="tile ${tint(i + 2)}" href="#/scene/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.items[0]?.better || '')}”</span></a>`).join('')}</div>
+  <div class="card" style="margin-top:26px"><h2>Writing something?</h2><p class="sub">Type the word you always end up using. Get the exact one.</p>${searchBlock()}</div>`);
   wireSearch();
 };
 
@@ -202,7 +211,7 @@ V.practice = (kind, focus) => {
   let p;
   if (kind === 'day') p = todayPlan();
   else p = st.extra && st.extra.kind === kind && (st.extra.focus || null) === (focus || null) && st.extra.idx < st.extra.items.length ? st.extra : newPlan(kind, focus || null);
-  if (!p.items.length) return render(`<div class="card"><h1>Nothing new here right now</h1><p class="lead">You have met every word in this set. Try another category, or move up a level in <a href="#/me">You</a>.</p></div>`);
+  if (!p.items.length) return render(`<div class="practice"><div class="card"><h1>Nothing new here right now</h1><p class="lead">You have met every word in this set. Try another category, or move up a level in <a href="#/me">You</a>.</p></div></div>`);
   const next = () => { p.idx++; S.save(); step(); };
   const step = () => {
     if (p.idx >= p.items.length) return finish(p, kind !== 'day');
@@ -390,56 +399,55 @@ function finish(p, extra) {
 
 // ---------------------------------------------------------------- find
 const PARTS = ['Speak up', 'Understand people', 'Think clearly', 'Everyday life'];
-const progress = (ws) => { const c = S.counts(ws.map((w) => w.id)); return c.laid + c.learning ? `${c.laid + c.learning} of ${ws.length} started` : `${ws.length} words`; };
 
 V.words = () => {
-  render(`<div class="head"><h1>Words</h1><p class="lead">Organised by what you are trying to do when you speak. Plain, clear English: the words you need to think straight and say it straight.</p></div>
+  render(`<div class="pagehead"><h1>Words</h1><p class="lead">Grouped by what you are trying to do when you speak. Plain, clear English for thinking straight and saying it straight.</p></div>
     ${searchBlock()}
-    ${PARTS.map((part) => `<section class="block"><h2>${part}</h2>
-      <ul class="list cats">${D.intents.filter((it) => it.part === part).map((it) => `<li><a href="#/intent/${it.id}"><b>${esc(it.title)}</b><span>${esc(it.line)}</span><em class="count">${progress(it.list)}</em></a></li>`).join('')}</ul></section>`).join('')}`);
+    ${PARTS.map((part, pi) => `<div class="h"><h2>${part}</h2></div><div class="tiles three">${D.intents.filter((it) => it.part === part).map((it, i) => intentTile(it, pi * 4 + i)).join('')}</div>`).join('')}`);
   wireSearch();
 };
 
 const stLabel = (id) => ({ new: '', learning: '<em class="tagl">learning</em>', laid: '<em class="tagy">yours</em>' })[S.statusOf(id)];
 function wordRows(ws) {
-  return FLOORS.map((f) => { const fw = ws.filter((w) => w.floor === f.n); return fw.length ? `<section class="block"><h2 class="lvl">${levelName(f.n)}</h2>
-    <ul class="list words">${fw.map((w) => `<li><a href="#/word/${w.id}"><b>${esc(w.w)} ${stLabel(w.id)}</b><span>${esc(w.mean)}${w.instead ? ` <i>· instead of “${esc(w.instead)}”</i>` : ''}</span></a></li>`).join('')}</ul></section>` : ''; }).join('');
+  return FLOORS.map((f) => { const fw = ws.filter((w) => w.floor === f.n); return fw.length ? `<p class="lvl">${levelName(f.n).toUpperCase()}</p>
+    <ul class="list words">${fw.map((w) => `<li><a href="#/word/${w.id}"><b>${esc(w.w)} ${stLabel(w.id)}</b><span>${esc(w.mean)}${w.instead ? ` <i>· instead of “${esc(w.instead)}”</i>` : ''}</span></a></li>`).join('')}</ul>` : ''; }).join('');
 }
 V.intent = (id) => {
   const it = D.byIntent.get(id);
   if (!it) return V.words();
+  const i = D.intents.indexOf(it);
   const sc = SCENES.find((s) => s.id === INTENT_SCENE[id]);
   render(`<p class="crumbs"><a href="#/words">Words</a> / ${esc(it.part)}</p>
-    <div class="head"><h1>${esc(it.title)}</h1><p class="lead">${esc(it.line)}</p>
-      <div class="row" style="margin-top:20px"><a class="btn main" href="#/practice/words/${id}">Practise these words</a>${sc ? `<a class="btn" href="#/scene/${sc.id}">Phrases: ${esc(sc.title)}</a>` : ''}</div></div>
-    ${wordRows(it.list)}`);
+    <div class="pagehead tinted ${tint(i)}"><h1>${esc(it.title)}</h1><p class="lead">${esc(it.line)}</p>
+      <div class="row"><a class="btn main" href="#/practice/words/${id}">Practise these words</a>${sc ? `<a class="btn" href="#/scene/${sc.id}">Phrases: ${esc(sc.title)}</a>` : ''}</div></div>
+    <div class="narrow">${wordRows(it.list)}</div>`);
 };
 V.group = (id) => {
   const r = roomOf(id);
   if (!r) return V.words();
   render(`<p class="crumbs"><a href="#/words">Words</a> / ${esc(r.name)}</p>
-    <div class="head"><h1>${esc(r.name)}</h1><p class="lead">${esc(r.line)}</p></div>${wordRows(D.byRoom.get(id) || [])}`);
+    <div class="pagehead"><h1>${esc(r.name)}</h1><p class="lead">${esc(r.line)}</p></div><div class="narrow">${wordRows(D.byRoom.get(id) || [])}</div>`);
 };
 
 V.phrases = (id) => {
   if (id) return V.moment(id);
-  render(`<div class="head"><h1>Phrases</h1><p class="lead">What people usually say, and better ways to say it: at work, at home, with friends, in arguments and online.</p></div>
-    <section class="block"><h2>Say this, not that</h2>
-      <ul class="list cats">${D.scenes.filter((s) => s.items.length).map((s) => { const x = s.items[0]; return `<li><a href="#/scene/${s.id}"><b>${esc(s.title)}</b><span><s class="flat">“${esc(x.say)}”</s> → “${esc(x.better)}”</span><em class="count">${s.items.length} phrases</em></a></li>`; }).join('')}</ul></section>
-    <section class="block"><h2>Ready phrases for conversation moments</h2>
-      <ul class="list">${D.phrases.map((s) => `<li><a href="#/moment/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.phrases[0].p)}”</span></a></li>`).join('')}</ul></section>`);
+  render(`<div class="pagehead"><h1>Phrases</h1><p class="lead">What people usually say, and better ways to say it: at work, at home, with friends, in arguments and online.</p></div>
+    <div class="tiles three">${D.scenes.filter((s) => s.items.length).map((s, i) => { const x = s.items[0]; return `<a class="tile ${tint(i)}" href="#/scene/${s.id}"><b>${esc(s.title)}</b><span><s>“${esc(x.say)}”</s></span><small>${s.items.length} phrases</small></a>`; }).join('')}</div>
+    <div class="h"><h2>Ready phrases for conversation moments</h2></div>
+    <ul class="list">${D.phrases.map((s) => `<li><a href="#/moment/${s.id}"><b>${esc(s.title)}</b><span>“${esc(s.phrases[0].p)}”</span></a></li>`).join('')}</ul>`);
 };
 V.scene = (id) => {
   const s = D.scenes.find((x) => x.id === id);
   if (!s) return V.phrases();
+  const i = D.scenes.indexOf(s);
   render(`<p class="crumbs"><a href="#/phrases">Phrases</a> / ${esc(s.title)}</p>
-    <div class="head"><h1>${esc(s.title)}</h1><p class="lead">What people usually say, and what works better.</p>
-      <div class="row" style="margin-top:20px"><a class="btn main" href="#/practice/scene/${s.id}">Practise these</a></div></div>
-    <div class="swaps">${s.items.map((x) => `<article class="swap">
+    <div class="pagehead tinted ${tint(i)}"><h1>${esc(s.title)}</h1><p class="lead">What people usually say, and what works better.</p>
+      <div class="row"><a class="btn main" href="#/practice/scene/${s.id}">Practise these</a></div></div>
+    <div class="swaps narrow">${s.items.map((x) => `<article class="swap">
       <p class="situ">${esc(x.situation)}</p>
-      <p class="said"><span class="lbl">People say</span><s class="flat">“${esc(x.say)}”</s></p>
-      <div class="said good"><span class="lbl">Better</span><span>“${esc(x.better)}” <span class="tone ${x.tone}">${esc(x.tone)}</span></span>${speakBtn(x.better)}</div>
-      ${x.also?.length ? `<p class="said"><span class="lbl">Also</span><span>${x.also.map((a) => `“${esc(a)}”`).join('<br>')}</span></p>` : ''}
+      <p class="bad">“${esc(x.say)}”</p>
+      <div class="good"><span>“${esc(x.better)}”<span class="tone">${esc(x.tone)}</span></span>${speakBtn(x.better)}</div>
+      ${x.also?.length ? x.also.map((a) => `<p class="alt">Also: “${esc(a)}”</p>`).join('') : ''}
       <p class="why">${esc(x.why)}</p>
     </article>`).join('')}</div>`);
 };
@@ -447,10 +455,10 @@ V.moment = (id) => {
   const s = D.phrases.find((x) => x.id === id);
   if (!s) return V.phrases();
   render(`<p class="crumbs"><a href="#/phrases">Phrases</a> / Conversation moments</p>
-    <div class="head"><h1>${esc(s.title)}</h1><p class="lead">${esc(s.when)}</p></div>
-    <ul class="list phrases">${s.phrases.map((x) => `<li><div><b>“${esc(x.p)}”</b> <span class="tone ${x.tone}">${x.tone}</span><span>${esc(x.ex)}</span></div>${speakBtn(x.p)}</li>`).join('')}</ul>
-    <section class="block"><h2>Avoid</h2>
-      ${s.avoid.map((a) => `<div class="avoid"><s>${esc(a.p)}</s><p>${esc(a.why)}</p><p><b>Try:</b> ${esc(a.better)}</p></div>`).join('')}</section>`);
+    <div class="pagehead"><h1>${esc(s.title)}</h1><p class="lead">${esc(s.when)}</p></div>
+    <div class="narrow"><ul class="list phrases">${s.phrases.map((x) => `<li><div><b>“${esc(x.p)}”</b><span class="tone">${x.tone}</span><span>${esc(x.ex)}</span></div>${speakBtn(x.p)}</li>`).join('')}</ul>
+    <div class="h"><h2>Avoid</h2></div>
+    <div class="card" style="padding:0">${s.avoid.map((a) => `<div class="avoid"><s>${esc(a.p)}</s><p>${esc(a.why)}</p><p><b>Try:</b> ${esc(a.better)}</p></div>`).join('')}</div></div>`);
 };
 
 V.word = (id) => {
@@ -458,23 +466,26 @@ V.word = (id) => {
   if (!w) return V.notFound();
   const r = roomOf(w.room);
   const st = S.statusOf(w.id);
-  render(`<p class="crumbs"><a href="#/words">Words</a> / <a href="#/group/${w.room}">${esc(r.name)}</a></p>
-    <article class="wordpage">
+  render(`<div class="wordpage"><p class="crumbs"><a href="#/words">Words</a> / <a href="#/group/${w.room}">${esc(r.name)}</a></p>
+    <article class="card">
       <p class="kicker">${levelName(w.floor)} · ${esc(w.pos)}</p>
       <div class="row" style="gap:14px"><h1>${esc(w.w)}</h1>${speakBtn(w.w)}</div>
       <p class="say">Say it: <b>${esc(w.say)}</b></p>
       <p class="meaning">${esc(w.mean)}</p>
       ${hindiOn() && w.hi ? `<p class="hi" lang="hi">${esc(w.hi)}</p>` : ''}
+      ${w.instead ? `<p class="swap-line"><s class="flat">${esc(w.instead)}</s> → <b>${esc(w.w)}</b></p>` : ''}
+    </article>
+    <article class="card">
+      <p class="label">IN A SENTENCE</p>
       <p class="sent small-sent">${markWord(w.ex, w.w)} ${speakBtn(w.ex, 'Hear the sentence')}</p>
       ${w.ex2 ? `<p class="sent small-sent">${markWord(w.ex2, w.w)} ${speakBtn(w.ex2, 'Hear the sentence')}</p>` : ''}
-      ${w.instead ? `<p class="swap"><s class="flat">${esc(w.instead)}</s> → <b>${esc(w.w)}</b></p>` : ''}
-      ${w.with?.length ? `<p class="label">Goes with</p><p class="partners">${w.with.map((x) => `<span>${esc(x)}</span>`).join('')}</p>` : ''}
-      ${w.note ? `<p class="note">${esc(w.note)}</p>` : ''}
-      <div class="row" style="margin-top:20px">
-        ${st === 'laid' ? '<span class="tagy">This word is yours</span>' : `<button class="btn main" id="know">I already use this word</button>`}
-        ${st === 'new' ? '<button class="btn" id="learn">Add to my practice</button>' : ''}
-        <button class="btn quiet" id="share">Share</button></div>
-    </article>`);
+      ${w.with?.length ? `<p class="label" style="margin-top:16px">GOES WITH</p><p class="partners">${w.with.map((x) => `<span>${esc(x)}</span>`).join('')}</p>` : ''}
+      ${w.note ? `<p class="note" style="margin-top:14px">${esc(w.note)}</p>` : ''}
+    </article>
+    <div class="row" style="margin-top:16px">
+      ${st === 'laid' ? '<span class="tagy">This word is yours</span>' : `<button class="btn main" id="know">I already use this word</button>`}
+      ${st === 'new' ? '<button class="btn" id="learn">Add to my practice</button>' : ''}
+      <button class="btn quiet" id="share">Share</button></div></div>`);
   main.querySelector('#know')?.addEventListener('click', () => { S.markKnown(w.id); toast(`${w.w} is yours`); V.word(id); });
   main.querySelector('#learn')?.addEventListener('click', () => { S.markLearning(w.id); toast(`${w.w} will come up in your practice`); V.word(id); });
   main.querySelector('#share').onclick = () => share(`${w.w} (${w.say}) — ${w.mean}\n“${w.ex}”`);
@@ -486,22 +497,24 @@ V.me = () => {
   const yours = D.words.filter((w) => S.statusOf(w.id) === 'laid');
   const learning = D.words.filter((w) => S.statusOf(w.id) === 'learning');
   const L = level();
-  const chips = (ws) => ws.length ? `<div class="chips">${ws.map((w) => `<a class="chip" href="#/word/${w.id}">${esc(w.w)}</a>`).join('')}</div>` : '<p class="muted">None yet.</p>';
-  render(`<div class="head"><h1>Your words</h1><p class="lead">A word is yours once you have got it right on a few different days. Practise daily and they move up on their own.</p></div>
-    <div class="stats wide"><div><b>${yours.length}</b><span>yours</span></div><div><b>${learning.length}</b><span>learning</span></div><div><b>${S.dueIds().length}</b><span>due today</span></div><div><b>${st.streak?.n || 0}</b><span>day streak</span></div></div>
-    <section class="block"><h2>Yours</h2>${chips(yours)}</section>
-    <section class="block"><h2>Learning</h2>${chips(learning)}</section>
-    <section class="block"><h2>Your level</h2><p class="sub">You are on ${levelName(L)}. Too easy or too hard? Choose where your practice starts.</p>
-      <div class="row">${FLOORS.map((f) => `<button class="btn ${f.n === (st.floor || 1) ? 'main' : 'quiet'} sm" data-lvl="${f.n}">${f.n} · ${f.tag}</button>`).join('')}</div></section>
-    <section class="block"><h2>Settings</h2>
+  const chips = (ws) => ws.length ? `<div class="chips">${ws.map((w) => `<a class="chip" href="#/word/${w.id}">${esc(w.w)}</a>`).join('')}</div>` : '<p class="muted">None yet. They appear as you practise.</p>';
+  render(`<div class="narrow"><div class="pagehead"><h1>You</h1><p class="lead">A word becomes yours once you have got it right on a few different days.</p></div>
+    <div class="stats four"><div><b>${yours.length}</b><span>yours</span></div><div><b>${learning.length}</b><span>learning</span></div><div><b>${S.dueIds().length}</b><span>due today</span></div><div><b>${st.streak?.n || 0}</b><span>day streak</span></div></div>
+    <div class="h"><h2>Yours</h2></div><div class="card">${chips(yours)}</div>
+    <div class="h"><h2>Learning</h2></div><div class="card">${chips(learning)}</div>
+    <div class="h"><h2>Your level</h2></div>
+    <div class="card"><p class="sub" style="margin-top:0">You are on ${levelName(L)}. Too easy or too hard? Choose where practice starts.</p>
+      <div class="levels">${FLOORS.map((f) => `<button class="btn ${f.n === (st.floor || 1) ? 'main' : ''} sm" data-lvl="${f.n}">${f.n} · ${f.tag}</button>`).join('')}</div></div>
+    <div class="h"><h2>Settings</h2></div>
+    <div class="card" style="padding:0">
       <label class="toggle"><span>Hindi hints</span><input type="checkbox" id="hindi" ${st.settings.hindi !== false ? 'checked' : ''}></label>
       <label class="toggle"><span>Speaker buttons</span><input type="checkbox" id="voice" ${st.settings.voice !== false ? 'checked' : ''}></label>
       <details class="more"><summary>Move your progress to another device</summary>
         <textarea id="data" rows="3"></textarea>
         <div class="row"><button class="btn sm" id="copy">Copy my progress</button><button class="btn sm" id="load">Load pasted progress</button></div></details>
-      <details class="more"><summary>Start again</summary><p class="small muted">Removes all your progress from this device.</p><button class="btn sm danger" id="reset">Remove all progress</button></details>
-    </section>
-    <p class="small muted" style="margin-top:28px"><a href="#/about">Why this works</a> · Free, no account. Your progress stays on this device.</p>`);
+      <details class="more"><summary>Start again</summary><p class="small muted">Removes all your progress from this device.</p><button class="btn sm danger" id="reset" style="margin-top:8px">Remove all progress</button></details>
+    </div>
+    <p class="small muted" style="margin-top:22px"><a href="#/about">Why this works</a> · Free, no account. Your progress stays on this device.</p></div>`);
   main.querySelectorAll('[data-lvl]').forEach((b) => b.addEventListener('click', () => { S.setFloor(+b.dataset.lvl); delete S.state().session; S.save(); toast(`Practice now starts at level ${b.dataset.lvl}`); V.me(); }));
   main.querySelector('#hindi').onchange = (e) => S.setting('hindi', e.target.checked);
   main.querySelector('#voice').onchange = (e) => S.setting('voice', e.target.checked);
@@ -520,10 +533,10 @@ V.about = () => {
     ['Why phrases too?', 'Fluent speakers reach for ready-made phrases — “I see it a little differently” — rather than building every sentence from scratch (the lexical approach).'],
     ['Which words?', `${D.words.length} high-use words that educated speakers use across every subject (“Tier 2” words), plus phrasal verbs and expressions, in five levels from everyday to rare. Inspired by Javed Akhtar: the more words you have, the bigger the house you can build.`],
   ];
-  render(`<div class="head"><h1>Why this works</h1></div>${items.map(([q, a]) => `<section class="block"><h2>${q}</h2><p class="sub">${a}</p></section>`).join('')}`);
+  render(`<div class="narrow"><div class="pagehead"><h1>Why this works</h1></div>${items.map(([q, a]) => `<div class="card" style="margin-top:12px"><h2>${q}</h2><p class="sub" style="margin-bottom:0">${a}</p></div>`).join('')}</div>`);
 };
 
-V.notFound = () => render(`<div class="head"><h1>No page here</h1><p class="lead"><a href="#/">Go to today</a></p></div>`);
+V.notFound = () => render(`<div class="pagehead"><h1>No page here</h1><p class="lead"><a href="#/">Go to today</a></p></div>`);
 
 // ================================================================ router
 const ROUTES = { '': V.today, practice: V.practice, words: V.words, intent: V.intent, group: V.group, word: V.word, phrases: V.phrases, scene: V.scene, moment: V.moment,
